@@ -1,0 +1,1269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: napari\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-17 22:09-0500\n"
+"PO-Revision-Date: 2021-03-18 03:57\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: napari\n"
+"X-Crowdin-Project-ID: 443044\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /[goanpeca.napari-language-packs] main/napari/locale/napari.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Language: ar_SA\n"
+
+#: napari/components/_viewer_key_bindings.py:16
+msgid "Reset dims scroll progress"
+msgstr "إعادة تعيين حجم التقدم في التمرير"
+
+#: napari/components/_viewer_key_bindings.py:28
+msgid "Toggle ndisplay."
+msgstr "تبديل العرض"
+
+#: napari/components/_viewer_key_bindings.py:37
+msgid "Increment dimensions slider to the left."
+msgstr "زيادة أبعاد شريط التمرير إلى اليسار."
+
+#: napari/components/_viewer_key_bindings.py:48
+msgid "Increment dimensions slider to the right."
+msgstr "زيادة تمرير الأبعاد إلى اليمين."
+
+#: napari/components/_viewer_key_bindings.py:59
+msgid "Move focus of dimensions slider up."
+msgstr "تحريك تركيز الأبعاد تمرير لأعلى"
+
+#: napari/components/_viewer_key_bindings.py:68
+msgid "Move focus of dimensions slider down."
+msgstr "تحريك تركيز الأبعاد شريط التمرير للأسفل."
+
+#: napari/components/_viewer_key_bindings.py:77
+msgid "Change order of the visible axes, e.g. [0, 1, 2] -> [2, 0, 1]."
+msgstr "تغيير ترتيب المحاور المرئية، مثل [0, 1, 2] -> [2, 0, 1]."
+
+#: napari/components/_viewer_key_bindings.py:88
+msgid "Transpose order of the last two visible axes, e.g. [0, 1] -> [1, 0]."
+msgstr "تحويل ترتيب المحورين المرئيين الأخيرين، على سبيل المثال [0، 1] -> [1، 0]."
+
+#: napari/components/_viewer_key_bindings.py:100
+msgid "Remove selected layers."
+msgstr "إزالة الطبقات المحددة."
+
+#: napari/components/_viewer_key_bindings.py:109
+msgid "Selected all layers."
+msgstr "حدد جميع الطبقات."
+
+#: napari/components/_viewer_key_bindings.py:120
+msgid "Remove all layers."
+msgstr "إزالة جميع الطبقات."
+
+#: napari/components/_viewer_key_bindings.py:129
+msgid "Select layer above."
+msgstr "حدد الطبقة أعلاه."
+
+#: napari/components/_viewer_key_bindings.py:138
+msgid "Select layer below."
+msgstr "حدد الطبقة أدناه."
+
+#: napari/components/_viewer_key_bindings.py:147
+msgid "Also select layer above."
+msgstr "حدد أيضا الطبقة أعلاه."
+
+#: napari/components/_viewer_key_bindings.py:156
+msgid "Also select layer below."
+msgstr "حدد أيضا الطبقة أدناه."
+
+#: napari/components/_viewer_key_bindings.py:165
+msgid "Reset view to original state."
+msgstr "إعادة تعيين طريقة العرض إلى الحالة الأصلية."
+
+#: napari/components/_viewer_key_bindings.py:174
+msgid "Toggle grid mode."
+msgstr "تبديل وضع الشبكة."
+
+#: napari/components/_viewer_key_bindings.py:183
+msgid "Toggle visibility of selected layers"
+msgstr "تبديل رؤية الطبقات المختارة"
+
+#: napari/layers/base/_base_constants.py:34
+msgid "translucent"
+msgstr "شفاف"
+
+#: napari/layers/base/_base_constants.py:35
+msgid "additive"
+msgstr "إضافة"
+
+#: napari/layers/base/_base_constants.py:36
+msgid "opaque"
+msgstr "غموض"
+
+#: napari/layers/labels/_labels_constants.py:71
+msgid "circle"
+msgstr "دائرة"
+
+#: napari/layers/labels/_labels_constants.py:72
+#: napari/layers/points/_points_constants.py:91
+msgid "square"
+msgstr "مربع"
+
+#: napari/layers/labels/_labels_constants.py:77
+msgid "auto"
+msgstr "تلقائي"
+
+#: napari/layers/labels/_labels_constants.py:78
+msgid "direct"
+msgstr "مباشر"
+
+#: napari/layers/labels/labels.py:245 napari/layers/labels/labels.py:533
+msgid "enter paint or fill mode to edit labels"
+msgstr "أدخل وضع الطلاء أو الملء لتحرير التسميات"
+
+#: napari/layers/labels/labels.py:420
+msgid "cannot reduce selected label below 0"
+msgstr "لا يمكن تقليل التسمية المحددة إلى أسفل 0"
+
+#: napari/layers/labels/labels.py:458
+msgid "Unsupported Color Mode"
+msgstr "وضع الألوان غير مدعوم"
+
+#: napari/layers/labels/labels.py:537
+msgid "hold <space> to pan/zoom, click to pick a label"
+msgstr "اضغط على <space> للبيان/التصغير، انقر لاختيار تسمية"
+
+#: napari/layers/labels/labels.py:550
+msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
+msgstr "اضغط على <space> لpan/zoom، اضغط <shift> لتبديل keepve_labels، واستمر <control> للملء، واستمر <alt> لمسح، وسحب لرسم علامة"
+
+#: napari/layers/labels/labels.py:561
+msgid "hold <space> to pan/zoom, click to fill a label"
+msgstr "اضغط على <space> للبيان/التكبير ، انقر لملء التسمية"
+
+#: napari/layers/labels/labels.py:574
+msgid "hold <space> to pan/zoom, drag to erase a label"
+msgstr "اضغط على <space> للبيان/التكبير, اسحب لمحو تسمية"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:297
+#: napari/_qt/layer_controls/qt_points_controls.py:226
+#: napari/layers/labels/labels.py:579 napari/layers/shapes/shapes.py:1405
+msgid "Mode not recognized"
+msgstr "لم يتم التعرف على الوضع"
+
+#: napari/layers/points/_points_constants.py:84
+msgid "arrow"
+msgstr "سهم"
+
+#: napari/layers/points/_points_constants.py:85
+msgid "clobber"
+msgstr "كلوببر"
+
+#: napari/layers/points/_points_constants.py:86
+msgid "cross"
+msgstr "تقاطع"
+
+#: napari/layers/points/_points_constants.py:87
+msgid "diamond"
+msgstr "الماس"
+
+#: napari/layers/points/_points_constants.py:88
+msgid "disc"
+msgstr "قرص"
+
+#: napari/layers/points/_points_constants.py:89
+msgid "hbar"
+msgstr "شريط"
+
+#: napari/layers/points/_points_constants.py:90
+msgid "ring"
+msgstr "رنين"
+
+#: napari/layers/points/_points_constants.py:92
+msgid "star"
+msgstr "نجم"
+
+#: napari/layers/points/_points_constants.py:93
+msgid "tailed arrow"
+msgstr "سهم ذيل"
+
+#: napari/layers/points/_points_constants.py:94
+msgid "triangle down"
+msgstr "مثلث لأسفل"
+
+#: napari/layers/points/_points_constants.py:95
+msgid "triangle up"
+msgstr "مثلث للأعلى"
+
+#: napari/layers/points/_points_constants.py:96
+msgid "vbar"
+msgstr "الشريط"
+
+#: napari/layers/points/_points_constants.py:97
+msgid "x"
+msgstr "س"
+
+#: napari/layers/shapes/shapes.py:331
+msgid "Shape dimensions must be equal to ndim"
+msgstr "يجب أن تكون الأبعاد الشكلية مساوية للنوم"
+
+#: napari/layers/shapes/shapes.py:397
+msgid "text should be a string, array, or dict"
+msgstr "النص يجب أن يكون سلسلة، أو مصفوفة، أو إملاء"
+
+#: napari/layers/shapes/shapes.py:435 napari/layers/shapes/shapes.py:1364
+msgid "enter a selection mode to edit shape properties"
+msgstr "أدخل وضع اختيار لتعديل خصائص الشكل"
+
+#: napari/layers/shapes/shapes.py:1371
+msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
+msgstr "اضغط على <space> للبيان/التكبير ، اضغط <{BACKSPACE}> لإزالة المحدد"
+
+#: napari/layers/shapes/shapes.py:1380 napari/layers/shapes/shapes.py:1389
+msgid "hold <space> to pan/zoom"
+msgstr "اضغط على <space> للبيان/التكبير"
+
+#: napari/layers/shapes/shapes.py:1399
+msgid "hold <space> to pan/zoom, press <esc> to finish drawing"
+msgstr "اضغط على <space> للبيان/التكبير ، اضغط <esc> لإنهاء الرسم"
+
+#: napari/utils/settings/_defaults.py:33
+msgid "must be a string"
+msgstr "يجب أن يكون سلسلة"
+
+#: napari/utils/settings/_defaults.py:39
+msgid "must be one of {}"
+msgstr "يجب أن يكون واحد من {}"
+
+#: napari/utils/settings/_defaults.py:66
+msgid "Theme selection."
+msgstr "اختيار السمة."
+
+#: napari/_qt/qt_main_window.py:269
+msgid "Ready"
+msgstr "مستعد"
+
+#: napari/_qt/qt_main_window.py:308
+msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "سمة 'raw_stylesheet' مهملة وسيتم إزالتها في الإصدار 0.4.7. الرجاء استخدام 'napari.qt.get_stylesheet' بدلا من ذلك"
+
+#: napari/_qt/qt_main_window.py:354
+msgid "Open File(s)..."
+msgstr "فتح الملف (الملفات)..."
+
+#: napari/_qt/qt_main_window.py:356
+msgid "Open file(s)"
+msgstr "فتح الملف (الملفات)"
+
+#: napari/_qt/qt_main_window.py:360
+msgid "Open Files as Stack..."
+msgstr "فتح الملفات كتكدس..."
+
+#: napari/_qt/qt_main_window.py:363
+msgid "Open files"
+msgstr "فتح الملفات"
+
+#: napari/_qt/qt_main_window.py:368
+msgid "Open Folder..."
+msgstr "فتح المجلد..."
+
+#: napari/_qt/qt_main_window.py:370
+msgid "Open a folder"
+msgstr "فتح مجلد"
+
+#: napari/_qt/dialogs/preferences_dialog.py:36 napari/_qt/qt_main_window.py:374
+msgid "Preferences"
+msgstr "التفضيلات"
+
+#: napari/_qt/qt_main_window.py:376
+msgid "Open preferences dialog"
+msgstr "فتح مربع حوار التفضيلات"
+
+#: napari/_qt/qt_main_window.py:380
+msgid "Save Selected Layer(s)..."
+msgstr "حفظ الطبقة المختارة..."
+
+#: napari/_qt/qt_main_window.py:383
+msgid "Save selected layers"
+msgstr "حفظ الطبقات المحددة"
+
+#: napari/_qt/qt_main_window.py:389
+msgid "Save All Layers..."
+msgstr "حفظ جميع الطبقات..."
+
+#: napari/_qt/qt_main_window.py:392
+msgid "Save all layers"
+msgstr "حفظ جميع الطبقات"
+
+#: napari/_qt/qt_main_window.py:397
+msgid "Save Screenshot..."
+msgstr "حفظ لقطة الشاشة..."
+
+#: napari/_qt/qt_main_window.py:400
+msgid "Save screenshot of current display, default .png"
+msgstr "حفظ لقطة الشاشة للعرض الحالي، الافتراضي .png"
+
+#: napari/_qt/qt_main_window.py:405
+msgid "Save Screenshot with Viewer..."
+msgstr "حفظ لقطة الشاشة مع عارض..."
+
+#: napari/_qt/qt_main_window.py:409
+msgid "Save screenshot of current display with the viewer, default .png"
+msgstr "حفظ لقطة الشاشة الحالية مع المعرض، الافتراضي .png"
+
+#: napari/_qt/qt_main_window.py:417
+msgid "Exit"
+msgstr "الخروج"
+
+#: napari/_qt/qt_main_window.py:424
+msgid "Close window"
+msgstr "إغلاق النافذة"
+
+#: napari/_qt/qt_main_window.py:428
+msgid "&File"
+msgstr "&ملف"
+
+#: napari/_qt/qt_main_window.py:452
+msgid "Toggle Menubar Visibility"
+msgstr "تبديل رؤية المينوبر"
+
+#: napari/_qt/qt_main_window.py:455
+msgid "Hide Menubar"
+msgstr "Hide Menubar"
+
+#: napari/_qt/qt_main_window.py:457
+msgid "Toggle Theme"
+msgstr "تبديل السمة"
+
+#: napari/_qt/qt_main_window.py:459
+msgid "Toggle theme"
+msgstr "تبديل السمة"
+
+#: napari/_qt/qt_main_window.py:462
+msgid "Toggle Full Screen"
+msgstr "تبديل ملء الشاشة"
+
+#: napari/_qt/qt_main_window.py:465
+msgid "Toggle full screen"
+msgstr "تبديل ملء الشاشة"
+
+#: napari/_qt/qt_main_window.py:467 napari/_qt/qt_main_window.py:470
+msgid "Toggle Play"
+msgstr "تبديل اللعب"
+
+#: napari/_qt/qt_main_window.py:472
+msgid "&View"
+msgstr "&عرض"
+
+#: napari/_qt/qt_main_window.py:482 napari/_qt/qt_main_window.py:488
+msgid "Toggle Chunk Outlines"
+msgstr "تبديل مخططات القطعة"
+
+#: napari/_qt/qt_main_window.py:492
+msgid "Axes"
+msgstr "محاور"
+
+#: napari/_qt/qt_main_window.py:494 napari/_qt/qt_main_window.py:538
+msgid "Visible"
+msgstr "مرئي"
+
+#: napari/_qt/qt_main_window.py:501 napari/_qt/qt_main_window.py:547
+msgid "Colored"
+msgstr "لون"
+
+#: napari/_qt/qt_main_window.py:508
+msgid "Labels"
+msgstr "التسميات"
+
+#: napari/_qt/qt_main_window.py:515
+msgid "Dashed"
+msgstr "متقلب"
+
+#: napari/_qt/qt_main_window.py:522
+msgid "Arrows"
+msgstr "الأسهم"
+
+#: napari/_qt/qt_main_window.py:536
+msgid "Scale Bar"
+msgstr "شريط المقياس"
+
+#: napari/_qt/qt_main_window.py:556
+msgid "Ticks"
+msgstr "علامات"
+
+#: napari/_qt/qt_main_window.py:571
+msgid "Close Window"
+msgstr "إغلاق النافذة"
+
+#: napari/_qt/qt_main_window.py:573
+msgid "Close napari window"
+msgstr "إغلاق نافذة ناباري"
+
+#: napari/_qt/qt_main_window.py:576
+msgid "Remove Dock Widgets"
+msgstr "إزالة الشريط السفلي"
+
+#: napari/_qt/qt_main_window.py:577
+msgid "Remove all dock widgets"
+msgstr "إزالة جميع أدوات الإرساء"
+
+#: napari/_qt/qt_main_window.py:582
+msgid "&Window"
+msgstr "&نافذة"
+
+#: napari/_qt/qt_main_window.py:589
+msgid "&Plugins"
+msgstr "إضافات"
+
+#: napari/_qt/qt_main_window.py:592
+msgid "Install/Uninstall Package(s)..."
+msgstr "تثبيت/إلغاء تثبيت الحزمة..."
+
+#: napari/_qt/qt_main_window.py:598
+msgid "Plugin Call Order..."
+msgstr "طلب المكالمة الإضافية..."
+
+#: napari/_qt/qt_main_window.py:601
+msgid "Change call order for plugins"
+msgstr "تغيير طلب المكالمة للملحقات"
+
+#: napari/_qt/qt_main_window.py:607
+msgid "Plugin Errors..."
+msgstr "خطأ في الإضافة..."
+
+#: napari/_qt/qt_main_window.py:610
+msgid "Review stack traces for plugin exceptions and notify developers"
+msgstr "مراجعة آثار المكدس لاستثناءات المكدس وإعلام المطورين"
+
+#: napari/_qt/qt_main_window.py:618
+msgid "Add Dock Widget"
+msgstr "إضافة الشريط السفلي"
+
+#: napari/_qt/qt_main_window.py:661 napari/_qt/widgets/qt_plugin_sorter.py:311
+msgid "Plugin Sorter"
+msgstr "فرز الإضافات"
+
+#: napari/_qt/qt_main_window.py:676
+msgid "&Help"
+msgstr "&مساعدة"
+
+#: napari/_qt/qt_main_window.py:678
+msgid "napari Info"
+msgstr "napari Info"
+
+#: napari/_qt/qt_main_window.py:680
+msgid "About napari"
+msgstr "حول ناباري"
+
+#: napari/_qt/qt_main_window.py:687
+msgid "Show Key Bindings"
+msgstr "إظهار الروابط الرئيسية"
+
+#: napari/_qt/qt_main_window.py:691
+msgid "key_bindings"
+msgstr "ربط المفتاح"
+
+#: napari/_qt/qt_main_window.py:931
+msgid "Could not find a dock widget containing: {widget}"
+msgstr "تعذر العثور على أداة الإرساء المحتوى: {widget}"
+
+#: napari/_qt/qt_main_window.py:1048 napari/_qt/qt_main_window.py:1060
+msgid "This viewer has already been closed and deleted. Please create a new one."
+msgstr "تم إغلاق هذا العارض بالفعل وحذفه. الرجاء إنشاء عارض جديد."
+
+#: napari/_qt/qt_main_window.py:1076
+msgid "The window geometry settings could not be loaded due to the following error: {err}"
+msgstr "تعذر تحميل إعدادات هندسة النافذة بسبب الخطأ التالي: {err}"
+
+#: napari/_qt/qt_viewer.py:122
+msgid "layer list"
+msgstr "قائمة الطبقة"
+
+#: napari/_qt/qt_viewer.py:130
+msgid "layer controls"
+msgstr "التحكم بالطبقة"
+
+#: napari/_qt/qt_viewer.py:138
+msgid "console"
+msgstr "وحدة التحكم"
+
+#: napari/_qt/qt_viewer.py:227
+msgid "The 'raw_stylesheet' attribute is deprecated and will beremoved in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "سمة 'raw_stylesheet' مهملة وسيتم إزالتها في الإصدار 0.4.7. الرجاء استخدام 'napari.qt.get_stylesheet' بدلا من ذلك"
+
+#: napari/_qt/qt_viewer.py:298
+msgid "performance"
+msgstr "الأداء"
+
+#: napari/_qt/qt_viewer.py:314
+msgid "napari-console not found. It can be installed with \"pip install napari_console\""
+msgstr "ناباري وحدة التحكم غير موجودة. يمكن تثبيته مع \"pip install napari_console\""
+
+#: napari/_qt/qt_viewer.py:439
+msgid "There are no layers in the viewer to save"
+msgstr "لا توجد طبقات في المشاهد لحفظ"
+
+#: napari/_qt/qt_viewer.py:441
+msgid "Please select one or more layers to save,\n"
+"or use \"Save all layers...\""
+msgstr "الرجاء تحديد طبقة واحدة أو أكثر للحفظ،\n"
+"أو استخدام \"حفظ جميع الطبقات\"."
+
+#: napari/_qt/qt_viewer.py:446
+msgid "Nothing to save"
+msgstr "لا شيء للحفظ"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "selected"
+msgstr "المحدد"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "all"
+msgstr "الكل"
+
+#: napari/_qt/qt_viewer.py:451
+msgid "Save {msg} layers"
+msgstr "حفظ {msg} طبقات"
+
+#: napari/_qt/qt_viewer.py:464
+msgid "File {filename} save failed.\n"
+"{error_messages}"
+msgstr "فشل حفظ الملف {filename} .\n"
+"{error_messages}"
+
+#: napari/_qt/qt_viewer.py:499
+msgid "Select file(s)..."
+msgstr "حدد الملف(الملفات)..."
+
+#: napari/_qt/qt_viewer.py:509
+msgid "Select files..."
+msgstr "حدد الملفات..."
+
+#: napari/_qt/qt_viewer.py:519
+msgid "Select folder..."
+msgstr "حدد المجلد..."
+
+#: napari/_qt/dialogs/preferences_dialog.py:31
+#: napari/_qt/dialogs/preferences_dialog.py:214
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: napari/_qt/dialogs/preferences_dialog.py:32
+msgid "OK"
+msgstr "حسناً"
+
+#: napari/_qt/dialogs/preferences_dialog.py:33
+msgid "Restore defaults"
+msgstr "استعادة الإعدادات الافتراضية"
+
+#: napari/_qt/dialogs/preferences_dialog.py:96
+msgid "Are you sure you want to restore default settings?"
+msgstr "هل أنت متأكد من أنك تريد استعادة الإعدادات الافتراضية؟"
+
+#: napari/_qt/dialogs/preferences_dialog.py:213
+msgid "Restore"
+msgstr "إستعادة"
+
+#: napari/_qt/dialogs/qt_about.py:50
+msgid "<b>napari: a multi-dimensional image viewer for python</b>"
+msgstr "<b>ناباري: عارض صور متعدد الأبعاد لبايثون</b>"
+
+#: napari/_qt/dialogs/qt_about.py:75
+msgid "<b>citation information:</b>"
+msgstr "<b>معلومات الاقتباس:</b>"
+
+#: napari/_qt/dialogs/qt_about.py:100
+msgid "About"
+msgstr "حول"
+
+#: napari/_qt/dialogs/qt_about.py:123
+msgid "Copy to clipboard"
+msgstr "نسخ إلى الحافظة"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:52
+msgid "All active key bindings"
+msgstr "جميع ارتباطات المفاتيح النشطة"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:60
+msgid "Keybindings"
+msgstr "ارتباطات المفاتيح"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:84
+msgid "No key bindings"
+msgstr "لا توجد ارتباطات رئيسية"
+
+#: napari/_qt/dialogs/qt_notification.py:104
+msgid "Source: {source}"
+msgstr "المصدر: {source}"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:123
+msgid "remove"
+msgstr "إزالة"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:133
+msgid "close"
+msgstr "غلق"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:149
+msgid "install"
+msgstr "تثبيت"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:167
+msgid "enable/disable"
+msgstr "تمكين/تعطيل"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:283
+msgid "update (v{latest})"
+msgstr "تحديث (v{latest})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:380
+msgid "Installed Plugins"
+msgstr "الإضافات المثبتة"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:387
+msgid "Available Plugins"
+msgstr "الإضافات المتاحة"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:398
+msgid "loading ..."
+msgstr "جاري التحميل..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:414
+msgid "install by name/url, or drop file..."
+msgstr "تثبيت بواسطة الاسم/الرابط، أو إسقاط الملف..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:416
+msgid "Install"
+msgstr "تثبيت"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:419
+#: napari/_qt/dialogs/qt_plugin_dialog.py:476
+msgid "Show Status"
+msgstr "إظهار الحالة"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:421
+#: napari/_qt/dialogs/qt_plugin_dialog.py:468
+msgid "<< Show Sorter"
+msgstr "<< إظهار الفرز"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:422
+msgid "Close"
+msgstr "أغلق"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:448
+msgid "Available Plugins ({count})"
+msgstr "الإضافات المتاحة ({count})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:465
+msgid ">> Hide Sorter"
+msgstr ">> إخفاء الفرز"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:473
+msgid "Hide Status"
+msgstr "إخفاء الحالة"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:52
+msgid "select plugin... "
+msgstr "حدد الإضافة... "
+
+#: napari/_qt/dialogs/qt_plugin_report.py:69
+msgid "Recorded Plugin Exceptions"
+msgstr "استثناءات البرنامج المساعد المسجل"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:89
+msgid "Open issue on GitHub"
+msgstr "فتح المشكلة على GitHub"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:91
+msgid "Open a web browser to submit this error log\n"
+"to the developer's GitHub issue tracker"
+msgstr "افتح متصفح ويب لإرسال سجل الأخطاء هذا\n"
+"إلى متعقب مشاكل GitHub للمطور"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:103
+msgid "Copy error log to clipboard"
+msgstr "نسخ سجل الأخطاء إلى الحافظة"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:161
+msgid "No errors reported for plugin '{plugin}'"
+msgstr "لم يتم الإبلاغ عن أي أخطاء للملحق '{plugin}'"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:31
+msgid "Save screenshot"
+msgstr "حفظ لقطة الشاشة"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:35
+msgid "Image files (*.png *.bmp *.gif *.tif *.tiff)"
+msgstr "ملفات الصور (*.png *.bmp *.gif *.tif *.tiff)"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:48
+msgid "Confirm overwrite"
+msgstr "تأكيد الكتابة فوق"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:50
+msgid "{save_path} already exists. Do you want to replace it?"
+msgstr "{save_path} موجود بالفعل. هل تريد استبداله؟"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:56
+msgid "interpolation:"
+msgstr "الاستقطاب:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:66
+msgid "rendering:"
+msgstr "تقديم:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:76
+msgid "iso threshold:"
+msgstr "عتبة iso:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:86
+msgid "attenuation:"
+msgstr "تخفيف:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:101
+#: napari/_qt/layer_controls/qt_labels_controls.py:243
+#: napari/_qt/layer_controls/qt_points_controls.py:180
+#: napari/_qt/layer_controls/qt_shapes_controls.py:240
+#: napari/_qt/layer_controls/qt_surface_controls.py:34
+#: napari/_qt/layer_controls/qt_tracks_controls.py:86
+#: napari/_qt/layer_controls/qt_vectors_controls.py:99
+msgid "opacity:"
+msgstr "التعميم:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:103
+#: napari/_qt/layer_controls/qt_surface_controls.py:36
+msgid "contrast limits:"
+msgstr "حدود التباين:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:105
+#: napari/_qt/layer_controls/qt_surface_controls.py:38
+msgid "gamma:"
+msgstr "gamma:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:107
+#: napari/_qt/layer_controls/qt_surface_controls.py:40
+#: napari/_qt/layer_controls/qt_tracks_controls.py:82
+msgid "colormap:"
+msgstr "خريطة الألوان:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:109
+#: napari/_qt/layer_controls/qt_labels_controls.py:249
+#: napari/_qt/layer_controls/qt_points_controls.py:184
+#: napari/_qt/layer_controls/qt_shapes_controls.py:244
+#: napari/_qt/layer_controls/qt_surface_controls.py:42
+#: napari/_qt/layer_controls/qt_tracks_controls.py:84
+#: napari/_qt/layer_controls/qt_vectors_controls.py:105
+msgid "blending:"
+msgstr "المزج:"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:86
+msgid "Colorbar"
+msgstr "شريط الألوان"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:231
+msgid "Layer {layer} must have attribute {range_attr} to use \"create_range_popup\""
+msgstr "الطبقة {layer} يجب أن تحتوي على السمة {range_attr} لاستخدام \"create_range_popup\""
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:291
+msgid "autoscale contrast to data range"
+msgstr "تباين المقياس التلقائي لنطاق البيانات"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:302
+msgid "set contrast range to full bit-depth"
+msgstr "تعيين نطاق التباين إلى العمق الكامل بيتا"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:108
+msgid "contiguous editing"
+msgstr "تحرير متداخل"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:114
+msgid "edit all dimensions"
+msgstr "تعديل جميع الأبعاد"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:120
+msgid "display contours of labels"
+msgstr "عرض معالم التسميات"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:132
+msgid "preserve existing labels while painting"
+msgstr "الحفاظ على التسميات الموجودة أثناء الرسم"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:140
+msgid "Display only selected label"
+msgstr "عرض التسمية المحددة فقط"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:150
+msgid "shuffle colors"
+msgstr "خلط الألوان"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:157
+msgid "Pan/zoom mode (Space)"
+msgstr "وضع التكبير/التكبير(الفضاء)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:161
+msgid "Pick mode (L)"
+msgstr "اختيار الوضع (L)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:164
+msgid "Paint mode (P)"
+msgstr "وضع الطلاء (P)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:171
+msgid "Fill mode (F) \n"
+"Toggle with {key}"
+msgstr "ملء الوضع (F) \n"
+"تبديل مع {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:181
+msgid "Erase mode (E) \n"
+"Toggle with {key}"
+msgstr "مسح الوضع (E) \n"
+"تبديل مع {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:241
+msgid "label:"
+msgstr "التسمية:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:245
+msgid "brush size:"
+msgstr "حجم الفرشاة:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:247
+msgid "brush shape:"
+msgstr "شكل الفرشاة:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:251
+msgid "color mode:"
+msgstr "وضع الألوان:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:253
+msgid "contour:"
+msgstr "اتصال:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:255
+msgid "contiguous:"
+msgstr "contiguous:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:257
+#: napari/_qt/layer_controls/qt_points_controls.py:194
+msgid "n-dim:"
+msgstr "n-dim:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:260
+msgid "preserve labels:"
+msgstr "الحفاظ على الوسم:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:264
+msgid "show selected:"
+msgstr "إظهار المختار:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:546
+msgid "Selected label color"
+msgstr "لون التسمية المحددة"
+
+#: napari/_qt/layer_controls/qt_layer_controls_container.py:54
+msgid "Could not find QtControls for layer of type {type_}"
+msgstr "تعذر العثور على التحكم الكمي لطبقة من النوع {type_}"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:102
+#: napari/_qt/layer_controls/qt_shapes_controls.py:220
+msgid "click to set current face color"
+msgstr "انقر لتعيين لون الوجه الحالي"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:106
+#: napari/_qt/layer_controls/qt_shapes_controls.py:225
+#: napari/_qt/layer_controls/qt_vectors_controls.py:66
+msgid "click to set current edge color"
+msgstr "انقر لتعيين لون الحافة الحالية"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:125
+msgid "N-dimensional points"
+msgstr "نقاط ثنائية الأبعاد"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:134
+msgid "Select points (S)"
+msgstr "حدد نقاط (S)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:137
+msgid "Add points (P)"
+msgstr "إضافة نقاط (P)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:143
+msgid "Pan/zoom (Z)"
+msgstr "بان/تكبير (Z)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:151
+msgid "Delete selected points ({key})"
+msgstr "حذف النقاط المحددة ({key})"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:158
+#: napari/_qt/layer_controls/qt_shapes_controls.py:232
+msgid "toggle text visibility"
+msgstr "تبديل رؤية النص"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:182
+msgid "point size:"
+msgstr "حجم النقطة:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:186
+msgid "symbol:"
+msgstr "الرمز:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:188
+#: napari/_qt/layer_controls/qt_shapes_controls.py:246
+msgid "face color:"
+msgstr "لون الوجه:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:190
+#: napari/_qt/layer_controls/qt_shapes_controls.py:248
+#: napari/_qt/layer_controls/qt_vectors_controls.py:71
+msgid "edge color:"
+msgstr "لون الحافة:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:192
+#: napari/_qt/layer_controls/qt_shapes_controls.py:250
+msgid "display text:"
+msgstr "عرض النص:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:113
+msgid "Select shapes (S)"
+msgstr "حدد الأشكال (S)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:119
+msgid "Select vertices (D)"
+msgstr "حدد القالب (D)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:125
+msgid "Pan/zoom (Space)"
+msgstr "التكبير/التكبير (الفضاء)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:132
+msgid "Add rectangles (R)"
+msgstr "إضافة مستطيل (R)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:138
+msgid "Add ellipses (E)"
+msgstr "إضافة إهليج (E)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:141
+msgid "Add lines (L)"
+msgstr "إضافة سطر (L)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:144
+msgid "Add paths (T)"
+msgstr "إضافة مسارات (T)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:150
+msgid "Add polygons (P)"
+msgstr "إضافة مضلعات (P)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:156
+msgid "Insert vertex (I)"
+msgstr "Insert vertex (I)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:162
+msgid "Remove vertex (X)"
+msgstr "إزالة vertex (X)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:169
+msgid "Move to front"
+msgstr "الانتقال إلى الأمام"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:175
+msgid "Move to back"
+msgstr "الانتقال إلى الخلف"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:182
+msgid "Delete selected shapes ({key})"
+msgstr "حذف الأشكال المحددة ({key})"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:242
+msgid "edge width:"
+msgstr "edge width:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:298
+msgid "Mode '{mode}'not recognized"
+msgstr "الوضع '{mode}'لم يتم التعرف عليه"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:80
+msgid "color by:"
+msgstr "لون بواسطة:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:88
+msgid "tail width:"
+msgstr "عرض التذييل:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:90
+msgid "tail length:"
+msgstr "طول الذيل :"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:92
+msgid "tail:"
+msgstr "ذيل:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:94
+msgid "show ID:"
+msgstr "show ID:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:96
+msgid "graph:"
+msgstr "الرسم البياني:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:61
+msgid "edge property:"
+msgstr "خاصية الحافة:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:101
+msgid "width:"
+msgstr "عرض:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:103
+msgid "length:"
+msgstr "الطول:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:107
+msgid "edge color mode:"
+msgstr "وضع لون الحافة:"
+
+#: napari/_qt/perf/qt_debug_menu.py:34
+msgid "&Debug"
+msgstr "&Debug"
+
+#: napari/_qt/perf/qt_debug_menu.py:37
+msgid "Performance Trace"
+msgstr "تتبع الأداء"
+
+#: napari/_qt/perf/qt_debug_menu.py:74
+msgid "Start Recording..."
+msgstr "بدء التسجيل..."
+
+#: napari/_qt/perf/qt_debug_menu.py:77
+msgid "Start recording a trace file"
+msgstr "بدء تسجيل ملف التتبع"
+
+#: napari/_qt/perf/qt_debug_menu.py:86
+msgid "Stop recording a trace file"
+msgstr "إيقاف تسجيل ملف التتبع"
+
+#: napari/_qt/perf/qt_debug_menu.py:97
+msgid "Record performance trace file"
+msgstr "سجل ملف تتبع الأداء"
+
+#: napari/_qt/perf/qt_debug_menu.py:99
+msgid "Trace Files (*.json)"
+msgstr "تتبع الملفات (*.json)"
+
+#: napari/_qt/perf/qt_event_tracing.py:101
+msgid "UnknownEvent:{event}"
+msgstr "حدث مجهول:{event}"
+
+#: napari/_qt/perf/qt_performance.py:43
+msgid "{time_ms:5.0f}ms {name}\n"
+msgstr "{time_ms:5.0f}م.ث {name}\n"
+
+#: napari/_qt/perf/qt_performance.py:105
+msgid "Draw Time:"
+msgstr "وقت الرسم:"
+
+#: napari/_qt/perf/qt_performance.py:125
+msgid "Show Events Slower Than:"
+msgstr "إظهار الأحداث أبطأ من:"
+
+#: napari/_qt/perf/qt_performance.py:127
+msgid "milliseconds"
+msgstr "مللي ثانية"
+
+#: napari/_qt/perf/qt_performance.py:181
+msgid "Uptime: {elapsed:.2f}"
+msgstr "التحديث: {elapsed:.2f}"
+
+#: napari/_qt/widgets/qt_dict_table.py:92
+msgid "Argument 'headers' got item '{h}', which was not found in any of the items in 'data'"
+msgstr "الحجة 'الرؤوس' حصلت على العنصر'{h}'، الذي لم يتم العثور عليه في أي من العناصر في 'البيانات'"
+
+#: napari/_qt/widgets/qt_dims.py:296
+msgid "loop_mode must be one of {_modes}.  Got: {loop_mode}"
+msgstr "حلقة وضع يجب أن تكون واحدة من {_modes}. حصل: {loop_mode}"
+
+#: napari/_qt/widgets/qt_dims.py:304
+msgid "axis argument out of range"
+msgstr "حجة المحور خارج النطاق"
+
+#: napari/_qt/widgets/qt_dims.py:324
+msgid "Refusing to play a hidden axis"
+msgstr "رفض لعب محور مخفي"
+
+#: napari/_qt/widgets/qt_dims_slider.py:52
+msgid "Current slice for axis {axis}"
+msgstr "الشريحة الحالية للمحور {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:65
+msgid "Total slices for axis {axis}"
+msgstr "مجموع الشرائح للمحور {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:112
+msgid "Edit to change axis label"
+msgstr "تعديل لتغيير تسمية المحور"
+
+#: napari/_qt/widgets/qt_dims_slider.py:303
+msgid "frame_range value must be a list or tuple"
+msgstr "يجب أن تكون قيمة الإطار_النطاق قائمة أو أنابيب"
+
+#: napari/_qt/widgets/qt_dims_slider.py:307
+msgid "frame_range must have a length of 2"
+msgstr "يجب أن يكون الإطار_النطاق بطول 2"
+
+#: napari/_qt/widgets/qt_dims_slider.py:494
+msgid "frames per second:"
+msgstr "إطارات كل ثانية:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:502
+msgid "play direction:"
+msgstr "إتجاه اللعب:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:509
+msgid "play mode:"
+msgstr "وضع التشغيل:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:624
+msgid "frame_range[0] must be <= frame_range[1]"
+msgstr "frame_range[0] يجب أن يكون <= frame_range[1]"
+
+#: napari/_qt/widgets/qt_dims_slider.py:627
+msgid "frame_range[0] out of range"
+msgstr "إطار_النطاق[0] خارج النطاق"
+
+#: napari/_qt/widgets/qt_dims_slider.py:629
+msgid "frame_range[1] out of range"
+msgstr "frame_range[1] خارج النطاق"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:362
+msgid "Preview"
+msgstr "معاينة"
+
+#: napari/_qt/widgets/qt_layerlist.py:95
+msgid "Layer list"
+msgstr "قائمة الطبقات"
+
+#: napari/_qt/widgets/qt_layerlist.py:539
+msgid "Layer thumbnail"
+msgstr "صورة مصغرة للطبقة"
+
+#: napari/_qt/widgets/qt_layerlist.py:546
+msgid "Layer visibility"
+msgstr "رؤية الطبقة"
+
+#: napari/_qt/widgets/qt_layerlist.py:567
+msgid "Layer type"
+msgstr "نوع الطبقة"
+
+#: napari/_qt/widgets/qt_layerlist.py:571
+msgid "Click to select\n"
+"Drag to rearrange"
+msgstr "انقر لتحديد\n"
+"اسحب لإعادة الترتيب"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:81
+msgid "Click and drag to change call order"
+msgstr "انقر واسحب لتغيير طلب المكالمة"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:97
+msgid "Uncheck to disable this plugin"
+msgstr "إلغاء التحديد لتعطيل هذه الإضافة"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:275
+msgid "select hook... "
+msgstr "حدد الرابط... "
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:306
+msgid "select the hook specification to reorder"
+msgstr "حدد مواصفات الرابط لإعادة الترتيب"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:315
+msgid "Select a hook to rearrange, then drag and drop plugins into the desired call order.\n\n"
+"Disable plugins for a specific hook by unchecking their checkbox."
+msgstr "حدد رابط لإعادة الترتيب، ثم قم بسحب وإسقاط الإضافات إلى ترتيب المكالمات المطلوب.\n\n"
+"تعطيل الإضافات للربط المحدد عن طريق إلغاء تحديد مربع الاختيار."
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:149
+msgid "current minimum contrast limit"
+msgstr "حد التناقض الأدنى الحالي"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:150
+msgid "current maximum contrast limit"
+msgstr "حد التباين الأقصى الحالي"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:158
+msgid "minimum contrast range"
+msgstr "الحد الأدنى لنطاق التباين"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:159
+msgid "maximum contrast range"
+msgstr "أقصى نطاق للتباين"
+
+#: napari/_qt/widgets/qt_size_preview.py:137
+msgid "preview"
+msgstr "معاينة"
+
+#: napari/_qt/widgets/qt_size_preview.py:310
+msgid "Minimum value must be smaller than {}"
+msgstr "يجب أن تكون القيمة الدنيا أصغر من {}"
+
+#: napari/_qt/widgets/qt_size_preview.py:350
+msgid "Maximum value must be larger than {}"
+msgstr "يجب أن تكون القيمة القصوى أكبر من {}"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:37
+msgid "New points layer"
+msgstr "طبقة نقاط جديدة"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:47
+msgid "New shapes layer"
+msgstr "طبقة أشكال جديدة"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:56
+msgid "New labels layer"
+msgstr "طبقة تسميات جديدة"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:104
+msgid "Open IPython terminal ({key1}-{key2}-C)"
+msgstr "Open IPython terminal ({key1}-{key2}-C)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:115
+msgid "Roll dimensions order for display ({key}-E)"
+msgstr "ترتيب أبعاد القائمة للعرض ({key}-E)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:125
+msgid "Transpose displayed dimensions ({key}-T)"
+msgstr "تحويل الأبعاد المعروضة ({key}-T)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:134
+msgid "Reset view ({key}-R)"
+msgstr "إعادة تعيين العرض ({key}-R)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:146
+msgid "Toggle grid view ({key}-G)"
+msgstr "تبديل طريقة عرض الشبكة ({key}-G)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:160
+msgid "Toggle number of displayed dimensions ({key}-Y)"
+msgstr "تبديل عدد الأبعاد المعروضة ({key}- Y)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:200
+msgid "Delete selected layers ({key1}-{key2})"
+msgstr "حذف الطبقات المحددة ({key1}-{key2})"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:157
+msgid "drag to move. double-click to float"
+msgstr "اسحب للتحرك. انقر نقراً مزدوجاً لتعويم"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:163
+msgid "hide this panel"
+msgstr "إخفاء هذه اللوحة"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:170
+msgid "float this panel"
+msgstr "عطف هذه اللوحة"
+
