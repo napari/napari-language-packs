@@ -1,0 +1,1269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: napari\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-17 22:09-0500\n"
+"PO-Revision-Date: 2021-03-18 03:57\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: napari\n"
+"X-Crowdin-Project-ID: 443044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /[goanpeca.napari-language-packs] main/napari/locale/napari.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Language: ru_RU\n"
+
+#: napari/components/_viewer_key_bindings.py:16
+msgid "Reset dims scroll progress"
+msgstr "Сбросить прогресс прокрутки"
+
+#: napari/components/_viewer_key_bindings.py:28
+msgid "Toggle ndisplay."
+msgstr "Переключить ndisplay."
+
+#: napari/components/_viewer_key_bindings.py:37
+msgid "Increment dimensions slider to the left."
+msgstr "Увеличить размеры ползунок влево."
+
+#: napari/components/_viewer_key_bindings.py:48
+msgid "Increment dimensions slider to the right."
+msgstr "Увеличить размеры ползунок вправо."
+
+#: napari/components/_viewer_key_bindings.py:59
+msgid "Move focus of dimensions slider up."
+msgstr "Переместить фокус ползунка размеров вверх."
+
+#: napari/components/_viewer_key_bindings.py:68
+msgid "Move focus of dimensions slider down."
+msgstr "Переместить фокус ползунка размеров вниз."
+
+#: napari/components/_viewer_key_bindings.py:77
+msgid "Change order of the visible axes, e.g. [0, 1, 2] -> [2, 0, 1]."
+msgstr "Изменение порядка видимых осей, например [0, 1, 2] -> [2, 0, 1]."
+
+#: napari/components/_viewer_key_bindings.py:88
+msgid "Transpose order of the last two visible axes, e.g. [0, 1] -> [1, 0]."
+msgstr "Порядок переключения последних двух видимых осей, например [0, 1] -> [1, 0]."
+
+#: napari/components/_viewer_key_bindings.py:100
+msgid "Remove selected layers."
+msgstr "Удалить выбранные слои."
+
+#: napari/components/_viewer_key_bindings.py:109
+msgid "Selected all layers."
+msgstr "Выделены все слои."
+
+#: napari/components/_viewer_key_bindings.py:120
+msgid "Remove all layers."
+msgstr "Удалить все слои."
+
+#: napari/components/_viewer_key_bindings.py:129
+msgid "Select layer above."
+msgstr "Выберите слой выше."
+
+#: napari/components/_viewer_key_bindings.py:138
+msgid "Select layer below."
+msgstr "Выберите слой ниже."
+
+#: napari/components/_viewer_key_bindings.py:147
+msgid "Also select layer above."
+msgstr "Также выберите слой выше."
+
+#: napari/components/_viewer_key_bindings.py:156
+msgid "Also select layer below."
+msgstr "Также выберите слой ниже."
+
+#: napari/components/_viewer_key_bindings.py:165
+msgid "Reset view to original state."
+msgstr "Сбросить вид в исходное состояние."
+
+#: napari/components/_viewer_key_bindings.py:174
+msgid "Toggle grid mode."
+msgstr "Переключить режим сетки."
+
+#: napari/components/_viewer_key_bindings.py:183
+msgid "Toggle visibility of selected layers"
+msgstr "Переключить видимость выбранных слоев"
+
+#: napari/layers/base/_base_constants.py:34
+msgid "translucent"
+msgstr "полупрозрачный"
+
+#: napari/layers/base/_base_constants.py:35
+msgid "additive"
+msgstr "аддитивный"
+
+#: napari/layers/base/_base_constants.py:36
+msgid "opaque"
+msgstr "непрозрачный"
+
+#: napari/layers/labels/_labels_constants.py:71
+msgid "circle"
+msgstr "круг"
+
+#: napari/layers/labels/_labels_constants.py:72
+#: napari/layers/points/_points_constants.py:91
+msgid "square"
+msgstr "квадрат"
+
+#: napari/layers/labels/_labels_constants.py:77
+msgid "auto"
+msgstr "авто"
+
+#: napari/layers/labels/_labels_constants.py:78
+msgid "direct"
+msgstr "прямая"
+
+#: napari/layers/labels/labels.py:245 napari/layers/labels/labels.py:533
+msgid "enter paint or fill mode to edit labels"
+msgstr "ввести режим рисования или заливки для редактирования меток"
+
+#: napari/layers/labels/labels.py:420
+msgid "cannot reduce selected label below 0"
+msgstr "невозможно уменьшить выбранную метку ниже 0"
+
+#: napari/layers/labels/labels.py:458
+msgid "Unsupported Color Mode"
+msgstr "Неподдерживаемый цветовой режим"
+
+#: napari/layers/labels/labels.py:537
+msgid "hold <space> to pan/zoom, click to pick a label"
+msgstr "удерживайте <space> , чтобы выйти/увеличить масштаб, нажмите, чтобы выбрать метку"
+
+#: napari/layers/labels/labels.py:550
+msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
+msgstr "удерживайте <space> для панели/масштаба, удерживайте <shift> для переключения консервированных меток, удерживайте <control> для заполнения и удерживайте <alt> для удаления. Перетащите для рисования этикетки"
+
+#: napari/layers/labels/labels.py:561
+msgid "hold <space> to pan/zoom, click to fill a label"
+msgstr "удерживайте <space> для выравнивания/масштаба, нажмите, чтобы заполнить метку"
+
+#: napari/layers/labels/labels.py:574
+msgid "hold <space> to pan/zoom, drag to erase a label"
+msgstr "удерживайте <space> для отключения/увеличения, перетащите для стирания этикетки"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:297
+#: napari/_qt/layer_controls/qt_points_controls.py:226
+#: napari/layers/labels/labels.py:579 napari/layers/shapes/shapes.py:1405
+msgid "Mode not recognized"
+msgstr "Режим не распознан"
+
+#: napari/layers/points/_points_constants.py:84
+msgid "arrow"
+msgstr "стрелка"
+
+#: napari/layers/points/_points_constants.py:85
+msgid "clobber"
+msgstr "clobber"
+
+#: napari/layers/points/_points_constants.py:86
+msgid "cross"
+msgstr "крест"
+
+#: napari/layers/points/_points_constants.py:87
+msgid "diamond"
+msgstr "алмаз"
+
+#: napari/layers/points/_points_constants.py:88
+msgid "disc"
+msgstr "диск"
+
+#: napari/layers/points/_points_constants.py:89
+msgid "hbar"
+msgstr "hbar"
+
+#: napari/layers/points/_points_constants.py:90
+msgid "ring"
+msgstr "кольцо"
+
+#: napari/layers/points/_points_constants.py:92
+msgid "star"
+msgstr "звезда"
+
+#: napari/layers/points/_points_constants.py:93
+msgid "tailed arrow"
+msgstr "хвостовая стрелка"
+
+#: napari/layers/points/_points_constants.py:94
+msgid "triangle down"
+msgstr "треугольник вниз"
+
+#: napari/layers/points/_points_constants.py:95
+msgid "triangle up"
+msgstr "треугольник вверх"
+
+#: napari/layers/points/_points_constants.py:96
+msgid "vbar"
+msgstr "вбар"
+
+#: napari/layers/points/_points_constants.py:97
+msgid "x"
+msgstr "х"
+
+#: napari/layers/shapes/shapes.py:331
+msgid "Shape dimensions must be equal to ndim"
+msgstr "Размеры фигуры должны быть равны ndim"
+
+#: napari/layers/shapes/shapes.py:397
+msgid "text should be a string, array, or dict"
+msgstr "текст должен быть строкой, массивом или вызывать"
+
+#: napari/layers/shapes/shapes.py:435 napari/layers/shapes/shapes.py:1364
+msgid "enter a selection mode to edit shape properties"
+msgstr "введите режим выбора для редактирования свойств фигуры"
+
+#: napari/layers/shapes/shapes.py:1371
+msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
+msgstr "удерживайте <space> для выравнивания/масштаба, нажмите <{BACKSPACE}> для удаления выбранного"
+
+#: napari/layers/shapes/shapes.py:1380 napari/layers/shapes/shapes.py:1389
+msgid "hold <space> to pan/zoom"
+msgstr "удерживайте <space> для доски / масштаба"
+
+#: napari/layers/shapes/shapes.py:1399
+msgid "hold <space> to pan/zoom, press <esc> to finish drawing"
+msgstr "удерживайте <space> до выравнивания/масштаба, нажмите <esc> , чтобы завершить рисование"
+
+#: napari/utils/settings/_defaults.py:33
+msgid "must be a string"
+msgstr "должно быть строкой"
+
+#: napari/utils/settings/_defaults.py:39
+msgid "must be one of {}"
+msgstr "должно быть одно из {}"
+
+#: napari/utils/settings/_defaults.py:66
+msgid "Theme selection."
+msgstr "Выбор темы."
+
+#: napari/_qt/qt_main_window.py:269
+msgid "Ready"
+msgstr "Готово"
+
+#: napari/_qt/qt_main_window.py:308
+msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "Атрибут 'raw_stylesheet' устарел и будет удален в версии 0.4.7. Вместо этого используйте `napari.qt.get_stylesheet`"
+
+#: napari/_qt/qt_main_window.py:354
+msgid "Open File(s)..."
+msgstr "Открыть файл(ы)..."
+
+#: napari/_qt/qt_main_window.py:356
+msgid "Open file(s)"
+msgstr "Открыть файл(ы)"
+
+#: napari/_qt/qt_main_window.py:360
+msgid "Open Files as Stack..."
+msgstr "Открыть файлы как стек..."
+
+#: napari/_qt/qt_main_window.py:363
+msgid "Open files"
+msgstr "Открыть файлы"
+
+#: napari/_qt/qt_main_window.py:368
+msgid "Open Folder..."
+msgstr "Открыть папку..."
+
+#: napari/_qt/qt_main_window.py:370
+msgid "Open a folder"
+msgstr "Открыть папку"
+
+#: napari/_qt/dialogs/preferences_dialog.py:36 napari/_qt/qt_main_window.py:374
+msgid "Preferences"
+msgstr "Настройки"
+
+#: napari/_qt/qt_main_window.py:376
+msgid "Open preferences dialog"
+msgstr "Открыть диалог настроек"
+
+#: napari/_qt/qt_main_window.py:380
+msgid "Save Selected Layer(s)..."
+msgstr "Сохранить выбранный слой(ы)..."
+
+#: napari/_qt/qt_main_window.py:383
+msgid "Save selected layers"
+msgstr "Сохранить выбранные слои"
+
+#: napari/_qt/qt_main_window.py:389
+msgid "Save All Layers..."
+msgstr "Сохранить все слои..."
+
+#: napari/_qt/qt_main_window.py:392
+msgid "Save all layers"
+msgstr "Сохранить все слои"
+
+#: napari/_qt/qt_main_window.py:397
+msgid "Save Screenshot..."
+msgstr "Сохранить скриншот..."
+
+#: napari/_qt/qt_main_window.py:400
+msgid "Save screenshot of current display, default .png"
+msgstr "Сохранить скриншот текущего дисплея, по умолчанию .png"
+
+#: napari/_qt/qt_main_window.py:405
+msgid "Save Screenshot with Viewer..."
+msgstr "Сохранить скриншот с помощью Просмотр..."
+
+#: napari/_qt/qt_main_window.py:409
+msgid "Save screenshot of current display with the viewer, default .png"
+msgstr "Сохранить скриншот текущего дисплея с программой просмотра по умолчанию .png"
+
+#: napari/_qt/qt_main_window.py:417
+msgid "Exit"
+msgstr "Выход"
+
+#: napari/_qt/qt_main_window.py:424
+msgid "Close window"
+msgstr "Закрыть окно"
+
+#: napari/_qt/qt_main_window.py:428
+msgid "&File"
+msgstr "&Файл"
+
+#: napari/_qt/qt_main_window.py:452
+msgid "Toggle Menubar Visibility"
+msgstr "Переключить видимость меню"
+
+#: napari/_qt/qt_main_window.py:455
+msgid "Hide Menubar"
+msgstr "Hide Menubar"
+
+#: napari/_qt/qt_main_window.py:457
+msgid "Toggle Theme"
+msgstr "Переключить тему"
+
+#: napari/_qt/qt_main_window.py:459
+msgid "Toggle theme"
+msgstr "Переключить тему"
+
+#: napari/_qt/qt_main_window.py:462
+msgid "Toggle Full Screen"
+msgstr "Полноэкранный режим"
+
+#: napari/_qt/qt_main_window.py:465
+msgid "Toggle full screen"
+msgstr "Включить полноэкранный режим"
+
+#: napari/_qt/qt_main_window.py:467 napari/_qt/qt_main_window.py:470
+msgid "Toggle Play"
+msgstr "Играть"
+
+#: napari/_qt/qt_main_window.py:472
+msgid "&View"
+msgstr "Вид"
+
+#: napari/_qt/qt_main_window.py:482 napari/_qt/qt_main_window.py:488
+msgid "Toggle Chunk Outlines"
+msgstr "Контуры чанков"
+
+#: napari/_qt/qt_main_window.py:492
+msgid "Axes"
+msgstr "Секиры"
+
+#: napari/_qt/qt_main_window.py:494 napari/_qt/qt_main_window.py:538
+msgid "Visible"
+msgstr "Видимый"
+
+#: napari/_qt/qt_main_window.py:501 napari/_qt/qt_main_window.py:547
+msgid "Colored"
+msgstr "Цветной"
+
+#: napari/_qt/qt_main_window.py:508
+msgid "Labels"
+msgstr "Метки"
+
+#: napari/_qt/qt_main_window.py:515
+msgid "Dashed"
+msgstr "Пунктир"
+
+#: napari/_qt/qt_main_window.py:522
+msgid "Arrows"
+msgstr "Стрелки"
+
+#: napari/_qt/qt_main_window.py:536
+msgid "Scale Bar"
+msgstr "Шкала масштаба"
+
+#: napari/_qt/qt_main_window.py:556
+msgid "Ticks"
+msgstr "Тики"
+
+#: napari/_qt/qt_main_window.py:571
+msgid "Close Window"
+msgstr "Закрыть окно"
+
+#: napari/_qt/qt_main_window.py:573
+msgid "Close napari window"
+msgstr "Закрыть окно napari"
+
+#: napari/_qt/qt_main_window.py:576
+msgid "Remove Dock Widgets"
+msgstr "Удалить виджеты док-станции"
+
+#: napari/_qt/qt_main_window.py:577
+msgid "Remove all dock widgets"
+msgstr "Удалить все виджеты док-станции"
+
+#: napari/_qt/qt_main_window.py:582
+msgid "&Window"
+msgstr "&Окно"
+
+#: napari/_qt/qt_main_window.py:589
+msgid "&Plugins"
+msgstr "&Плагины"
+
+#: napari/_qt/qt_main_window.py:592
+msgid "Install/Uninstall Package(s)..."
+msgstr "Установить/удалить пакет(я)..."
+
+#: napari/_qt/qt_main_window.py:598
+msgid "Plugin Call Order..."
+msgstr "Порядок вызовов плагинов..."
+
+#: napari/_qt/qt_main_window.py:601
+msgid "Change call order for plugins"
+msgstr "Изменить порядок вызовов плагинов"
+
+#: napari/_qt/qt_main_window.py:607
+msgid "Plugin Errors..."
+msgstr "Ошибки плагина..."
+
+#: napari/_qt/qt_main_window.py:610
+msgid "Review stack traces for plugin exceptions and notify developers"
+msgstr "Просмотр следов стека для исключений из плагинов и уведомления разработчиков"
+
+#: napari/_qt/qt_main_window.py:618
+msgid "Add Dock Widget"
+msgstr "Добавить виджет док-станции"
+
+#: napari/_qt/qt_main_window.py:661 napari/_qt/widgets/qt_plugin_sorter.py:311
+msgid "Plugin Sorter"
+msgstr "Сортировщик плагинов"
+
+#: napari/_qt/qt_main_window.py:676
+msgid "&Help"
+msgstr "&Помощь"
+
+#: napari/_qt/qt_main_window.py:678
+msgid "napari Info"
+msgstr "napari Info"
+
+#: napari/_qt/qt_main_window.py:680
+msgid "About napari"
+msgstr "О Нанакари"
+
+#: napari/_qt/qt_main_window.py:687
+msgid "Show Key Bindings"
+msgstr "Показать сочетания клавиш"
+
+#: napari/_qt/qt_main_window.py:691
+msgid "key_bindings"
+msgstr "_привязки клавиш"
+
+#: napari/_qt/qt_main_window.py:931
+msgid "Could not find a dock widget containing: {widget}"
+msgstr "Не удалось найти виджет, содержащий: {widget}"
+
+#: napari/_qt/qt_main_window.py:1048 napari/_qt/qt_main_window.py:1060
+msgid "This viewer has already been closed and deleted. Please create a new one."
+msgstr "Этот зритель уже был закрыт и удален. Пожалуйста, создайте новый."
+
+#: napari/_qt/qt_main_window.py:1076
+msgid "The window geometry settings could not be loaded due to the following error: {err}"
+msgstr "Настройки геометрии окна не могут быть загружены из-за следующей ошибки: {err}"
+
+#: napari/_qt/qt_viewer.py:122
+msgid "layer list"
+msgstr "список слоя"
+
+#: napari/_qt/qt_viewer.py:130
+msgid "layer controls"
+msgstr "управление слоем"
+
+#: napari/_qt/qt_viewer.py:138
+msgid "console"
+msgstr "консоль"
+
+#: napari/_qt/qt_viewer.py:227
+msgid "The 'raw_stylesheet' attribute is deprecated and will beremoved in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "Атрибут 'raw_stylesheet' устарел и будет удален в версии 0.4.7. Вместо этого используйте `napari.qt.get_stylesheet`"
+
+#: napari/_qt/qt_viewer.py:298
+msgid "performance"
+msgstr "производительность"
+
+#: napari/_qt/qt_viewer.py:314
+msgid "napari-console not found. It can be installed with \"pip install napari_console\""
+msgstr "napari-консоль не найдена. Она может быть установлена с помощью \"pip install napari_console\""
+
+#: napari/_qt/qt_viewer.py:439
+msgid "There are no layers in the viewer to save"
+msgstr "В средстве просмотра нет слоёв для сохранения"
+
+#: napari/_qt/qt_viewer.py:441
+msgid "Please select one or more layers to save,\n"
+"or use \"Save all layers...\""
+msgstr "Пожалуйста, выберите один или несколько слоев для сохранения,\n"
+"или используйте \"Сохранить все слоиs...\""
+
+#: napari/_qt/qt_viewer.py:446
+msgid "Nothing to save"
+msgstr "Нечего сохранять"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "selected"
+msgstr "выбрано"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "all"
+msgstr "все"
+
+#: napari/_qt/qt_viewer.py:451
+msgid "Save {msg} layers"
+msgstr "Сохранить слои {msg}"
+
+#: napari/_qt/qt_viewer.py:464
+msgid "File {filename} save failed.\n"
+"{error_messages}"
+msgstr "Файл {filename} не сохранен.\n"
+"{error_messages}"
+
+#: napari/_qt/qt_viewer.py:499
+msgid "Select file(s)..."
+msgstr "Выберите файл(ы)..."
+
+#: napari/_qt/qt_viewer.py:509
+msgid "Select files..."
+msgstr "Выберите файлы..."
+
+#: napari/_qt/qt_viewer.py:519
+msgid "Select folder..."
+msgstr "Выберите папку..."
+
+#: napari/_qt/dialogs/preferences_dialog.py:31
+#: napari/_qt/dialogs/preferences_dialog.py:214
+msgid "Cancel"
+msgstr "Отмена"
+
+#: napari/_qt/dialogs/preferences_dialog.py:32
+msgid "OK"
+msgstr "ОК"
+
+#: napari/_qt/dialogs/preferences_dialog.py:33
+msgid "Restore defaults"
+msgstr "Восстановить значения по умолчанию"
+
+#: napari/_qt/dialogs/preferences_dialog.py:96
+msgid "Are you sure you want to restore default settings?"
+msgstr "Вы действительно хотите восстановить настройки по умолчанию?"
+
+#: napari/_qt/dialogs/preferences_dialog.py:213
+msgid "Restore"
+msgstr "Восстановить"
+
+#: napari/_qt/dialogs/qt_about.py:50
+msgid "<b>napari: a multi-dimensional image viewer for python</b>"
+msgstr "<b>napari: многомерный просмотрщик изображений для python</b>"
+
+#: napari/_qt/dialogs/qt_about.py:75
+msgid "<b>citation information:</b>"
+msgstr "<b>информация о цитате:</b>"
+
+#: napari/_qt/dialogs/qt_about.py:100
+msgid "About"
+msgstr "О программе"
+
+#: napari/_qt/dialogs/qt_about.py:123
+msgid "Copy to clipboard"
+msgstr "Копировать в буфер обмена"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:52
+msgid "All active key bindings"
+msgstr "Все активные сочетания клавиш"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:60
+msgid "Keybindings"
+msgstr "Привязки клавиш"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:84
+msgid "No key bindings"
+msgstr "Нет привязок клавиш"
+
+#: napari/_qt/dialogs/qt_notification.py:104
+msgid "Source: {source}"
+msgstr "Источник: {source}"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:123
+msgid "remove"
+msgstr "удалить"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:133
+msgid "close"
+msgstr "закрыть"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:149
+msgid "install"
+msgstr "установить"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:167
+msgid "enable/disable"
+msgstr "включить/выключить"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:283
+msgid "update (v{latest})"
+msgstr "обновление (v{latest})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:380
+msgid "Installed Plugins"
+msgstr "Установленные плагины"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:387
+msgid "Available Plugins"
+msgstr "Доступные плагины"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:398
+msgid "loading ..."
+msgstr "загрузка ..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:414
+msgid "install by name/url, or drop file..."
+msgstr "установить по имени/url, или удалить файл..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:416
+msgid "Install"
+msgstr "Установить"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:419
+#: napari/_qt/dialogs/qt_plugin_dialog.py:476
+msgid "Show Status"
+msgstr "Показать статус"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:421
+#: napari/_qt/dialogs/qt_plugin_dialog.py:468
+msgid "<< Show Sorter"
+msgstr "<< Показать Сортировку"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:422
+msgid "Close"
+msgstr "Закрыть"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:448
+msgid "Available Plugins ({count})"
+msgstr "Доступные плагины ({count})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:465
+msgid ">> Hide Sorter"
+msgstr ">> Скрыть Сортировку"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:473
+msgid "Hide Status"
+msgstr "Скрыть статус"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:52
+msgid "select plugin... "
+msgstr "выбрать плагин... "
+
+#: napari/_qt/dialogs/qt_plugin_report.py:69
+msgid "Recorded Plugin Exceptions"
+msgstr "Исключения записанных плагинов"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:89
+msgid "Open issue on GitHub"
+msgstr "Открыть запрос на GitHub"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:91
+msgid "Open a web browser to submit this error log\n"
+"to the developer's GitHub issue tracker"
+msgstr "Откройте веб-браузер, чтобы отправить журнал ошибок\n"
+"в GitHub issue tracker"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:103
+msgid "Copy error log to clipboard"
+msgstr "Копировать журнал ошибок в буфер обмена"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:161
+msgid "No errors reported for plugin '{plugin}'"
+msgstr "Ошибка плагина '{plugin} ' ' '"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:31
+msgid "Save screenshot"
+msgstr "Сохранить скриншот"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:35
+msgid "Image files (*.png *.bmp *.gif *.tif *.tiff)"
+msgstr "Файлы изображений (*.png *.bmp *.gif *.tif *.tiff)"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:48
+msgid "Confirm overwrite"
+msgstr "Подтвердите перезапись"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:50
+msgid "{save_path} already exists. Do you want to replace it?"
+msgstr "{save_path} уже существует. Вы хотите заменить его?"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:56
+msgid "interpolation:"
+msgstr "интерполяция:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:66
+msgid "rendering:"
+msgstr "визуализация:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:76
+msgid "iso threshold:"
+msgstr "iso порог:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:86
+msgid "attenuation:"
+msgstr "смягчение:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:101
+#: napari/_qt/layer_controls/qt_labels_controls.py:243
+#: napari/_qt/layer_controls/qt_points_controls.py:180
+#: napari/_qt/layer_controls/qt_shapes_controls.py:240
+#: napari/_qt/layer_controls/qt_surface_controls.py:34
+#: napari/_qt/layer_controls/qt_tracks_controls.py:86
+#: napari/_qt/layer_controls/qt_vectors_controls.py:99
+msgid "opacity:"
+msgstr "непрозрачность:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:103
+#: napari/_qt/layer_controls/qt_surface_controls.py:36
+msgid "contrast limits:"
+msgstr "ограничения контрастности:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:105
+#: napari/_qt/layer_controls/qt_surface_controls.py:38
+msgid "gamma:"
+msgstr "gamma:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:107
+#: napari/_qt/layer_controls/qt_surface_controls.py:40
+#: napari/_qt/layer_controls/qt_tracks_controls.py:82
+msgid "colormap:"
+msgstr "цветовая карта:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:109
+#: napari/_qt/layer_controls/qt_labels_controls.py:249
+#: napari/_qt/layer_controls/qt_points_controls.py:184
+#: napari/_qt/layer_controls/qt_shapes_controls.py:244
+#: napari/_qt/layer_controls/qt_surface_controls.py:42
+#: napari/_qt/layer_controls/qt_tracks_controls.py:84
+#: napari/_qt/layer_controls/qt_vectors_controls.py:105
+msgid "blending:"
+msgstr "смешивание:"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:86
+msgid "Colorbar"
+msgstr "Цветная панель"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:231
+msgid "Layer {layer} must have attribute {range_attr} to use \"create_range_popup\""
+msgstr "Слой {layer} должен иметь атрибут {range_attr} для использования \"create_range_popup\""
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:291
+msgid "autoscale contrast to data range"
+msgstr "автомасштабирование контрастности с диапазоном данных"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:302
+msgid "set contrast range to full bit-depth"
+msgstr "задать диапазон контрастности в полную глубину"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:108
+msgid "contiguous editing"
+msgstr "целостное редактирование"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:114
+msgid "edit all dimensions"
+msgstr "редактировать все размеры"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:120
+msgid "display contours of labels"
+msgstr "отображение контуров меток"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:132
+msgid "preserve existing labels while painting"
+msgstr "сохранить существующие метки во время рисования"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:140
+msgid "Display only selected label"
+msgstr "Показывать только выбранную метку"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:150
+msgid "shuffle colors"
+msgstr "перемешивание цветов"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:157
+msgid "Pan/zoom mode (Space)"
+msgstr "Режим сна/масштабирования (пробел)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:161
+msgid "Pick mode (L)"
+msgstr "Режим выбора (L)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:164
+msgid "Paint mode (P)"
+msgstr "Режим краски (P)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:171
+msgid "Fill mode (F) \n"
+"Toggle with {key}"
+msgstr "Режим заливки (F) \n"
+"Переключить {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:181
+msgid "Erase mode (E) \n"
+"Toggle with {key}"
+msgstr "Стереть (E) \n"
+"Переключить с {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:241
+msgid "label:"
+msgstr "знак:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:245
+msgid "brush size:"
+msgstr "размер кисти:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:247
+msgid "brush shape:"
+msgstr "форма кисти:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:251
+msgid "color mode:"
+msgstr "режим цвета:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:253
+msgid "contour:"
+msgstr "контур:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:255
+msgid "contiguous:"
+msgstr "contiguous:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:257
+#: napari/_qt/layer_controls/qt_points_controls.py:194
+msgid "n-dim:"
+msgstr "n-dim:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:260
+msgid "preserve labels:"
+msgstr "сохранить метки:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:264
+msgid "show selected:"
+msgstr "показать выбранные:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:546
+msgid "Selected label color"
+msgstr "Выбранный цвет ярлыка"
+
+#: napari/_qt/layer_controls/qt_layer_controls_container.py:54
+msgid "Could not find QtControls for layer of type {type_}"
+msgstr "Не удалось найти QtControls для слоя типа {type_}"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:102
+#: napari/_qt/layer_controls/qt_shapes_controls.py:220
+msgid "click to set current face color"
+msgstr "нажмите, чтобы установить текущий цвет лица"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:106
+#: napari/_qt/layer_controls/qt_shapes_controls.py:225
+#: napari/_qt/layer_controls/qt_vectors_controls.py:66
+msgid "click to set current edge color"
+msgstr "нажмите, чтобы установить текущий цвет"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:125
+msgid "N-dimensional points"
+msgstr "N-мерные точки"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:134
+msgid "Select points (S)"
+msgstr "Выберите точки (S)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:137
+msgid "Add points (P)"
+msgstr "Добавить очки (P)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:143
+msgid "Pan/zoom (Z)"
+msgstr "Панель/зум (Z)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:151
+msgid "Delete selected points ({key})"
+msgstr "Удалить выбранные точки ({key})"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:158
+#: napari/_qt/layer_controls/qt_shapes_controls.py:232
+msgid "toggle text visibility"
+msgstr "переключить видимость текста"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:182
+msgid "point size:"
+msgstr "размер точки:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:186
+msgid "symbol:"
+msgstr "символ:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:188
+#: napari/_qt/layer_controls/qt_shapes_controls.py:246
+msgid "face color:"
+msgstr "цвет лица:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:190
+#: napari/_qt/layer_controls/qt_shapes_controls.py:248
+#: napari/_qt/layer_controls/qt_vectors_controls.py:71
+msgid "edge color:"
+msgstr "цвет края:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:192
+#: napari/_qt/layer_controls/qt_shapes_controls.py:250
+msgid "display text:"
+msgstr "отобразить текст:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:113
+msgid "Select shapes (S)"
+msgstr "Выберите формы (S)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:119
+msgid "Select vertices (D)"
+msgstr "Выберите вершины (D)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:125
+msgid "Pan/zoom (Space)"
+msgstr "Панель/зум (пробел)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:132
+msgid "Add rectangles (R)"
+msgstr "Добавить прямоугольники (R)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:138
+msgid "Add ellipses (E)"
+msgstr "Добавить эллипсы (E)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:141
+msgid "Add lines (L)"
+msgstr "Добавить линии (L)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:144
+msgid "Add paths (T)"
+msgstr "Добавить пути (Т)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:150
+msgid "Add polygons (P)"
+msgstr "Добавить многоугольники (P)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:156
+msgid "Insert vertex (I)"
+msgstr "Insert vertex (I)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:162
+msgid "Remove vertex (X)"
+msgstr "Удалить вершину (X)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:169
+msgid "Move to front"
+msgstr "Переместить на передний план"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:175
+msgid "Move to back"
+msgstr "Переместить назад"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:182
+msgid "Delete selected shapes ({key})"
+msgstr "Удалить выбранные фигуры ({key})"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:242
+msgid "edge width:"
+msgstr "edge width:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:298
+msgid "Mode '{mode}'not recognized"
+msgstr "Режим '{mode}'не распознан"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:80
+msgid "color by:"
+msgstr "цвет по:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:88
+msgid "tail width:"
+msgstr "ширина хвоста:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:90
+msgid "tail length:"
+msgstr "длина хвоста:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:92
+msgid "tail:"
+msgstr "хвост:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:94
+msgid "show ID:"
+msgstr "show ID:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:96
+msgid "graph:"
+msgstr "график:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:61
+msgid "edge property:"
+msgstr "свойства края:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:101
+msgid "width:"
+msgstr "ширина:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:103
+msgid "length:"
+msgstr "длина:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:107
+msgid "edge color mode:"
+msgstr "режим края цвета:"
+
+#: napari/_qt/perf/qt_debug_menu.py:34
+msgid "&Debug"
+msgstr "&Debug"
+
+#: napari/_qt/perf/qt_debug_menu.py:37
+msgid "Performance Trace"
+msgstr "Отслеживание производительности"
+
+#: napari/_qt/perf/qt_debug_menu.py:74
+msgid "Start Recording..."
+msgstr "Начать запись..."
+
+#: napari/_qt/perf/qt_debug_menu.py:77
+msgid "Start recording a trace file"
+msgstr "Начать запись файла трассировки"
+
+#: napari/_qt/perf/qt_debug_menu.py:86
+msgid "Stop recording a trace file"
+msgstr "Остановить запись файла трассировки"
+
+#: napari/_qt/perf/qt_debug_menu.py:97
+msgid "Record performance trace file"
+msgstr "Файл трассировки производительности записи"
+
+#: napari/_qt/perf/qt_debug_menu.py:99
+msgid "Trace Files (*.json)"
+msgstr "Файлы трассировки (*.json)"
+
+#: napari/_qt/perf/qt_event_tracing.py:101
+msgid "UnknownEvent:{event}"
+msgstr "Неизвестное событие:{event}"
+
+#: napari/_qt/perf/qt_performance.py:43
+msgid "{time_ms:5.0f}ms {name}\n"
+msgstr "{time_ms:5.0f}мс {name}\n"
+
+#: napari/_qt/perf/qt_performance.py:105
+msgid "Draw Time:"
+msgstr "Время рисования:"
+
+#: napari/_qt/perf/qt_performance.py:125
+msgid "Show Events Slower Than:"
+msgstr "Показывать события медленнее через:"
+
+#: napari/_qt/perf/qt_performance.py:127
+msgid "milliseconds"
+msgstr "миллисекунды"
+
+#: napari/_qt/perf/qt_performance.py:181
+msgid "Uptime: {elapsed:.2f}"
+msgstr "Обновление: {elapsed:.2f}"
+
+#: napari/_qt/widgets/qt_dict_table.py:92
+msgid "Argument 'headers' got item '{h}', which was not found in any of the items in 'data'"
+msgstr "Аргумент 'headers' получил элемент'{h}', который не найден в 'data'"
+
+#: napari/_qt/widgets/qt_dims.py:296
+msgid "loop_mode must be one of {_modes}.  Got: {loop_mode}"
+msgstr "loop_mode должен быть одним из {_modes}. Переход: {loop_mode}"
+
+#: napari/_qt/widgets/qt_dims.py:304
+msgid "axis argument out of range"
+msgstr "аргумент оси вне диапазона"
+
+#: napari/_qt/widgets/qt_dims.py:324
+msgid "Refusing to play a hidden axis"
+msgstr "Отказ от воспроизведения скрытой оси"
+
+#: napari/_qt/widgets/qt_dims_slider.py:52
+msgid "Current slice for axis {axis}"
+msgstr "Текущая маска для оси {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:65
+msgid "Total slices for axis {axis}"
+msgstr "Всего ломтиков для оси {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:112
+msgid "Edit to change axis label"
+msgstr "Изменить подпись оси"
+
+#: napari/_qt/widgets/qt_dims_slider.py:303
+msgid "frame_range value must be a list or tuple"
+msgstr "значение кадрового диапазона должно быть списком или трубкой"
+
+#: napari/_qt/widgets/qt_dims_slider.py:307
+msgid "frame_range must have a length of 2"
+msgstr "кадровый диапазон должен иметь длину 2"
+
+#: napari/_qt/widgets/qt_dims_slider.py:494
+msgid "frames per second:"
+msgstr "кадров в секунду:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:502
+msgid "play direction:"
+msgstr "игровое направление:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:509
+msgid "play mode:"
+msgstr "режим воспроизведения:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:624
+msgid "frame_range[0] must be <= frame_range[1]"
+msgstr "frame_range[0] должен быть <= frame_range[1]"
+
+#: napari/_qt/widgets/qt_dims_slider.py:627
+msgid "frame_range[0] out of range"
+msgstr "кадровый диапазон[0] вне диапазона"
+
+#: napari/_qt/widgets/qt_dims_slider.py:629
+msgid "frame_range[1] out of range"
+msgstr "кадр_диапазон[1] вне диапазона"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:362
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: napari/_qt/widgets/qt_layerlist.py:95
+msgid "Layer list"
+msgstr "Список слоев"
+
+#: napari/_qt/widgets/qt_layerlist.py:539
+msgid "Layer thumbnail"
+msgstr "Миниатюра слоя"
+
+#: napari/_qt/widgets/qt_layerlist.py:546
+msgid "Layer visibility"
+msgstr "Видимость слоя"
+
+#: napari/_qt/widgets/qt_layerlist.py:567
+msgid "Layer type"
+msgstr "Тип слоя"
+
+#: napari/_qt/widgets/qt_layerlist.py:571
+msgid "Click to select\n"
+"Drag to rearrange"
+msgstr "Нажмите, чтобы выбрать\n"
+"перетащить для изменения порядка"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:81
+msgid "Click and drag to change call order"
+msgstr "Нажмите и перетащите для изменения порядка вызовов"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:97
+msgid "Uncheck to disable this plugin"
+msgstr "Снимите флажок, чтобы отключить этот плагин"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:275
+msgid "select hook... "
+msgstr "выберите hook... "
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:306
+msgid "select the hook specification to reorder"
+msgstr "выбрать спецификацию хука для переупорядочения"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:315
+msgid "Select a hook to rearrange, then drag and drop plugins into the desired call order.\n\n"
+"Disable plugins for a specific hook by unchecking their checkbox."
+msgstr "Выберите хук, чтобы изменить порядок, а затем перетащите плагины в желаемый порядок вызовов.\n\n"
+"Отключите плагины для определенного хука, сняв галочку."
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:149
+msgid "current minimum contrast limit"
+msgstr "текущий минимальный лимит контрастности"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:150
+msgid "current maximum contrast limit"
+msgstr "текущий лимит контраста"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:158
+msgid "minimum contrast range"
+msgstr "минимальный контрастный диапазон"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:159
+msgid "maximum contrast range"
+msgstr "максимальный контрастный диапазон"
+
+#: napari/_qt/widgets/qt_size_preview.py:137
+msgid "preview"
+msgstr "предпросмотр"
+
+#: napari/_qt/widgets/qt_size_preview.py:310
+msgid "Minimum value must be smaller than {}"
+msgstr "Минимальное значение должно быть меньше, чем {}"
+
+#: napari/_qt/widgets/qt_size_preview.py:350
+msgid "Maximum value must be larger than {}"
+msgstr "Максимальное значение должно быть больше чем {}"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:37
+msgid "New points layer"
+msgstr "Новый слой точек"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:47
+msgid "New shapes layer"
+msgstr "Слой новых форм"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:56
+msgid "New labels layer"
+msgstr "Слой новых меток"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:104
+msgid "Open IPython terminal ({key1}-{key2}-C)"
+msgstr "Open IPython terminal ({key1}-{key2}-C)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:115
+msgid "Roll dimensions order for display ({key}-E)"
+msgstr "Порядок размеров роллов для отображения ({key}-E)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:125
+msgid "Transpose displayed dimensions ({key}-T)"
+msgstr "Переместить отображаемые размеры ({key}-T)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:134
+msgid "Reset view ({key}-R)"
+msgstr "Сбросить вид ({key}-R)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:146
+msgid "Toggle grid view ({key}-G)"
+msgstr "Переключить вид сетки ({key}-G)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:160
+msgid "Toggle number of displayed dimensions ({key}-Y)"
+msgstr "Переключить количество отображаемых размеров ({key}-Y)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:200
+msgid "Delete selected layers ({key1}-{key2})"
+msgstr "Удалить выбранные слои ({key1}-{key2})"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:157
+msgid "drag to move. double-click to float"
+msgstr "перетащите для перемещения. Дважды щелкните для плавания"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:163
+msgid "hide this panel"
+msgstr "скрыть эту панель"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:170
+msgid "float this panel"
+msgstr "плавающая панель"
+
