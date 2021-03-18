@@ -1,0 +1,7 @@
+append_commit_message: false
+commit_message: '[ci skip] New %language% translation from Crowdin'
+files:
+- source: /napari/locale/napari.pot
+  translation: /napari/locale/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
+- source: /plugins/napari_console/locale/napari_console.pot
+  translation: /plugins/napari_console/locale/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
