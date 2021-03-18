@@ -1,0 +1,1269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: napari\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-17 22:09-0500\n"
+"PO-Revision-Date: 2021-03-18 03:57\n"
+"Last-Translator: \n"
+"Language-Team: Greek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: napari\n"
+"X-Crowdin-Project-ID: 443044\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /[goanpeca.napari-language-packs] main/napari/locale/napari.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Language: el_GR\n"
+
+#: napari/components/_viewer_key_bindings.py:16
+msgid "Reset dims scroll progress"
+msgstr "Επαναφορά προόδου κύλισης dims"
+
+#: napari/components/_viewer_key_bindings.py:28
+msgid "Toggle ndisplay."
+msgstr "Εναλλαγή εμφάνισης"
+
+#: napari/components/_viewer_key_bindings.py:37
+msgid "Increment dimensions slider to the left."
+msgstr "Ρυθμιστικό αυξομείωσης διαστάσεων προς τα αριστερά."
+
+#: napari/components/_viewer_key_bindings.py:48
+msgid "Increment dimensions slider to the right."
+msgstr "Ρυθμιστικό αυξήσεων διαστάσεων προς τα δεξιά."
+
+#: napari/components/_viewer_key_bindings.py:59
+msgid "Move focus of dimensions slider up."
+msgstr "Μετακίνηση εστίασης του ρυθμιστικού διαστάσεων πάνω."
+
+#: napari/components/_viewer_key_bindings.py:68
+msgid "Move focus of dimensions slider down."
+msgstr "Μετακινήστε την εστίαση του ρυθμιστικού διαστάσεων προς τα κάτω."
+
+#: napari/components/_viewer_key_bindings.py:77
+msgid "Change order of the visible axes, e.g. [0, 1, 2] -> [2, 0, 1]."
+msgstr "Αλλαγή σειράς των ορατών αξόνων, π.χ. [0, 1, 2] -> [2, 0, 1]."
+
+#: napari/components/_viewer_key_bindings.py:88
+msgid "Transpose order of the last two visible axes, e.g. [0, 1] -> [1, 0]."
+msgstr "Σειρά μεταφοράς των δύο τελευταίων ορατών αξόνων, π.χ. [0, 1] -> [1, 0]."
+
+#: napari/components/_viewer_key_bindings.py:100
+msgid "Remove selected layers."
+msgstr "Αφαίρεση επιλεγμένων στρωμάτων."
+
+#: napari/components/_viewer_key_bindings.py:109
+msgid "Selected all layers."
+msgstr "Επιλογή όλων των στρωμάτων."
+
+#: napari/components/_viewer_key_bindings.py:120
+msgid "Remove all layers."
+msgstr "Αφαίρεση όλων των στρωμάτων."
+
+#: napari/components/_viewer_key_bindings.py:129
+msgid "Select layer above."
+msgstr "Επιλέξτε το παραπάνω επίπεδο."
+
+#: napari/components/_viewer_key_bindings.py:138
+msgid "Select layer below."
+msgstr "Επιλέξτε επίπεδο παρακάτω."
+
+#: napari/components/_viewer_key_bindings.py:147
+msgid "Also select layer above."
+msgstr "Επίσης επιλέξτε το παραπάνω επίπεδο."
+
+#: napari/components/_viewer_key_bindings.py:156
+msgid "Also select layer below."
+msgstr "Επιλέξτε επίσης επίπεδο παρακάτω."
+
+#: napari/components/_viewer_key_bindings.py:165
+msgid "Reset view to original state."
+msgstr "Επαναφορά της προβολής στην αρχική κατάσταση."
+
+#: napari/components/_viewer_key_bindings.py:174
+msgid "Toggle grid mode."
+msgstr "Εναλλαγή λειτουργίας καννάβου."
+
+#: napari/components/_viewer_key_bindings.py:183
+msgid "Toggle visibility of selected layers"
+msgstr "Εναλλαγή ορατότητας των επιλεγμένων επιπέδων"
+
+#: napari/layers/base/_base_constants.py:34
+msgid "translucent"
+msgstr "ημιδιαφανές"
+
+#: napari/layers/base/_base_constants.py:35
+msgid "additive"
+msgstr "πρόσθετο"
+
+#: napari/layers/base/_base_constants.py:36
+msgid "opaque"
+msgstr "αδιαφανής"
+
+#: napari/layers/labels/_labels_constants.py:71
+msgid "circle"
+msgstr "κύκλος"
+
+#: napari/layers/labels/_labels_constants.py:72
+#: napari/layers/points/_points_constants.py:91
+msgid "square"
+msgstr "τετράγωνο"
+
+#: napari/layers/labels/_labels_constants.py:77
+msgid "auto"
+msgstr "αυτόματο"
+
+#: napari/layers/labels/_labels_constants.py:78
+msgid "direct"
+msgstr "άμεση"
+
+#: napari/layers/labels/labels.py:245 napari/layers/labels/labels.py:533
+msgid "enter paint or fill mode to edit labels"
+msgstr "εισάγετε το χρώμα ή τη λειτουργία πλήρωσης για να επεξεργαστείτε ετικέτες"
+
+#: napari/layers/labels/labels.py:420
+msgid "cannot reduce selected label below 0"
+msgstr "δεν μπορεί να μειώσει την επιλεγμένη ετικέτα κάτω από 0"
+
+#: napari/layers/labels/labels.py:458
+msgid "Unsupported Color Mode"
+msgstr "Μη Υποστηριζόμενη Λειτουργία Χρώματος"
+
+#: napari/layers/labels/labels.py:537
+msgid "hold <space> to pan/zoom, click to pick a label"
+msgstr "κρατήστε πατημένο το <space> για εμφάνιση / ζουμ, κάντε κλικ για να επιλέξετε μια ετικέτα"
+
+#: napari/layers/labels/labels.py:550
+msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
+msgstr "κρατήστε πατημένο το <space> σε pan/zoom, κρατήστε πατημένο το <shift> για εναλλαγή του preserve_labels, κρατήστε πατημένο το <control> για να γεμίσετε, κρατήστε πατημένο το <alt> για διαγραφή, σύρετε για να ζωγραφίσετε μια ετικέτα"
+
+#: napari/layers/labels/labels.py:561
+msgid "hold <space> to pan/zoom, click to fill a label"
+msgstr "κρατήστε πατημένο το <space> για εμφάνιση/μεγέθυνση, κάντε κλικ για να γεμίσετε μια ετικέτα"
+
+#: napari/layers/labels/labels.py:574
+msgid "hold <space> to pan/zoom, drag to erase a label"
+msgstr "κρατήστε πατημένο το <space> στο πάτημα/ζουμ, σύρετε για να διαγράψετε μια ετικέτα"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:297
+#: napari/_qt/layer_controls/qt_points_controls.py:226
+#: napari/layers/labels/labels.py:579 napari/layers/shapes/shapes.py:1405
+msgid "Mode not recognized"
+msgstr "Η λειτουργία δεν αναγνωρίζεται"
+
+#: napari/layers/points/_points_constants.py:84
+msgid "arrow"
+msgstr "βέλος"
+
+#: napari/layers/points/_points_constants.py:85
+msgid "clobber"
+msgstr "λόμπυ"
+
+#: napari/layers/points/_points_constants.py:86
+msgid "cross"
+msgstr "σταυρός"
+
+#: napari/layers/points/_points_constants.py:87
+msgid "diamond"
+msgstr "διαμάντι"
+
+#: napari/layers/points/_points_constants.py:88
+msgid "disc"
+msgstr "δίσκος"
+
+#: napari/layers/points/_points_constants.py:89
+msgid "hbar"
+msgstr "hbar"
+
+#: napari/layers/points/_points_constants.py:90
+msgid "ring"
+msgstr "δακτύλιος"
+
+#: napari/layers/points/_points_constants.py:92
+msgid "star"
+msgstr "αστέρι"
+
+#: napari/layers/points/_points_constants.py:93
+msgid "tailed arrow"
+msgstr "ουράνιο βέλος"
+
+#: napari/layers/points/_points_constants.py:94
+msgid "triangle down"
+msgstr "τρίγωνο κάτω"
+
+#: napari/layers/points/_points_constants.py:95
+msgid "triangle up"
+msgstr "τριγώνιο πάνω"
+
+#: napari/layers/points/_points_constants.py:96
+msgid "vbar"
+msgstr "vbar"
+
+#: napari/layers/points/_points_constants.py:97
+msgid "x"
+msgstr "x"
+
+#: napari/layers/shapes/shapes.py:331
+msgid "Shape dimensions must be equal to ndim"
+msgstr "Οι διαστάσεις σχήματος πρέπει να είναι ίσες με ndim"
+
+#: napari/layers/shapes/shapes.py:397
+msgid "text should be a string, array, or dict"
+msgstr "το κείμενο πρέπει να είναι συμβολοσειρά, διάταξη ή dict"
+
+#: napari/layers/shapes/shapes.py:435 napari/layers/shapes/shapes.py:1364
+msgid "enter a selection mode to edit shape properties"
+msgstr "εισάγετε μια λειτουργία επιλογής για να επεξεργαστείτε τις ιδιότητες σχήματος"
+
+#: napari/layers/shapes/shapes.py:1371
+msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
+msgstr "κρατήστε πατημένο το <space> για pan/zoom, πατήστε <{BACKSPACE}> για αφαίρεση των επιλεγμένων"
+
+#: napari/layers/shapes/shapes.py:1380 napari/layers/shapes/shapes.py:1389
+msgid "hold <space> to pan/zoom"
+msgstr "κρατήστε πατημένο το <space> για σμίκρυνση"
+
+#: napari/layers/shapes/shapes.py:1399
+msgid "hold <space> to pan/zoom, press <esc> to finish drawing"
+msgstr "κρατήστε πατημένο το <space> για μετατόπιση/μεγέθυνση, πατήστε <esc> για να ολοκληρώσετε το σχέδιο"
+
+#: napari/utils/settings/_defaults.py:33
+msgid "must be a string"
+msgstr "πρέπει να είναι μια συμβολοσειρά"
+
+#: napari/utils/settings/_defaults.py:39
+msgid "must be one of {}"
+msgstr "πρέπει να είναι ένα από {}"
+
+#: napari/utils/settings/_defaults.py:66
+msgid "Theme selection."
+msgstr "Επιλογή θέματος."
+
+#: napari/_qt/qt_main_window.py:269
+msgid "Ready"
+msgstr "Έτοιμο"
+
+#: napari/_qt/qt_main_window.py:308
+msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "Το χαρακτηριστικό 'raw_stylesheet' είναι παρωχημένο και θα αφαιρεθεί στην έκδοση 0.4.7. Παρακαλώ χρησιμοποιήστε `napari.qt.get_stylesheet` αντί αυτού"
+
+#: napari/_qt/qt_main_window.py:354
+msgid "Open File(s)..."
+msgstr "Άνοιγμα Αρχείου(ων)..."
+
+#: napari/_qt/qt_main_window.py:356
+msgid "Open file(s)"
+msgstr "Άνοιγμα αρχείου(ων)"
+
+#: napari/_qt/qt_main_window.py:360
+msgid "Open Files as Stack..."
+msgstr "Άνοιγμα αρχείων ως στοίβα..."
+
+#: napari/_qt/qt_main_window.py:363
+msgid "Open files"
+msgstr "Άνοιγμα αρχείων"
+
+#: napari/_qt/qt_main_window.py:368
+msgid "Open Folder..."
+msgstr "Άνοιγμα Φακέλου..."
+
+#: napari/_qt/qt_main_window.py:370
+msgid "Open a folder"
+msgstr "Άνοιγμα φακέλου"
+
+#: napari/_qt/dialogs/preferences_dialog.py:36 napari/_qt/qt_main_window.py:374
+msgid "Preferences"
+msgstr "Ρυθμίσεις"
+
+#: napari/_qt/qt_main_window.py:376
+msgid "Open preferences dialog"
+msgstr "Άνοιγμα διαλόγου προτιμήσεων"
+
+#: napari/_qt/qt_main_window.py:380
+msgid "Save Selected Layer(s)..."
+msgstr "Αποθήκευση Επιλεγμένου(-ων) Στρωμάτων..."
+
+#: napari/_qt/qt_main_window.py:383
+msgid "Save selected layers"
+msgstr "Αποθήκευση επιλεγμένων επιπέδων"
+
+#: napari/_qt/qt_main_window.py:389
+msgid "Save All Layers..."
+msgstr "Αποθήκευση Όλων Των Επιπέδων..."
+
+#: napari/_qt/qt_main_window.py:392
+msgid "Save all layers"
+msgstr "Αποθήκευση όλων των στρωμάτων"
+
+#: napari/_qt/qt_main_window.py:397
+msgid "Save Screenshot..."
+msgstr "Αποθήκευση Στιγμιότυπου..."
+
+#: napari/_qt/qt_main_window.py:400
+msgid "Save screenshot of current display, default .png"
+msgstr "Αποθήκευση στιγμιότυπου της τρέχουσας οθόνης, προεπιλεγμένο .png"
+
+#: napari/_qt/qt_main_window.py:405
+msgid "Save Screenshot with Viewer..."
+msgstr "Αποθήκευση στιγμιότυπου οθόνης με το Viewer..."
+
+#: napari/_qt/qt_main_window.py:409
+msgid "Save screenshot of current display with the viewer, default .png"
+msgstr "Αποθήκευση στιγμιότυπου της τρέχουσας οθόνης με τον προβολέα, προεπιλεγμένο .png"
+
+#: napari/_qt/qt_main_window.py:417
+msgid "Exit"
+msgstr "Έξοδος"
+
+#: napari/_qt/qt_main_window.py:424
+msgid "Close window"
+msgstr "Κλείσιμο παραθύρου"
+
+#: napari/_qt/qt_main_window.py:428
+msgid "&File"
+msgstr "&Αρχείο"
+
+#: napari/_qt/qt_main_window.py:452
+msgid "Toggle Menubar Visibility"
+msgstr "Εναλλαγή Ορατότητας Μενού"
+
+#: napari/_qt/qt_main_window.py:455
+msgid "Hide Menubar"
+msgstr "Hide Menubar"
+
+#: napari/_qt/qt_main_window.py:457
+msgid "Toggle Theme"
+msgstr "Εναλλαγή Θέματος"
+
+#: napari/_qt/qt_main_window.py:459
+msgid "Toggle theme"
+msgstr "Εναλλαγή θέματος"
+
+#: napari/_qt/qt_main_window.py:462
+msgid "Toggle Full Screen"
+msgstr "Εναλλαγή Πλήρους Οθόνης"
+
+#: napari/_qt/qt_main_window.py:465
+msgid "Toggle full screen"
+msgstr "Εναλλαγή πλήρους οθόνης"
+
+#: napari/_qt/qt_main_window.py:467 napari/_qt/qt_main_window.py:470
+msgid "Toggle Play"
+msgstr "Εναλλαγή Αναπαραγωγής"
+
+#: napari/_qt/qt_main_window.py:472
+msgid "&View"
+msgstr "&Προβολή"
+
+#: napari/_qt/qt_main_window.py:482 napari/_qt/qt_main_window.py:488
+msgid "Toggle Chunk Outlines"
+msgstr "Εναλλαγή Περιγράμματος Κομματιού"
+
+#: napari/_qt/qt_main_window.py:492
+msgid "Axes"
+msgstr "Τσεκούρια"
+
+#: napari/_qt/qt_main_window.py:494 napari/_qt/qt_main_window.py:538
+msgid "Visible"
+msgstr "Ορατό"
+
+#: napari/_qt/qt_main_window.py:501 napari/_qt/qt_main_window.py:547
+msgid "Colored"
+msgstr "Έγχρωμο"
+
+#: napari/_qt/qt_main_window.py:508
+msgid "Labels"
+msgstr "Ετικέτες"
+
+#: napari/_qt/qt_main_window.py:515
+msgid "Dashed"
+msgstr "Διακεκομμένη"
+
+#: napari/_qt/qt_main_window.py:522
+msgid "Arrows"
+msgstr "Βέλη"
+
+#: napari/_qt/qt_main_window.py:536
+msgid "Scale Bar"
+msgstr "Γραμμή Κλίμακας"
+
+#: napari/_qt/qt_main_window.py:556
+msgid "Ticks"
+msgstr "Τικ"
+
+#: napari/_qt/qt_main_window.py:571
+msgid "Close Window"
+msgstr "Κλείσιμο Παραθύρου"
+
+#: napari/_qt/qt_main_window.py:573
+msgid "Close napari window"
+msgstr "Κλείσιμο παραθύρου napari"
+
+#: napari/_qt/qt_main_window.py:576
+msgid "Remove Dock Widgets"
+msgstr "Αφαίρεση Συστατικών Προσάρτησης"
+
+#: napari/_qt/qt_main_window.py:577
+msgid "Remove all dock widgets"
+msgstr "Αφαίρεση όλων των widget προσάρτησης"
+
+#: napari/_qt/qt_main_window.py:582
+msgid "&Window"
+msgstr "&Παράθυρο"
+
+#: napari/_qt/qt_main_window.py:589
+msgid "&Plugins"
+msgstr "&Πρόσθετα"
+
+#: napari/_qt/qt_main_window.py:592
+msgid "Install/Uninstall Package(s)..."
+msgstr "Εγκατάσταση/Απεγκατάσταση Πακέτων..."
+
+#: napari/_qt/qt_main_window.py:598
+msgid "Plugin Call Order..."
+msgstr "Σειρά Κλήσεων Πρόσθετου..."
+
+#: napari/_qt/qt_main_window.py:601
+msgid "Change call order for plugins"
+msgstr "Αλλαγή σειράς κλήσεων για plugins"
+
+#: napari/_qt/qt_main_window.py:607
+msgid "Plugin Errors..."
+msgstr "Σφάλματα Πρόσθετων..."
+
+#: napari/_qt/qt_main_window.py:610
+msgid "Review stack traces for plugin exceptions and notify developers"
+msgstr "Ανασκόπηση ιχνών στοίβας για εξαιρέσεις προσθέτων και ειδοποίηση προγραμματιστών"
+
+#: napari/_qt/qt_main_window.py:618
+msgid "Add Dock Widget"
+msgstr "Προσθήκη Widget Προσάρτησης"
+
+#: napari/_qt/qt_main_window.py:661 napari/_qt/widgets/qt_plugin_sorter.py:311
+msgid "Plugin Sorter"
+msgstr "Ταξινόμηση Πρόσθετων"
+
+#: napari/_qt/qt_main_window.py:676
+msgid "&Help"
+msgstr "&Βοήθεια"
+
+#: napari/_qt/qt_main_window.py:678
+msgid "napari Info"
+msgstr "napari Info"
+
+#: napari/_qt/qt_main_window.py:680
+msgid "About napari"
+msgstr "Σχετικά με napari"
+
+#: napari/_qt/qt_main_window.py:687
+msgid "Show Key Bindings"
+msgstr "Εμφάνιση Δεσμών Κλειδιών"
+
+#: napari/_qt/qt_main_window.py:691
+msgid "key_bindings"
+msgstr "συντομεύσεις_κλειδιού"
+
+#: napari/_qt/qt_main_window.py:931
+msgid "Could not find a dock widget containing: {widget}"
+msgstr "Αδυναμία εύρεσης γραφικού συστατικού προσάρτησης που να περιέχει: {widget}"
+
+#: napari/_qt/qt_main_window.py:1048 napari/_qt/qt_main_window.py:1060
+msgid "This viewer has already been closed and deleted. Please create a new one."
+msgstr "Αυτός ο προβολέας έχει ήδη κλείσει και διαγραφεί. Παρακαλώ δημιουργήστε ένα νέο."
+
+#: napari/_qt/qt_main_window.py:1076
+msgid "The window geometry settings could not be loaded due to the following error: {err}"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ρυθμίσεων γεωμετρίας του παραθύρου λόγω του ακόλουθου σφάλματος: {err}"
+
+#: napari/_qt/qt_viewer.py:122
+msgid "layer list"
+msgstr "λίστα επιπέδων"
+
+#: napari/_qt/qt_viewer.py:130
+msgid "layer controls"
+msgstr "έλεγχοι στρώματος"
+
+#: napari/_qt/qt_viewer.py:138
+msgid "console"
+msgstr "κονσόλα"
+
+#: napari/_qt/qt_viewer.py:227
+msgid "The 'raw_stylesheet' attribute is deprecated and will beremoved in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "Το χαρακτηριστικό 'raw_stylesheet' είναι παρωχημένο και θα αφαιρεθεί στην έκδοση 0.4.7. Παρακαλώ χρησιμοποιήστε `napari.qt.get_stylesheet` αντί αυτού"
+
+#: napari/_qt/qt_viewer.py:298
+msgid "performance"
+msgstr "απόδοση"
+
+#: napari/_qt/qt_viewer.py:314
+msgid "napari-console not found. It can be installed with \"pip install napari_console\""
+msgstr "Η napari-κονσόλα δε βρέθηκε. Μπορεί να εγκατασταθεί με \"pip install napari_console\""
+
+#: napari/_qt/qt_viewer.py:439
+msgid "There are no layers in the viewer to save"
+msgstr "Δεν υπάρχουν επίπεδα στον προβολέα για αποθήκευση"
+
+#: napari/_qt/qt_viewer.py:441
+msgid "Please select one or more layers to save,\n"
+"or use \"Save all layers...\""
+msgstr "Παρακαλώ επιλέξτε ένα ή περισσότερα επίπεδα για αποθήκευση,\n"
+"ή χρησιμοποιήστε \"Αποθήκευση όλων των στρωμάτων...\""
+
+#: napari/_qt/qt_viewer.py:446
+msgid "Nothing to save"
+msgstr "Τίποτα για αποθήκευση"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "selected"
+msgstr "επιλεγμένα"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "all"
+msgstr "όλα"
+
+#: napari/_qt/qt_viewer.py:451
+msgid "Save {msg} layers"
+msgstr "Αποθήκευση {msg} επιπέδων"
+
+#: napari/_qt/qt_viewer.py:464
+msgid "File {filename} save failed.\n"
+"{error_messages}"
+msgstr "Αποτυχία αποθήκευσης αρχείου {filename} .\n"
+"{error_messages}"
+
+#: napari/_qt/qt_viewer.py:499
+msgid "Select file(s)..."
+msgstr "Επιλέξτε αρχείο(-α)..."
+
+#: napari/_qt/qt_viewer.py:509
+msgid "Select files..."
+msgstr "Επιλογή αρχείων..."
+
+#: napari/_qt/qt_viewer.py:519
+msgid "Select folder..."
+msgstr "Επιλογή φακέλου..."
+
+#: napari/_qt/dialogs/preferences_dialog.py:31
+#: napari/_qt/dialogs/preferences_dialog.py:214
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: napari/_qt/dialogs/preferences_dialog.py:32
+msgid "OK"
+msgstr "Εντάξει"
+
+#: napari/_qt/dialogs/preferences_dialog.py:33
+msgid "Restore defaults"
+msgstr "Επαναφορά προεπιλογών"
+
+#: napari/_qt/dialogs/preferences_dialog.py:96
+msgid "Are you sure you want to restore default settings?"
+msgstr "Είστε βέβαιοι ότι θέλετε να επαναφέρετε τις προεπιλεγμένες ρυθμίσεις?"
+
+#: napari/_qt/dialogs/preferences_dialog.py:213
+msgid "Restore"
+msgstr "Επαναφορά"
+
+#: napari/_qt/dialogs/qt_about.py:50
+msgid "<b>napari: a multi-dimensional image viewer for python</b>"
+msgstr "<b>napari: ένας πολυδιάστατος προβολέας εικόνων για την python</b>"
+
+#: napari/_qt/dialogs/qt_about.py:75
+msgid "<b>citation information:</b>"
+msgstr "<b>πληροφορίες αναφοράς:</b>"
+
+#: napari/_qt/dialogs/qt_about.py:100
+msgid "About"
+msgstr "Σχετικά"
+
+#: napari/_qt/dialogs/qt_about.py:123
+msgid "Copy to clipboard"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:52
+msgid "All active key bindings"
+msgstr "Όλες οι συντομεύσεις ενεργού πλήκτρου"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:60
+msgid "Keybindings"
+msgstr "Συντομεύσεις"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:84
+msgid "No key bindings"
+msgstr "Χωρίς συντομεύσεις πλήκτρων"
+
+#: napari/_qt/dialogs/qt_notification.py:104
+msgid "Source: {source}"
+msgstr "Πηγή: {source}"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:123
+msgid "remove"
+msgstr "Κατάργηση"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:133
+msgid "close"
+msgstr "Κλείσιμο"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:149
+msgid "install"
+msgstr "εγκατάσταση"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:167
+msgid "enable/disable"
+msgstr "ενεργοποίηση/απενεργοποίηση"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:283
+msgid "update (v{latest})"
+msgstr "ενημέρωση (v{latest})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:380
+msgid "Installed Plugins"
+msgstr "Εγκατεστημένα Πρόσθετα"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:387
+msgid "Available Plugins"
+msgstr "Διαθέσιμα Πρόσθετα"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:398
+msgid "loading ..."
+msgstr "φόρτωση ..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:414
+msgid "install by name/url, or drop file..."
+msgstr "εγκατάσταση με όνομα/url, ή απόθεση αρχείου..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:416
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:419
+#: napari/_qt/dialogs/qt_plugin_dialog.py:476
+msgid "Show Status"
+msgstr "Εμφάνιση Κατάστασης"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:421
+#: napari/_qt/dialogs/qt_plugin_dialog.py:468
+msgid "<< Show Sorter"
+msgstr "<< Εμφάνιση Ταξινόμησης"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:422
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:448
+msgid "Available Plugins ({count})"
+msgstr "Διαθέσιμα Πρόσθετα ({count})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:465
+msgid ">> Hide Sorter"
+msgstr ">> Απόκρυψη Ταξινόμησης"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:473
+msgid "Hide Status"
+msgstr "Απόκρυψη Κατάστασης"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:52
+msgid "select plugin... "
+msgstr "επιλογή πρόσθετου... "
+
+#: napari/_qt/dialogs/qt_plugin_report.py:69
+msgid "Recorded Plugin Exceptions"
+msgstr "Εγγεγραμμένες Εξαιρέσεις Πρόσθετων"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:89
+msgid "Open issue on GitHub"
+msgstr "Άνοιγμα ζητήματος στο GitHub"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:91
+msgid "Open a web browser to submit this error log\n"
+"to the developer's GitHub issue tracker"
+msgstr "Ανοίξτε ένα πρόγραμμα περιήγησης ιστού για να υποβάλετε αυτό το αρχείο καταγραφής σφαλμάτων\n"
+"στο GitHub του προγραμματιστή"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:103
+msgid "Copy error log to clipboard"
+msgstr "Αντιγραφή αρχείου καταγραφής σφαλμάτων στο πρόχειρο"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:161
+msgid "No errors reported for plugin '{plugin}'"
+msgstr "Δεν αναφέρθηκαν σφάλματα για το πρόσθετο '{plugin}'"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:31
+msgid "Save screenshot"
+msgstr "Αποθήκευση στιγμιότυπου"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:35
+msgid "Image files (*.png *.bmp *.gif *.tif *.tiff)"
+msgstr "Αρχεία εικόνας (*.png *.bmp *.gif *.tif *.tiff)"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:48
+msgid "Confirm overwrite"
+msgstr "Επιβεβαίωση αντικατάστασης"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:50
+msgid "{save_path} already exists. Do you want to replace it?"
+msgstr "{save_path} υπάρχει ήδη. Θέλετε να το αντικαταστήσετε?"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:56
+msgid "interpolation:"
+msgstr "παρεμβολή:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:66
+msgid "rendering:"
+msgstr "απόδοση:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:76
+msgid "iso threshold:"
+msgstr "όριο iso:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:86
+msgid "attenuation:"
+msgstr "εξασθένηση:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:101
+#: napari/_qt/layer_controls/qt_labels_controls.py:243
+#: napari/_qt/layer_controls/qt_points_controls.py:180
+#: napari/_qt/layer_controls/qt_shapes_controls.py:240
+#: napari/_qt/layer_controls/qt_surface_controls.py:34
+#: napari/_qt/layer_controls/qt_tracks_controls.py:86
+#: napari/_qt/layer_controls/qt_vectors_controls.py:99
+msgid "opacity:"
+msgstr "αδιαφάνεια:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:103
+#: napari/_qt/layer_controls/qt_surface_controls.py:36
+msgid "contrast limits:"
+msgstr "όρια αντίθεσης:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:105
+#: napari/_qt/layer_controls/qt_surface_controls.py:38
+msgid "gamma:"
+msgstr "gamma:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:107
+#: napari/_qt/layer_controls/qt_surface_controls.py:40
+#: napari/_qt/layer_controls/qt_tracks_controls.py:82
+msgid "colormap:"
+msgstr "χάρτης χρωμάτων:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:109
+#: napari/_qt/layer_controls/qt_labels_controls.py:249
+#: napari/_qt/layer_controls/qt_points_controls.py:184
+#: napari/_qt/layer_controls/qt_shapes_controls.py:244
+#: napari/_qt/layer_controls/qt_surface_controls.py:42
+#: napari/_qt/layer_controls/qt_tracks_controls.py:84
+#: napari/_qt/layer_controls/qt_vectors_controls.py:105
+msgid "blending:"
+msgstr "ανάμειξη:"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:86
+msgid "Colorbar"
+msgstr "Χρωματική Γραμμή"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:231
+msgid "Layer {layer} must have attribute {range_attr} to use \"create_range_popup\""
+msgstr "Το επίπεδο {layer} πρέπει να έχει το χαρακτηριστικό {range_attr} για να χρησιμοποιήσει το \"create_range_popup\""
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:291
+msgid "autoscale contrast to data range"
+msgstr "αυτόματη αντίθεση στο εύρος δεδομένων"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:302
+msgid "set contrast range to full bit-depth"
+msgstr "ορισμός εύρους αντίθεσης σε πλήρες βάθος bit"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:108
+msgid "contiguous editing"
+msgstr "συνοπτική επεξεργασία"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:114
+msgid "edit all dimensions"
+msgstr "επεξεργασία όλων των διαστάσεων"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:120
+msgid "display contours of labels"
+msgstr "εμφάνιση περιγράμματος των ετικετών"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:132
+msgid "preserve existing labels while painting"
+msgstr "διατήρηση των υφιστάμενων ετικετών κατά τη ζωγραφική"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:140
+msgid "Display only selected label"
+msgstr "Εμφάνιση μόνο επιλεγμένων ετικετών"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:150
+msgid "shuffle colors"
+msgstr "ανάμιξη χρωμάτων"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:157
+msgid "Pan/zoom mode (Space)"
+msgstr "Λειτουργία Pan/zoom (Ρυθμός)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:161
+msgid "Pick mode (L)"
+msgstr "Διαλέξτε λειτουργία (L)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:164
+msgid "Paint mode (P)"
+msgstr "Λειτουργία βαφής (P)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:171
+msgid "Fill mode (F) \n"
+"Toggle with {key}"
+msgstr "Λειτουργία γεμίσματος (F) \n"
+"Εναλλαγή με {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:181
+msgid "Erase mode (E) \n"
+"Toggle with {key}"
+msgstr "Λειτουργία διαγραφής (E) \n"
+"Εναλλαγή με {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:241
+msgid "label:"
+msgstr "ετικέτα:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:245
+msgid "brush size:"
+msgstr "μέγεθος βούρτσας:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:247
+msgid "brush shape:"
+msgstr "σχήμα βούρτσας:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:251
+msgid "color mode:"
+msgstr "λειτουργία χρώματος:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:253
+msgid "contour:"
+msgstr "περίγραμμα:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:255
+msgid "contiguous:"
+msgstr "contiguous:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:257
+#: napari/_qt/layer_controls/qt_points_controls.py:194
+msgid "n-dim:"
+msgstr "n-dim:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:260
+msgid "preserve labels:"
+msgstr "διατήρηση ετικετών:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:264
+msgid "show selected:"
+msgstr "εμφάνιση επιλεγμένων:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:546
+msgid "Selected label color"
+msgstr "Χρώμα επιλεγμένης ετικέτας"
+
+#: napari/_qt/layer_controls/qt_layer_controls_container.py:54
+msgid "Could not find QtControls for layer of type {type_}"
+msgstr "Αδυναμία εύρεσης του QtControls για το στρώμα του τύπου {type_}"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:102
+#: napari/_qt/layer_controls/qt_shapes_controls.py:220
+msgid "click to set current face color"
+msgstr "κάντε κλικ για ορισμό χρώματος όψης"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:106
+#: napari/_qt/layer_controls/qt_shapes_controls.py:225
+#: napari/_qt/layer_controls/qt_vectors_controls.py:66
+msgid "click to set current edge color"
+msgstr "κάντε κλικ για να ορίσετε το τρέχον χρώμα ακμής"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:125
+msgid "N-dimensional points"
+msgstr "Ν-διαστάσεων σημεία"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:134
+msgid "Select points (S)"
+msgstr "Επιλογή σημείων (S)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:137
+msgid "Add points (P)"
+msgstr "Προσθήκη σημείων (P)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:143
+msgid "Pan/zoom (Z)"
+msgstr "Pan/zoom (Z)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:151
+msgid "Delete selected points ({key})"
+msgstr "Διαγραφή επιλεγμένων σημείων ({key})"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:158
+#: napari/_qt/layer_controls/qt_shapes_controls.py:232
+msgid "toggle text visibility"
+msgstr "εναλλαγή ορατότητας κειμένου"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:182
+msgid "point size:"
+msgstr "μέγεθος σημείου:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:186
+msgid "symbol:"
+msgstr "σύμβολο:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:188
+#: napari/_qt/layer_controls/qt_shapes_controls.py:246
+msgid "face color:"
+msgstr "χρώμα προσώπου:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:190
+#: napari/_qt/layer_controls/qt_shapes_controls.py:248
+#: napari/_qt/layer_controls/qt_vectors_controls.py:71
+msgid "edge color:"
+msgstr "χρώμα ακμής:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:192
+#: napari/_qt/layer_controls/qt_shapes_controls.py:250
+msgid "display text:"
+msgstr "κείμενο προβολής:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:113
+msgid "Select shapes (S)"
+msgstr "Επιλογή σχημάτων (S)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:119
+msgid "Select vertices (D)"
+msgstr "Επιλογή κορυφών (D)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:125
+msgid "Pan/zoom (Space)"
+msgstr "Pan/zoom (Ρυθμός)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:132
+msgid "Add rectangles (R)"
+msgstr "Προσθήκη ορθογωνίων (R)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:138
+msgid "Add ellipses (E)"
+msgstr "Προσθήκη ελλείψεων (E)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:141
+msgid "Add lines (L)"
+msgstr "Προσθήκη γραμμών (L)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:144
+msgid "Add paths (T)"
+msgstr "Προσθήκη διαδρομών (T)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:150
+msgid "Add polygons (P)"
+msgstr "Προσθήκη πολυγώνων (P)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:156
+msgid "Insert vertex (I)"
+msgstr "Insert vertex (I)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:162
+msgid "Remove vertex (X)"
+msgstr "Αφαίρεση κορυφής (X)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:169
+msgid "Move to front"
+msgstr "Μετακίνηση μπροστά"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:175
+msgid "Move to back"
+msgstr "Μετακίνηση πίσω"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:182
+msgid "Delete selected shapes ({key})"
+msgstr "Διαγραφή επιλεγμένων σχημάτων ({key})"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:242
+msgid "edge width:"
+msgstr "edge width:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:298
+msgid "Mode '{mode}'not recognized"
+msgstr "Λειτουργία '{mode}'δεν αναγνωρίζεται"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:80
+msgid "color by:"
+msgstr "χρώμα κατά:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:88
+msgid "tail width:"
+msgstr "πλάτος ουράς:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:90
+msgid "tail length:"
+msgstr "μήκος ουράς:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:92
+msgid "tail:"
+msgstr "ουρά:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:94
+msgid "show ID:"
+msgstr "show ID:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:96
+msgid "graph:"
+msgstr "γράφημα:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:61
+msgid "edge property:"
+msgstr "ιδιότητα ακμής:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:101
+msgid "width:"
+msgstr "πλάτος:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:103
+msgid "length:"
+msgstr "μήκος:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:107
+msgid "edge color mode:"
+msgstr "λειτουργία χρώματος ακμής:"
+
+#: napari/_qt/perf/qt_debug_menu.py:34
+msgid "&Debug"
+msgstr "&Debug"
+
+#: napari/_qt/perf/qt_debug_menu.py:37
+msgid "Performance Trace"
+msgstr "Ίχνος Απόδοσης"
+
+#: napari/_qt/perf/qt_debug_menu.py:74
+msgid "Start Recording..."
+msgstr "Έναρξη Εγγραφής..."
+
+#: napari/_qt/perf/qt_debug_menu.py:77
+msgid "Start recording a trace file"
+msgstr "Ξεκινήστε την εγγραφή ενός αρχείου ίχνους"
+
+#: napari/_qt/perf/qt_debug_menu.py:86
+msgid "Stop recording a trace file"
+msgstr "Διακοπή καταγραφής αρχείου ίχνους"
+
+#: napari/_qt/perf/qt_debug_menu.py:97
+msgid "Record performance trace file"
+msgstr "Αρχείο ίχνους επιδόσεων εγγραφής"
+
+#: napari/_qt/perf/qt_debug_menu.py:99
+msgid "Trace Files (*.json)"
+msgstr "Αρχεία Εντοπισμού (*.json)"
+
+#: napari/_qt/perf/qt_event_tracing.py:101
+msgid "UnknownEvent:{event}"
+msgstr "Άγνωστο Συμβάν:{event}"
+
+#: napari/_qt/perf/qt_performance.py:43
+msgid "{time_ms:5.0f}ms {name}\n"
+msgstr "{time_ms:5.0f}ms {name}\n"
+
+#: napari/_qt/perf/qt_performance.py:105
+msgid "Draw Time:"
+msgstr "Ώρα Σχεδίασης:"
+
+#: napari/_qt/perf/qt_performance.py:125
+msgid "Show Events Slower Than:"
+msgstr "Εμφάνιση Εκδηλώσεων Αργότερα Από"
+
+#: napari/_qt/perf/qt_performance.py:127
+msgid "milliseconds"
+msgstr "χιλιοστά"
+
+#: napari/_qt/perf/qt_performance.py:181
+msgid "Uptime: {elapsed:.2f}"
+msgstr "Ενημέρωση: {elapsed:.2f}"
+
+#: napari/_qt/widgets/qt_dict_table.py:92
+msgid "Argument 'headers' got item '{h}', which was not found in any of the items in 'data'"
+msgstr "Argument 'headers' got item '{h}', which was not found in any of the items in 'data'"
+
+#: napari/_qt/widgets/qt_dims.py:296
+msgid "loop_mode must be one of {_modes}.  Got: {loop_mode}"
+msgstr "Το loop_mode πρέπει να είναι ένα από τα {_modes}. Got: {loop_mode}"
+
+#: napari/_qt/widgets/qt_dims.py:304
+msgid "axis argument out of range"
+msgstr "παράμετρο άξονα εκτός εμβέλειας"
+
+#: napari/_qt/widgets/qt_dims.py:324
+msgid "Refusing to play a hidden axis"
+msgstr "Άρνηση αναπαραγωγής ενός κρυφού άξονα"
+
+#: napari/_qt/widgets/qt_dims_slider.py:52
+msgid "Current slice for axis {axis}"
+msgstr "Τρέχουσα φέτα για τον άξονα {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:65
+msgid "Total slices for axis {axis}"
+msgstr "Συνολικές φέτες για τον άξονα {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:112
+msgid "Edit to change axis label"
+msgstr "Επεξεργασία για αλλαγή ετικέτας άξονα"
+
+#: napari/_qt/widgets/qt_dims_slider.py:303
+msgid "frame_range value must be a list or tuple"
+msgstr "τιμή frame_range πρέπει να είναι μια λίστα ή σωλήνας"
+
+#: napari/_qt/widgets/qt_dims_slider.py:307
+msgid "frame_range must have a length of 2"
+msgstr "το frame_range πρέπει να έχει μήκος 2"
+
+#: napari/_qt/widgets/qt_dims_slider.py:494
+msgid "frames per second:"
+msgstr "πλαίσια ανά δευτερόλεπτο:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:502
+msgid "play direction:"
+msgstr "να παίξει την κατεύθυνση:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:509
+msgid "play mode:"
+msgstr "λειτουργία παιχνιδιού:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:624
+msgid "frame_range[0] must be <= frame_range[1]"
+msgstr "frame_range[0] πρέπει να είναι <= frame_range[1]"
+
+#: napari/_qt/widgets/qt_dims_slider.py:627
+msgid "frame_range[0] out of range"
+msgstr "frame_range[0] εκτός εμβέλειας"
+
+#: napari/_qt/widgets/qt_dims_slider.py:629
+msgid "frame_range[1] out of range"
+msgstr "frame_range[1] εκτός εμβέλειας"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:362
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: napari/_qt/widgets/qt_layerlist.py:95
+msgid "Layer list"
+msgstr "Λίστα επιπέδων"
+
+#: napari/_qt/widgets/qt_layerlist.py:539
+msgid "Layer thumbnail"
+msgstr "Μικρογραφία στρώματος"
+
+#: napari/_qt/widgets/qt_layerlist.py:546
+msgid "Layer visibility"
+msgstr "Ορατότητα στρώματος"
+
+#: napari/_qt/widgets/qt_layerlist.py:567
+msgid "Layer type"
+msgstr "Τύπος στρώματος"
+
+#: napari/_qt/widgets/qt_layerlist.py:571
+msgid "Click to select\n"
+"Drag to rearrange"
+msgstr "Κάντε κλικ για να επιλέξετε\n"
+"Σύρετε για αναδιάταξη"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:81
+msgid "Click and drag to change call order"
+msgstr "Κάντε κλικ και σύρετε για να αλλάξετε την σειρά κλήσεων"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:97
+msgid "Uncheck to disable this plugin"
+msgstr "Αναίρεση επιλογής για απενεργοποίηση αυτού του πρόσθετου"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:275
+msgid "select hook... "
+msgstr "επιλογή hook... "
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:306
+msgid "select the hook specification to reorder"
+msgstr "επιλέξτε την προδιαγραφή αγκίστρου για αναδιάταξη"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:315
+msgid "Select a hook to rearrange, then drag and drop plugins into the desired call order.\n\n"
+"Disable plugins for a specific hook by unchecking their checkbox."
+msgstr "Επιλέξτε ένα άγκιστρο για να αναδιατάξετε και, στη συνέχεια, σύρετε και αφήστε plugins στην επιθυμητή σειρά κλήσης.\n\n"
+"Απενεργοποιήστε τα plugins για ένα συγκεκριμένο γάντζο καταργώντας το πλαίσιο ελέγχου τους."
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:149
+msgid "current minimum contrast limit"
+msgstr "τρέχον ελάχιστο όριο αντίθεσης"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:150
+msgid "current maximum contrast limit"
+msgstr "τρέχον μέγιστο όριο αντίθεσης"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:158
+msgid "minimum contrast range"
+msgstr "ελάχιστο εύρος αντίθεσης"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:159
+msgid "maximum contrast range"
+msgstr "μέγιστο εύρος αντίθεσης"
+
+#: napari/_qt/widgets/qt_size_preview.py:137
+msgid "preview"
+msgstr "προεπισκόπηση"
+
+#: napari/_qt/widgets/qt_size_preview.py:310
+msgid "Minimum value must be smaller than {}"
+msgstr "Η ελάχιστη τιμή πρέπει να είναι μικρότερη από {}"
+
+#: napari/_qt/widgets/qt_size_preview.py:350
+msgid "Maximum value must be larger than {}"
+msgstr "Η μέγιστη τιμή πρέπει να είναι μεγαλύτερη από {}"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:37
+msgid "New points layer"
+msgstr "Νέο επίπεδο σημείων"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:47
+msgid "New shapes layer"
+msgstr "Νέο στρώμα σχημάτων"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:56
+msgid "New labels layer"
+msgstr "Νέο στρώμα ετικετών"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:104
+msgid "Open IPython terminal ({key1}-{key2}-C)"
+msgstr "Open IPython terminal ({key1}-{key2}-C)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:115
+msgid "Roll dimensions order for display ({key}-E)"
+msgstr "Σειρά διαστάσεων ρολού για εμφάνιση ({key}-E)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:125
+msgid "Transpose displayed dimensions ({key}-T)"
+msgstr "Μεταφορά προβαλλόμενων διαστάσεων ({key}-T)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:134
+msgid "Reset view ({key}-R)"
+msgstr "Επαναφορά προβολής ({key}-R)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:146
+msgid "Toggle grid view ({key}-G)"
+msgstr "Εναλλαγή προβολής πλέγματος ({key}-G)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:160
+msgid "Toggle number of displayed dimensions ({key}-Y)"
+msgstr "Εναλλαγή αριθμού διαστάσεων που εμφανίζονται ({key}-Y)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:200
+msgid "Delete selected layers ({key1}-{key2})"
+msgstr "Διαγραφή επιλεγμένων επιπέδων ({key1}-{key2})"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:157
+msgid "drag to move. double-click to float"
+msgstr "σύρσιμο για μετακίνηση. διπλό κλικ για επιπλέουν"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:163
+msgid "hide this panel"
+msgstr "απόκρυψη αυτού του πίνακα"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:170
+msgid "float this panel"
+msgstr "επιπλέουν σε αυτόν τον πίνακα"
+
