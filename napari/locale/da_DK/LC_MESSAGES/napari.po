@@ -1,0 +1,1269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: napari\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-17 22:09-0500\n"
+"PO-Revision-Date: 2021-03-18 03:57\n"
+"Last-Translator: \n"
+"Language-Team: Danish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: napari\n"
+"X-Crowdin-Project-ID: 443044\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /[goanpeca.napari-language-packs] main/napari/locale/napari.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Language: da_DK\n"
+
+#: napari/components/_viewer_key_bindings.py:16
+msgid "Reset dims scroll progress"
+msgstr "Nulstil dims rulle fremskridt"
+
+#: napari/components/_viewer_key_bindings.py:28
+msgid "Toggle ndisplay."
+msgstr "Skift ndisplay."
+
+#: napari/components/_viewer_key_bindings.py:37
+msgid "Increment dimensions slider to the left."
+msgstr "Forøg dimensionsskyderen til venstre."
+
+#: napari/components/_viewer_key_bindings.py:48
+msgid "Increment dimensions slider to the right."
+msgstr "Forøg dimensioner skyderen til højre."
+
+#: napari/components/_viewer_key_bindings.py:59
+msgid "Move focus of dimensions slider up."
+msgstr "Flyt fokus for dimensioner skyderen op."
+
+#: napari/components/_viewer_key_bindings.py:68
+msgid "Move focus of dimensions slider down."
+msgstr "Flyt fokus for dimensioner skyderen ned."
+
+#: napari/components/_viewer_key_bindings.py:77
+msgid "Change order of the visible axes, e.g. [0, 1, 2] -> [2, 0, 1]."
+msgstr "Ændre rækkefølgen af de synlige akser, f.eks. [0, 1, 2] -> [2, 0, 1]."
+
+#: napari/components/_viewer_key_bindings.py:88
+msgid "Transpose order of the last two visible axes, e.g. [0, 1] -> [1, 0]."
+msgstr "Overfør rækkefølgen af de to sidste synlige akser, f.eks. [0, 1] -> [1, 0]."
+
+#: napari/components/_viewer_key_bindings.py:100
+msgid "Remove selected layers."
+msgstr "Fjern markerede lag."
+
+#: napari/components/_viewer_key_bindings.py:109
+msgid "Selected all layers."
+msgstr "Valgte alle lag."
+
+#: napari/components/_viewer_key_bindings.py:120
+msgid "Remove all layers."
+msgstr "Fjern alle lag."
+
+#: napari/components/_viewer_key_bindings.py:129
+msgid "Select layer above."
+msgstr "Vælg lag ovenfor."
+
+#: napari/components/_viewer_key_bindings.py:138
+msgid "Select layer below."
+msgstr "Vælg lag nedenfor."
+
+#: napari/components/_viewer_key_bindings.py:147
+msgid "Also select layer above."
+msgstr "Vælg også lag ovenfor."
+
+#: napari/components/_viewer_key_bindings.py:156
+msgid "Also select layer below."
+msgstr "Vælg også lag nedenfor."
+
+#: napari/components/_viewer_key_bindings.py:165
+msgid "Reset view to original state."
+msgstr "Nulstil visning til oprindelig tilstand."
+
+#: napari/components/_viewer_key_bindings.py:174
+msgid "Toggle grid mode."
+msgstr "Skift gittertilstand."
+
+#: napari/components/_viewer_key_bindings.py:183
+msgid "Toggle visibility of selected layers"
+msgstr "Slå synlighed for markerede lag til/fra"
+
+#: napari/layers/base/_base_constants.py:34
+msgid "translucent"
+msgstr "Gennemsigtig"
+
+#: napari/layers/base/_base_constants.py:35
+msgid "additive"
+msgstr "tilsætningsstof"
+
+#: napari/layers/base/_base_constants.py:36
+msgid "opaque"
+msgstr "uigennemsigtig"
+
+#: napari/layers/labels/_labels_constants.py:71
+msgid "circle"
+msgstr "cirkel"
+
+#: napari/layers/labels/_labels_constants.py:72
+#: napari/layers/points/_points_constants.py:91
+msgid "square"
+msgstr "firkant"
+
+#: napari/layers/labels/_labels_constants.py:77
+msgid "auto"
+msgstr "auto"
+
+#: napari/layers/labels/_labels_constants.py:78
+msgid "direct"
+msgstr "direkte"
+
+#: napari/layers/labels/labels.py:245 napari/layers/labels/labels.py:533
+msgid "enter paint or fill mode to edit labels"
+msgstr "indtast maling eller udfyld tilstand for at redigere etiketter"
+
+#: napari/layers/labels/labels.py:420
+msgid "cannot reduce selected label below 0"
+msgstr "kan ikke reducere valgte etiket under 0"
+
+#: napari/layers/labels/labels.py:458
+msgid "Unsupported Color Mode"
+msgstr "Ikke-Understøttet Farvetilstand"
+
+#: napari/layers/labels/labels.py:537
+msgid "hold <space> to pan/zoom, click to pick a label"
+msgstr "hold <space> for at panorere/zoom, klik for at vælge en etiket"
+
+#: napari/layers/labels/labels.py:550
+msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
+msgstr "hold <space> nede for at pan/zoom, hold <shift> nede for at skifte preserve_labels, hold <control> for at udfylde, hold <alt> for at slette, træk for at male en etiket"
+
+#: napari/layers/labels/labels.py:561
+msgid "hold <space> to pan/zoom, click to fill a label"
+msgstr "hold <space> for at panorere/zoom, klik for at udfylde en etiket"
+
+#: napari/layers/labels/labels.py:574
+msgid "hold <space> to pan/zoom, drag to erase a label"
+msgstr "hold <space> for at pan/zoom, træk for at slette en etiket"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:297
+#: napari/_qt/layer_controls/qt_points_controls.py:226
+#: napari/layers/labels/labels.py:579 napari/layers/shapes/shapes.py:1405
+msgid "Mode not recognized"
+msgstr "Tilstand ikke genkendt"
+
+#: napari/layers/points/_points_constants.py:84
+msgid "arrow"
+msgstr "pil"
+
+#: napari/layers/points/_points_constants.py:85
+msgid "clobber"
+msgstr "klober"
+
+#: napari/layers/points/_points_constants.py:86
+msgid "cross"
+msgstr "kryds"
+
+#: napari/layers/points/_points_constants.py:87
+msgid "diamond"
+msgstr "diamant"
+
+#: napari/layers/points/_points_constants.py:88
+msgid "disc"
+msgstr "disk"
+
+#: napari/layers/points/_points_constants.py:89
+msgid "hbar"
+msgstr "bjælke"
+
+#: napari/layers/points/_points_constants.py:90
+msgid "ring"
+msgstr "ring"
+
+#: napari/layers/points/_points_constants.py:92
+msgid "star"
+msgstr "stjerne"
+
+#: napari/layers/points/_points_constants.py:93
+msgid "tailed arrow"
+msgstr "halet pil"
+
+#: napari/layers/points/_points_constants.py:94
+msgid "triangle down"
+msgstr "trekant ned"
+
+#: napari/layers/points/_points_constants.py:95
+msgid "triangle up"
+msgstr "trekant op"
+
+#: napari/layers/points/_points_constants.py:96
+msgid "vbar"
+msgstr "vbar"
+
+#: napari/layers/points/_points_constants.py:97
+msgid "x"
+msgstr "x"
+
+#: napari/layers/shapes/shapes.py:331
+msgid "Shape dimensions must be equal to ndim"
+msgstr "Form dimensioner skal være lig med ndim"
+
+#: napari/layers/shapes/shapes.py:397
+msgid "text should be a string, array, or dict"
+msgstr "tekst skal være en streng, array eller dict"
+
+#: napari/layers/shapes/shapes.py:435 napari/layers/shapes/shapes.py:1364
+msgid "enter a selection mode to edit shape properties"
+msgstr "indtast en markeringstilstand for at redigere formegenskaber"
+
+#: napari/layers/shapes/shapes.py:1371
+msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
+msgstr "hold <space> for pan/zoom, tryk <{BACKSPACE}> for at fjerne valgte"
+
+#: napari/layers/shapes/shapes.py:1380 napari/layers/shapes/shapes.py:1389
+msgid "hold <space> to pan/zoom"
+msgstr "hold <space> til pan/zoom"
+
+#: napari/layers/shapes/shapes.py:1399
+msgid "hold <space> to pan/zoom, press <esc> to finish drawing"
+msgstr "hold <space> for at panorere/zoom, tryk <esc> for at afslutte tegningen"
+
+#: napari/utils/settings/_defaults.py:33
+msgid "must be a string"
+msgstr "skal være en streng"
+
+#: napari/utils/settings/_defaults.py:39
+msgid "must be one of {}"
+msgstr "skal være en af {}"
+
+#: napari/utils/settings/_defaults.py:66
+msgid "Theme selection."
+msgstr "Vælg tema."
+
+#: napari/_qt/qt_main_window.py:269
+msgid "Ready"
+msgstr "Klar"
+
+#: napari/_qt/qt_main_window.py:308
+msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "Attributten 'raw_stylesheet' er forældet og fjernes i version 0.4.7. Brug venligst 'napari.qt.get_stylesheet' i stedet"
+
+#: napari/_qt/qt_main_window.py:354
+msgid "Open File(s)..."
+msgstr "Åbn Filer..."
+
+#: napari/_qt/qt_main_window.py:356
+msgid "Open file(s)"
+msgstr "Åbn fil(er)"
+
+#: napari/_qt/qt_main_window.py:360
+msgid "Open Files as Stack..."
+msgstr "Åbn filer som stak..."
+
+#: napari/_qt/qt_main_window.py:363
+msgid "Open files"
+msgstr "Åbn filer"
+
+#: napari/_qt/qt_main_window.py:368
+msgid "Open Folder..."
+msgstr "Åbn Mappe..."
+
+#: napari/_qt/qt_main_window.py:370
+msgid "Open a folder"
+msgstr "Åbn en mappe"
+
+#: napari/_qt/dialogs/preferences_dialog.py:36 napari/_qt/qt_main_window.py:374
+msgid "Preferences"
+msgstr "Præferencer"
+
+#: napari/_qt/qt_main_window.py:376
+msgid "Open preferences dialog"
+msgstr "Åbn indstillingsdialog"
+
+#: napari/_qt/qt_main_window.py:380
+msgid "Save Selected Layer(s)..."
+msgstr "Gem Markerede Lag(ker)..."
+
+#: napari/_qt/qt_main_window.py:383
+msgid "Save selected layers"
+msgstr "Gem valgte lag"
+
+#: napari/_qt/qt_main_window.py:389
+msgid "Save All Layers..."
+msgstr "Gem Alle Lag..."
+
+#: napari/_qt/qt_main_window.py:392
+msgid "Save all layers"
+msgstr "Gem alle lag"
+
+#: napari/_qt/qt_main_window.py:397
+msgid "Save Screenshot..."
+msgstr "Gem Skærmbillede..."
+
+#: napari/_qt/qt_main_window.py:400
+msgid "Save screenshot of current display, default .png"
+msgstr "Gem skærmbillede af det aktuelle display, standard .png"
+
+#: napari/_qt/qt_main_window.py:405
+msgid "Save Screenshot with Viewer..."
+msgstr "Gem skærmbillede med fremviser..."
+
+#: napari/_qt/qt_main_window.py:409
+msgid "Save screenshot of current display with the viewer, default .png"
+msgstr "Gem skærmbillede af den aktuelle skærm med fremviseren, standard .png"
+
+#: napari/_qt/qt_main_window.py:417
+msgid "Exit"
+msgstr "Afslut"
+
+#: napari/_qt/qt_main_window.py:424
+msgid "Close window"
+msgstr "Luk vindue"
+
+#: napari/_qt/qt_main_window.py:428
+msgid "&File"
+msgstr "&Fil"
+
+#: napari/_qt/qt_main_window.py:452
+msgid "Toggle Menubar Visibility"
+msgstr "Slå Menulinje Synlighed Til"
+
+#: napari/_qt/qt_main_window.py:455
+msgid "Hide Menubar"
+msgstr "Hide Menubar"
+
+#: napari/_qt/qt_main_window.py:457
+msgid "Toggle Theme"
+msgstr "Skift Tema"
+
+#: napari/_qt/qt_main_window.py:459
+msgid "Toggle theme"
+msgstr "Skift tema"
+
+#: napari/_qt/qt_main_window.py:462
+msgid "Toggle Full Screen"
+msgstr "Skift Fuld Skærm"
+
+#: napari/_qt/qt_main_window.py:465
+msgid "Toggle full screen"
+msgstr "Slå fuldskærm til/fra"
+
+#: napari/_qt/qt_main_window.py:467 napari/_qt/qt_main_window.py:470
+msgid "Toggle Play"
+msgstr "Skift Afspil"
+
+#: napari/_qt/qt_main_window.py:472
+msgid "&View"
+msgstr "&Vis"
+
+#: napari/_qt/qt_main_window.py:482 napari/_qt/qt_main_window.py:488
+msgid "Toggle Chunk Outlines"
+msgstr "Slå Chunk Omrids Til/Fra"
+
+#: napari/_qt/qt_main_window.py:492
+msgid "Axes"
+msgstr "Akser"
+
+#: napari/_qt/qt_main_window.py:494 napari/_qt/qt_main_window.py:538
+msgid "Visible"
+msgstr "Synlig"
+
+#: napari/_qt/qt_main_window.py:501 napari/_qt/qt_main_window.py:547
+msgid "Colored"
+msgstr "Farvet"
+
+#: napari/_qt/qt_main_window.py:508
+msgid "Labels"
+msgstr "Etiketter"
+
+#: napari/_qt/qt_main_window.py:515
+msgid "Dashed"
+msgstr "Stiplet"
+
+#: napari/_qt/qt_main_window.py:522
+msgid "Arrows"
+msgstr "Pile"
+
+#: napari/_qt/qt_main_window.py:536
+msgid "Scale Bar"
+msgstr "Skalér Linje"
+
+#: napari/_qt/qt_main_window.py:556
+msgid "Ticks"
+msgstr "Flåter"
+
+#: napari/_qt/qt_main_window.py:571
+msgid "Close Window"
+msgstr "Luk Vindue"
+
+#: napari/_qt/qt_main_window.py:573
+msgid "Close napari window"
+msgstr "Luk napari vindue"
+
+#: napari/_qt/qt_main_window.py:576
+msgid "Remove Dock Widgets"
+msgstr "Fjern Dock Widgets"
+
+#: napari/_qt/qt_main_window.py:577
+msgid "Remove all dock widgets"
+msgstr "Fjern alle dock widgets"
+
+#: napari/_qt/qt_main_window.py:582
+msgid "&Window"
+msgstr "&Vindue"
+
+#: napari/_qt/qt_main_window.py:589
+msgid "&Plugins"
+msgstr "&Plugins"
+
+#: napari/_qt/qt_main_window.py:592
+msgid "Install/Uninstall Package(s)..."
+msgstr "Installér/Afinstaller Pakke(r)..."
+
+#: napari/_qt/qt_main_window.py:598
+msgid "Plugin Call Order..."
+msgstr "Plugin Opkaldsrækkefølge..."
+
+#: napari/_qt/qt_main_window.py:601
+msgid "Change call order for plugins"
+msgstr "Skift opkaldsordre for plugins"
+
+#: napari/_qt/qt_main_window.py:607
+msgid "Plugin Errors..."
+msgstr "Plugin Fejl..."
+
+#: napari/_qt/qt_main_window.py:610
+msgid "Review stack traces for plugin exceptions and notify developers"
+msgstr "Gennemgå stak spor for plugin undtagelser og underrette udviklere"
+
+#: napari/_qt/qt_main_window.py:618
+msgid "Add Dock Widget"
+msgstr "Tilføj Dock- Widget"
+
+#: napari/_qt/qt_main_window.py:661 napari/_qt/widgets/qt_plugin_sorter.py:311
+msgid "Plugin Sorter"
+msgstr "Plugin Sortering"
+
+#: napari/_qt/qt_main_window.py:676
+msgid "&Help"
+msgstr "&Hjælp"
+
+#: napari/_qt/qt_main_window.py:678
+msgid "napari Info"
+msgstr "napari Info"
+
+#: napari/_qt/qt_main_window.py:680
+msgid "About napari"
+msgstr "Om napari"
+
+#: napari/_qt/qt_main_window.py:687
+msgid "Show Key Bindings"
+msgstr "Vis Nøglebindinger"
+
+#: napari/_qt/qt_main_window.py:691
+msgid "key_bindings"
+msgstr "key_bindings"
+
+#: napari/_qt/qt_main_window.py:931
+msgid "Could not find a dock widget containing: {widget}"
+msgstr "Kunne ikke finde en dock- widget indeholdende: {widget}"
+
+#: napari/_qt/qt_main_window.py:1048 napari/_qt/qt_main_window.py:1060
+msgid "This viewer has already been closed and deleted. Please create a new one."
+msgstr "Denne fremviser er allerede blevet lukket og slettet. Opret venligst en ny."
+
+#: napari/_qt/qt_main_window.py:1076
+msgid "The window geometry settings could not be loaded due to the following error: {err}"
+msgstr "Vinduets geometriindstillinger kunne ikke indlæses på grund af følgende fejl: {err}"
+
+#: napari/_qt/qt_viewer.py:122
+msgid "layer list"
+msgstr "lag liste"
+
+#: napari/_qt/qt_viewer.py:130
+msgid "layer controls"
+msgstr "lag kontrol"
+
+#: napari/_qt/qt_viewer.py:138
+msgid "console"
+msgstr "konsol"
+
+#: napari/_qt/qt_viewer.py:227
+msgid "The 'raw_stylesheet' attribute is deprecated and will beremoved in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "Attributten 'raw_stylesheet' er forældet og vil beremoved i version 0.4.7. Brug venligst 'napari.qt.get_stylesheet' i stedet"
+
+#: napari/_qt/qt_viewer.py:298
+msgid "performance"
+msgstr "ydelse"
+
+#: napari/_qt/qt_viewer.py:314
+msgid "napari-console not found. It can be installed with \"pip install napari_console\""
+msgstr "napari-konsol ikke fundet. Den kan installeres med \"pip install napari_console\""
+
+#: napari/_qt/qt_viewer.py:439
+msgid "There are no layers in the viewer to save"
+msgstr "Der er ingen lag i fremviseren at gemme"
+
+#: napari/_qt/qt_viewer.py:441
+msgid "Please select one or more layers to save,\n"
+"or use \"Save all layers...\""
+msgstr "Vælg et eller flere lag at gemme,\n"
+"eller brug \"Gem alle lag ...\""
+
+#: napari/_qt/qt_viewer.py:446
+msgid "Nothing to save"
+msgstr "Intet at gemme"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "selected"
+msgstr "valgt"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "all"
+msgstr "alle"
+
+#: napari/_qt/qt_viewer.py:451
+msgid "Save {msg} layers"
+msgstr "Gem {msg} lag"
+
+#: napari/_qt/qt_viewer.py:464
+msgid "File {filename} save failed.\n"
+"{error_messages}"
+msgstr "Gemning af filen {filename} mislykkedes.\n"
+"{error_messages}"
+
+#: napari/_qt/qt_viewer.py:499
+msgid "Select file(s)..."
+msgstr "Vælg fil(er)..."
+
+#: napari/_qt/qt_viewer.py:509
+msgid "Select files..."
+msgstr "Vælg filer..."
+
+#: napari/_qt/qt_viewer.py:519
+msgid "Select folder..."
+msgstr "Vælg mappe..."
+
+#: napari/_qt/dialogs/preferences_dialog.py:31
+#: napari/_qt/dialogs/preferences_dialog.py:214
+msgid "Cancel"
+msgstr "Annuller"
+
+#: napari/_qt/dialogs/preferences_dialog.py:32
+msgid "OK"
+msgstr "Ok"
+
+#: napari/_qt/dialogs/preferences_dialog.py:33
+msgid "Restore defaults"
+msgstr "Gendan standarder"
+
+#: napari/_qt/dialogs/preferences_dialog.py:96
+msgid "Are you sure you want to restore default settings?"
+msgstr "Er du sikker på, at du vil gendanne standardindstillinger?"
+
+#: napari/_qt/dialogs/preferences_dialog.py:213
+msgid "Restore"
+msgstr "Gendan"
+
+#: napari/_qt/dialogs/qt_about.py:50
+msgid "<b>napari: a multi-dimensional image viewer for python</b>"
+msgstr "<b>napari: en multi-dimensional billedfremviser til python</b>"
+
+#: napari/_qt/dialogs/qt_about.py:75
+msgid "<b>citation information:</b>"
+msgstr "<b>henvisningsoplysninger:</b>"
+
+#: napari/_qt/dialogs/qt_about.py:100
+msgid "About"
+msgstr "Om"
+
+#: napari/_qt/dialogs/qt_about.py:123
+msgid "Copy to clipboard"
+msgstr "Kopiér til udklipsholder"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:52
+msgid "All active key bindings"
+msgstr "Alle aktive tastebindinger"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:60
+msgid "Keybindings"
+msgstr "Tastebindinger"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:84
+msgid "No key bindings"
+msgstr "Ingen tastebindinger"
+
+#: napari/_qt/dialogs/qt_notification.py:104
+msgid "Source: {source}"
+msgstr "Kilde: {source}"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:123
+msgid "remove"
+msgstr "fjern"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:133
+msgid "close"
+msgstr "luk"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:149
+msgid "install"
+msgstr "installer"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:167
+msgid "enable/disable"
+msgstr "aktiver/deaktiver"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:283
+msgid "update (v{latest})"
+msgstr "update (v{latest})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:380
+msgid "Installed Plugins"
+msgstr "Installerede Plugins"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:387
+msgid "Available Plugins"
+msgstr "Tilgængelige Plugins"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:398
+msgid "loading ..."
+msgstr "indlæser ..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:414
+msgid "install by name/url, or drop file..."
+msgstr "installer ved navn/url, eller drop fil..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:416
+msgid "Install"
+msgstr "Installér"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:419
+#: napari/_qt/dialogs/qt_plugin_dialog.py:476
+msgid "Show Status"
+msgstr "Vis Status"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:421
+#: napari/_qt/dialogs/qt_plugin_dialog.py:468
+msgid "<< Show Sorter"
+msgstr "<< Vis Sortering"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:422
+msgid "Close"
+msgstr "Luk"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:448
+msgid "Available Plugins ({count})"
+msgstr "Tilgængelige plugins ({count})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:465
+msgid ">> Hide Sorter"
+msgstr ">> Skjul Sortering"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:473
+msgid "Hide Status"
+msgstr "Skjul Status"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:52
+msgid "select plugin... "
+msgstr "vælg plugin... "
+
+#: napari/_qt/dialogs/qt_plugin_report.py:69
+msgid "Recorded Plugin Exceptions"
+msgstr "Optagede Plugin Undtagelser"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:89
+msgid "Open issue on GitHub"
+msgstr "Åbn problem på GitHub"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:91
+msgid "Open a web browser to submit this error log\n"
+"to the developer's GitHub issue tracker"
+msgstr "Åbn en webbrowser for at indsende denne fejllog\n"
+"til udviklerens GitHub issue tracker"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:103
+msgid "Copy error log to clipboard"
+msgstr "Kopiér fejllog til udklipsholder"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:161
+msgid "No errors reported for plugin '{plugin}'"
+msgstr "Ingen fejl rapporteret for plugin '{plugin}'"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:31
+msgid "Save screenshot"
+msgstr "Gem skærmbillede"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:35
+msgid "Image files (*.png *.bmp *.gif *.tif *.tiff)"
+msgstr "Billedfiler (*.png *.bmp *.gif *.tif *.tiff)"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:48
+msgid "Confirm overwrite"
+msgstr "Bekræft overskrivning"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:50
+msgid "{save_path} already exists. Do you want to replace it?"
+msgstr "{save_path} findes allerede. Vil du erstatte den?"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:56
+msgid "interpolation:"
+msgstr "interpolation:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:66
+msgid "rendering:"
+msgstr "gengivelse:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:76
+msgid "iso threshold:"
+msgstr "iso tærskel:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:86
+msgid "attenuation:"
+msgstr "svækkelse:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:101
+#: napari/_qt/layer_controls/qt_labels_controls.py:243
+#: napari/_qt/layer_controls/qt_points_controls.py:180
+#: napari/_qt/layer_controls/qt_shapes_controls.py:240
+#: napari/_qt/layer_controls/qt_surface_controls.py:34
+#: napari/_qt/layer_controls/qt_tracks_controls.py:86
+#: napari/_qt/layer_controls/qt_vectors_controls.py:99
+msgid "opacity:"
+msgstr "ugennemsigtighed:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:103
+#: napari/_qt/layer_controls/qt_surface_controls.py:36
+msgid "contrast limits:"
+msgstr "kontrast grænser:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:105
+#: napari/_qt/layer_controls/qt_surface_controls.py:38
+msgid "gamma:"
+msgstr "gamma:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:107
+#: napari/_qt/layer_controls/qt_surface_controls.py:40
+#: napari/_qt/layer_controls/qt_tracks_controls.py:82
+msgid "colormap:"
+msgstr "colormap:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:109
+#: napari/_qt/layer_controls/qt_labels_controls.py:249
+#: napari/_qt/layer_controls/qt_points_controls.py:184
+#: napari/_qt/layer_controls/qt_shapes_controls.py:244
+#: napari/_qt/layer_controls/qt_surface_controls.py:42
+#: napari/_qt/layer_controls/qt_tracks_controls.py:84
+#: napari/_qt/layer_controls/qt_vectors_controls.py:105
+msgid "blending:"
+msgstr "blanding:"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:86
+msgid "Colorbar"
+msgstr "Farvelinje"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:231
+msgid "Layer {layer} must have attribute {range_attr} to use \"create_range_popup\""
+msgstr "Lag {layer} skal have attribut {range_attr} for at bruge \"create_range_popup\""
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:291
+msgid "autoscale contrast to data range"
+msgstr "autoskalere kontrast til data-interval"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:302
+msgid "set contrast range to full bit-depth"
+msgstr "sæt kontrastinterval til fuld bitdybde"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:108
+msgid "contiguous editing"
+msgstr "sammenhængende redigering"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:114
+msgid "edit all dimensions"
+msgstr "redigere alle dimensioner"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:120
+msgid "display contours of labels"
+msgstr "vis konturer af etiketter"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:132
+msgid "preserve existing labels while painting"
+msgstr "bevare eksisterende etiketter under maling"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:140
+msgid "Display only selected label"
+msgstr "Vis kun valgt etiket"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:150
+msgid "shuffle colors"
+msgstr "blander farver"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:157
+msgid "Pan/zoom mode (Space)"
+msgstr "Pan/zoomtilstand (mellemrum)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:161
+msgid "Pick mode (L)"
+msgstr "Vælg tilstand (L)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:164
+msgid "Paint mode (P)"
+msgstr "Paint mode (P)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:171
+msgid "Fill mode (F) \n"
+"Toggle with {key}"
+msgstr "Udfyld tilstand (F) \n"
+"Skift med {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:181
+msgid "Erase mode (E) \n"
+"Toggle with {key}"
+msgstr "Slet tilstand (E) \n"
+"Slå til/fra med {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:241
+msgid "label:"
+msgstr "etiket:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:245
+msgid "brush size:"
+msgstr "børste størrelse:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:247
+msgid "brush shape:"
+msgstr "børste form:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:251
+msgid "color mode:"
+msgstr "farvetilstand:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:253
+msgid "contour:"
+msgstr "kontur:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:255
+msgid "contiguous:"
+msgstr "contiguous:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:257
+#: napari/_qt/layer_controls/qt_points_controls.py:194
+msgid "n-dim:"
+msgstr "n-dim:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:260
+msgid "preserve labels:"
+msgstr "bevare etiketter:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:264
+msgid "show selected:"
+msgstr "show valgt:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:546
+msgid "Selected label color"
+msgstr "Valgt etiketfarve"
+
+#: napari/_qt/layer_controls/qt_layer_controls_container.py:54
+msgid "Could not find QtControls for layer of type {type_}"
+msgstr "Kunne ikke finde QtControls for lag af typen {type_}"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:102
+#: napari/_qt/layer_controls/qt_shapes_controls.py:220
+msgid "click to set current face color"
+msgstr "klik for at indstille nuværende ansigtsfarve"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:106
+#: napari/_qt/layer_controls/qt_shapes_controls.py:225
+#: napari/_qt/layer_controls/qt_vectors_controls.py:66
+msgid "click to set current edge color"
+msgstr "klik for at indstille nuværende kantfarve"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:125
+msgid "N-dimensional points"
+msgstr "N-dimensionelle punkter"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:134
+msgid "Select points (S)"
+msgstr "Vælg point (S)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:137
+msgid "Add points (P)"
+msgstr "Tilføj point (P)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:143
+msgid "Pan/zoom (Z)"
+msgstr "Pan/zoom (Z)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:151
+msgid "Delete selected points ({key})"
+msgstr "Slet valgte punkter ({key})"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:158
+#: napari/_qt/layer_controls/qt_shapes_controls.py:232
+msgid "toggle text visibility"
+msgstr "skift tekstsynlighed"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:182
+msgid "point size:"
+msgstr "punktstørrelse:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:186
+msgid "symbol:"
+msgstr "symbol:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:188
+#: napari/_qt/layer_controls/qt_shapes_controls.py:246
+msgid "face color:"
+msgstr "ansigtsfarve:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:190
+#: napari/_qt/layer_controls/qt_shapes_controls.py:248
+#: napari/_qt/layer_controls/qt_vectors_controls.py:71
+msgid "edge color:"
+msgstr "kantfarve:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:192
+#: napari/_qt/layer_controls/qt_shapes_controls.py:250
+msgid "display text:"
+msgstr "Vis tekst:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:113
+msgid "Select shapes (S)"
+msgstr "Vælg former (S)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:119
+msgid "Select vertices (D)"
+msgstr "Vælg knudepunkter (D)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:125
+msgid "Pan/zoom (Space)"
+msgstr "Pan/zoom (mellemrum)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:132
+msgid "Add rectangles (R)"
+msgstr "Tilføj rektangler (R)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:138
+msgid "Add ellipses (E)"
+msgstr "Tilføj ellipser (E)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:141
+msgid "Add lines (L)"
+msgstr "Tilføj linjer (L)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:144
+msgid "Add paths (T)"
+msgstr "Tilføj stier (T)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:150
+msgid "Add polygons (P)"
+msgstr "Tilføj polygoner (P)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:156
+msgid "Insert vertex (I)"
+msgstr "Insert vertex (I)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:162
+msgid "Remove vertex (X)"
+msgstr "Fjern vertex (X)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:169
+msgid "Move to front"
+msgstr "Flyt til forsiden"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:175
+msgid "Move to back"
+msgstr "Flyt til tilbage"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:182
+msgid "Delete selected shapes ({key})"
+msgstr "Slet valgte former ({key})"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:242
+msgid "edge width:"
+msgstr "edge width:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:298
+msgid "Mode '{mode}'not recognized"
+msgstr "Tilstand'{mode}'ikke genkendt"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:80
+msgid "color by:"
+msgstr "farve ved:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:88
+msgid "tail width:"
+msgstr "halebredde:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:90
+msgid "tail length:"
+msgstr "halelængde:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:92
+msgid "tail:"
+msgstr "hale:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:94
+msgid "show ID:"
+msgstr "show ID:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:96
+msgid "graph:"
+msgstr "graf:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:61
+msgid "edge property:"
+msgstr "kantegenskab:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:101
+msgid "width:"
+msgstr "bredde:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:103
+msgid "length:"
+msgstr "længde:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:107
+msgid "edge color mode:"
+msgstr "kantfarve tilstand:"
+
+#: napari/_qt/perf/qt_debug_menu.py:34
+msgid "&Debug"
+msgstr "&Debug"
+
+#: napari/_qt/perf/qt_debug_menu.py:37
+msgid "Performance Trace"
+msgstr "Ydeevne Trace"
+
+#: napari/_qt/perf/qt_debug_menu.py:74
+msgid "Start Recording..."
+msgstr "Start Optagelse..."
+
+#: napari/_qt/perf/qt_debug_menu.py:77
+msgid "Start recording a trace file"
+msgstr "Begynd at optage en sporfil"
+
+#: napari/_qt/perf/qt_debug_menu.py:86
+msgid "Stop recording a trace file"
+msgstr "Stop optagelse af en sporfil"
+
+#: napari/_qt/perf/qt_debug_menu.py:97
+msgid "Record performance trace file"
+msgstr "Optag sporingsfil for ydeevne"
+
+#: napari/_qt/perf/qt_debug_menu.py:99
+msgid "Trace Files (*.json)"
+msgstr "Sporingsfiler (*.json)"
+
+#: napari/_qt/perf/qt_event_tracing.py:101
+msgid "UnknownEvent:{event}"
+msgstr "Ukendt begivenhed:{event}"
+
+#: napari/_qt/perf/qt_performance.py:43
+msgid "{time_ms:5.0f}ms {name}\n"
+msgstr "{time_ms:5.0f}ms {name}\n"
+
+#: napari/_qt/perf/qt_performance.py:105
+msgid "Draw Time:"
+msgstr "Tegn Tid:"
+
+#: napari/_qt/perf/qt_performance.py:125
+msgid "Show Events Slower Than:"
+msgstr "Vis Begivenheder Langsommere end:"
+
+#: napari/_qt/perf/qt_performance.py:127
+msgid "milliseconds"
+msgstr "millisekunder"
+
+#: napari/_qt/perf/qt_performance.py:181
+msgid "Uptime: {elapsed:.2f}"
+msgstr "Oppetid: {elapsed:.2f}"
+
+#: napari/_qt/widgets/qt_dict_table.py:92
+msgid "Argument 'headers' got item '{h}', which was not found in any of the items in 'data'"
+msgstr "Argument 'headers' fik genstand'{h}', som ikke blev fundet i nogen af elementerne i 'data'"
+
+#: napari/_qt/widgets/qt_dims.py:296
+msgid "loop_mode must be one of {_modes}.  Got: {loop_mode}"
+msgstr "loop_mode skal være en af {_modes}. Got: {loop_mode}"
+
+#: napari/_qt/widgets/qt_dims.py:304
+msgid "axis argument out of range"
+msgstr "akse argument uden for rækkevidde"
+
+#: napari/_qt/widgets/qt_dims.py:324
+msgid "Refusing to play a hidden axis"
+msgstr "Nægter at spille en skjult akse"
+
+#: napari/_qt/widgets/qt_dims_slider.py:52
+msgid "Current slice for axis {axis}"
+msgstr "Aktuel skive for akse {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:65
+msgid "Total slices for axis {axis}"
+msgstr "Total skiver for akse {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:112
+msgid "Edit to change axis label"
+msgstr "Rediger for at ændre akseetiket"
+
+#: napari/_qt/widgets/qt_dims_slider.py:303
+msgid "frame_range value must be a list or tuple"
+msgstr "frame_range værdi skal være en liste eller tuple"
+
+#: napari/_qt/widgets/qt_dims_slider.py:307
+msgid "frame_range must have a length of 2"
+msgstr "frame_range skal have en længde på 2"
+
+#: napari/_qt/widgets/qt_dims_slider.py:494
+msgid "frames per second:"
+msgstr "stel pr. sekund:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:502
+msgid "play direction:"
+msgstr "afspil retning:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:509
+msgid "play mode:"
+msgstr "afspil tilstand:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:624
+msgid "frame_range[0] must be <= frame_range[1]"
+msgstr "frame_range[0] must be <= frame_range[1]"
+
+#: napari/_qt/widgets/qt_dims_slider.py:627
+msgid "frame_range[0] out of range"
+msgstr "frame_range[0] udenfor rækkevidde"
+
+#: napari/_qt/widgets/qt_dims_slider.py:629
+msgid "frame_range[1] out of range"
+msgstr "frame_range[1] uden for rækkevidde"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:362
+msgid "Preview"
+msgstr "Eksempelvisning"
+
+#: napari/_qt/widgets/qt_layerlist.py:95
+msgid "Layer list"
+msgstr "Lag liste"
+
+#: napari/_qt/widgets/qt_layerlist.py:539
+msgid "Layer thumbnail"
+msgstr "Miniaturebillede af lag"
+
+#: napari/_qt/widgets/qt_layerlist.py:546
+msgid "Layer visibility"
+msgstr "Lag synlighed"
+
+#: napari/_qt/widgets/qt_layerlist.py:567
+msgid "Layer type"
+msgstr "Lag type"
+
+#: napari/_qt/widgets/qt_layerlist.py:571
+msgid "Click to select\n"
+"Drag to rearrange"
+msgstr "Klik for at vælge\n"
+"Træk for at omarrangere"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:81
+msgid "Click and drag to change call order"
+msgstr "Klik og træk for at ændre opkaldsordre"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:97
+msgid "Uncheck to disable this plugin"
+msgstr "Fjern markeringen for at deaktivere dette plugin"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:275
+msgid "select hook... "
+msgstr "vælg hook... "
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:306
+msgid "select the hook specification to reorder"
+msgstr "vælg krogspecifikationen for at genbestille"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:315
+msgid "Select a hook to rearrange, then drag and drop plugins into the desired call order.\n\n"
+"Disable plugins for a specific hook by unchecking their checkbox."
+msgstr "Vælg en krog til at omarrangere, og træk og slip plugins i den ønskede opkaldsrækkefølge.\n\n"
+"Deaktivér plugins for en bestemt krog ved at fjerne markeringen af deres afkrydsningsfelt."
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:149
+msgid "current minimum contrast limit"
+msgstr "nuværende minimum kontrast grænse"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:150
+msgid "current maximum contrast limit"
+msgstr "nuværende maksimale kontrastgrænse"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:158
+msgid "minimum contrast range"
+msgstr "minimum kontrastinterval"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:159
+msgid "maximum contrast range"
+msgstr "maksimalt kontrastinterval"
+
+#: napari/_qt/widgets/qt_size_preview.py:137
+msgid "preview"
+msgstr "forhåndsvisning"
+
+#: napari/_qt/widgets/qt_size_preview.py:310
+msgid "Minimum value must be smaller than {}"
+msgstr "Minimumsværdien skal være mindre end {}"
+
+#: napari/_qt/widgets/qt_size_preview.py:350
+msgid "Maximum value must be larger than {}"
+msgstr "Maksimumværdi skal være større end {}"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:37
+msgid "New points layer"
+msgstr "Nyt punkt-lag"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:47
+msgid "New shapes layer"
+msgstr "Nye figurer lag"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:56
+msgid "New labels layer"
+msgstr "Nye etiketter lag"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:104
+msgid "Open IPython terminal ({key1}-{key2}-C)"
+msgstr "Open IPython terminal ({key1}-{key2}-C)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:115
+msgid "Roll dimensions order for display ({key}-E)"
+msgstr "Roll dimensionsrækkefølge for visning ({key}-E)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:125
+msgid "Transpose displayed dimensions ({key}-T)"
+msgstr "Transponer viste dimensioner ({key}-T)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:134
+msgid "Reset view ({key}-R)"
+msgstr "Nulstil visning ({key}-R)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:146
+msgid "Toggle grid view ({key}-G)"
+msgstr "Skift gittervisning ({key}-G)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:160
+msgid "Toggle number of displayed dimensions ({key}-Y)"
+msgstr "Slå antallet af viste dimensioner til/fra ({key}-Y)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:200
+msgid "Delete selected layers ({key1}-{key2})"
+msgstr "Slet valgte lag ({key1}-{key2})"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:157
+msgid "drag to move. double-click to float"
+msgstr "træk for at flytte. dobbeltklik for at flyde"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:163
+msgid "hide this panel"
+msgstr "skjul dette panel"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:170
+msgid "float this panel"
+msgstr "flyd dette panel"
+
