@@ -1,0 +1,1269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: napari\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-17 22:09-0500\n"
+"PO-Revision-Date: 2021-03-18 03:57\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: napari\n"
+"X-Crowdin-Project-ID: 443044\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /[goanpeca.napari-language-packs] main/napari/locale/napari.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Language: zh_CN\n"
+
+#: napari/components/_viewer_key_bindings.py:16
+msgid "Reset dims scroll progress"
+msgstr "重置变暗滚动进度"
+
+#: napari/components/_viewer_key_bindings.py:28
+msgid "Toggle ndisplay."
+msgstr "切换ndisplay。"
+
+#: napari/components/_viewer_key_bindings.py:37
+msgid "Increment dimensions slider to the left."
+msgstr "向左增加尺寸滑块。"
+
+#: napari/components/_viewer_key_bindings.py:48
+msgid "Increment dimensions slider to the right."
+msgstr "向右增加尺寸滑块。"
+
+#: napari/components/_viewer_key_bindings.py:59
+msgid "Move focus of dimensions slider up."
+msgstr "向上移动尺寸滑块的焦点。"
+
+#: napari/components/_viewer_key_bindings.py:68
+msgid "Move focus of dimensions slider down."
+msgstr "向下移动尺寸滑块的焦点。"
+
+#: napari/components/_viewer_key_bindings.py:77
+msgid "Change order of the visible axes, e.g. [0, 1, 2] -> [2, 0, 1]."
+msgstr "更改可见轴的顺序，例如 [0, 1, 2] -> [2, 0, 1]。"
+
+#: napari/components/_viewer_key_bindings.py:88
+msgid "Transpose order of the last two visible axes, e.g. [0, 1] -> [1, 0]."
+msgstr "转换最后两个可见轴的顺序，例如 [0, 1] -> [1, 0]。"
+
+#: napari/components/_viewer_key_bindings.py:100
+msgid "Remove selected layers."
+msgstr "删除选中的图层。"
+
+#: napari/components/_viewer_key_bindings.py:109
+msgid "Selected all layers."
+msgstr "选择所有图层。"
+
+#: napari/components/_viewer_key_bindings.py:120
+msgid "Remove all layers."
+msgstr "删除所有图层。"
+
+#: napari/components/_viewer_key_bindings.py:129
+msgid "Select layer above."
+msgstr "选择图层。"
+
+#: napari/components/_viewer_key_bindings.py:138
+msgid "Select layer below."
+msgstr "选择下面的图层"
+
+#: napari/components/_viewer_key_bindings.py:147
+msgid "Also select layer above."
+msgstr "同时选择上面的图层"
+
+#: napari/components/_viewer_key_bindings.py:156
+msgid "Also select layer below."
+msgstr "还在下方选择图层。"
+
+#: napari/components/_viewer_key_bindings.py:165
+msgid "Reset view to original state."
+msgstr "重置视图为原始状态。"
+
+#: napari/components/_viewer_key_bindings.py:174
+msgid "Toggle grid mode."
+msgstr "切换网格模式。"
+
+#: napari/components/_viewer_key_bindings.py:183
+msgid "Toggle visibility of selected layers"
+msgstr "切换选中图层的可见性"
+
+#: napari/layers/base/_base_constants.py:34
+msgid "translucent"
+msgstr "半透明的"
+
+#: napari/layers/base/_base_constants.py:35
+msgid "additive"
+msgstr "添加剂"
+
+#: napari/layers/base/_base_constants.py:36
+msgid "opaque"
+msgstr "不透明度"
+
+#: napari/layers/labels/_labels_constants.py:71
+msgid "circle"
+msgstr "圆圈"
+
+#: napari/layers/labels/_labels_constants.py:72
+#: napari/layers/points/_points_constants.py:91
+msgid "square"
+msgstr "正方形"
+
+#: napari/layers/labels/_labels_constants.py:77
+msgid "auto"
+msgstr "auto"
+
+#: napari/layers/labels/_labels_constants.py:78
+msgid "direct"
+msgstr "直接的"
+
+#: napari/layers/labels/labels.py:245 napari/layers/labels/labels.py:533
+msgid "enter paint or fill mode to edit labels"
+msgstr "输入涂料或填充模式以编辑标签"
+
+#: napari/layers/labels/labels.py:420
+msgid "cannot reduce selected label below 0"
+msgstr "无法减少选中的标签小于0"
+
+#: napari/layers/labels/labels.py:458
+msgid "Unsupported Color Mode"
+msgstr "不支持的颜色模式"
+
+#: napari/layers/labels/labels.py:537
+msgid "hold <space> to pan/zoom, click to pick a label"
+msgstr "按住 <space> 来画面/缩放，点击选择标签"
+
+#: napari/layers/labels/labels.py:550
+msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
+msgstr "按住 <space> 键/缩放，按住 <shift> 键切换预设标签，按住 <control> 键填充，按住 <alt> 键擦除，拖动以绘制标签"
+
+#: napari/layers/labels/labels.py:561
+msgid "hold <space> to pan/zoom, click to fill a label"
+msgstr "按住 <space> 来画面/缩放，点击来填写标签"
+
+#: napari/layers/labels/labels.py:574
+msgid "hold <space> to pan/zoom, drag to erase a label"
+msgstr "按住 <space> 来画面/缩放，拖动以擦除标签"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:297
+#: napari/_qt/layer_controls/qt_points_controls.py:226
+#: napari/layers/labels/labels.py:579 napari/layers/shapes/shapes.py:1405
+msgid "Mode not recognized"
+msgstr "无法识别模式"
+
+#: napari/layers/points/_points_constants.py:84
+msgid "arrow"
+msgstr "箭头"
+
+#: napari/layers/points/_points_constants.py:85
+msgid "clobber"
+msgstr "克隆人"
+
+#: napari/layers/points/_points_constants.py:86
+msgid "cross"
+msgstr "横线"
+
+#: napari/layers/points/_points_constants.py:87
+msgid "diamond"
+msgstr "钻石："
+
+#: napari/layers/points/_points_constants.py:88
+msgid "disc"
+msgstr "盘片"
+
+#: napari/layers/points/_points_constants.py:89
+msgid "hbar"
+msgstr "hbar"
+
+#: napari/layers/points/_points_constants.py:90
+msgid "ring"
+msgstr "铃声"
+
+#: napari/layers/points/_points_constants.py:92
+msgid "star"
+msgstr "星星"
+
+#: napari/layers/points/_points_constants.py:93
+msgid "tailed arrow"
+msgstr "裁剪箭头"
+
+#: napari/layers/points/_points_constants.py:94
+msgid "triangle down"
+msgstr "向下三角形"
+
+#: napari/layers/points/_points_constants.py:95
+msgid "triangle up"
+msgstr "向上三角形"
+
+#: napari/layers/points/_points_constants.py:96
+msgid "vbar"
+msgstr "vbar"
+
+#: napari/layers/points/_points_constants.py:97
+msgid "x"
+msgstr "x"
+
+#: napari/layers/shapes/shapes.py:331
+msgid "Shape dimensions must be equal to ndim"
+msgstr "形状尺寸必须等于 ndim"
+
+#: napari/layers/shapes/shapes.py:397
+msgid "text should be a string, array, or dict"
+msgstr "文本应该是一个字符串、数组或dict"
+
+#: napari/layers/shapes/shapes.py:435 napari/layers/shapes/shapes.py:1364
+msgid "enter a selection mode to edit shape properties"
+msgstr "输入编辑形状属性的选择模式"
+
+#: napari/layers/shapes/shapes.py:1371
+msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
+msgstr "按住 <space> 可画面/缩放，按 <{BACKSPACE}>移除选定的"
+
+#: napari/layers/shapes/shapes.py:1380 napari/layers/shapes/shapes.py:1389
+msgid "hold <space> to pan/zoom"
+msgstr "按住 <space> 来画面/缩放"
+
+#: napari/layers/shapes/shapes.py:1399
+msgid "hold <space> to pan/zoom, press <esc> to finish drawing"
+msgstr "按住 <space> 来画面/缩放，按 <esc> 来完成绘画"
+
+#: napari/utils/settings/_defaults.py:33
+msgid "must be a string"
+msgstr "必须是字符串"
+
+#: napari/utils/settings/_defaults.py:39
+msgid "must be one of {}"
+msgstr "必须是 {} 中的一个"
+
+#: napari/utils/settings/_defaults.py:66
+msgid "Theme selection."
+msgstr "主题选择。"
+
+#: napari/_qt/qt_main_window.py:269
+msgid "Ready"
+msgstr "准备好"
+
+#: napari/_qt/qt_main_window.py:308
+msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "'raw_stylesheet' 属性已废弃，将被删除在 0.4.7版本。请使用 `napari.qt.get_stylesheet` 代替。"
+
+#: napari/_qt/qt_main_window.py:354
+msgid "Open File(s)..."
+msgstr "打开文件(s)..."
+
+#: napari/_qt/qt_main_window.py:356
+msgid "Open file(s)"
+msgstr "打开文件(s)"
+
+#: napari/_qt/qt_main_window.py:360
+msgid "Open Files as Stack..."
+msgstr "以堆栈形式打开文件..."
+
+#: napari/_qt/qt_main_window.py:363
+msgid "Open files"
+msgstr "打开文件"
+
+#: napari/_qt/qt_main_window.py:368
+msgid "Open Folder..."
+msgstr "打开文件夹..."
+
+#: napari/_qt/qt_main_window.py:370
+msgid "Open a folder"
+msgstr "打开文件夹"
+
+#: napari/_qt/dialogs/preferences_dialog.py:36 napari/_qt/qt_main_window.py:374
+msgid "Preferences"
+msgstr "首选项"
+
+#: napari/_qt/qt_main_window.py:376
+msgid "Open preferences dialog"
+msgstr "打开首选项对话框"
+
+#: napari/_qt/qt_main_window.py:380
+msgid "Save Selected Layer(s)..."
+msgstr "保存选中的图层(s)..."
+
+#: napari/_qt/qt_main_window.py:383
+msgid "Save selected layers"
+msgstr "保存选中图层"
+
+#: napari/_qt/qt_main_window.py:389
+msgid "Save All Layers..."
+msgstr "保存所有图层..."
+
+#: napari/_qt/qt_main_window.py:392
+msgid "Save all layers"
+msgstr "保存所有图层"
+
+#: napari/_qt/qt_main_window.py:397
+msgid "Save Screenshot..."
+msgstr "保存屏幕截图..."
+
+#: napari/_qt/qt_main_window.py:400
+msgid "Save screenshot of current display, default .png"
+msgstr "保存当前显示屏幕截图，默认 .png"
+
+#: napari/_qt/qt_main_window.py:405
+msgid "Save Screenshot with Viewer..."
+msgstr "使用查看器保存屏幕截图..."
+
+#: napari/_qt/qt_main_window.py:409
+msgid "Save screenshot of current display with the viewer, default .png"
+msgstr "保存当前显示的屏幕截图与查看器，默认 .png"
+
+#: napari/_qt/qt_main_window.py:417
+msgid "Exit"
+msgstr "退出"
+
+#: napari/_qt/qt_main_window.py:424
+msgid "Close window"
+msgstr "关闭窗口"
+
+#: napari/_qt/qt_main_window.py:428
+msgid "&File"
+msgstr "文件"
+
+#: napari/_qt/qt_main_window.py:452
+msgid "Toggle Menubar Visibility"
+msgstr "切换菜单栏可见性"
+
+#: napari/_qt/qt_main_window.py:455
+msgid "Hide Menubar"
+msgstr "Hide Menubar"
+
+#: napari/_qt/qt_main_window.py:457
+msgid "Toggle Theme"
+msgstr "切换主题"
+
+#: napari/_qt/qt_main_window.py:459
+msgid "Toggle theme"
+msgstr "切换主题"
+
+#: napari/_qt/qt_main_window.py:462
+msgid "Toggle Full Screen"
+msgstr "切换全屏"
+
+#: napari/_qt/qt_main_window.py:465
+msgid "Toggle full screen"
+msgstr "切换全屏"
+
+#: napari/_qt/qt_main_window.py:467 napari/_qt/qt_main_window.py:470
+msgid "Toggle Play"
+msgstr "切换播放"
+
+#: napari/_qt/qt_main_window.py:472
+msgid "&View"
+msgstr "&查看"
+
+#: napari/_qt/qt_main_window.py:482 napari/_qt/qt_main_window.py:488
+msgid "Toggle Chunk Outlines"
+msgstr "切换区块轮廓。"
+
+#: napari/_qt/qt_main_window.py:492
+msgid "Axes"
+msgstr "坐标轴"
+
+#: napari/_qt/qt_main_window.py:494 napari/_qt/qt_main_window.py:538
+msgid "Visible"
+msgstr "可见"
+
+#: napari/_qt/qt_main_window.py:501 napari/_qt/qt_main_window.py:547
+msgid "Colored"
+msgstr "着色"
+
+#: napari/_qt/qt_main_window.py:508
+msgid "Labels"
+msgstr "标签"
+
+#: napari/_qt/qt_main_window.py:515
+msgid "Dashed"
+msgstr "虚线"
+
+#: napari/_qt/qt_main_window.py:522
+msgid "Arrows"
+msgstr "箭头"
+
+#: napari/_qt/qt_main_window.py:536
+msgid "Scale Bar"
+msgstr "缩放栏"
+
+#: napari/_qt/qt_main_window.py:556
+msgid "Ticks"
+msgstr "服务单"
+
+#: napari/_qt/qt_main_window.py:571
+msgid "Close Window"
+msgstr "关闭窗口"
+
+#: napari/_qt/qt_main_window.py:573
+msgid "Close napari window"
+msgstr "关闭napari 窗口"
+
+#: napari/_qt/qt_main_window.py:576
+msgid "Remove Dock Widgets"
+msgstr "移除停靠部件"
+
+#: napari/_qt/qt_main_window.py:577
+msgid "Remove all dock widgets"
+msgstr "移除所有基座部件"
+
+#: napari/_qt/qt_main_window.py:582
+msgid "&Window"
+msgstr "窗口"
+
+#: napari/_qt/qt_main_window.py:589
+msgid "&Plugins"
+msgstr "插件"
+
+#: napari/_qt/qt_main_window.py:592
+msgid "Install/Uninstall Package(s)..."
+msgstr "安装/卸载 Package(s)..."
+
+#: napari/_qt/qt_main_window.py:598
+msgid "Plugin Call Order..."
+msgstr "插件呼叫顺序..."
+
+#: napari/_qt/qt_main_window.py:601
+msgid "Change call order for plugins"
+msgstr "更改插件的通话顺序"
+
+#: napari/_qt/qt_main_window.py:607
+msgid "Plugin Errors..."
+msgstr "插件错误..."
+
+#: napari/_qt/qt_main_window.py:610
+msgid "Review stack traces for plugin exceptions and notify developers"
+msgstr "审查插件异常的堆栈跟踪并通知开发者"
+
+#: napari/_qt/qt_main_window.py:618
+msgid "Add Dock Widget"
+msgstr "添加停靠部件"
+
+#: napari/_qt/qt_main_window.py:661 napari/_qt/widgets/qt_plugin_sorter.py:311
+msgid "Plugin Sorter"
+msgstr "插件排序器"
+
+#: napari/_qt/qt_main_window.py:676
+msgid "&Help"
+msgstr "帮助"
+
+#: napari/_qt/qt_main_window.py:678
+msgid "napari Info"
+msgstr "napari Info"
+
+#: napari/_qt/qt_main_window.py:680
+msgid "About napari"
+msgstr "关于 napari"
+
+#: napari/_qt/qt_main_window.py:687
+msgid "Show Key Bindings"
+msgstr "显示密钥绑定"
+
+#: napari/_qt/qt_main_window.py:691
+msgid "key_bindings"
+msgstr "按键绑定"
+
+#: napari/_qt/qt_main_window.py:931
+msgid "Could not find a dock widget containing: {widget}"
+msgstr "找不到包含: {widget} 的 Dock 部件"
+
+#: napari/_qt/qt_main_window.py:1048 napari/_qt/qt_main_window.py:1060
+msgid "This viewer has already been closed and deleted. Please create a new one."
+msgstr "此查看器已被关闭并删除。请创建一个新的查看器。"
+
+#: napari/_qt/qt_main_window.py:1076
+msgid "The window geometry settings could not be loaded due to the following error: {err}"
+msgstr "由于以下错误无法加载窗口几何设置： {err}"
+
+#: napari/_qt/qt_viewer.py:122
+msgid "layer list"
+msgstr "图层列表"
+
+#: napari/_qt/qt_viewer.py:130
+msgid "layer controls"
+msgstr "图层控制"
+
+#: napari/_qt/qt_viewer.py:138
+msgid "console"
+msgstr "控制台"
+
+#: napari/_qt/qt_viewer.py:227
+msgid "The 'raw_stylesheet' attribute is deprecated and will beremoved in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "'raw_stylesheet'属性已废弃，将被删除于版本 0.4.7。请使用 `napari.qt.get_stylesheet` 代替。"
+
+#: napari/_qt/qt_viewer.py:298
+msgid "performance"
+msgstr "执行情况"
+
+#: napari/_qt/qt_viewer.py:314
+msgid "napari-console not found. It can be installed with \"pip install napari_console\""
+msgstr "找不到napari-console。它可以通过\"pip安装napari_console\"安装"
+
+#: napari/_qt/qt_viewer.py:439
+msgid "There are no layers in the viewer to save"
+msgstr "查看器中没有要保存的图层"
+
+#: napari/_qt/qt_viewer.py:441
+msgid "Please select one or more layers to save,\n"
+"or use \"Save all layers...\""
+msgstr "请选择一个或多个图层保存，\n"
+"或使用“保存所有图层...”"
+
+#: napari/_qt/qt_viewer.py:446
+msgid "Nothing to save"
+msgstr "没有什么可保存"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "selected"
+msgstr "已选择"
+
+#: napari/_qt/qt_viewer.py:448
+msgid "all"
+msgstr "所有的"
+
+#: napari/_qt/qt_viewer.py:451
+msgid "Save {msg} layers"
+msgstr "保存 {msg} 图层"
+
+#: napari/_qt/qt_viewer.py:464
+msgid "File {filename} save failed.\n"
+"{error_messages}"
+msgstr "文件 {filename} 保存失败。\n"
+"{error_messages}"
+
+#: napari/_qt/qt_viewer.py:499
+msgid "Select file(s)..."
+msgstr "选择文件(s)..."
+
+#: napari/_qt/qt_viewer.py:509
+msgid "Select files..."
+msgstr "选择文件..."
+
+#: napari/_qt/qt_viewer.py:519
+msgid "Select folder..."
+msgstr "选择文件夹..."
+
+#: napari/_qt/dialogs/preferences_dialog.py:31
+#: napari/_qt/dialogs/preferences_dialog.py:214
+msgid "Cancel"
+msgstr "取消"
+
+#: napari/_qt/dialogs/preferences_dialog.py:32
+msgid "OK"
+msgstr "好的"
+
+#: napari/_qt/dialogs/preferences_dialog.py:33
+msgid "Restore defaults"
+msgstr "恢复默认值"
+
+#: napari/_qt/dialogs/preferences_dialog.py:96
+msgid "Are you sure you want to restore default settings?"
+msgstr "您确定要恢复默认设置吗？"
+
+#: napari/_qt/dialogs/preferences_dialog.py:213
+msgid "Restore"
+msgstr "恢复"
+
+#: napari/_qt/dialogs/qt_about.py:50
+msgid "<b>napari: a multi-dimensional image viewer for python</b>"
+msgstr "<b>napari: python 的多维图像查看器</b>"
+
+#: napari/_qt/dialogs/qt_about.py:75
+msgid "<b>citation information:</b>"
+msgstr "<b>引文信息：</b>"
+
+#: napari/_qt/dialogs/qt_about.py:100
+msgid "About"
+msgstr "关于"
+
+#: napari/_qt/dialogs/qt_about.py:123
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:52
+msgid "All active key bindings"
+msgstr "所有活动密钥绑定"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:60
+msgid "Keybindings"
+msgstr "按键绑定"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:84
+msgid "No key bindings"
+msgstr "无密钥绑定"
+
+#: napari/_qt/dialogs/qt_notification.py:104
+msgid "Source: {source}"
+msgstr "资料来源： {source}"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:123
+msgid "remove"
+msgstr "移除"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:133
+msgid "close"
+msgstr "关闭"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:149
+msgid "install"
+msgstr "安装"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:167
+msgid "enable/disable"
+msgstr "启用/禁用"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:283
+msgid "update (v{latest})"
+msgstr "更新 (v{latest})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:380
+msgid "Installed Plugins"
+msgstr "已安装的插件"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:387
+msgid "Available Plugins"
+msgstr "可用插件"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:398
+msgid "loading ..."
+msgstr "加载中..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:414
+msgid "install by name/url, or drop file..."
+msgstr "通过名称/url安装，或丢弃文件..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:416
+msgid "Install"
+msgstr "安装"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:419
+#: napari/_qt/dialogs/qt_plugin_dialog.py:476
+msgid "Show Status"
+msgstr "显示状态"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:421
+#: napari/_qt/dialogs/qt_plugin_dialog.py:468
+msgid "<< Show Sorter"
+msgstr "<< 显示排序器"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:422
+msgid "Close"
+msgstr "关闭"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:448
+msgid "Available Plugins ({count})"
+msgstr "可用的插件 ({count})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:465
+msgid ">> Hide Sorter"
+msgstr ">>隐藏排序器"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:473
+msgid "Hide Status"
+msgstr "隐藏状态"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:52
+msgid "select plugin... "
+msgstr "选择插件... "
+
+#: napari/_qt/dialogs/qt_plugin_report.py:69
+msgid "Recorded Plugin Exceptions"
+msgstr "录音插件异常"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:89
+msgid "Open issue on GitHub"
+msgstr "在 GitHub 上打开问题"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:91
+msgid "Open a web browser to submit this error log\n"
+"to the developer's GitHub issue tracker"
+msgstr "打开浏览器将此错误日志\n"
+"提交给开发者的GitHub 问题跟踪器"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:103
+msgid "Copy error log to clipboard"
+msgstr "复制错误日志到剪贴板"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:161
+msgid "No errors reported for plugin '{plugin}'"
+msgstr "插件'{plugin} ' 没有错误报告"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:31
+msgid "Save screenshot"
+msgstr "保存截图"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:35
+msgid "Image files (*.png *.bmp *.gif *.tif *.tiff)"
+msgstr "图像文件 (*.png *.bmp *.gif *.tif *.tiff)"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:48
+msgid "Confirm overwrite"
+msgstr "确认覆盖"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:50
+msgid "{save_path} already exists. Do you want to replace it?"
+msgstr "{save_path} 已经存在。您想要替换它吗？"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:56
+msgid "interpolation:"
+msgstr "插值："
+
+#: napari/_qt/layer_controls/qt_image_controls.py:66
+msgid "rendering:"
+msgstr "正在渲染："
+
+#: napari/_qt/layer_controls/qt_image_controls.py:76
+msgid "iso threshold:"
+msgstr "iso 阈值："
+
+#: napari/_qt/layer_controls/qt_image_controls.py:86
+msgid "attenuation:"
+msgstr "减小："
+
+#: napari/_qt/layer_controls/qt_image_controls.py:101
+#: napari/_qt/layer_controls/qt_labels_controls.py:243
+#: napari/_qt/layer_controls/qt_points_controls.py:180
+#: napari/_qt/layer_controls/qt_shapes_controls.py:240
+#: napari/_qt/layer_controls/qt_surface_controls.py:34
+#: napari/_qt/layer_controls/qt_tracks_controls.py:86
+#: napari/_qt/layer_controls/qt_vectors_controls.py:99
+msgid "opacity:"
+msgstr "透明度："
+
+#: napari/_qt/layer_controls/qt_image_controls.py:103
+#: napari/_qt/layer_controls/qt_surface_controls.py:36
+msgid "contrast limits:"
+msgstr "对比度限制："
+
+#: napari/_qt/layer_controls/qt_image_controls.py:105
+#: napari/_qt/layer_controls/qt_surface_controls.py:38
+msgid "gamma:"
+msgstr "gamma:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:107
+#: napari/_qt/layer_controls/qt_surface_controls.py:40
+#: napari/_qt/layer_controls/qt_tracks_controls.py:82
+msgid "colormap:"
+msgstr "颜色图："
+
+#: napari/_qt/layer_controls/qt_image_controls.py:109
+#: napari/_qt/layer_controls/qt_labels_controls.py:249
+#: napari/_qt/layer_controls/qt_points_controls.py:184
+#: napari/_qt/layer_controls/qt_shapes_controls.py:244
+#: napari/_qt/layer_controls/qt_surface_controls.py:42
+#: napari/_qt/layer_controls/qt_tracks_controls.py:84
+#: napari/_qt/layer_controls/qt_vectors_controls.py:105
+msgid "blending:"
+msgstr "混合："
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:86
+msgid "Colorbar"
+msgstr "颜色栏"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:231
+msgid "Layer {layer} must have attribute {range_attr} to use \"create_range_popup\""
+msgstr "图层 {layer} 必须有属性 {range_attr} 才能使用 \"create_range_popup\""
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:291
+msgid "autoscale contrast to data range"
+msgstr "数据范围的自动对比度"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:302
+msgid "set contrast range to full bit-depth"
+msgstr "设置对比度范围为全部比特深度"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:108
+msgid "contiguous editing"
+msgstr "连续编辑"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:114
+msgid "edit all dimensions"
+msgstr "编辑所有尺寸"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:120
+msgid "display contours of labels"
+msgstr "标签的轮廓显示"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:132
+msgid "preserve existing labels while painting"
+msgstr "绘制时保留现有标签"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:140
+msgid "Display only selected label"
+msgstr "只显示选中的标签"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:150
+msgid "shuffle colors"
+msgstr "随机颜色"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:157
+msgid "Pan/zoom mode (Space)"
+msgstr "平面/缩放模式 (空间)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:161
+msgid "Pick mode (L)"
+msgstr "选择模式 (L)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:164
+msgid "Paint mode (P)"
+msgstr "绘画模式 (P)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:171
+msgid "Fill mode (F) \n"
+"Toggle with {key}"
+msgstr "填充模式 (F) \n"
+"切换为 {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:181
+msgid "Erase mode (E) \n"
+"Toggle with {key}"
+msgstr "擦除模式(E) \n"
+"切换为 {key}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:241
+msgid "label:"
+msgstr "标签："
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:245
+msgid "brush size:"
+msgstr "笔刷大小："
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:247
+msgid "brush shape:"
+msgstr "笔刷形状："
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:251
+msgid "color mode:"
+msgstr "颜色模式："
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:253
+msgid "contour:"
+msgstr "轮廓："
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:255
+msgid "contiguous:"
+msgstr "contiguous:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:257
+#: napari/_qt/layer_controls/qt_points_controls.py:194
+msgid "n-dim:"
+msgstr "n-dim:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:260
+msgid "preserve labels:"
+msgstr "保留标签："
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:264
+msgid "show selected:"
+msgstr "显示选中："
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:546
+msgid "Selected label color"
+msgstr "所选标签颜色"
+
+#: napari/_qt/layer_controls/qt_layer_controls_container.py:54
+msgid "Could not find QtControls for layer of type {type_}"
+msgstr "找不到类型 {type_} 的图层的 QtControls"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:102
+#: napari/_qt/layer_controls/qt_shapes_controls.py:220
+msgid "click to set current face color"
+msgstr "点击设置当前面颜色"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:106
+#: napari/_qt/layer_controls/qt_shapes_controls.py:225
+#: napari/_qt/layer_controls/qt_vectors_controls.py:66
+msgid "click to set current edge color"
+msgstr "点击设置当前边缘颜色"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:125
+msgid "N-dimensional points"
+msgstr "N维点"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:134
+msgid "Select points (S)"
+msgstr "选择点(S)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:137
+msgid "Add points (P)"
+msgstr "添加点(P)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:143
+msgid "Pan/zoom (Z)"
+msgstr "平面/缩放 (Z)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:151
+msgid "Delete selected points ({key})"
+msgstr "删除选中点({key})"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:158
+#: napari/_qt/layer_controls/qt_shapes_controls.py:232
+msgid "toggle text visibility"
+msgstr "切换文本可见性"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:182
+msgid "point size:"
+msgstr "点大小："
+
+#: napari/_qt/layer_controls/qt_points_controls.py:186
+msgid "symbol:"
+msgstr "符号："
+
+#: napari/_qt/layer_controls/qt_points_controls.py:188
+#: napari/_qt/layer_controls/qt_shapes_controls.py:246
+msgid "face color:"
+msgstr "面色："
+
+#: napari/_qt/layer_controls/qt_points_controls.py:190
+#: napari/_qt/layer_controls/qt_shapes_controls.py:248
+#: napari/_qt/layer_controls/qt_vectors_controls.py:71
+msgid "edge color:"
+msgstr "边缘颜色："
+
+#: napari/_qt/layer_controls/qt_points_controls.py:192
+#: napari/_qt/layer_controls/qt_shapes_controls.py:250
+msgid "display text:"
+msgstr "显示文本："
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:113
+msgid "Select shapes (S)"
+msgstr "选择形状(S)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:119
+msgid "Select vertices (D)"
+msgstr "选择顶点(D)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:125
+msgid "Pan/zoom (Space)"
+msgstr "平面/缩放(空间)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:132
+msgid "Add rectangles (R)"
+msgstr "添加矩形(R)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:138
+msgid "Add ellipses (E)"
+msgstr "添加椭圆(E)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:141
+msgid "Add lines (L)"
+msgstr "添加行(L)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:144
+msgid "Add paths (T)"
+msgstr "添加路径 (T)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:150
+msgid "Add polygons (P)"
+msgstr "添加多边形(P)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:156
+msgid "Insert vertex (I)"
+msgstr "Insert vertex (I)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:162
+msgid "Remove vertex (X)"
+msgstr "删除顶点(X)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:169
+msgid "Move to front"
+msgstr "移动到前端"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:175
+msgid "Move to back"
+msgstr "移动到背部"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:182
+msgid "Delete selected shapes ({key})"
+msgstr "删除选中的形状 ({key})"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:242
+msgid "edge width:"
+msgstr "edge width:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:298
+msgid "Mode '{mode}'not recognized"
+msgstr "模式{mode}“未识别”"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:80
+msgid "color by:"
+msgstr "颜色："
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:88
+msgid "tail width:"
+msgstr "尾部宽度："
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:90
+msgid "tail length:"
+msgstr "尾部长度："
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:92
+msgid "tail:"
+msgstr "尾："
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:94
+msgid "show ID:"
+msgstr "show ID:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:96
+msgid "graph:"
+msgstr "图形："
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:61
+msgid "edge property:"
+msgstr "边缘属性："
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:101
+msgid "width:"
+msgstr "宽度："
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:103
+msgid "length:"
+msgstr "长度："
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:107
+msgid "edge color mode:"
+msgstr "边缘颜色模式："
+
+#: napari/_qt/perf/qt_debug_menu.py:34
+msgid "&Debug"
+msgstr "&Debug"
+
+#: napari/_qt/perf/qt_debug_menu.py:37
+msgid "Performance Trace"
+msgstr "性能跟踪"
+
+#: napari/_qt/perf/qt_debug_menu.py:74
+msgid "Start Recording..."
+msgstr "开始录制..."
+
+#: napari/_qt/perf/qt_debug_menu.py:77
+msgid "Start recording a trace file"
+msgstr "开始录制跟踪文件"
+
+#: napari/_qt/perf/qt_debug_menu.py:86
+msgid "Stop recording a trace file"
+msgstr "停止录制跟踪文件"
+
+#: napari/_qt/perf/qt_debug_menu.py:97
+msgid "Record performance trace file"
+msgstr "记录性能跟踪文件"
+
+#: napari/_qt/perf/qt_debug_menu.py:99
+msgid "Trace Files (*.json)"
+msgstr "跟踪文件 (*.json)"
+
+#: napari/_qt/perf/qt_event_tracing.py:101
+msgid "UnknownEvent:{event}"
+msgstr "未知事件:{event}"
+
+#: napari/_qt/perf/qt_performance.py:43
+msgid "{time_ms:5.0f}ms {name}\n"
+msgstr "{time_ms:5.0f}毫秒 {name}\n"
+
+#: napari/_qt/perf/qt_performance.py:105
+msgid "Draw Time:"
+msgstr "绘制时间："
+
+#: napari/_qt/perf/qt_performance.py:125
+msgid "Show Events Slower Than:"
+msgstr "显示事件减速："
+
+#: napari/_qt/perf/qt_performance.py:127
+msgid "milliseconds"
+msgstr "毫秒"
+
+#: napari/_qt/perf/qt_performance.py:181
+msgid "Uptime: {elapsed:.2f}"
+msgstr "运行时间: {elapsed:.2f}"
+
+#: napari/_qt/widgets/qt_dict_table.py:92
+msgid "Argument 'headers' got item '{h}', which was not found in any of the items in 'data'"
+msgstr "参数“headers”得到了项目{h}'，在“data”中的任何项目中都找不到这个项目"
+
+#: napari/_qt/widgets/qt_dims.py:296
+msgid "loop_mode must be one of {_modes}.  Got: {loop_mode}"
+msgstr "roloop_mode 必须是 {_modes}之一。目标: {loop_mode}"
+
+#: napari/_qt/widgets/qt_dims.py:304
+msgid "axis argument out of range"
+msgstr "轴参数超出范围"
+
+#: napari/_qt/widgets/qt_dims.py:324
+msgid "Refusing to play a hidden axis"
+msgstr "拒绝播放隐藏轴"
+
+#: napari/_qt/widgets/qt_dims_slider.py:52
+msgid "Current slice for axis {axis}"
+msgstr "当前轴切片 {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:65
+msgid "Total slices for axis {axis}"
+msgstr "轴总切片数 {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:112
+msgid "Edit to change axis label"
+msgstr "编辑以更改轴标签"
+
+#: napari/_qt/widgets/qt_dims_slider.py:303
+msgid "frame_range value must be a list or tuple"
+msgstr "frame_range 值必须是列表或管线"
+
+#: napari/_qt/widgets/qt_dims_slider.py:307
+msgid "frame_range must have a length of 2"
+msgstr "帧范围必须长度为 2"
+
+#: napari/_qt/widgets/qt_dims_slider.py:494
+msgid "frames per second:"
+msgstr "每秒帧："
+
+#: napari/_qt/widgets/qt_dims_slider.py:502
+msgid "play direction:"
+msgstr "播放方向："
+
+#: napari/_qt/widgets/qt_dims_slider.py:509
+msgid "play mode:"
+msgstr "播放模式："
+
+#: napari/_qt/widgets/qt_dims_slider.py:624
+msgid "frame_range[0] must be <= frame_range[1]"
+msgstr "frame_range[0] 必须是 <= frame_range[1]"
+
+#: napari/_qt/widgets/qt_dims_slider.py:627
+msgid "frame_range[0] out of range"
+msgstr "帧范围[0] 超出范围"
+
+#: napari/_qt/widgets/qt_dims_slider.py:629
+msgid "frame_range[1] out of range"
+msgstr "帧范围[1] 超出范围"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:362
+msgid "Preview"
+msgstr "预览"
+
+#: napari/_qt/widgets/qt_layerlist.py:95
+msgid "Layer list"
+msgstr "图层列表"
+
+#: napari/_qt/widgets/qt_layerlist.py:539
+msgid "Layer thumbnail"
+msgstr "图层缩略图"
+
+#: napari/_qt/widgets/qt_layerlist.py:546
+msgid "Layer visibility"
+msgstr "图层可见性"
+
+#: napari/_qt/widgets/qt_layerlist.py:567
+msgid "Layer type"
+msgstr "图层类型"
+
+#: napari/_qt/widgets/qt_layerlist.py:571
+msgid "Click to select\n"
+"Drag to rearrange"
+msgstr "点击选择\n"
+"拖动以重新排序"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:81
+msgid "Click and drag to change call order"
+msgstr "单击并拖动以更改通话顺序"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:97
+msgid "Uncheck to disable this plugin"
+msgstr "取消勾选以禁用此插件"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:275
+msgid "select hook... "
+msgstr "选择钩子... "
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:306
+msgid "select the hook specification to reorder"
+msgstr "选择挂钩规格以重新排序"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:315
+msgid "Select a hook to rearrange, then drag and drop plugins into the desired call order.\n\n"
+"Disable plugins for a specific hook by unchecking their checkbox."
+msgstr "选择要重新排列的钩子，然后拖放插件到所需的通话顺序中。\n\n"
+"取消勾选复选框，禁用特定挂钩的插件。"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:149
+msgid "current minimum contrast limit"
+msgstr "当前最小对比度限制"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:150
+msgid "current maximum contrast limit"
+msgstr "当前最大对比度限制"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:158
+msgid "minimum contrast range"
+msgstr "最小对比度范围"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:159
+msgid "maximum contrast range"
+msgstr "最大对比度范围"
+
+#: napari/_qt/widgets/qt_size_preview.py:137
+msgid "preview"
+msgstr "预览"
+
+#: napari/_qt/widgets/qt_size_preview.py:310
+msgid "Minimum value must be smaller than {}"
+msgstr "最小值必须小于 {}"
+
+#: napari/_qt/widgets/qt_size_preview.py:350
+msgid "Maximum value must be larger than {}"
+msgstr "最大值必须大于 {}"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:37
+msgid "New points layer"
+msgstr "新积分图层"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:47
+msgid "New shapes layer"
+msgstr "新形状图层"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:56
+msgid "New labels layer"
+msgstr "新标签图层"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:104
+msgid "Open IPython terminal ({key1}-{key2}-C)"
+msgstr "Open IPython terminal ({key1}-{key2}-C)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:115
+msgid "Roll dimensions order for display ({key}-E)"
+msgstr "显示滚动尺寸顺序({key}-E)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:125
+msgid "Transpose displayed dimensions ({key}-T)"
+msgstr "转换显示的尺寸 ({key}-T)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:134
+msgid "Reset view ({key}-R)"
+msgstr "重置视图 ({key}-R)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:146
+msgid "Toggle grid view ({key}-G)"
+msgstr "切换网格视图 ({key}-G)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:160
+msgid "Toggle number of displayed dimensions ({key}-Y)"
+msgstr "切换显示尺寸的数量 ({key}-Y)"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:200
+msgid "Delete selected layers ({key1}-{key2})"
+msgstr "删除选中的图层 ({key1}-{key2})"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:157
+msgid "drag to move. double-click to float"
+msgstr "拖动移动。双击浮点数"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:163
+msgid "hide this panel"
+msgstr "隐藏此面板"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:170
+msgid "float this panel"
+msgstr "浮点型变量"
+
