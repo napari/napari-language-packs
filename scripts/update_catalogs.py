@@ -66,7 +66,7 @@ def update_crowdin_config():
     """
     data = load_repo_map()
     crowdin_data = load_crowdin()
-    files = crowdin_data["files"]
+    _files = crowdin_data["files"]
     packages = [
         {
             "source": "/napari/locale/napari.pot",
@@ -111,13 +111,31 @@ def update_repo(package_name, url, version):
     p.communicate()
 
 
+def _get_all_dirs(root):
+    """
+    """
+    folders = []
+    for root, dirs, _files in os.walk(root, topdown=False):
+        for name in dirs:
+            folders.append(os.path.join(root, name))
+    return folders
+
+
 def update_catalog(package_name, version):
     """
     Create or update pot catalogs for package_name and version.
     """
     package_repo_dir = os.path.join(REPO_ROOT, REPOSITORIES_FOLDER, package_name)
-    # FIXME:
-    # api.extract_language_pack(package_repo_dir, REPO_ROOT, package_name)
+
+    if package_name == "napari":
+        output = os.path.join(REPO_ROOT, package_name, "locale", f"{package_name}.pot")
+    else:
+        output = os.path.join(REPO_ROOT, "plugins", package_name, "locale", f"{package_name}.pot")
+
+    folders = _get_all_dirs(package_repo_dir)
+    args = ["pybabel", "extract"] + folders + ["-o", output, "-F", os.path.join(REPO_ROOT, "babel.cfg")]
+    p = subprocess.Popen(args, cwd=REPO_ROOT)
+    p.communicate()
 
 
 if __name__ == "__main__":

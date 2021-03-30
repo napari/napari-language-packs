@@ -4,5 +4,5 @@ napari:
   url: https://github.com/napari/napari
 # Add extensions alphabetically. Use lowercase for keys.
 napari-console:
-  current-version-tag: master
+  current-version-tag: main
   url: https://github.com/napari/napari-console
