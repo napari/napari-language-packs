@@ -12,8 +12,10 @@ To install a specific language pack please see the [available packs](https://git
 
 Please visit [Crowdin](https://crowdin.com/project/napari) to contribute to a language pack.
 
-## TODO
+## Update Catalogs
+
+To update the catalogs, run:
 
 ```python
-pybabel extract napari napari/_qt -o napari.pot -F babel.cfg
+python scripts/update_catalogs.py
 ```

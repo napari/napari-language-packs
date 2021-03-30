@@ -113,6 +113,7 @@ def update_repo(package_name, url, version):
 
 def _get_all_dirs(root):
     """
+    Return all dirs and subdirs found in `root`.
     """
     folders = []
     for root, dirs, _files in os.walk(root, topdown=False):
