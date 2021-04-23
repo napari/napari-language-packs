@@ -133,10 +133,23 @@ def update_catalog(package_name, version):
     else:
         output = os.path.join(REPO_ROOT, "plugins", package_name, "locale", f"{package_name}.pot")
 
+    # Create temp catalog
+    keywords = ["-k", "_:1", "-k", "_p:1c,2", "-k", "_n:1,2", "-k", "_np:1c,2,3"]
     folders = _get_all_dirs(package_repo_dir)
-    args = ["pybabel", "extract"] + folders + ["-o", output, "-F", os.path.join(REPO_ROOT, "babel.cfg")]
+    args = ["pybabel", "extract"] + folders + ["-o", output, "--no-default-keywords", "-w", "100000"] + keywords
     p = subprocess.Popen(args, cwd=REPO_ROOT)
     p.communicate()
+
+    # Remove root path from messages
+    with open(output, "r") as fh:
+        data = fh.read()
+
+    data = data.replace(f"{package_repo_dir}/", "")
+
+    with open(output, "w") as fh:
+        data = fh.write(data)
+
+    # Update available *.po catalogs
 
 
 if __name__ == "__main__":
