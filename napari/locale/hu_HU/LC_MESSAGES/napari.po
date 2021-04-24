@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: napari\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-29 20:54-0500\n"
-"PO-Revision-Date: 2021-03-30 01:57\n"
+"POT-Creation-Date: 2021-04-23 19:01-0500\n"
+"PO-Revision-Date: 2021-04-24 00:05\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
@@ -18,1522 +18,2846 @@ msgstr ""
 "X-Crowdin-File-ID: 12\n"
 "Language: hu_HU\n"
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/_labels_constants.py:71
+#: napari/layers/shapes/_shapes_models/_polgyon_base.py:71
+msgid "Shape needs at least two vertices, {number} provided."
+msgstr ""
+
+#: napari/layers/shapes/_shapes_models/ellipse.py:76
+msgid "Data shape does not match a ellipse. Ellipse expects four corner vertices, {number} provided."
+msgstr ""
+
+#: napari/layers/shapes/_shapes_models/line.py:61
+msgid "Data shape does not match a line. A line expects two end vertices, {number} provided."
+msgstr ""
+
+#: napari/layers/shapes/_shapes_models/rectangle.py:68
+msgid "Data shape does not match a rectangle. Rectangle expects four corner vertices, {number} provided."
+msgstr ""
+
+#: napari/layers/shapes/_shapes_models/shape.py:346
+msgid "Axis not recognized, must be one of \"{{0, 1}}\""
+msgstr ""
+
+#: napari/layers/shapes/_shapes_models/shape.py:400
+msgid "mask shape length must either be 2 or the same as the dimensionality of the shape, expected {expected} got {received}."
+msgstr ""
+
+#: napari/layers/image/experimental/_octree_slice.py:92
+msgid "Octree level {index} is not in range(0, {num_levels})"
+msgstr ""
+
+#: napari/layers/image/experimental/_octree_slice.py:137
+msgid "Invalid octree level {index}"
+msgstr ""
+
+#: napari/layers/image/experimental/octree.py:66
+msgid "Data of shape {shape} resulted no octree levels?"
+msgstr ""
+
+#: napari/layers/image/experimental/octree.py:116
+msgid "Level {level_index} is not in range(0, {top})"
+msgstr ""
+
+#: napari/layers/image/experimental/octree.py:403
+msgid "Multiscale data has downsampling ratio of {ratio}, expected 2."
+msgstr ""
+
+#: napari/layers/image/experimental/octree_image.py:223
+msgid "Octree level {level} is negative."
+msgstr ""
+
+#: napari/layers/labels/_labels_constants.py:71
 msgid "circle"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/_labels_constants.py:72
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:91
+#: napari/layers/labels/_labels_constants.py:72 napari/layers/points/_points_constants.py:91
 msgid "square"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/_labels_constants.py:77
+#: napari/layers/labels/_labels_constants.py:77
 msgid "auto"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/_labels_constants.py:78
+#: napari/layers/labels/_labels_constants.py:78
 msgid "direct"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:252
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:589
+#: napari/layers/labels/labels.py:252 napari/layers/labels/labels.py:606
 msgid "enter paint or fill mode to edit labels"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:450
+#: napari/layers/labels/labels.py:401
+msgid "Only integer types are supported for Labels layers, but data contains {data_level_type}."
+msgstr ""
+
+#: napari/layers/labels/labels.py:427
+msgid "the number of items must be equal for all properties"
+msgstr ""
+
+#: napari/layers/labels/labels.py:469
 msgid "cannot reduce selected label below 0"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:488
+#: napari/layers/labels/labels.py:507
 msgid "Unsupported Color Mode"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:513
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:531
+#: napari/layers/labels/labels.py:532 napari/layers/labels/labels.py:549
 msgid "The square brush shape is deprecated and will be removed in version 0.4.9. Afterward, only the circle brush shape will be available, and the layer.brush_shape attribute will be removed."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:593
+#: napari/layers/labels/labels.py:610
 msgid "hold <space> to pan/zoom, click to pick a label"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:606
+#: napari/layers/labels/labels.py:623
 msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:617
+#: napari/layers/labels/labels.py:630
 msgid "hold <space> to pan/zoom, click to fill a label"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:630
+#: napari/layers/labels/labels.py:643
 msgid "hold <space> to pan/zoom, drag to erase a label"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:277
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:224
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/labels/labels.py:635
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/shapes/shapes.py:1406
+#: napari/_qt/layer_controls/qt_labels_controls.py:287 napari/_qt/layer_controls/qt_points_controls.py:225 napari/layers/labels/labels.py:648 napari/layers/points/points.py:1120 napari/layers/shapes/shapes.py:1495
 msgid "Mode not recognized"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/shapes/shapes.py:331
+#: napari/layers/labels/labels.py:774
+msgid "Contours are not displayed during 3D rendering"
+msgstr ""
+
+#: napari/layers/labels/labels.py:1082
+msgid "[No Properties]"
+msgstr ""
+
+#: napari/layers/tracks/_track_utils.py:205
+msgid "track vertices should be a NxD array"
+msgstr ""
+
+#: napari/layers/tracks/_track_utils.py:210
+msgid "track vertices should be 4 or 5-dimensional"
+msgstr ""
+
+#: napari/layers/tracks/_track_utils.py:220
+msgid "track id must be an integer"
+msgstr ""
+
+#: napari/layers/tracks/_track_utils.py:225
+msgid "track timestamps must be greater than zero"
+msgstr ""
+
+#: napari/layers/tracks/_track_utils.py:234
+msgid "tracks should be ordered by ID and time"
+msgstr ""
+
+#: napari/layers/tracks/_track_utils.py:249
+msgid "the number of properties must equal the number of vertices"
+msgstr ""
+
+#: napari/layers/tracks/_track_utils.py:277
+msgid "graph node {node_idx} not found"
+msgstr ""
+
+#: napari/layers/tracks/_track_utils.py:345
+msgid "Property {color_by} not found"
+msgstr ""
+
+#: napari/layers/tracks/tracks.py:385
+msgid "Previous color_by key {key!r} not present in new properties. Falling back to track_id"
+msgstr ""
+
+#: napari/layers/tracks/tracks.py:470
+msgid "{color_by} is not a valid property key"
+msgstr ""
+
+#: napari/layers/tracks/tracks.py:489
+msgid "Colormap {colormap} not available"
+msgstr ""
+
+#: napari/layers/surface/surface.py:157
+msgid "Surface data tuple must be 2 or 3, specifying verictes, faces, and optionally vertex values, instead got length {length}."
+msgstr ""
+
+#: napari/layers/surface/surface.py:203
+msgid "Surface data tuple must be 2 or 3, specifying vertices, faces, and optionally vertex values, instead got length {data_length}."
+msgstr ""
+
+#: napari/layers/surface/surface.py:318
+msgid "Assigning multiple values per vertex after slicing is not allowed. All dimensions corresponding to vertex_values must be non-displayed dimensions. Data will not be visible."
+msgstr ""
+
+#: napari/layers/shapes/_shape_list.py:152
+msgid "{attribute}_color must have shape ({n_shapes}, 4)"
+msgstr ""
+
+#: napari/layers/shapes/_shape_list.py:248
+msgid "shape must be subclass of Shape"
+msgstr ""
+
+#: napari/layers/shapes/_shape_list.py:490
+msgid "{shape_type} must be one of {shape_classes}"
+msgstr ""
+
+#: napari/layers/shapes/_shapes_utils.py:403
+msgid "Data shape does not match expected `[4, D]` shape specifying corners for the rectangle"
+msgstr ""
+
+#: napari/layers/shapes/_shapes_utils.py:498
+msgid "Data shape does not match expected `[4, D]` shape specifying corners for the ellipse"
+msgstr ""
+
+#: napari/layers/shapes/shapes.py:337
 msgid "Shape dimensions must be equal to ndim"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/shapes/shapes.py:397
+#: napari/layers/points/points.py:329 napari/layers/shapes/shapes.py:407
 msgid "text should be a string, array, or dict"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/shapes/shapes.py:438
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/shapes/shapes.py:1367
+#: napari/layers/shapes/shapes.py:452 napari/layers/shapes/shapes.py:1454
 msgid "enter a selection mode to edit shape properties"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/shapes/shapes.py:1373
+#: napari/layers/points/points.py:505 napari/layers/shapes/shapes.py:626
+msgid "property used for face_color dropped"
+msgstr ""
+
+#: napari/layers/points/points.py:524 napari/layers/shapes/shapes.py:638 napari/layers/vectors/vectors.py:314
+msgid "property used for edge_color dropped"
+msgstr ""
+
+#: napari/layers/points/points.py:919 napari/layers/shapes/shapes.py:931
+msgid "_{attribute}_color_property was not set, setting to: {new_color_property}"
+msgstr ""
+
+#: napari/layers/shapes/shapes.py:940
+msgid "There must be a valid Shapes.properties to use {color_mode}"
+msgstr ""
+
+#: napari/layers/points/points.py:941 napari/layers/shapes/shapes.py:953 napari/layers/vectors/vectors.py:526
+msgid "selected property must be numeric to use ColorMode.COLORMAP"
+msgstr ""
+
+#: napari/layers/shapes/shapes.py:1325 napari/layers/utils/color_manager_utils.py:47
+msgid "face_color should be the name of a color, an array of colors, or the name of an property"
+msgstr ""
+
+#: napari/layers/shapes/shapes.py:1460
 msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/shapes/shapes.py:1381
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/shapes/shapes.py:1390
+#: napari/layers/points/points.py:1103 napari/layers/points/points.py:1110 napari/layers/shapes/shapes.py:1469 napari/layers/shapes/shapes.py:1478
 msgid "hold <space> to pan/zoom"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/shapes/shapes.py:1400
+#: napari/layers/shapes/shapes.py:1488
 msgid "hold <space> to pan/zoom, press <esc> to finish drawing"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:84
+#: napari/layers/shapes/shapes.py:1865
+msgid "the number of properties must equal the number of shapes"
+msgstr ""
+
+#: napari/layers/shapes/shapes.py:2276
+msgid "expand_shape is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should work with full nD shape data as much as possible."
+msgstr ""
+
+#: napari/layers/utils/_link_layers.py:74
+msgid "Cannot link attributes that are not shared by all layers: {extra}. Allowable attrs include:\n"
+"{valid_attrs}"
+msgstr ""
+
+#: napari/layers/utils/_link_layers.py:136
+msgid "Must provide at least one layer to unlink"
+msgstr ""
+
+#: napari/layers/utils/_link_layers.py:194
+msgid "``layers`` iterable must have at least one layer"
+msgstr ""
+
+#: napari/layers/utils/_text_utils.py:44
+msgid "view_data should be a numpy array or list when using Anchor.CENTER"
+msgstr ""
+
+#: napari/layers/utils/_text_utils.py:141
+msgid "view_data should be a numpy array or list"
+msgstr ""
+
+#: napari/layers/utils/_text_utils.py:189
+msgid "Number of text elements ({length}) should equal the length of the data ({n_text})"
+msgstr ""
+
+#: napari/layers/utils/color_manager.py:66
+msgid "color_properties dictionary should have keys: name, values, and optionally current_value"
+msgstr ""
+
+#: napari/layers/utils/color_manager.py:76
+msgid "color_properties should be None, a dict, or ColorProperties object"
+msgstr ""
+
+#: napari/layers/utils/color_manager.py:485
+msgid "if color_properties is a string, it should be a property name"
+msgstr ""
+
+#: napari/layers/utils/color_transformations.py:45
+msgid "The provided {elem_name} parameter contained illegal values, resetting all {elem_name} values to {default}."
+msgstr ""
+
+#: napari/layers/utils/color_transformations.py:60
+msgid "The provided {elem_name} parameter has {length} entries, while the data contains {num_entries} entries. Setting {elem_name} to {default}."
+msgstr ""
+
+#: napari/layers/utils/color_transformations.py:137
+msgid "The number of supplied colors mismatch the number of given data points. Length of data is {num_entries}, while the number of colors is {length}. Color for all points is reset to white."
+msgstr ""
+
+#: napari/layers/utils/stack_utils.py:102
+msgid "Error adding multichannel image with data shape {data_shape!r}.\n"
+"Requested channel_axis ({channel_axis}) had length {n_channels}, but the '{key}' argument only provided {i} values. "
+msgstr ""
+
+#: napari/layers/utils/stack_utils.py:159
+msgid "The image needs more than 2 dimensions for splitting"
+msgstr ""
+
+#: napari/layers/utils/stack_utils.py:167
+msgid "Can't split along axis {axis}. The image has {num_dim} dimensions"
+msgstr ""
+
+#: napari/layers/utils/stack_utils.py:235
+msgid "images list is empty"
+msgstr ""
+
+#: napari/layers/utils/text.py:217
+msgid "opaque blending mode is not allowed for text. setting to translucent."
+msgstr ""
+
+#: napari/layers/vectors/_vector_utils.py:35
+msgid "Vector data of shape {shape} is not supported"
+msgstr ""
+
+#: napari/layers/points/points.py:572 napari/layers/vectors/vectors.py:336
+msgid "the number of properties must equal the number of points"
+msgstr ""
+
+#: napari/layers/vectors/vectors.py:504
+msgid "edge_color property was not set, setting to: {color_property}"
+msgstr ""
+
+#: napari/layers/vectors/vectors.py:513
+msgid "There must be a valid Points.properties to use {edge_color_mode}"
+msgstr ""
+
+#: napari/layers/image/_image_utils.py:68
+msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays of single shape: {shape}"
+msgstr ""
+
+#: napari/layers/image/_image_utils.py:76
+msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays in incorrect order, shapes: {shapes}"
+msgstr ""
+
+#: napari/layers/points/_points_constants.py:84
 msgid "arrow"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:85
+#: napari/layers/points/_points_constants.py:85
 msgid "clobber"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:86
+#: napari/layers/points/_points_constants.py:86
 msgid "cross"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:87
+#: napari/layers/points/_points_constants.py:87
 msgid "diamond"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:88
+#: napari/layers/points/_points_constants.py:88
 msgid "disc"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:89
+#: napari/layers/points/_points_constants.py:89
 msgid "hbar"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:90
+#: napari/layers/points/_points_constants.py:90
 msgid "ring"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:92
+#: napari/layers/points/_points_constants.py:92
 msgid "star"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:93
+#: napari/layers/points/_points_constants.py:93
 msgid "tailed arrow"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:94
+#: napari/layers/points/_points_constants.py:94
 msgid "triangle down"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:95
+#: napari/layers/points/_points_constants.py:95
 msgid "triangle up"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:96
+#: napari/layers/points/_points_constants.py:96
 msgid "vbar"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/points/_points_constants.py:97
+#: napari/layers/points/_points_constants.py:97
 msgid "x"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/base/_base_constants.py:34
+#: napari/layers/points/_points_utils.py:119
+msgid "Points dimensions must be equal to ndim"
+msgstr ""
+
+#: napari/layers/points/points.py:666
+msgid "Size is not compatible for broadcasting"
+msgstr ""
+
+#: napari/layers/points/points.py:928
+msgid "There must be a valid Points.properties to use {color_mode}"
+msgstr ""
+
+#: napari/layers/base/_base_constants.py:34
 msgid "translucent"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/base/_base_constants.py:35
+#: napari/layers/base/_base_constants.py:35
 msgid "additive"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/layers/base/_base_constants.py:36
+#: napari/layers/base/_base_constants.py:36
 msgid "opaque"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:82
-msgid "million"
+#: napari/layers/base/base.py:237
+msgid "affine input not recognized. must be either napari.utils.transforms.Affine, ndarray, or None. Got {dtype}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:83
-msgid "billion"
+#: napari/layers/base/base.py:283
+msgid "'layer.events.select' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'added' attribute on the event."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:84
-msgid "trillion"
+#: napari/layers/base/base.py:290
+msgid "'layer.events.deselect' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'removed' attribute on the event."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:85
-msgid "quadrillion"
+#: napari/layers/base/base.py:347
+msgid "opacity must be between 0.0 and 1.0; got {opacity}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:86
-msgid "quintillion"
+#: napari/layers/base/base.py:471
+msgid "affine input not recognized. must be either napari.utils.transforms.Affine or ndarray. Got {dtype}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:87
-msgid "sextillion"
+#: napari/layers/base/base.py:493 napari/layers/base/base.py:505
+msgid "layer.position is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:88
-msgid "septillion"
+#: napari/layers/base/base.py:656
+msgid "Non-orthogonal slicing is being requested, but is not fully supported. Data is displayed without applying an out-of-slice rotation or shear component."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:89
-msgid "octillion"
+#: napari/layers/base/base.py:757
+msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `layer in viewer.layers.selection`"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:90
-msgid "nonillion"
+#: napari/layers/base/base.py:772
+msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `viewer.layers.selection.add(layer)` or `viewer.layers.selection.remove(layer)`"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:91
-msgid "decillion"
+#: napari/layers/base/base.py:981
+msgid "layer.coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position. You can then transform that into data coordinates using the layer.world_to_data method."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:92
-msgid "googol"
+#: napari/layers/base/base.py:1069
+msgid "displayed_coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should use [layer.coordinates[d] for d in viewer.dims.displayed]"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:147
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:147
 msgid "zero"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:148
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:148
 msgid "one"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:149
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:149
 msgid "two"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:150
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:150
 msgid "three"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:151
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:151
 msgid "four"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:152
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:152
 msgid "five"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:153
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:153
 msgid "six"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:154
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:154
 msgid "seven"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:155
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:155
 msgid "eight"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/number.py:156
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:156
 msgid "nine"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:118
-#, python-format
-msgid "%d microsecond"
-msgid_plural "%d microseconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:127
-#, python-format
-msgid "%d millisecond"
-msgid_plural "%d milliseconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:130
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:203
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:130 napari/_vendor/experimental/humanize/src/humanize/time.py:203
 msgid "a moment"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:132
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:132
 msgid "a second"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:134
-#, python-format
-msgid "%d second"
-msgid_plural "%d seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:136
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:136
 msgid "a minute"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:139
-#, python-format
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:141
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:141
 msgid "an hour"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:144
-#, python-format
-msgid "%d hour"
-msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:147
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:147
 msgid "a day"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:149
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:152
-#, python-format
-msgid "%d day"
-msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:154
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:154
 msgid "a month"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:156
-#, python-format
-msgid "%d month"
-msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:159
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:159
 msgid "a year"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:161
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:170
-#, python-format
-msgid "1 year, %d day"
-msgid_plural "1 year, %d days"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:164
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:164
 msgid "1 year, 1 month"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:167
-#, python-format
-msgid "1 year, %d month"
-msgid_plural "1 year, %d months"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:172
-#, python-format
-msgid "%d year"
-msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:200
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:200
 #, python-format
 msgid "%s from now"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:200
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:200
 #, python-format
 msgid "%s ago"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:204
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:204
 msgid "now"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:223
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:223
 msgid "today"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:225
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:225
 msgid "tomorrow"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_vendor/experimental/humanize/src/humanize/time.py:227
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:227
 msgid "yesterday"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:36
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:71
+#: napari/_vispy/experimental/texture_atlas.py:309
+msgid "Data with shape {shape} is not compatible with this TextureAtlas2D which has tile shape {spec_shape}"
+msgstr ""
+
+#: napari/_vispy/experimental/tiled_image_visual.py:310
+msgid "Tile index {tile_index} not found."
+msgstr ""
+
+#: napari/_vispy/experimental/tiled_image_visual.py:361
+msgid "Auto clims not supported for tiled image visual"
+msgstr ""
+
+#: napari/utils/events/containers/_evented_list.py:117 napari/utils/events/containers/_typed.py:92
+msgid "Can only assign an iterable to slice"
+msgstr ""
+
+#: napari/utils/events/containers/_evented_list.py:132
+msgid "attempt to assign sequence of size {size} to extended slice of size {slice_size}"
+msgstr ""
+
+#: napari/utils/events/containers/_evented_list.py:163
+msgid "Deletion index must be {valid!r}, got {dtype}"
+msgstr ""
+
+#: napari/utils/events/containers/_evented_list.py:298 napari/utils/events/containers/_nested_list.py:298 napari/utils/events/containers/_nested_list.py:405
+msgid "Destination index may not be a slice"
+msgstr ""
+
+#: napari/utils/events/containers/_evented_list.py:312
+msgid "Can only move integer or slice indices"
+msgstr ""
+
+#: napari/utils/events/containers/_nested_list.py:57
+msgid "Invalid nested index: {index}. Must be an int or tuple"
+msgstr ""
+
+#: napari/utils/events/containers/_nested_list.py:97
+msgid "The parent index must be a tuple of int"
+msgstr ""
+
+#: napari/utils/events/containers/_nested_list.py:314 napari/utils/events/containers/_nested_list.py:413
+msgid "Group cannot move itself"
+msgstr ""
+
+#: napari/utils/events/containers/_nested_list.py:327
+msgid "Can't yet deal with slice source indices in multimove"
+msgstr ""
+
+#: napari/utils/events/containers/_nested_list.py:338 napari/utils/events/containers/_nested_list.py:397
+msgid "Terminal source index may not be a slice"
+msgstr ""
+
+#: napari/utils/events/containers/_nested_list.py:446
+msgid "Cannot add object with type {dtype!r} to TypedList expecting type {types_!r}"
+msgstr ""
+
+#: napari/utils/events/containers/_selectable_list.py:54
+msgid "Cannot select item that is not in list: {value!r}"
+msgstr ""
+
+#: napari/utils/events/containers/_selection.py:150
+msgid "Value is not a valid sequence: {data}"
+msgstr ""
+
+#: napari/utils/events/containers/_set.py:166
+msgid "Value is not a valid sequence: {value}"
+msgstr ""
+
+#: napari/utils/events/containers/_typed.py:164
+msgid "Cannot add object with type {dtype!r} to TypedList expecting type {basetypes!r}"
+msgstr ""
+
+#: napari/utils/events/containers/_typed.py:239
+msgid "{value!r} is not in list"
+msgstr ""
+
+#: napari/utils/tree/node.py:93
+msgid "Cannot unparent orphaned Node: {node!r}"
+msgstr ""
+
+#: napari/utils/settings/_defaults.py:51 napari/utils/settings/_defaults.py:60
+msgid "A schema version must be a 3 element tuple or string!"
+msgstr ""
+
+#: napari/utils/settings/_defaults.py:71
+msgid "A schema version subparts must be positive integers or parseable as integers!"
+msgstr ""
+
+#: napari/utils/settings/_defaults.py:109 napari/utils/settings/_defaults.py:147
 msgid "must be a string"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:42
+#: napari/utils/settings/_defaults.py:119
 msgid "\"{value}\" is not valid. It must be one of {themes}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:76
+#: napari/utils/settings/_defaults.py:156
 msgid "\"{value}\" is not valid. It must be one of {language_packs}."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:113
+#: napari/utils/settings/_defaults.py:192
 msgid "Theme"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:114
+#: napari/utils/settings/_defaults.py:193
 msgid "Theme selection."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:119
+#: napari/utils/settings/_defaults.py:198
 msgid "Appearance"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:142
+#: napari/utils/settings/_defaults.py:221
 msgid "IPython interactive"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:151
+#: napari/utils/settings/_defaults.py:222
+#, python-format
+msgid "Use interactive %gui qt event loop when creating napari Viewers in IPython"
+msgstr ""
+
+#: napari/utils/settings/_defaults.py:229
 msgid "Language"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:152
+#: napari/utils/settings/_defaults.py:230
 msgid "Interface display language."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:158
+#: napari/utils/settings/_defaults.py:236
 msgid "Save Window Geometry"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:159
+#: napari/utils/settings/_defaults.py:237
 msgid "Save window size and position."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:176
+#: napari/utils/settings/_defaults.py:241
+msgid "Save Window State"
+msgstr ""
+
+#: napari/utils/settings/_defaults.py:242
+msgid "Save window state of dock widgets."
+msgstr ""
+
+#: napari/utils/settings/_defaults.py:262
 msgid "Application"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:201
-msgid "Plugin call order"
+#: napari/utils/settings/_defaults.py:300
+msgid "Plugin sort order"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:202
-msgid "Sort plugins call order"
+#: napari/utils/settings/_defaults.py:301
+msgid "Sort plugins for each action in the order to be called."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/settings/_defaults.py:207
+#: napari/utils/settings/_defaults.py:308
 msgid "Plugins"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/_tests/test_translations.py:121
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/_tests/test_translations.py:125
-msgid "MORE ABOUT NAPARI"
+#: napari/utils/settings/_manager.py:135
+msgid "The content of the napari settings file could not be read\n\n"
+"The default settings will be used and the content of the file will be replaced the next time settings are changed.\n\n"
+"Error:\n"
+"{err}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/utils/_tests/test_translations.py:133
+#: napari/utils/_tests/test_translations.py:176
 msgid "BOO"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls.py:56
+#: napari/utils/_tests/test_translations.py:184
+msgid "More about napari"
+msgstr ""
+
+#: napari/utils/_tests/test_translations.py:397
+msgid "MORE ABOUT NAPARI"
+msgstr ""
+
+#: napari/utils/transforms/transform_utils.py:81
+msgid "Scalars are not valid values for shear. Shear must be an upper triangular vector or square matrix with ones along the main diagonal."
+msgstr ""
+
+#: napari/utils/transforms/transform_utils.py:122
+msgid "{number} is a strange number of shear elements"
+msgstr ""
+
+#: napari/utils/transforms/transform_utils.py:153
+msgid "Improper transform matrix {matrix}"
+msgstr ""
+
+#: napari/utils/transforms/transforms.py:48
+msgid "Inverse function was not provided."
+msgstr ""
+
+#: napari/utils/transforms/transforms.py:54
+msgid "Transform composition rule not provided"
+msgstr ""
+
+#: napari/utils/transforms/transforms.py:71 napari/utils/transforms/transforms.py:90
+msgid "Cannot subset arbitrary transforms."
+msgstr ""
+
+#: napari/utils/transforms/transforms.py:342 napari/utils/transforms/transforms.py:420
+msgid "Only upper triangular or lower triangular matrices are accepted for shear, got {shear}. For other matrices, set the affine_matrix or linear_matrix directly."
+msgstr ""
+
+#: napari/utils/events/event.py:311
+msgid "print_callback_errors must be \"first\", \"reminders\", \"always\", or \"never\""
+msgstr ""
+
+#: napari/utils/events/event.py:421
+msgid "ref must be a bool or string"
+msgstr ""
+
+#: napari/utils/events/event.py:428
+msgid "ref \"{ref}\" is not unique"
+msgstr ""
+
+#: napari/utils/events/event.py:434
+msgid "position must be \"first\" or \"last\", not {position}"
+msgstr ""
+
+#: napari/utils/events/event.py:458
+msgid "criteria \"{criteria}\" is in the current callback list {count} times:\n"
+"{callback_refs}\n"
+"{callbacks}"
+msgstr ""
+
+#: napari/utils/events/event.py:477
+msgid "cannot place callback before \"{before}\" and after \"{after}\" for callbacks: {callback_refs}"
+msgstr ""
+
+#: napari/utils/events/event.py:583
+msgid "Event source-stack mismatch."
+msgstr ""
+
+#: napari/utils/events/event.py:616
+msgid "Event emitters can be called with an Event instance or with keyword arguments only."
+msgstr ""
+
+#: napari/utils/events/event.py:648
+msgid "Cannot unblock {self_} for callback {callback}; emitter was not previously blocked."
+msgstr ""
+
+#: napari/utils/events/event.py:817
+msgid "EmitterGroup already has an emitter named '{name}'"
+msgstr ""
+
+#: napari/utils/events/event.py:825
+msgid "The name '{name}' cannot be used as an emitter; it is already an attribute of EmitterGroup"
+msgstr ""
+
+#: napari/utils/events/event.py:843
+msgid "Emitter must be specified as either an EventEmitter instance or Event subclass. (got {name}={emitter})"
+msgstr ""
+
+#: napari/utils/events/evented_model.py:165
+msgid "The `asdict` method has been renamed `dict` and is now deprecated. It will be removed in 0.4.7"
+msgstr ""
+
+#: napari/utils/events/evented_model.py:191
+msgid "Unsupported update from {values}"
+msgstr ""
+
+#: napari/utils/perf/_config.py:110
+msgid "{path} has no callable list '{list_name}'"
+msgstr ""
+
+#: napari/utils/perf/_patcher.py:47
+msgid "Nested attribute not found: {attribute_str}"
+msgstr ""
+
+#: napari/utils/perf/_patcher.py:61
+msgid "Module {module_name} has no attribute {attribute_str}"
+msgstr ""
+
+#: napari/utils/perf/_patcher.py:80
+msgid "Parent {parent_str} has no attribute {callable_str}"
+msgstr ""
+
+#: napari/utils/perf/_patcher.py:135
+msgid "Module not found: {module_path}"
+msgstr ""
+
+#: napari/utils/colormaps/bop_colors.py:787
+msgid "bop blue"
+msgstr ""
+
+#: napari/utils/colormaps/bop_colors.py:788
+msgid "bop orange"
+msgstr ""
+
+#: napari/utils/colormaps/bop_colors.py:789
+msgid "bop purple"
+msgstr ""
+
+#: napari/utils/colormaps/categorical_colormap.py:106
+msgid "colormap should be an array or dict"
+msgstr ""
+
+#: napari/utils/colormaps/categorical_colormap_utils.py:62
+msgid "ColorCycle requires a values argument"
+msgstr ""
+
+#: napari/utils/colormaps/colormap.py:97
+msgid "Unrecognized Colormap Interpolation Mode"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:27 napari/utils/colormaps/colormap_utils.py:56
+msgctxt "colormap"
+msgid "viridis"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:28
+msgctxt "colormap"
+msgid "magma"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:29
+msgctxt "colormap"
+msgid "inferno"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:30
+msgctxt "colormap"
+msgid "plasma"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:31
+msgctxt "colormap"
+msgid "gray"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:32
+msgctxt "colormap"
+msgid "gray r"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:33
+msgctxt "colormap"
+msgid "hsv"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:34
+msgctxt "colormap"
+msgid "turbo"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:35
+msgctxt "colormap"
+msgid "twilight"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:36
+msgctxt "colormap"
+msgid "twilight shifted"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:37
+msgctxt "colormap"
+msgid "gist earth"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:38
+msgctxt "colormap"
+msgid "PiYG"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:42
+msgctxt "colormap"
+msgid "autumn"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:43
+msgctxt "colormap"
+msgid "blues"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:44
+msgctxt "colormap"
+msgid "cool"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:45
+msgctxt "colormap"
+msgid "greens"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:46
+msgctxt "colormap"
+msgid "reds"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:47
+msgctxt "colormap"
+msgid "spring"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:48
+msgctxt "colormap"
+msgid "summer"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:49
+msgctxt "colormap"
+msgid "fire"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:50
+msgctxt "colormap"
+msgid "grays"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:51
+msgctxt "colormap"
+msgid "hot"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:52
+msgctxt "colormap"
+msgid "ice"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:53
+msgctxt "colormap"
+msgid "winter"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:54
+msgctxt "colormap"
+msgid "light blues"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:55
+msgctxt "colormap"
+msgid "orange"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:57
+msgctxt "colormap"
+msgid "coolwarm"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:58
+msgctxt "colormap"
+msgid "PuGr"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:59
+msgctxt "colormap"
+msgid "GrBu"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:60
+msgctxt "colormap"
+msgid "GrBu_d"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:61
+msgctxt "colormap"
+msgid "RdBu"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:62
+msgctxt "colormap"
+msgid "cubehelix"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:63
+msgctxt "colormap"
+msgid "single hue"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:64
+msgctxt "colormap"
+msgid "hsl"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:65
+msgctxt "colormap"
+msgid "husl"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:66
+msgctxt "colormap"
+msgid "diverging"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:67
+msgctxt "colormap"
+msgid "RdYeBuCy"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:70
+msgctxt "colormap"
+msgid "red"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:71
+msgctxt "colormap"
+msgid "green"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:72
+msgctxt "colormap"
+msgid "blue"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:73
+msgctxt "colormap"
+msgid "cyan"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:74
+msgctxt "colormap"
+msgid "magenta"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:75
+msgctxt "colormap"
+msgid "yellow"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:127
+msgid "Colormap must be a vispy colormap if passed to from_vispy"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:357
+msgctxt "colormap"
+msgid "low discrepancy colors"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:391
+msgid "Colormap \"{name}\" not found in either vispy or matplotlib."
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:444
+msgid "[unnamed colormap]"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:450
+msgid "[unnamed colormap {number}]"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:523
+msgid "When providing a tuple as a colormap argument, the first element must be a string and the second a Colormap instance"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:549
+msgid "When providing a dict as a colormap, all values must be Colormap instances"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:572
+msgid "only the first item in a colormap dict is used as an argument"
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:579
+msgid "Received an empty dict as a colormap argument."
+msgstr ""
+
+#: napari/utils/colormaps/colormap_utils.py:589
+msgid "invalid type for colormap: {cm_type}. Must be a {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:88
+msgid "Empty string detected. Returning black instead."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:133
+msgid "Coudln't convert input color array to a proper numpy array. Please make sure that your input data is in a parsable format. Converting input to a white color array."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:171
+msgid "An object array was passed as the color input. Please convert its datatype before sending it to napari. Converting input to a white color array."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:184
+msgid "String color arrays should be one-dimensional. Converting input to a white color array."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:198
+msgid "Given color input is empty. Converting input to a white color array."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:211
+msgid "Given colors input should contain one or two dimensions. Received array with {ndim} dimensions."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:223
+msgid "Given color array has an unsupported format. Received the following array:\n"
+"{colors}\n"
+"A proper color array should have 3-4 columns with a row per data entry."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:239
+msgid "Given colors input should contain three or four columns. Received array with {shape} columns. Converting input to a white color array."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:253
+msgid "Data type of array ({color_dtype}) not supported."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:287
+msgid "Colors input had negative values."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:295
+msgid "Colors with values larger than one detected. napari will normalize these colors for you. If you'd like to convert these yourself, please use the proper method from skimage.color."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:324
+msgid "Invalid color found: {color} at index {idx}."
+msgstr ""
+
+#: napari/utils/colormaps/standardize_color.py:440
+msgid "Value must have second dimension of size 3 or 4"
+msgstr ""
+
+#: napari/components/experimental/chunk/_commands/_tables.py:99
+msgid "Row with {row_cols} columns not compatible with headers ({header_cols} columns)"
+msgstr ""
+
+#: napari/components/experimental/monitor/_monitor.py:41
+msgid "Monitor: Config file not found: {path}"
+msgstr ""
+
+#: napari/components/experimental/chunk/_pool_group.py:133
+msgid "Missing 'loader_defaults' in octree config."
+msgstr ""
+
+#: napari/_qt/layer_controls/qt_image_controls.py:56
 msgid "interpolation:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls.py:66
+#: napari/_qt/layer_controls/qt_image_controls.py:66
 msgid "rendering:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls.py:76
+#: napari/_qt/layer_controls/qt_image_controls.py:76
 msgid "iso threshold:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls.py:86
+#: napari/_qt/layer_controls/qt_image_controls.py:86
 msgid "attenuation:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls.py:101
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:225
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:178
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:238
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_surface_controls.py:34
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_tracks_controls.py:86
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_vectors_controls.py:99
+#: napari/_qt/layer_controls/qt_image_controls.py:101 napari/_qt/layer_controls/qt_labels_controls.py:235 napari/_qt/layer_controls/qt_points_controls.py:179 napari/_qt/layer_controls/qt_shapes_controls.py:239 napari/_qt/layer_controls/qt_surface_controls.py:34 napari/_qt/layer_controls/qt_tracks_controls.py:89 napari/_qt/layer_controls/qt_vectors_controls.py:100
 msgid "opacity:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls.py:103
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_surface_controls.py:36
+#: napari/_qt/layer_controls/qt_image_controls.py:103 napari/_qt/layer_controls/qt_surface_controls.py:36
 msgid "contrast limits:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls.py:105
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_surface_controls.py:38
+#: napari/_qt/layer_controls/qt_image_controls.py:105 napari/_qt/layer_controls/qt_surface_controls.py:38
 msgid "gamma:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls.py:107
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_surface_controls.py:40
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_tracks_controls.py:82
+#: napari/_qt/layer_controls/qt_image_controls.py:107 napari/_qt/layer_controls/qt_surface_controls.py:40 napari/_qt/layer_controls/qt_tracks_controls.py:85
 msgid "colormap:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls.py:109
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:229
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:182
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:242
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_surface_controls.py:42
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_tracks_controls.py:84
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_vectors_controls.py:105
+#: napari/_qt/layer_controls/qt_image_controls.py:109 napari/_qt/layer_controls/qt_labels_controls.py:239 napari/_qt/layer_controls/qt_points_controls.py:183 napari/_qt/layer_controls/qt_shapes_controls.py:243 napari/_qt/layer_controls/qt_surface_controls.py:42 napari/_qt/layer_controls/qt_tracks_controls.py:87 napari/_qt/layer_controls/qt_vectors_controls.py:106
 msgid "blending:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls_base.py:86
+#: napari/_qt/layer_controls/qt_image_controls_base.py:91
 msgid "Colorbar"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls_base.py:229
+#: napari/_qt/layer_controls/qt_image_controls_base.py:238
 msgid "Layer {layer} must have attribute {range_attr} to use \"create_range_popup\""
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls_base.py:289
+#: napari/_qt/layer_controls/qt_image_controls_base.py:300
 msgid "autoscale contrast to data range"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_image_controls_base.py:300
+#: napari/_qt/layer_controls/qt_image_controls_base.py:311
 msgid "set contrast range to full bit-depth"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:107
+#: napari/_qt/layer_controls/qt_labels_controls.py:113
 msgid "contiguous editing"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:113
+#: napari/_qt/layer_controls/qt_labels_controls.py:119
 msgid "edit all dimensions"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:119
+#: napari/_qt/layer_controls/qt_labels_controls.py:125
 msgid "display contours of labels"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:131
+#: napari/_qt/layer_controls/qt_labels_controls.py:139
 msgid "preserve existing labels while painting"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:139
+#: napari/_qt/layer_controls/qt_labels_controls.py:147
 msgid "Display only selected label"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:149
+#: napari/_qt/layer_controls/qt_labels_controls.py:157
 msgid "shuffle colors"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:156
+#: napari/_qt/layer_controls/qt_labels_controls.py:164
 msgid "Pan/zoom mode (Space)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:160
+#: napari/_qt/layer_controls/qt_labels_controls.py:168
 msgid "Pick mode (L)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:163
+#: napari/_qt/layer_controls/qt_labels_controls.py:171
 msgid "Paint mode (P)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:169
+#: napari/_qt/layer_controls/qt_labels_controls.py:179
 msgid "Fill mode (F) \n"
-"Toggle with {key}"
+"Toggle with {shortcut}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:177
+#: napari/_qt/layer_controls/qt_labels_controls.py:188
 msgid "Erase mode (E) \n"
-"Toggle with {key}"
+"Toggle with {shortcut}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:223
+#: napari/_qt/layer_controls/qt_labels_controls.py:233
 msgid "label:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:227
+#: napari/_qt/layer_controls/qt_labels_controls.py:237
 msgid "brush size:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:231
+#: napari/_qt/layer_controls/qt_labels_controls.py:241
 msgid "color mode:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:233
+#: napari/_qt/layer_controls/qt_labels_controls.py:243
 msgid "contour:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:235
+#: napari/_qt/layer_controls/qt_labels_controls.py:245
 msgid "contiguous:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:237
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:192
+#: napari/_qt/layer_controls/qt_labels_controls.py:247 napari/_qt/layer_controls/qt_points_controls.py:193
 msgid "n-dim:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:240
+#: napari/_qt/layer_controls/qt_labels_controls.py:250
 msgid "preserve labels:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:244
+#: napari/_qt/layer_controls/qt_labels_controls.py:254
 msgid "show selected:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_labels_controls.py:498
+#: napari/_qt/layer_controls/qt_labels_controls.py:504
 msgid "Selected label color"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_layer_controls_container.py:52
+#: napari/_qt/layer_controls/qt_layer_controls_container.py:55
 msgid "Could not find QtControls for layer of type {type_}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:102
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:218
+#: napari/_qt/layer_controls/qt_points_controls.py:102 napari/_qt/layer_controls/qt_shapes_controls.py:219
 msgid "click to set current face color"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:106
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:223
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_vectors_controls.py:66
+#: napari/_qt/layer_controls/qt_points_controls.py:106 napari/_qt/layer_controls/qt_shapes_controls.py:224 napari/_qt/layer_controls/qt_vectors_controls.py:66
 msgid "click to set current edge color"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:125
+#: napari/_qt/layer_controls/qt_points_controls.py:125
 msgid "N-dimensional points"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:134
+#: napari/_qt/layer_controls/qt_points_controls.py:134
 msgid "Select points (S)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:137
+#: napari/_qt/layer_controls/qt_points_controls.py:137
 msgid "Add points (P)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:143
+#: napari/_qt/layer_controls/qt_points_controls.py:143
 msgid "Pan/zoom (Z)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:150
-msgid "Delete selected points ({key})"
+#: napari/_qt/layer_controls/qt_points_controls.py:152
+msgid "Delete selected points ({shortcut})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:156
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:230
+#: napari/_qt/layer_controls/qt_points_controls.py:157 napari/_qt/layer_controls/qt_shapes_controls.py:231
 msgid "toggle text visibility"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:180
+#: napari/_qt/layer_controls/qt_points_controls.py:181
 msgid "point size:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:184
+#: napari/_qt/layer_controls/qt_points_controls.py:185
 msgid "symbol:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:186
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:244
+#: napari/_qt/layer_controls/qt_points_controls.py:187 napari/_qt/layer_controls/qt_shapes_controls.py:245
 msgid "face color:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:188
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:246
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_vectors_controls.py:71
+#: napari/_qt/layer_controls/qt_points_controls.py:189 napari/_qt/layer_controls/qt_shapes_controls.py:247 napari/_qt/layer_controls/qt_vectors_controls.py:71
 msgid "edge color:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_points_controls.py:190
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:248
+#: napari/_qt/layer_controls/qt_points_controls.py:191 napari/_qt/layer_controls/qt_shapes_controls.py:249
 msgid "display text:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:113
+#: napari/_qt/layer_controls/qt_shapes_controls.py:113
 msgid "Select shapes (S)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:119
+#: napari/_qt/layer_controls/qt_shapes_controls.py:119
 msgid "Select vertices (D)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:125
+#: napari/_qt/layer_controls/qt_shapes_controls.py:125
 msgid "Pan/zoom (Space)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:132
+#: napari/_qt/layer_controls/qt_shapes_controls.py:132
 msgid "Add rectangles (R)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:138
+#: napari/_qt/layer_controls/qt_shapes_controls.py:138
 msgid "Add ellipses (E)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:141
+#: napari/_qt/layer_controls/qt_shapes_controls.py:141
 msgid "Add lines (L)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:144
+#: napari/_qt/layer_controls/qt_shapes_controls.py:144
 msgid "Add paths (T)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:150
+#: napari/_qt/layer_controls/qt_shapes_controls.py:150
 msgid "Add polygons (P)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:156
+#: napari/_qt/layer_controls/qt_shapes_controls.py:156
 msgid "Insert vertex (I)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:162
+#: napari/_qt/layer_controls/qt_shapes_controls.py:162
 msgid "Remove vertex (X)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:169
+#: napari/_qt/layer_controls/qt_shapes_controls.py:169
 msgid "Move to front"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:175
+#: napari/_qt/layer_controls/qt_shapes_controls.py:175
 msgid "Move to back"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:181
-msgid "Delete selected shapes ({key})"
+#: napari/_qt/layer_controls/qt_shapes_controls.py:183
+msgid "Delete selected shapes ({shortcut})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:240
+#: napari/_qt/layer_controls/qt_shapes_controls.py:241
 msgid "edge width:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_shapes_controls.py:296
+#: napari/_qt/layer_controls/qt_shapes_controls.py:297
 msgid "Mode '{mode}'not recognized"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_tracks_controls.py:80
+#: napari/_qt/layer_controls/qt_tracks_controls.py:83
 msgid "color by:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_tracks_controls.py:88
+#: napari/_qt/layer_controls/qt_tracks_controls.py:91
 msgid "tail width:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_tracks_controls.py:90
+#: napari/_qt/layer_controls/qt_tracks_controls.py:93
 msgid "tail length:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_tracks_controls.py:92
+#: napari/_qt/layer_controls/qt_tracks_controls.py:95
 msgid "tail:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_tracks_controls.py:94
+#: napari/_qt/layer_controls/qt_tracks_controls.py:97
 msgid "show ID:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_tracks_controls.py:96
+#: napari/_qt/layer_controls/qt_tracks_controls.py:99
 msgid "graph:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_vectors_controls.py:61
+#: napari/_qt/layer_controls/qt_vectors_controls.py:61
 msgid "edge property:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_vectors_controls.py:101
+#: napari/_qt/layer_controls/qt_vectors_controls.py:102
 msgid "width:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_vectors_controls.py:103
+#: napari/_qt/layer_controls/qt_vectors_controls.py:104
 msgid "length:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/layer_controls/qt_vectors_controls.py:107
+#: napari/_qt/layer_controls/qt_vectors_controls.py:108
 msgid "edge color mode:"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/preferences_dialog.py:35
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/preferences_dialog.py:228
+#: napari/_qt/dialogs/preferences_dialog.py:39 napari/_qt/dialogs/preferences_dialog.py:293
 msgid "Cancel"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/preferences_dialog.py:36
+#: napari/_qt/dialogs/preferences_dialog.py:40
 msgid "OK"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/preferences_dialog.py:37
+#: napari/_qt/dialogs/preferences_dialog.py:41
 msgid "Restore defaults"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/preferences_dialog.py:40
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:376
+#: napari/_qt/dialogs/preferences_dialog.py:44 napari/_qt/qt_main_window.py:416
 msgid "Preferences"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/preferences_dialog.py:110
+#: napari/_qt/dialogs/preferences_dialog.py:151
 msgid "Are you sure you want to restore default settings?"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/preferences_dialog.py:227
+#: napari/_qt/dialogs/preferences_dialog.py:292
 msgid "Restore"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_about.py:50
+#: napari/_qt/dialogs/qt_about.py:50
 msgid "<b>napari: a multi-dimensional image viewer for python</b>"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_about.py:75
+#: napari/_qt/dialogs/qt_about.py:75
 msgid "<b>citation information:</b>"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_about.py:100
+#: napari/_qt/dialogs/qt_about.py:100
 msgid "About"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_about.py:123
+#: napari/_qt/dialogs/qt_about.py:123
 msgid "Copy to clipboard"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_about_key_bindings.py:52
+#: napari/_qt/dialogs/qt_about_key_bindings.py:52
 msgid "All active key bindings"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_about_key_bindings.py:60
+#: napari/_qt/dialogs/qt_about_key_bindings.py:60
 msgid "Keybindings"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_about_key_bindings.py:84
+#: napari/_qt/dialogs/qt_about_key_bindings.py:84
 msgid "No key bindings"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_notification.py:106
+#: napari/_qt/dialogs/qt_modal.py:92
+msgid "Specifying position as a string is only possible if the popup has a parent"
+msgstr ""
+
+#: napari/_qt/dialogs/qt_modal.py:120
+msgid "position must be one of [\"top\", \"left\", \"bottom\", \"right\"]"
+msgstr ""
+
+#: napari/_qt/dialogs/qt_modal.py:130
+msgid "Wrong type of position {position}"
+msgstr ""
+
+#: napari/_qt/dialogs/qt_notification.py:108
 msgid "Source: {source}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_notification.py:333
+#: napari/_qt/dialogs/qt_notification.py:331 napari/_qt/dialogs/qt_notification.py:340
+msgid "Enter Debugger"
+msgstr ""
+
+#: napari/_qt/dialogs/qt_notification.py:335
+msgid "Now Debugging. Please quit debugger in console to continue"
+msgstr ""
+
+#: napari/_qt/dialogs/qt_notification.py:348
 msgid "View Traceback"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:123
+#: napari/_qt/dialogs/qt_plugin_dialog.py:123
 msgid "remove"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:133
+#: napari/_qt/dialogs/qt_plugin_dialog.py:133
 msgid "close"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:149
+#: napari/_qt/dialogs/qt_plugin_dialog.py:149
 msgid "install"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:167
+#: napari/_qt/dialogs/qt_plugin_dialog.py:167
 msgid "enable/disable"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:283
+#: napari/_qt/dialogs/qt_plugin_dialog.py:283
 msgid "update (v{latest})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:380
+#: napari/_qt/dialogs/qt_plugin_dialog.py:380
 msgid "Installed Plugins"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:387
+#: napari/_qt/dialogs/qt_plugin_dialog.py:387
 msgid "Available Plugins"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:398
+#: napari/_qt/dialogs/qt_plugin_dialog.py:398
 msgid "loading ..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:414
+#: napari/_qt/dialogs/qt_plugin_dialog.py:414
 msgid "install by name/url, or drop file..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:416
+#: napari/_qt/dialogs/qt_plugin_dialog.py:416
 msgid "Install"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:419
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:478
+#: napari/_qt/dialogs/qt_plugin_dialog.py:419 napari/_qt/dialogs/qt_plugin_dialog.py:478
 msgid "Show Status"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:421
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:470
+#: napari/_qt/dialogs/qt_plugin_dialog.py:421 napari/_qt/dialogs/qt_plugin_dialog.py:470
 msgid "<< Show Sorter"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:422
+#: napari/_qt/dialogs/qt_plugin_dialog.py:422
 msgid "Close"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:449
+#: napari/_qt/dialogs/qt_plugin_dialog.py:449
 msgid "Available Plugins ({count})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:467
+#: napari/_qt/dialogs/qt_plugin_dialog.py:467
 msgid ">> Hide Sorter"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_dialog.py:475
+#: napari/_qt/dialogs/qt_plugin_dialog.py:475
 msgid "Hide Status"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_report.py:52
+#: napari/_qt/dialogs/qt_plugin_report.py:52
 msgid "select plugin... "
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_report.py:69
+#: napari/_qt/dialogs/qt_plugin_report.py:69
 msgid "Recorded Plugin Exceptions"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_report.py:89
+#: napari/_qt/dialogs/qt_plugin_report.py:89
 msgid "Open issue on GitHub"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_report.py:91
+#: napari/_qt/dialogs/qt_plugin_report.py:91
 msgid "Open a web browser to submit this error log\n"
 "to the developer's GitHub issue tracker"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_report.py:103
+#: napari/_qt/dialogs/qt_plugin_report.py:102
 msgid "Copy error log to clipboard"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/qt_plugin_report.py:160
+#: napari/_qt/dialogs/qt_plugin_report.py:159
 msgid "No errors reported for plugin '{plugin}'"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/screenshot_dialog.py:31
+#: napari/_qt/dialogs/screenshot_dialog.py:32
 msgid "Save screenshot"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/screenshot_dialog.py:35
+#: napari/_qt/dialogs/screenshot_dialog.py:36
 msgid "Image files (*.png *.bmp *.gif *.tif *.tiff)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/screenshot_dialog.py:48
+#: napari/_qt/dialogs/screenshot_dialog.py:50
 msgid "Confirm overwrite"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/dialogs/screenshot_dialog.py:49
+#: napari/_qt/dialogs/screenshot_dialog.py:51
 msgid "{save_path} already exists. Do you want to replace it?"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_debug_menu.py:34
-msgid "&Debug"
+#: napari/_qt/containers/_base_item_model.py:198
+msgid "root must be an instance of {class_name}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_debug_menu.py:37
-msgid "Performance Trace"
+#: napari/_qt/containers/_factory.py:40
+msgid "Cannot create Qt view for obj: {obj}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_debug_menu.py:74
-msgid "Start Recording..."
+#: napari/_qt/containers/_factory.py:74
+msgid "Cannot create Qt model for obj: {obj}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_debug_menu.py:77
-msgid "Start recording a trace file"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_debug_menu.py:86
-msgid "Stop recording a trace file"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_debug_menu.py:97
-msgid "Record performance trace file"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_debug_menu.py:99
-msgid "Trace Files (*.json)"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_event_tracing.py:101
-msgid "UnknownEvent:{event}"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_performance.py:42
-msgid "{time_ms:5.0f}ms {name}\n"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_performance.py:105
-msgid "Draw Time:"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_performance.py:125
-msgid "Show Events Slower Than:"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_performance.py:127
-msgid "milliseconds"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/perf/qt_performance.py:180
-msgid "Uptime: {elapsed:.2f}"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dict_table.py:91
-msgid "Argument 'headers' got item '{h}', which was not found in any of the items in 'data'"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims.py:295
-msgid "loop_mode must be one of {_modes}.  Got: {loop_mode}"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims.py:302
-msgid "axis argument out of range"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims.py:322
-msgid "Refusing to play a hidden axis"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:52
-msgid "Current slice for axis {axis}"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:65
-msgid "Total slices for axis {axis}"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:112
-msgid "Edit to change axis label"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:303
-msgid "frame_range value must be a list or tuple"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:307
-msgid "frame_range must have a length of 2"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:494
-msgid "frames per second:"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:502
-msgid "play direction:"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:509
-msgid "play mode:"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:624
-msgid "frame_range[0] must be <= frame_range[1]"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:627
-msgid "frame_range[0] out of range"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_dims_slider.py:629
-msgid "frame_range[1] out of range"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_highlight_preview.py:362
-msgid "Preview"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_layerlist.py:95
+#: napari/_qt/containers/qt_layer_list.py:45
 msgid "Layer list"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_layerlist.py:539
-msgid "Layer thumbnail"
+#: napari/_qt/containers/qt_tree_model.py:180
+msgid "root node must be an instance of {Group}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_layerlist.py:546
-msgid "Layer visibility"
+#: napari/_qt/containers/qt_tree_model.py:201
+msgid "nested_index must be an int or tuple of int."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_layerlist.py:567
-msgid "Layer type"
+#: napari/_qt/perf/qt_debug_menu.py:35
+msgid "&Debug"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_layerlist.py:571
-msgid "Click to select\n"
-"Drag to rearrange"
+#: napari/_qt/perf/qt_debug_menu.py:38
+msgid "Performance Trace"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_plugin_sorter.py:81
+#: napari/_qt/perf/qt_debug_menu.py:75
+msgid "Start Recording..."
+msgstr ""
+
+#: napari/_qt/perf/qt_debug_menu.py:78
+msgid "Start recording a trace file"
+msgstr ""
+
+#: napari/_qt/perf/qt_debug_menu.py:85
+msgid "Stop Recording"
+msgstr ""
+
+#: napari/_qt/perf/qt_debug_menu.py:87
+msgid "Stop recording a trace file"
+msgstr ""
+
+#: napari/_qt/perf/qt_debug_menu.py:101
+msgid "Record performance trace file"
+msgstr ""
+
+#: napari/_qt/perf/qt_debug_menu.py:103
+msgid "Trace Files (*.json)"
+msgstr ""
+
+#: napari/_qt/perf/qt_event_tracing.py:101
+msgid "UnknownEvent:{event}"
+msgstr ""
+
+#: napari/_qt/perf/qt_performance.py:42
+msgid "{time_ms:5.0f}ms {name}\n"
+msgstr ""
+
+#: napari/_qt/perf/qt_performance.py:103
+msgid "Draw Time:"
+msgstr ""
+
+#: napari/_qt/perf/qt_performance.py:123
+msgid "Show Events Slower Than:"
+msgstr ""
+
+#: napari/_qt/perf/qt_performance.py:125
+msgid "milliseconds"
+msgstr ""
+
+#: napari/_qt/perf/qt_performance.py:179
+msgid "Uptime: {elapsed:.2f}"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dict_table.py:85
+msgid "'data' argument must be a list of dicts"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dict_table.py:95
+msgid "Argument 'headers' got item '{header}', which was not found in any of the items in 'data'"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims.py:295
+msgid "loop_mode must be one of {_modes}. Got: {loop_mode}"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims.py:304
+msgid "axis argument out of range"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims.py:325
+msgid "Refusing to play a hidden axis"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:52
+msgid "Current slice for axis {axis}"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:65
+msgid "Total slices for axis {axis}"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:118
+msgid "Edit to change axis label"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:309
+msgid "frame_range value must be a list or tuple"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:313
+msgid "frame_range must have a length of 2"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:500
+msgid "frames per second:"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:508
+msgid "play direction:"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:515
+msgid "play mode:"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:630
+msgid "frame_range[0] must be <= frame_range[1]"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:633
+msgid "frame_range[0] out of range"
+msgstr ""
+
+#: napari/_qt/widgets/qt_dims_slider.py:635
+msgid "frame_range[1] out of range"
+msgstr ""
+
+#: napari/_qt/widgets/qt_highlight_preview.py:362
+msgid "Preview"
+msgstr ""
+
+#: napari/_qt/widgets/qt_highlight_preview.py:533 napari/_qt/widgets/qt_size_preview.py:309
+msgid "Minimum value must be smaller than {max_value}"
+msgstr ""
+
+#: napari/_qt/widgets/qt_highlight_preview.py:572 napari/_qt/widgets/qt_size_preview.py:348
+msgid "Maximum value must be larger than {min_value}"
+msgstr ""
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:86
 msgid "Click and drag to change call order"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_plugin_sorter.py:97
+#: napari/_qt/widgets/qt_plugin_sorter.py:102
 msgid "Uncheck to disable this plugin"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_plugin_sorter.py:275
+#: napari/_qt/widgets/qt_plugin_sorter.py:283
 msgid "select hook... "
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_plugin_sorter.py:306
+#: napari/_qt/widgets/qt_plugin_sorter.py:317
 msgid "select the hook specification to reorder"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:668
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_plugin_sorter.py:311
+#: napari/_qt/widgets/qt_plugin_sorter.py:324
 msgid "Plugin Sorter"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_plugin_sorter.py:315
+#: napari/_qt/widgets/qt_plugin_sorter.py:328
 msgid "Select a hook to rearrange, then drag and drop plugins into the desired call order.\n\n"
 "Disable plugins for a specific hook by unchecking their checkbox."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_range_slider_popup.py:149
+#: napari/_qt/widgets/qt_range_slider_popup.py:149
 msgid "current minimum contrast limit"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_range_slider_popup.py:150
+#: napari/_qt/widgets/qt_range_slider_popup.py:150
 msgid "current maximum contrast limit"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_range_slider_popup.py:158
+#: napari/_qt/widgets/qt_range_slider_popup.py:158
 msgid "minimum contrast range"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_range_slider_popup.py:159
+#: napari/_qt/widgets/qt_range_slider_popup.py:159
 msgid "maximum contrast range"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_size_preview.py:137
+#: napari/_qt/widgets/qt_size_preview.py:137
 msgid "preview"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_size_preview.py:309
-msgid "Minimum value must be smaller than {}"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_size_preview.py:347
-msgid "Maximum value must be larger than {}"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:37
+#: napari/_qt/widgets/qt_viewer_buttons.py:37
 msgid "New points layer"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:47
+#: napari/_qt/widgets/qt_viewer_buttons.py:47
 msgid "New shapes layer"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:56
+#: napari/_qt/widgets/qt_viewer_buttons.py:56
 msgid "New labels layer"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:103
-msgid "Open IPython terminal ({key1}-{key2}-C)"
+#: napari/_qt/widgets/qt_viewer_buttons.py:105
+msgid "Open IPython terminal ({shortcut})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:112
-msgid "Roll dimensions order for display ({key}-E)"
+#: napari/_qt/widgets/qt_viewer_buttons.py:114
+msgid "Roll dimensions order for display ({shortcut})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:120
-msgid "Transpose displayed dimensions ({key}-T)"
+#: napari/_qt/widgets/qt_viewer_buttons.py:123
+msgid "Transpose displayed dimensions ({shortcut})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:128
-msgid "Reset view ({key}-R)"
+#: napari/_qt/widgets/qt_viewer_buttons.py:132
+msgid "Reset view ({shortcut})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:139
-msgid "Toggle grid view ({key}-G)"
+#: napari/_qt/widgets/qt_viewer_buttons.py:145
+msgid "Toggle grid view ({shortcut})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:153
-msgid "Toggle number of displayed dimensions ({key}-Y)"
+#: napari/_qt/widgets/qt_viewer_buttons.py:160
+msgid "Toggle number of displayed dimensions ({shortcut})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_buttons.py:191
-msgid "Delete selected layers ({key1}-{key2})"
+#: napari/_qt/widgets/qt_viewer_buttons.py:199
+msgid "Delete selected layers ({shortcut})"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_dock_widget.py:160
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:69
+msgid "area argument must be in {areas}"
+msgstr ""
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:79
+msgid "`allowed_areas` must be a list or tuple"
+msgstr ""
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:90
+msgid "all allowed_areas argument must be in {areas}"
+msgstr ""
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:176
 msgid "drag to move. double-click to float"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_dock_widget.py:166
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:182
 msgid "hide this panel"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/widgets/qt_viewer_dock_widget.py:173
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:189
 msgid "float this panel"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/qt/__init__.py:15
+#: napari/_qt/widgets/qt_welcome.py:39
+msgid "Drag image(s) here to open\n"
+"or\n"
+"Use the menu shortcuts below:"
+msgstr ""
+
+#: napari/_qt/widgets/qt_welcome.py:59
+msgid "open image(s)"
+msgstr ""
+
+#: napari/_qt/widgets/qt_welcome.py:64
+msgid "show all key bindings"
+msgstr ""
+
+#: napari/plugins/__init__.py:158
+msgid "Plugin {plugin_name!r} provided an invalid tuple to {hook_name}. Skipping"
+msgstr ""
+
+#: napari/plugins/__init__.py:173
+msgid "Plugin {plugin_name!r} provided a non-callable object (widget) to {hook_name}: {_cls!r}. Widget ignored."
+msgstr ""
+
+#: napari/plugins/__init__.py:185
+msgid "Plugin {plugin_name!r} provided invalid kwargs to {hook_name} for class {class_name}. Widget ignored."
+msgstr ""
+
+#: napari/plugins/__init__.py:203
+msgid "Plugin '{plugin_name}' has already registered a dock widget '{name}' which has now been overwritten"
+msgstr ""
+
+#: napari/plugins/__init__.py:250
+msgid "Plugin {plugin_name!r} does not provide any dock widgets"
+msgstr ""
+
+#: napari/plugins/__init__.py:264
+msgid "Plugin {plugin_name!r} provides more than 1 dock_widget. Must also provide \"widget_name\" from {widgets}"
+msgstr ""
+
+#: napari/plugins/__init__.py:271
+msgid "Plugin {plugin_name!r} does not provide a widget named {widget_name!r}"
+msgstr ""
+
+#: napari/plugins/__init__.py:302
+msgid "Plugin {plugin_name!r} provided a non-callable type to {hook_name}: {func_type!r}. Function widget ignored."
+msgstr ""
+
+#: napari/plugins/__init__.py:307
+msgid " To provide multiple function widgets please use a LIST of callables"
+msgstr ""
+
+#: napari/plugins/__init__.py:324
+msgid "Plugin '{plugin_name}' has already registered a function widget '{name}' which has now been overwritten"
+msgstr ""
+
+#: napari/plugins/__init__.py:358
+msgid "Plugin {plugin_name!r} provided a non-dict object to {hook_name!r}: data ignored."
+msgstr ""
+
+#: napari/plugins/__init__.py:372
+msgid "In {hook_name!r}, plugin {plugin_name!r} provided an invalid dict object for key {name!r} that does not have required keys: \"data\" and \"display_name\".  Ignoring"
+msgstr ""
+
+#: napari/plugins/__init__.py:394
+msgid "Plugin {plugin_name!r} provided invalid data for key {name!r} in the dict returned by {hook_name!r}. (Must be str, callable, or dict), got ({data_type})."
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:6
+msgid "Astronaut (RGB)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:7
+msgid "Binary Blobs"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:8
+msgid "Binary Blobs (3D)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:9
+msgid "Brain (3D)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:10
+msgid "Brick"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:11
+msgid "Camera"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:12
+msgid "Cat (RGB)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:13
+msgid "Cell"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:14
+msgid "Cells (3D+2Ch)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:15
+msgid "Checkerboard"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:16
+msgid "Clock"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:17
+msgid "Coffee (RGB)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:18
+msgid "Coins"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:19
+msgid "Colorwheel (RGB)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:20
+msgid "Eagle"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:21
+msgid "Grass"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:22
+msgid "Gravel"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:23
+msgid "Horse"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:24
+msgid "Hubble Deep Field (RGB)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:25
+msgid "Human Mitosis"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:26
+msgid "Immunohistochemistry (RGB)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:27
+msgid "Kidney (3D+3Ch)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:28
+msgid "Labeled Faces in the Wild"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:29
+msgid "Lily (4Ch)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:30
+msgid "Microaneurysms"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:31
+msgid "Moon"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:32
+msgid "Page"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:33
+msgid "Retina (RGB)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:34
+msgid "Rocket (RGB)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:35
+msgid "Shepp Logan Phantom"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:36
+msgid "Skin (RGB)"
+msgstr ""
+
+#: napari/plugins/_skimage_data.py:37
+msgid "Text"
+msgstr ""
+
+#: napari/plugins/exceptions.py:44
+msgid "{pad} Errors for plugin '{plugin_name}' {pad}"
+msgstr ""
+
+#: napari/plugins/io.py:69
+msgid "There is no registered plugin named '{plugin}'.\n"
+"Names of plugins offering readers are: {names}"
+msgstr ""
+
+#: napari/plugins/io.py:79
+msgid "Plugin {plugin!r} does not support file {path}"
+msgstr ""
+
+#: napari/plugins/io.py:126
+msgid "No plugin found capable of reading [{repr_path}, ...] as stack."
+msgstr ""
+
+#: napari/plugins/io.py:135
+msgid "No plugin found capable of reading {repr_path}."
+msgstr ""
+
+#: napari/plugins/io.py:227
+msgid "No data written! There may be no plugins capable of writing these {length} layers to {path}."
+msgstr ""
+
+#: napari/plugins/io.py:312
+msgid "There is no registered plugin named '{plugin_name}'.\n"
+"Names of plugins offering writers are: {names}"
+msgstr ""
+
+#: napari/plugins/io.py:332
+msgid "Requested plugin \"{plugin_name}\" is not capable of writing this combination of layer types: {layer_types}"
+msgstr ""
+
+#: napari/plugins/io.py:339
+msgid "Unable to find plugin capable of writing this combination of layer types: {layer_types}"
+msgstr ""
+
+#: napari/plugins/io.py:401
+msgid "There is no registered plugin named '{plugin_name}'.\n"
+"Plugins capable of writing layer._type_string layers are: {names}"
+msgstr ""
+
+#: napari/resources/__init__.py:14
+msgid "Moved to module napari._qt.qt_resources. Will be removed after version 0.4.6."
+msgstr ""
+
+#: napari/resources/_icons.py:16
+msgid "unrecognized icon name: {name!r}. Known names: {icons}"
+msgstr ""
+
+#: napari/resources/_icons.py:59
+msgid "Could not detect svg tag in {path_or_xml!r}"
+msgstr ""
+
+#: napari/_vispy/utils.py:63
+msgid "Could not find VispyLayer for layer of type {dtype}"
+msgstr ""
+
+#: napari/_vispy/utils_gl.py:99
+msgid "type {dtype} not allowed for texture; must be one of {textures}"
+msgstr ""
+
+#: napari/_vispy/vispy_axes_visual.py:79 napari/_vispy/vispy_axes_visual.py:100 napari/_vispy/vispy_axes_visual.py:125
+msgid "Either 2 or 3 colors must be provided, got {number}."
+msgstr ""
+
+#: napari/_vispy/vispy_axes_visual.py:278
+msgid "Axes dash status and ndisplay combination not supported"
+msgstr ""
+
+#: napari/_vispy/vispy_image_layer.py:172
+msgid "Shape of in dividual tiles in multiscale {shape} cannot exceed GL_MAX_TEXTURE_SIZE {texture_size}. Rendering is currently in {ndisplay}D mode."
+msgstr ""
+
+#: napari/_vispy/vispy_image_layer.py:181
+msgid "data shape {shape} exceeds GL_MAX_TEXTURE_SIZE {texture_size} in at least one axis and will be downsampled. Rendering is currently in {ndisplay}D mode."
+msgstr ""
+
+#: napari/_vispy/vispy_scale_bar_visual.py:169
+msgid "Position {position} not recognized."
+msgstr ""
+
+#: napari/qt/__init__.py:15
 msgid "QtNDisplayButton is deprecated and will be removed in 0.4.9. Instead a more general QtStateButton is provided."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:18
+#: napari/utils/_magicgui.py:177
+msgid "magicgui function {gui} annotated with a return type of napari.types.LayerDataTuple did not return LayerData tuple(s)"
+msgstr ""
+
+#: napari/utils/_register.py:23
+msgid "name {name} should not include 'layer'"
+msgstr ""
+
+#: napari/utils/dask_utils.py:173
+msgid "For best performance with Dask arrays in napari, please upgrade Dask to v2.15.0 or later. Current version is {dask_version}"
+msgstr ""
+
+#: napari/utils/interactions.py:18
+msgid "cannot set attribute {name}"
+msgstr ""
+
+#: napari/utils/interactions.py:29
+msgid "cannot set item {name}"
+msgstr ""
+
+#: napari/utils/io.py:196
+msgid "No files found in {filenames} after removing subdirectories"
+msgstr ""
+
+#: napari/utils/io.py:234
+msgid "To stack multiple files into a single array with numpy, all input arrays must have the same shape. Set `use_dask` to True to stack arrays with different shapes."
+msgstr ""
+
+#: napari/utils/io.py:297
+msgid "Not a zarr dataset or group: {path}"
+msgstr ""
+
+#: napari/utils/io.py:402
+msgid "File \"{filename}\" not recognized as valid Layer data"
+msgstr ""
+
+#: napari/utils/io.py:410
+msgid "File \"{filename}\" not recognized as {require_type} data"
+msgstr ""
+
+#: napari/utils/io.py:535
+msgid "Expected number of shapes not found"
+msgstr ""
+
+#: napari/utils/key_bindings.py:176
+msgid "invalid key {key}"
+msgstr ""
+
+#: napari/utils/key_bindings.py:186
+msgid "invalid modifier key {modifier}"
+msgstr ""
+
+#: napari/utils/key_bindings.py:272
+msgid "key combination {key} already used! specify 'overwrite=True' to bypass this check"
+msgstr ""
+
+#: napari/utils/key_bindings.py:284
+msgid "'func' must be a callable"
+msgstr ""
+
+#: napari/utils/key_bindings.py:433
+msgid "expected {func} to be callable"
+msgstr ""
+
+#: napari/utils/misc.py:187
+msgid "length of {obj} must equal {length}"
+msgstr ""
+
+#: napari/utils/misc.py:241
+msgid "{class_name} may only be called with a `str` or an instance of {class_name}. Got {dtype}"
+msgstr ""
+
+#: napari/utils/misc.py:319
+msgid "Argument must be a string, PathLike, or sequence thereof"
+msgstr ""
+
+#: napari/utils/misc.py:388
+msgid "Not a valid layer data tuple: {value!r}"
+msgstr ""
+
+#: napari/utils/misc.py:404
+msgid "Not a valid list of layer data tuples!"
+msgstr ""
+
+#: napari/utils/misc.py:458
+msgid "{path} is not a directory."
+msgstr ""
+
+#: napari/utils/theme.py:21
+msgid "palette is deprecated and will be removed after version 0.4.6. Please use get_theme and register_theme instead"
+msgstr ""
+
+#: napari/utils/theme.py:166
+msgid "Unrecognized theme {name}. Availabe themes are {themes}"
+msgstr ""
+
+#: napari/utils/translations.py:181 napari/utils/translations.py:208 napari/utils/translations.py:386
+msgid "Must provide at least a `msgid` parameter!"
+msgstr ""
+
+#: napari/utils/translations.py:344
+msgid "Requested locale not available: {locale}"
+msgstr ""
+
+#: napari/utils/validators.py:55
+msgid "object '{obj}' is not an indexable collection (list, tuple, or np.array), of length {number}"
+msgstr ""
+
+#: napari/utils/validators.py:68
+msgid "object must have length {number}, got {obj_len}"
+msgstr ""
+
+#: napari/utils/validators.py:80
+msgid "Every item in the sequence must be of type {dtype}, but {item} is of type {item_type}"
+msgstr ""
+
+#: napari/components/_viewer_key_bindings.py:18
 msgid "Reset dims scroll progress"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:30
+#: napari/components/_viewer_key_bindings.py:30
 msgid "Toggle ndisplay."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:52
+#: napari/components/_viewer_key_bindings.py:52
 msgid "Increment dimensions slider to the left."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:63
+#: napari/components/_viewer_key_bindings.py:63
 msgid "Increment dimensions slider to the right."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:74
+#: napari/components/_viewer_key_bindings.py:74
 msgid "Move focus of dimensions slider up."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:83
+#: napari/components/_viewer_key_bindings.py:83
 msgid "Move focus of dimensions slider down."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:92
+#: napari/components/_viewer_key_bindings.py:92
 msgid "Change order of the visible axes, e.g. [0, 1, 2] -> [2, 0, 1]."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:103
+#: napari/components/_viewer_key_bindings.py:103
 msgid "Transpose order of the last two visible axes, e.g. [0, 1] -> [1, 0]."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:115
-msgid "Remove selected layers."
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:124
-msgid "Selected all layers."
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:135
-msgid "Remove all layers."
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:144
-msgid "Select layer above."
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:153
-msgid "Select layer below."
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:162
-msgid "Also select layer above."
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:171
-msgid "Also select layer below."
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:180
+#: napari/components/_viewer_key_bindings.py:114
 msgid "Reset view to original state."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:189
+#: napari/components/_viewer_key_bindings.py:123
 msgid "Toggle grid mode."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/components/_viewer_key_bindings.py:198
+#: napari/components/_viewer_key_bindings.py:132
 msgid "Toggle visibility of selected layers"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:271
+#: napari/components/dims.py:126
+msgid "Invalid ordering {order} for {ndim} dimensions"
+msgstr ""
+
+#: napari/components/dims.py:360
+msgid "Axis {axis} not defined for dimensionality {ndim}. Must be in [{ndim_lower}, {ndim})."
+msgstr ""
+
+#: napari/components/layerlist.py:94
+msgid "'viewer.layers.selected' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection'"
+msgstr ""
+
+#: napari/components/layerlist.py:137
+msgid "'viewer.layers.unselect_all()' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection.clear()'. To unselect everything but a set of ignored layers, use 'viewer.layers.selection.intersection_update({ignored})'"
+msgstr ""
+
+#: napari/components/layerlist.py:190
+msgid "All-NaN axis encountered"
+msgstr ""
+
+#: napari/components/layerlist.py:321
+msgid "No layers selected"
+msgstr ""
+
+#: napari/components/layerlist.py:323
+msgid "No layers to save"
+msgstr ""
+
+#: napari/components/viewer_model.py:149
+msgid "'viewer.events.active_layer' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.active' instead"
+msgstr ""
+
+#: napari/components/viewer_model.py:162
+msgid "Theme '{theme_name}' not found; options are {themes}."
+msgstr ""
+
+#: napari/components/viewer_model.py:294 napari/components/viewer_model.py:310
+msgid "'viewer.active_layer' is deprecated and will be removed in napari v0.4.9.  Please use 'viewer.layers.selection.active' instead."
+msgstr ""
+
+#: napari/components/viewer_model.py:353
+msgid "layer.position is deprecated"
+msgstr ""
+
+#: napari/components/viewer_model.py:664
+msgid "Received sequence for argument '{argument}', did you mean to specify a 'channel_axis'? "
+msgstr ""
+
+#: napari/components/viewer_model.py:728
+msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. Available samples include: {samples}."
+msgstr ""
+
+#: napari/components/viewer_model.py:736
+msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. No plugin samples have been registered."
+msgstr ""
+
+#: napari/components/viewer_model.py:760
+msgid "Got unexpected type for sample ({plugin!r}, {sample!r}): {data_type}"
+msgstr ""
+
+#: napari/components/viewer_model.py:812
+msgid "'path' argument must be a string, list, or tuple"
+msgstr ""
+
+#: napari/components/viewer_model.py:960
+msgid "Unrecognized layer_type: '{layer_type}'. Must be one of: {layer_names}."
+msgstr ""
+
+#: napari/components/viewer_model.py:976
+msgid "_add_layer_from_data received an unexpected keyword argument ({bad_key}) for layer type {layer_type}"
+msgstr ""
+
+#: napari/components/viewer_model.py:1007
+msgid "LayerData must be a 1-, 2-, or 3-tuple"
+msgstr ""
+
+#: napari/components/viewer_model.py:1017
+msgid "The second item in a LayerData tuple must be a dict"
+msgstr ""
+
+#: napari/components/viewer_model.py:1027
+msgid "The third item in a LayerData tuple must be one of: {layers!r}."
+msgstr ""
+
+#: napari/components/viewer_model.py:1140
+msgid "Invalid layer_type: {layer_type}"
+msgstr ""
+
+#: napari/_qt/__init__.py:13
+msgid "No Qt bindings could be found.\n\n"
+"napari requires either PyQt5 or PySide2 to be installed in the environment.\n"
+"To install the default backend (currently PyQt5), run \"pip install napari[all]\" \n"
+"You may also use \"pip install napari[pyside2]\"for Pyside2, or \"pip install napari[pyqt5]\" for PyQt5"
+msgstr ""
+
+#: napari/_qt/__init__.py:33
+msgid "napari was tested with QT library `>=5.12.3`.\n"
+"The version installed is {version}. Please report any issues with this specific QT version at https://github.com/Napari/napari/issues."
+msgstr ""
+
+#: napari/_qt/qt_event_loop.py:122
+msgid "QApplication already existed, these arguments to to 'get_app' were ignored: {args}"
+msgstr ""
+
+#: napari/_qt/qt_event_loop.py:245
+msgid "\n"
+"The 'gui_qt()' context manager is deprecated.\n"
+"If you are running napari from a script, please use 'napari.run()' as follows:\n\n"
+"    import napari\n\n"
+"    viewer = napari.Viewer()  # no prior setup needed\n"
+"    # other code using the viewer...\n"
+"    napari.run()\n\n"
+"In IPython or Jupyter, 'napari.run()' is not necessary. napari will automatically\n"
+"start an interactive event loop for you: \n\n"
+"    import napari\n"
+"    viewer = napari.Viewer()  # that's it!\n"
+msgstr ""
+
+#: napari/_qt/qt_event_loop.py:335
+msgid "No Qt app has been created. One can be created by calling `get_app()` or `qtpy.QtWidgets.QApplication([])`"
+msgstr ""
+
+#: napari/_qt/qt_event_loop.py:342
+msgid "Refusing to run a QApplication with no topLevelWidgets. To run the app anyway, use `{_func_name}(force=True)`"
+msgstr ""
+
+#: napari/_qt/qt_event_loop.py:353
+msgid "A QApplication is already running with 1 event loop. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
+msgid_plural "A QApplication is already running with {n} event loops. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[0] ""
+msgstr[1] ""
+
+#: napari/_qt/qt_main_window.py:310
 msgid "Ready"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:310
-msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+#: napari/_qt/qt_main_window.py:350
+msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7. Please use `napari.qt.get_stylesheet` instead"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:356
+#: napari/_qt/qt_main_window.py:396
 msgid "Open File(s)..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:358
+#: napari/_qt/qt_main_window.py:398
 msgid "Open file(s)"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:362
+#: napari/_qt/qt_main_window.py:402
 msgid "Open Files as Stack..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:365
+#: napari/_qt/qt_main_window.py:405
 msgid "Open files"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:370
+#: napari/_qt/qt_main_window.py:410
 msgid "Open Folder..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:372
+#: napari/_qt/qt_main_window.py:412
 msgid "Open a folder"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:378
+#: napari/_qt/qt_main_window.py:418
 msgid "Open preferences dialog"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:383
+#: napari/_qt/qt_main_window.py:423
 msgid "Save Selected Layer(s)..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:386
+#: napari/_qt/qt_main_window.py:426
 msgid "Save selected layers"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:392
+#: napari/_qt/qt_main_window.py:432
 msgid "Save All Layers..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:395
+#: napari/_qt/qt_main_window.py:435
 msgid "Save all layers"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:400
+#: napari/_qt/qt_main_window.py:440
 msgid "Save Screenshot..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:403
+#: napari/_qt/qt_main_window.py:443
 msgid "Save screenshot of current display, default .png"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:408
+#: napari/_qt/qt_main_window.py:448
 msgid "Save Screenshot with Viewer..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:412
+#: napari/_qt/qt_main_window.py:452
 msgid "Save screenshot of current display with the viewer, default .png"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:420
+#: napari/_qt/qt_main_window.py:460
 msgid "Exit"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:427
+#: napari/_qt/qt_main_window.py:468
+msgid "Restart"
+msgstr ""
+
+#: napari/_qt/qt_main_window.py:471
 msgid "Close Window"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:431
+#: napari/_qt/qt_main_window.py:477
+msgid "Open Sample"
+msgstr ""
+
+#: napari/_qt/qt_main_window.py:502
 msgid "&File"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:470
+#: napari/_qt/qt_main_window.py:546
 msgid "Toggle Menubar Visibility"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:473
+#: napari/_qt/qt_main_window.py:549
 msgid "Hide Menubar"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:476
+#: napari/_qt/qt_main_window.py:552
 msgid "Toggle Full Screen"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:479
+#: napari/_qt/qt_main_window.py:555
 msgid "Toggle full screen"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:481
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:484
+#: napari/_qt/qt_main_window.py:557 napari/_qt/qt_main_window.py:560
 msgid "Toggle Play"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:486
+#: napari/_qt/qt_main_window.py:562
 msgid "&View"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:495
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:501
+#: napari/_qt/qt_main_window.py:571 napari/_qt/qt_main_window.py:577
 msgid "Toggle Chunk Outlines"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:505
+#: napari/_qt/qt_main_window.py:582
 msgid "Axes"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:507
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:551
+#: napari/_qt/qt_main_window.py:584 napari/_qt/qt_main_window.py:635
 msgid "Visible"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:514
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:560
+#: napari/_qt/qt_main_window.py:592 napari/_qt/qt_main_window.py:647
 msgid "Colored"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:521
+#: napari/_qt/qt_main_window.py:600
 msgid "Labels"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:528
+#: napari/_qt/qt_main_window.py:608
 msgid "Dashed"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:535
+#: napari/_qt/qt_main_window.py:616
 msgid "Arrows"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:549
+#: napari/_qt/qt_main_window.py:633
 msgid "Scale Bar"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:569
+#: napari/_qt/qt_main_window.py:659
 msgid "Ticks"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:584
+#: napari/_qt/qt_main_window.py:681
 msgid "Remove Dock Widgets"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:585
+#: napari/_qt/qt_main_window.py:682
 msgid "Remove all dock widgets"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:590
+#: napari/_qt/qt_main_window.py:687
 msgid "&Window"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:596
+#: napari/_qt/qt_main_window.py:693
 msgid "&Plugins"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:599
+#: napari/_qt/qt_main_window.py:696
 msgid "Install/Uninstall Package(s)..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:605
-msgid "Plugin Call Order..."
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:608
-msgid "Change call order for plugins"
-msgstr ""
-
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:614
+#: napari/_qt/qt_main_window.py:702
 msgid "Plugin Errors..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:617
+#: napari/_qt/qt_main_window.py:705
 msgid "Review stack traces for plugin exceptions and notify developers"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:625
+#: napari/_qt/qt_main_window.py:713
 msgid "Add Dock Widget"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:683
+#: napari/_qt/qt_main_window.py:761
 msgid "&Help"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:685
+#: napari/_qt/qt_main_window.py:763
 msgid "napari Info"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:687
+#: napari/_qt/qt_main_window.py:765
 msgid "About napari"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:694
+#: napari/_qt/qt_main_window.py:772
 msgid "Show Key Bindings"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:698
+#: napari/_qt/qt_main_window.py:776
 msgid "key_bindings"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:937
+#: napari/_qt/qt_main_window.py:936
+msgid "Dock widget {number}"
+msgstr ""
+
+#: napari/_qt/qt_main_window.py:1028
 msgid "Could not find a dock widget containing: {widget}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:1053
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:1065
+#: napari/_qt/qt_main_window.py:1141 napari/_qt/qt_main_window.py:1153
 msgid "This viewer has already been closed and deleted. Please create a new one."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_main_window.py:1080
+#: napari/_qt/qt_main_window.py:1168
 msgid "The window geometry settings could not be loaded due to the following error: {err}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:122
+#: napari/_qt/qt_viewer.py:131
 msgid "layer list"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:130
+#: napari/_qt/qt_viewer.py:139
 msgid "layer controls"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:138
+#: napari/_qt/qt_viewer.py:147
 msgid "console"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:227
+#: napari/_qt/qt_viewer.py:253
 msgid "The 'raw_stylesheet' attribute is deprecated and will beremoved in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:298
+#: napari/_qt/qt_viewer.py:307
 msgid "performance"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:314
+#: napari/_qt/qt_viewer.py:323
 msgid "napari-console not found. It can be installed with \"pip install napari_console\""
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:439
+#: napari/_qt/qt_viewer.py:445
 msgid "There are no layers in the viewer to save"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:441
+#: napari/_qt/qt_viewer.py:447
 msgid "Please select one or more layers to save,\n"
 "or use \"Save all layers...\""
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:446
+#: napari/_qt/qt_viewer.py:452
 msgid "Nothing to save"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:448
+#: napari/_qt/qt_viewer.py:454
 msgid "selected"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:448
+#: napari/_qt/qt_viewer.py:454
 msgid "all"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:451
+#: napari/_qt/qt_viewer.py:460
 msgid "Save {msg} layers"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:463
+#: napari/_qt/qt_viewer.py:473
 msgid "File {filename} save failed.\n"
 "{error_messages}"
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:497
+#: napari/_qt/qt_viewer.py:527
 msgid "Select file(s)..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:507
+#: napari/_qt/qt_viewer.py:542
 msgid "Select files..."
 msgstr ""
 
-#: /Users/gpenacastellanos/develop/napari-language-packs/repos/napari/napari/_qt/qt_viewer.py:517
+#: napari/_qt/qt_viewer.py:556
 msgid "Select folder..."
+msgstr ""
+
+#: napari/_qt/qthreading.py:135
+msgid "RuntimeError in aborted thread: {result}"
+msgstr ""
+
+#: napari/_qt/qthreading.py:177
+msgid "\"{name}\" failed to define work() method"
+msgstr ""
+
+#: napari/_qt/qthreading.py:200
+msgid "This worker is already started!"
+msgstr ""
+
+#: napari/_qt/qthreading.py:242
+msgid "Generator function {func} cannot be used with FunctionWorker, use GeneratorWorker instead"
+msgstr ""
+
+#: napari/_qt/qthreading.py:295
+msgid "Regular function {func} cannot be used with GeneratorWorker, use FunctionWorker instead"
+msgstr ""
+
+#: napari/_qt/qthreading.py:451
+msgid "Workers did not quit gracefully in the time allotted ({msecs} ms)"
+msgstr ""
+
+#: napari/_qt/qthreading.py:543
+msgid "Worker {_worker_class} must be a subclass of WorkerBase"
+msgstr ""
+
+#: napari/_qt/qthreading.py:555
+msgid "The '_connect' argument must be a dict"
+msgstr ""
+
+#: napari/_qt/qthreading.py:569
+msgid "\"_connect[{key!r}]\" must be a function or sequence of functions"
+msgstr ""
+
+#: napari/_qt/qthreading.py:817
+msgid "_connect parameter must be a dict"
+msgstr ""
+
+#: napari/_qt/utils.py:61
+msgid "Invalid QByte string. QByte strings start with '{QBYTE_FLAG}'"
+msgstr ""
+
+#: napari/_qt/utils.py:255
+msgid "\"widget\" must be a QWidget or a sequence of QWidgets"
+msgstr ""
+
+#: napari/view_layers.py:105
+msgid "No Viewer method named '{add_string}'"
+msgstr ""
+
+#: napari/window.py:26
+msgid "could not import `qtpy`. Cannot show napari window."
 msgstr ""
 
