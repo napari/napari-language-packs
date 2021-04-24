@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: napari\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-04-23 19:01-0500\n"
-"PO-Revision-Date: 2021-04-24 00:05\n"
+"PO-Revision-Date: 2021-04-24 02:10\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -20,51 +20,51 @@ msgstr ""
 
 #: napari/layers/shapes/_shapes_models/_polgyon_base.py:71
 msgid "Shape needs at least two vertices, {number} provided."
-msgstr ""
+msgstr "Το σχήμα χρειάζεται τουλάχιστον δύο κορυφές και {number} παρέχονται."
 
 #: napari/layers/shapes/_shapes_models/ellipse.py:76
 msgid "Data shape does not match a ellipse. Ellipse expects four corner vertices, {number} provided."
-msgstr ""
+msgstr "Το σχήμα δεδομένων δεν ταιριάζει με μια έλλειψη. Η έλλειψη αναμένει τέσσερις γωνιακές κορυφές {number}."
 
 #: napari/layers/shapes/_shapes_models/line.py:61
 msgid "Data shape does not match a line. A line expects two end vertices, {number} provided."
-msgstr ""
+msgstr "Το σχήμα δεδομένων δεν ταιριάζει με μια γραμμή. Μια γραμμή αναμένει δύο τελικές κορυφές {number}."
 
 #: napari/layers/shapes/_shapes_models/rectangle.py:68
 msgid "Data shape does not match a rectangle. Rectangle expects four corner vertices, {number} provided."
-msgstr ""
+msgstr "Το σχήμα δεδομένων δεν ταιριάζει με ένα ορθογώνιο. Το ορθογώνιο αναμένει τέσσερις γωνιακές κορυφές {number}."
 
 #: napari/layers/shapes/_shapes_models/shape.py:346
 msgid "Axis not recognized, must be one of \"{{0, 1}}\""
-msgstr ""
+msgstr "Ο άξονας δεν αναγνωρίζεται, πρέπει να είναι ένας από τους \"{{0, 1}}\""
 
 #: napari/layers/shapes/_shapes_models/shape.py:400
 msgid "mask shape length must either be 2 or the same as the dimensionality of the shape, expected {expected} got {received}."
-msgstr ""
+msgstr "το μήκος του σχήματος μάσκας πρέπει είτε να είναι 2 είτε το ίδιο με τη διάσταση του σχήματος, αναμένεται ότι {expected} πήρε {received}."
 
 #: napari/layers/image/experimental/_octree_slice.py:92
 msgid "Octree level {index} is not in range(0, {num_levels})"
-msgstr ""
+msgstr "Το επίπεδο οκτόνου {index} δεν είναι εύρος(0, {num_levels})"
 
 #: napari/layers/image/experimental/_octree_slice.py:137
 msgid "Invalid octree level {index}"
-msgstr ""
+msgstr "Μη έγκυρο επίπεδο octree {index}"
 
 #: napari/layers/image/experimental/octree.py:66
 msgid "Data of shape {shape} resulted no octree levels?"
-msgstr ""
+msgstr "Τα δεδομένα του σχήματος {shape} δεν προέκυψαν επίπεδα octretrey?"
 
 #: napari/layers/image/experimental/octree.py:116
 msgid "Level {level_index} is not in range(0, {top})"
-msgstr ""
+msgstr "Το επίπεδο {level_index} δεν είναι σε εύρος(0, {top})"
 
 #: napari/layers/image/experimental/octree.py:403
 msgid "Multiscale data has downsampling ratio of {ratio}, expected 2."
-msgstr ""
+msgstr "Multiscale data has downsampling ratio {ratio}, expected 2."
 
 #: napari/layers/image/experimental/octree_image.py:223
 msgid "Octree level {level} is negative."
-msgstr ""
+msgstr "Το επίπεδο οκτώδων {level} είναι αρνητικό."
 
 #: napari/layers/labels/_labels_constants.py:71
 msgid "circle"
@@ -88,11 +88,11 @@ msgstr "εισάγετε το χρώμα ή τη λειτουργία πλήρω
 
 #: napari/layers/labels/labels.py:401
 msgid "Only integer types are supported for Labels layers, but data contains {data_level_type}."
-msgstr ""
+msgstr "Υποστηρίζονται μόνο ακέραιοι τύποι για στρώματα ετικετών, αλλά τα δεδομένα περιέχουν {data_level_type}."
 
 #: napari/layers/labels/labels.py:427
 msgid "the number of items must be equal for all properties"
-msgstr ""
+msgstr "ο αριθμός των στοιχείων πρέπει να είναι ίσος για όλες τις ιδιότητες"
 
 #: napari/layers/labels/labels.py:469
 msgid "cannot reduce selected label below 0"
@@ -104,7 +104,7 @@ msgstr "Μη Υποστηριζόμενη Λειτουργία Χρώματος"
 
 #: napari/layers/labels/labels.py:532 napari/layers/labels/labels.py:549
 msgid "The square brush shape is deprecated and will be removed in version 0.4.9. Afterward, only the circle brush shape will be available, and the layer.brush_shape attribute will be removed."
-msgstr ""
+msgstr "Το σχήμα τετράγωνης βούρτσας είναι παρωχημένο και θα αφαιρεθεί στην έκδοση 0.4.9. Στη συνέχεια, μόνο το σχήμα του πινέλου κύκλου θα είναι διαθέσιμο, και το χαρακτηριστικό layer.brush_shape θα αφαιρεθεί."
 
 #: napari/layers/labels/labels.py:610
 msgid "hold <space> to pan/zoom, click to pick a label"
@@ -128,87 +128,87 @@ msgstr "Η λειτουργία δεν αναγνωρίζεται"
 
 #: napari/layers/labels/labels.py:774
 msgid "Contours are not displayed during 3D rendering"
-msgstr ""
+msgstr "Οι περιηγήσεις δεν εμφανίζονται κατά την τρισδιάστατη απόδοση"
 
 #: napari/layers/labels/labels.py:1082
 msgid "[No Properties]"
-msgstr ""
+msgstr "[Χωρίς Ιδιότητες]"
 
 #: napari/layers/tracks/_track_utils.py:205
 msgid "track vertices should be a NxD array"
-msgstr ""
+msgstr "οι κορυφές των κομματιών πρέπει να είναι ένας πίνακας NxD"
 
 #: napari/layers/tracks/_track_utils.py:210
 msgid "track vertices should be 4 or 5-dimensional"
-msgstr ""
+msgstr "οι κορυφές των κομματιών πρέπει να είναι 4 ή 5 διαστάσεων"
 
 #: napari/layers/tracks/_track_utils.py:220
 msgid "track id must be an integer"
-msgstr ""
+msgstr "το αναγνωριστικό κομματιού πρέπει να είναι ακέραιος αριθμός"
 
 #: napari/layers/tracks/_track_utils.py:225
 msgid "track timestamps must be greater than zero"
-msgstr ""
+msgstr "οι χρονικές σφραγίδες των κομματιών πρέπει να είναι μεγαλύτερες από το μηδέν"
 
 #: napari/layers/tracks/_track_utils.py:234
 msgid "tracks should be ordered by ID and time"
-msgstr ""
+msgstr "τα κομμάτια πρέπει να παραγγελθούν με ταυτότητα και χρόνο"
 
 #: napari/layers/tracks/_track_utils.py:249
 msgid "the number of properties must equal the number of vertices"
-msgstr ""
+msgstr "ο αριθμός των ιδιοτήτων πρέπει να ισούται με τον αριθμό των κορυφών"
 
 #: napari/layers/tracks/_track_utils.py:277
 msgid "graph node {node_idx} not found"
-msgstr ""
+msgstr "ο κόμβος γραφήματος {node_idx} δεν βρέθηκε"
 
 #: napari/layers/tracks/_track_utils.py:345
 msgid "Property {color_by} not found"
-msgstr ""
+msgstr "Το ακίνητο {color_by} δεν βρέθηκε"
 
 #: napari/layers/tracks/tracks.py:385
 msgid "Previous color_by key {key!r} not present in new properties. Falling back to track_id"
-msgstr ""
+msgstr "Προηγούμενο color_by key {key!r} δεν υπάρχει σε νέες ιδιότητες. Επιστρέφοντας στο track_id"
 
 #: napari/layers/tracks/tracks.py:470
 msgid "{color_by} is not a valid property key"
-msgstr ""
+msgstr "{color_by} δεν είναι έγκυρο κλειδί ιδιότητας"
 
 #: napari/layers/tracks/tracks.py:489
 msgid "Colormap {colormap} not available"
-msgstr ""
+msgstr "Χρωματισμός χάρτη {colormap} δεν είναι διαθέσιμη"
 
 #: napari/layers/surface/surface.py:157
 msgid "Surface data tuple must be 2 or 3, specifying verictes, faces, and optionally vertex values, instead got length {length}."
-msgstr ""
+msgstr "Ο σωλήνας δεδομένων επιφάνειας πρέπει να είναι 2 ή 3, καθορίζοντας κάθετες, όψεις και προαιρετικά τιμές vertex, αντ' αυτού πήρε μήκος {length}."
 
 #: napari/layers/surface/surface.py:203
 msgid "Surface data tuple must be 2 or 3, specifying vertices, faces, and optionally vertex values, instead got length {data_length}."
-msgstr ""
+msgstr "Ο σωλήνας δεδομένων επιφάνειας πρέπει να είναι 2 ή 3, καθορίζοντας κορυφές, όψεις και προαιρετικά τιμές vertex, αντί αυτού πήρε μήκος {data_length}."
 
 #: napari/layers/surface/surface.py:318
 msgid "Assigning multiple values per vertex after slicing is not allowed. All dimensions corresponding to vertex_values must be non-displayed dimensions. Data will not be visible."
-msgstr ""
+msgstr "Η ανάθεση πολλαπλών τιμών ανά κορυφή μετά τον τεμαχισμό δεν επιτρέπεται. Όλες οι διαστάσεις που αντιστοιχούν σε vertex_values πρέπει να είναι μη εμφανιζόμενες διαστάσεις. Τα δεδομένα δεν θα είναι ορατά."
 
 #: napari/layers/shapes/_shape_list.py:152
 msgid "{attribute}_color must have shape ({n_shapes}, 4)"
-msgstr ""
+msgstr "{attribute}_color πρέπει να έχει σχήμα ({n_shapes}, 4)"
 
 #: napari/layers/shapes/_shape_list.py:248
 msgid "shape must be subclass of Shape"
-msgstr ""
+msgstr "το σχήμα πρέπει να είναι υποκλάση του Shape"
 
 #: napari/layers/shapes/_shape_list.py:490
 msgid "{shape_type} must be one of {shape_classes}"
-msgstr ""
+msgstr "{shape_type} πρέπει να είναι ένα από {shape_classes}"
 
 #: napari/layers/shapes/_shapes_utils.py:403
 msgid "Data shape does not match expected `[4, D]` shape specifying corners for the rectangle"
-msgstr ""
+msgstr "Το σχήμα δεδομένων δεν ταιριάζει με το αναμενόμενο σχήμα `[4, D]` καθορίζοντας τις γωνίες για το ορθογώνιο"
 
 #: napari/layers/shapes/_shapes_utils.py:498
 msgid "Data shape does not match expected `[4, D]` shape specifying corners for the ellipse"
-msgstr ""
+msgstr "Το σχήμα δεδομένων δεν ταιριάζει με το αναμενόμενο σχήμα `[4, D]` καθορίζοντας τις γωνίες για την έλλειψη"
 
 #: napari/layers/shapes/shapes.py:337
 msgid "Shape dimensions must be equal to ndim"
@@ -224,27 +224,27 @@ msgstr "εισάγετε μια λειτουργία επιλογής για ν�
 
 #: napari/layers/points/points.py:505 napari/layers/shapes/shapes.py:626
 msgid "property used for face_color dropped"
-msgstr ""
+msgstr "ιδιότητα που χρησιμοποιήθηκε για face_color έπεσε"
 
 #: napari/layers/points/points.py:524 napari/layers/shapes/shapes.py:638 napari/layers/vectors/vectors.py:314
 msgid "property used for edge_color dropped"
-msgstr ""
+msgstr "ιδιότητα που χρησιμοποιήθηκε για την ακμή_χρώμα έπεσε"
 
 #: napari/layers/points/points.py:919 napari/layers/shapes/shapes.py:931
 msgid "_{attribute}_color_property was not set, setting to: {new_color_property}"
-msgstr ""
+msgstr "_{attribute}_color_property δεν ορίστηκε, ρύθμιση σε: {new_color_property}"
 
 #: napari/layers/shapes/shapes.py:940
 msgid "There must be a valid Shapes.properties to use {color_mode}"
-msgstr ""
+msgstr "Πρέπει να υπάρχει ένα έγκυρο Shapes.properties για να χρησιμοποιήσετε {color_mode}"
 
 #: napari/layers/points/points.py:941 napari/layers/shapes/shapes.py:953 napari/layers/vectors/vectors.py:526
 msgid "selected property must be numeric to use ColorMode.COLORMAP"
-msgstr ""
+msgstr "η επιλεγμένη ιδιότητα πρέπει να είναι αριθμητική για χρήση του ColorMode.COLORMAP"
 
 #: napari/layers/shapes/shapes.py:1325 napari/layers/utils/color_manager_utils.py:47
 msgid "face_color should be the name of a color, an array of colors, or the name of an property"
-msgstr ""
+msgstr "face_color θα πρέπει να είναι το όνομα ενός χρώματος, μια σειρά χρωμάτων, ή το όνομα μιας ιδιότητας"
 
 #: napari/layers/shapes/shapes.py:1460
 msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
@@ -260,105 +260,107 @@ msgstr "κρατήστε πατημένο το <space> για μετατόπισ
 
 #: napari/layers/shapes/shapes.py:1865
 msgid "the number of properties must equal the number of shapes"
-msgstr ""
+msgstr "ο αριθμός των ιδιοτήτων πρέπει να ισούται με τον αριθμό των σχημάτων"
 
 #: napari/layers/shapes/shapes.py:2276
 msgid "expand_shape is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should work with full nD shape data as much as possible."
-msgstr ""
+msgstr "expand_shape είναι παρωχημένη και θα αφαιρεθεί στην έκδοση 0.4.9. Δεν θα πρέπει πλέον να χρησιμοποιείται ως στρώματα σύντομα δεν θα γνωρίζει ποιες διαστάσεις εμφανίζονται. Αντ 'αυτού θα πρέπει να εργαστείτε με πλήρη δεδομένα σχήματος nD όσο το δυνατόν περισσότερο."
 
 #: napari/layers/utils/_link_layers.py:74
 msgid "Cannot link attributes that are not shared by all layers: {extra}. Allowable attrs include:\n"
 "{valid_attrs}"
-msgstr ""
+msgstr "Δεν είναι δυνατός ο σύνδεσμος ιδιοτήτων που δεν μοιράζονται από όλα τα επίπεδα: {extra}. Οι επιτρεπόμενες attrs περιλαμβάνουν:\n"
+"{valid_attrs}"
 
 #: napari/layers/utils/_link_layers.py:136
 msgid "Must provide at least one layer to unlink"
-msgstr ""
+msgstr "Πρέπει να παρέχει τουλάχιστον ένα επίπεδο για αποσύνδεση"
 
 #: napari/layers/utils/_link_layers.py:194
 msgid "``layers`` iterable must have at least one layer"
-msgstr ""
+msgstr "```layers`` iterable πρέπει να έχει τουλάχιστον ένα στρώμα"
 
 #: napari/layers/utils/_text_utils.py:44
 msgid "view_data should be a numpy array or list when using Anchor.CENTER"
-msgstr ""
+msgstr "view_data πρέπει να είναι ένας αριθμητικός πίνακας ή λίστα όταν χρησιμοποιείτε το Anchor.CENTER"
 
 #: napari/layers/utils/_text_utils.py:141
 msgid "view_data should be a numpy array or list"
-msgstr ""
+msgstr "view_data πρέπει να είναι ένας αριθμητικός πίνακας ή λίστα"
 
 #: napari/layers/utils/_text_utils.py:189
 msgid "Number of text elements ({length}) should equal the length of the data ({n_text})"
-msgstr ""
+msgstr "Αριθμός στοιχείων κειμένου ({length}) πρέπει να ισούται με το μήκος των δεδομένων ({n_text})"
 
 #: napari/layers/utils/color_manager.py:66
 msgid "color_properties dictionary should have keys: name, values, and optionally current_value"
-msgstr ""
+msgstr "το λεξικό color_properties θα πρέπει να έχει κλειδιά: όνομα, τιμές και προαιρετικά current_value"
 
 #: napari/layers/utils/color_manager.py:76
 msgid "color_properties should be None, a dict, or ColorProperties object"
-msgstr ""
+msgstr "color_properties δεν πρέπει να είναι κανείς, ένα αντικείμενο dict, ή ColorProperties"
 
 #: napari/layers/utils/color_manager.py:485
 msgid "if color_properties is a string, it should be a property name"
-msgstr ""
+msgstr "αν το color_properties είναι συμβολοσειρά, θα πρέπει να είναι όνομα ιδιότητας"
 
 #: napari/layers/utils/color_transformations.py:45
 msgid "The provided {elem_name} parameter contained illegal values, resetting all {elem_name} values to {default}."
-msgstr ""
+msgstr "Η παρεχόμενη παράμετρος {elem_name} περιείχε παράνομες τιμές, επαναφέροντας όλες τις {elem_name} τιμές στο {default}."
 
 #: napari/layers/utils/color_transformations.py:60
 msgid "The provided {elem_name} parameter has {length} entries, while the data contains {num_entries} entries. Setting {elem_name} to {default}."
-msgstr ""
+msgstr "Η παρεχόμενη παράμετρος {elem_name} έχει {length} καταχωρήσεις, ενώ τα δεδομένα περιέχουν {num_entries} καταχωρήσεις. Ρύθμιση {elem_name} έως {default}."
 
 #: napari/layers/utils/color_transformations.py:137
 msgid "The number of supplied colors mismatch the number of given data points. Length of data is {num_entries}, while the number of colors is {length}. Color for all points is reset to white."
-msgstr ""
+msgstr "Ο αριθμός των παρεχόμενων χρωμάτων δεν ταιριάζει με τον αριθμό των δεδομένων σημεία. Το μήκος των δεδομένων είναι {num_entries}, ενώ ο αριθμός των χρωμάτων είναι {length}. Το χρώμα για όλα τα σημεία επαναφέρεται στο λευκό."
 
 #: napari/layers/utils/stack_utils.py:102
 msgid "Error adding multichannel image with data shape {data_shape!r}.\n"
 "Requested channel_axis ({channel_axis}) had length {n_channels}, but the '{key}' argument only provided {i} values. "
-msgstr ""
+msgstr "Σφάλμα κατά την προσθήκη εικόνας πολλαπλών καναλιών με το σχήμα δεδομένων {data_shape!r}.\n"
+"Το ζητούμενο channel_axis ({channel_axis}) είχε μήκος {n_channels}, αλλά η παράμετρος '{key}' παρείχε μόνο {i} τιμές. "
 
 #: napari/layers/utils/stack_utils.py:159
 msgid "The image needs more than 2 dimensions for splitting"
-msgstr ""
+msgstr "Η εικόνα χρειάζεται περισσότερες από 2 διαστάσεις για διαχωρισμό"
 
 #: napari/layers/utils/stack_utils.py:167
 msgid "Can't split along axis {axis}. The image has {num_dim} dimensions"
-msgstr ""
+msgstr "Δεν μπορεί να διαχωριστεί κατά μήκος του άξονα {axis}. Η εικόνα έχει {num_dim} διαστάσεις"
 
 #: napari/layers/utils/stack_utils.py:235
 msgid "images list is empty"
-msgstr ""
+msgstr "η λίστα εικόνων είναι κενή"
 
 #: napari/layers/utils/text.py:217
 msgid "opaque blending mode is not allowed for text. setting to translucent."
-msgstr ""
+msgstr "η αδιαφανής λειτουργία ανάμειξης δεν επιτρέπεται για τη ρύθμιση κειμένου."
 
 #: napari/layers/vectors/_vector_utils.py:35
 msgid "Vector data of shape {shape} is not supported"
-msgstr ""
+msgstr "Δεν υποστηρίζονται διανυσματικά δεδομένα σχήματος {shape}"
 
 #: napari/layers/points/points.py:572 napari/layers/vectors/vectors.py:336
 msgid "the number of properties must equal the number of points"
-msgstr ""
+msgstr "ο αριθμός των ιδιοτήτων πρέπει να ισούται με τον αριθμό των πόντων"
 
 #: napari/layers/vectors/vectors.py:504
 msgid "edge_color property was not set, setting to: {color_property}"
-msgstr ""
+msgstr "edge_color ιδιότητα δεν ορίστηκε, ρύθμιση σε: {color_property}"
 
 #: napari/layers/vectors/vectors.py:513
 msgid "There must be a valid Points.properties to use {edge_color_mode}"
-msgstr ""
+msgstr "Πρέπει να υπάρχει μια έγκυρη Points.properties για να χρησιμοποιήσετε {edge_color_mode}"
 
 #: napari/layers/image/_image_utils.py:68
 msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays of single shape: {shape}"
-msgstr ""
+msgstr "Τα δεδομένα εισόδου πρέπει να είναι ένα αντικείμενο που μοιάζει με πίνακα ή μια ακολουθία συστοιχιών φθίνοντος μεγέθους. Έχουν πολλές σειρές σχήματος: {shape}"
 
 #: napari/layers/image/_image_utils.py:76
 msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays in incorrect order, shapes: {shapes}"
-msgstr ""
+msgstr "Τα δεδομένα εισόδου πρέπει να είναι ένα αντικείμενο που μοιάζει με πίνακα ή μια ακολουθία συστοιχιών μειούμενου μεγέθους. Έχεις πίνακες σε εσφαλμένη σειρά, σχήματα: {shapes}"
 
 #: napari/layers/points/_points_constants.py:84
 msgid "arrow"
@@ -414,15 +416,15 @@ msgstr "x"
 
 #: napari/layers/points/_points_utils.py:119
 msgid "Points dimensions must be equal to ndim"
-msgstr ""
+msgstr "Οι διαστάσεις των σημείων πρέπει να είναι ίσες με το ndim"
 
 #: napari/layers/points/points.py:666
 msgid "Size is not compatible for broadcasting"
-msgstr ""
+msgstr "Το μέγεθος δεν είναι συμβατό για μετάδοση"
 
 #: napari/layers/points/points.py:928
 msgid "There must be a valid Points.properties to use {color_mode}"
-msgstr ""
+msgstr "Πρέπει να υπάρχει μια έγκυρη Points.properties για να χρησιμοποιήσετε {color_mode}"
 
 #: napari/layers/base/_base_constants.py:34
 msgid "translucent"
@@ -438,233 +440,233 @@ msgstr "αδιαφανής"
 
 #: napari/layers/base/base.py:237
 msgid "affine input not recognized. must be either napari.utils.transforms.Affine, ndarray, or None. Got {dtype}"
-msgstr ""
+msgstr "affine εισόδου δεν αναγνωρίζεται. πρέπει να είναι είτε napari.utils.transforms.Affine, ndarray, ή κανένα. Έχεις {dtype}"
 
 #: napari/layers/base/base.py:283
 msgid "'layer.events.select' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'added' attribute on the event."
-msgstr ""
+msgstr "'layer.events.select' είναι παρωχημένο και θα αφαιρεθεί στο napari v0.4.9, χρησιμοποιήστε το 'viewer.layers.selection.events.changed' αντί αυτού και επιθεωρήστε το χαρακτηριστικό 'added' στο γεγονός."
 
 #: napari/layers/base/base.py:290
 msgid "'layer.events.deselect' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'removed' attribute on the event."
-msgstr ""
+msgstr "'layer.events.deselect' είναι παρωχημένη και θα αφαιρεθεί σε napari v0.4.9, χρησιμοποιήστε το 'viewer.layers.selection.events.changed' αντί αυτού, και επιθεωρήστε το χαρακτηριστικό 'αφαιρεθεί' στο γεγονός."
 
 #: napari/layers/base/base.py:347
 msgid "opacity must be between 0.0 and 1.0; got {opacity}"
-msgstr ""
+msgstr "η αδιαφάνεια πρέπει να είναι μεταξύ 0.0 και 1.0; πήρε {opacity}"
 
 #: napari/layers/base/base.py:471
 msgid "affine input not recognized. must be either napari.utils.transforms.Affine or ndarray. Got {dtype}"
-msgstr ""
+msgstr "affine εισόδου δεν αναγνωρίζεται. πρέπει να είναι είτε napari.utils.transforms.Affine ή ndarray. Έχει {dtype}"
 
 #: napari/layers/base/base.py:493 napari/layers/base/base.py:505
 msgid "layer.position is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position."
-msgstr ""
+msgstr "layer.position είναι παρωχημένη και θα αφαιρεθεί στην έκδοση 0.4.9. Δεν πρέπει πλέον να χρησιμοποιείται ως στρώματα δεν πρέπει να γνωρίζουν πλέον πού βρίσκεται η θέση του δρομέα. Μπορείτε να πάρετε τη θέση του δρομέα στις συντεταγμένες του κόσμου από τη θέση viewer.cursor.position."
 
 #: napari/layers/base/base.py:656
 msgid "Non-orthogonal slicing is being requested, but is not fully supported. Data is displayed without applying an out-of-slice rotation or shear component."
-msgstr ""
+msgstr "Ζητείται μη ορθογώνιος τεμαχισμός, αλλά δεν υποστηρίζεται πλήρως. Τα δεδομένα εμφανίζονται χωρίς την εφαρμογή ενός εκτός τμήματος περιστροφή ή διάτμηση."
 
 #: napari/layers/base/base.py:757
 msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `layer in viewer.layers.selection`"
-msgstr ""
+msgstr "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `layer in viewer.layers.selection`"
 
 #: napari/layers/base/base.py:772
 msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `viewer.layers.selection.add(layer)` or `viewer.layers.selection.remove(layer)`"
-msgstr ""
+msgstr "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `viewer.layers.selection.add(layer)` or `viewer.layers.selection.remove(layer)`"
 
 #: napari/layers/base/base.py:981
 msgid "layer.coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position. You can then transform that into data coordinates using the layer.world_to_data method."
-msgstr ""
+msgstr "layer.coordinates είναι παρωχημένη και θα αφαιρεθεί στην έκδοση 0.4.9. Δεν πρέπει πλέον να χρησιμοποιείται ως στρώματα δεν πρέπει να γνωρίζουν πλέον πού βρίσκεται η θέση του δρομέα. Μπορείτε να πάρετε τη θέση του δρομέα στις συντεταγμένες του κόσμου από τη θέση viewer.cursor.position. Στη συνέχεια μπορείτε να το μετατρέψει σε συντεταγμένες δεδομένων χρησιμοποιώντας τη μέθοδο layer.world_to_data."
 
 #: napari/layers/base/base.py:1069
 msgid "displayed_coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should use [layer.coordinates[d] for d in viewer.dims.displayed]"
-msgstr ""
+msgstr "το displayed_coordinates είναι παρωχημένο και θα αφαιρεθεί στην έκδοση 0.4.9. Δεν θα πρέπει πλέον να χρησιμοποιείται ως στρώματα σύντομα δεν θα γνωρίζει ποιες διαστάσεις εμφανίζονται. Αντ 'αυτού θα πρέπει να χρησιμοποιήσετε [layer.coordinates[d] for d in viewer.dims.displayed]"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:147
 msgid "zero"
-msgstr ""
+msgstr "μηδέν"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:148
 msgid "one"
-msgstr ""
+msgstr "ένα"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:149
 msgid "two"
-msgstr ""
+msgstr "δύο"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:150
 msgid "three"
-msgstr ""
+msgstr "τρία"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:151
 msgid "four"
-msgstr ""
+msgstr "τέσσερα"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:152
 msgid "five"
-msgstr ""
+msgstr "πέντε"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:153
 msgid "six"
-msgstr ""
+msgstr "έξι"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:154
 msgid "seven"
-msgstr ""
+msgstr "επτά"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:155
 msgid "eight"
-msgstr ""
+msgstr "οκτώ"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:156
 msgid "nine"
-msgstr ""
+msgstr "εννιά"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:130 napari/_vendor/experimental/humanize/src/humanize/time.py:203
 msgid "a moment"
-msgstr ""
+msgstr "μια στιγμή"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:132
 msgid "a second"
-msgstr ""
+msgstr "ένα δευτερόλεπτο"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:136
 msgid "a minute"
-msgstr ""
+msgstr "ένα λεπτό"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:141
 msgid "an hour"
-msgstr ""
+msgstr "μία ώρα"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:147
 msgid "a day"
-msgstr ""
+msgstr "μία ημέρα"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:154
 msgid "a month"
-msgstr ""
+msgstr "ένας μήνας"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:159
 msgid "a year"
-msgstr ""
+msgstr "ένα έτος"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:164
 msgid "1 year, 1 month"
-msgstr ""
+msgstr "1 έτος, 1 μήνας"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:200
 #, python-format
 msgid "%s from now"
-msgstr ""
+msgstr "%s από τώρα"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:200
 #, python-format
 msgid "%s ago"
-msgstr ""
+msgstr "%s πριν"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:204
 msgid "now"
-msgstr ""
+msgstr "τώρα"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:223
 msgid "today"
-msgstr ""
+msgstr "σήμερα"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:225
 msgid "tomorrow"
-msgstr ""
+msgstr "αύριο"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:227
 msgid "yesterday"
-msgstr ""
+msgstr "χθες"
 
 #: napari/_vispy/experimental/texture_atlas.py:309
 msgid "Data with shape {shape} is not compatible with this TextureAtlas2D which has tile shape {spec_shape}"
-msgstr ""
+msgstr "Τα δεδομένα με σχήμα {shape} δεν είναι συμβατά με αυτό το TextureAtlas2D το οποίο έχει σχήμα πλακιδίου {spec_shape}"
 
 #: napari/_vispy/experimental/tiled_image_visual.py:310
 msgid "Tile index {tile_index} not found."
-msgstr ""
+msgstr "Το ευρετήριο πλακιδίων {tile_index} δεν βρέθηκε."
 
 #: napari/_vispy/experimental/tiled_image_visual.py:361
 msgid "Auto clims not supported for tiled image visual"
-msgstr ""
+msgstr "Τα αυτόματα κλιπ δεν υποστηρίζονται για οπτικά πλακάκια εικόνας"
 
 #: napari/utils/events/containers/_evented_list.py:117 napari/utils/events/containers/_typed.py:92
 msgid "Can only assign an iterable to slice"
-msgstr ""
+msgstr "Μπορεί να αντιστοιχίσει μόνο ένα αναλφάβητο σε φέτα"
 
 #: napari/utils/events/containers/_evented_list.py:132
 msgid "attempt to assign sequence of size {size} to extended slice of size {slice_size}"
-msgstr ""
+msgstr "προσπάθεια να αντιστοιχίσει ακολουθία μεγέθους {size} σε εκτεταμένο κομμάτι μεγέθους {slice_size}"
 
 #: napari/utils/events/containers/_evented_list.py:163
 msgid "Deletion index must be {valid!r}, got {dtype}"
-msgstr ""
+msgstr "Το ευρετήριο διαγραφής πρέπει να είναι {έγκυρο!r}, πήρε {dtype}"
 
 #: napari/utils/events/containers/_evented_list.py:298 napari/utils/events/containers/_nested_list.py:298 napari/utils/events/containers/_nested_list.py:405
 msgid "Destination index may not be a slice"
-msgstr ""
+msgstr "Ο δείκτης προορισμού δεν μπορεί να είναι μια φέτα"
 
 #: napari/utils/events/containers/_evented_list.py:312
 msgid "Can only move integer or slice indices"
-msgstr ""
+msgstr "Μπορέστε μόνο να μετακινήσετε ακέραιους ή δείκτες φέτας"
 
 #: napari/utils/events/containers/_nested_list.py:57
 msgid "Invalid nested index: {index}. Must be an int or tuple"
-msgstr ""
+msgstr "Μη έγκυρο ένθετο ευρετήριο: {index}. Πρέπει να είναι μια ένδειξη ή ένας σωλήνας"
 
 #: napari/utils/events/containers/_nested_list.py:97
 msgid "The parent index must be a tuple of int"
-msgstr ""
+msgstr "Ο γονικός δείκτης πρέπει να είναι ένας σωλήνας int"
 
 #: napari/utils/events/containers/_nested_list.py:314 napari/utils/events/containers/_nested_list.py:413
 msgid "Group cannot move itself"
-msgstr ""
+msgstr "Η ομάδα δεν μπορεί να κινηθεί η ίδια"
 
 #: napari/utils/events/containers/_nested_list.py:327
 msgid "Can't yet deal with slice source indices in multimove"
-msgstr ""
+msgstr "Δεν είναι ακόμα δυνατή η αντιμετώπιση των δεικτών πηγής φέτας σε πολλαπλή κίνηση"
 
 #: napari/utils/events/containers/_nested_list.py:338 napari/utils/events/containers/_nested_list.py:397
 msgid "Terminal source index may not be a slice"
-msgstr ""
+msgstr "Ο δείκτης πηγής τερματικού μπορεί να μην είναι μια φέτα"
 
 #: napari/utils/events/containers/_nested_list.py:446
 msgid "Cannot add object with type {dtype!r} to TypedList expecting type {types_!r}"
-msgstr ""
+msgstr "Δεν είναι δυνατή η προσθήκη αντικειμένου με τύπο {dtype!r} σε Λίστα που αναμένει τύπο {types_ !r}"
 
 #: napari/utils/events/containers/_selectable_list.py:54
 msgid "Cannot select item that is not in list: {value!r}"
-msgstr ""
+msgstr "Δεν είναι δυνατή η επιλογή αντικειμένου που δεν είναι στη λίστα: {value!r}"
 
 #: napari/utils/events/containers/_selection.py:150
 msgid "Value is not a valid sequence: {data}"
-msgstr ""
+msgstr "Η τιμή δεν είναι έγκυρη ακολουθία: {data}"
 
 #: napari/utils/events/containers/_set.py:166
 msgid "Value is not a valid sequence: {value}"
-msgstr ""
+msgstr "Η τιμή δεν είναι έγκυρη ακολουθία: {value}"
 
 #: napari/utils/events/containers/_typed.py:164
 msgid "Cannot add object with type {dtype!r} to TypedList expecting type {basetypes!r}"
-msgstr ""
+msgstr "Αδύνατη η προσθήκη αντικειμένου με τύπο {dtype!r} στην TypedList που αναμένει τύπο {basetypes!r}"
 
 #: napari/utils/events/containers/_typed.py:239
 msgid "{value!r} is not in list"
-msgstr ""
+msgstr "{value!r} δεν είναι στη λίστα"
 
 #: napari/utils/tree/node.py:93
 msgid "Cannot unparent orphaned Node: {node!r}"
-msgstr ""
+msgstr "Αδυναμία μη γονικού ορφανά κόμβου: {node!r}"
 
 #: napari/utils/settings/_defaults.py:51 napari/utils/settings/_defaults.py:60
 msgid "A schema version must be a 3 element tuple or string!"
-msgstr ""
+msgstr "Μια έκδοση σχήματος πρέπει να είναι ένας σωλήνας 3 στοιχείων ή μια συμβολοσειρά!"
 
 #: napari/utils/settings/_defaults.py:71
 msgid "A schema version subparts must be positive integers or parseable as integers!"
-msgstr ""
+msgstr "Ένα σχήμα έκδοση επιμέρους τμήματα πρέπει να είναι θετικοί ακέραιοι ή παραδεκτοί ως ακέραιοι!"
 
 #: napari/utils/settings/_defaults.py:109 napari/utils/settings/_defaults.py:147
 msgid "must be a string"
@@ -672,15 +674,15 @@ msgstr "πρέπει να είναι μια συμβολοσειρά"
 
 #: napari/utils/settings/_defaults.py:119
 msgid "\"{value}\" is not valid. It must be one of {themes}"
-msgstr ""
+msgstr "\"{value}\" δεν είναι έγκυρη. Πρέπει να είναι ένα από {themes}"
 
 #: napari/utils/settings/_defaults.py:156
 msgid "\"{value}\" is not valid. It must be one of {language_packs}."
-msgstr ""
+msgstr "\"{value}\" δεν είναι έγκυρη. Πρέπει να είναι ένα από {language_packs}."
 
 #: napari/utils/settings/_defaults.py:192
 msgid "Theme"
-msgstr ""
+msgstr "Θέμα"
 
 #: napari/utils/settings/_defaults.py:193
 msgid "Theme selection."
@@ -688,527 +690,534 @@ msgstr "Επιλογή θέματος."
 
 #: napari/utils/settings/_defaults.py:198
 msgid "Appearance"
-msgstr ""
+msgstr "Εμφάνιση"
 
 #: napari/utils/settings/_defaults.py:221
 msgid "IPython interactive"
-msgstr ""
+msgstr "Διαδραστικό IPython"
 
 #: napari/utils/settings/_defaults.py:222
 #, python-format
 msgid "Use interactive %gui qt event loop when creating napari Viewers in IPython"
-msgstr ""
+msgstr "Χρησιμοποιήστε διαδραστικό %gui qt βρόχο συμβάντων όταν δημιουργείτε napari Viewers σε IPython"
 
 #: napari/utils/settings/_defaults.py:229
 msgid "Language"
-msgstr ""
+msgstr "Γλώσσα"
 
 #: napari/utils/settings/_defaults.py:230
 msgid "Interface display language."
-msgstr ""
+msgstr "Γλώσσα εμφάνισης διεπαφής."
 
 #: napari/utils/settings/_defaults.py:236
 msgid "Save Window Geometry"
-msgstr ""
+msgstr "Αποθήκευση Γεωμετρίας Παραθύρου"
 
 #: napari/utils/settings/_defaults.py:237
 msgid "Save window size and position."
-msgstr ""
+msgstr "Αποθήκευση μεγέθους και θέσης παραθύρου."
 
 #: napari/utils/settings/_defaults.py:241
 msgid "Save Window State"
-msgstr ""
+msgstr "Αποθήκευση Κατάστασης Παραθύρου"
 
 #: napari/utils/settings/_defaults.py:242
 msgid "Save window state of dock widgets."
-msgstr ""
+msgstr "Αποθήκευση κατάστασης παραθύρου των γραφικών συστατικών προσάρτησης."
 
 #: napari/utils/settings/_defaults.py:262
 msgid "Application"
-msgstr ""
+msgstr "Εφαρμογή"
 
 #: napari/utils/settings/_defaults.py:300
 msgid "Plugin sort order"
-msgstr ""
+msgstr "Σειρά ταξινόμησης προσθέτων"
 
 #: napari/utils/settings/_defaults.py:301
 msgid "Sort plugins for each action in the order to be called."
-msgstr ""
+msgstr "Ταξινόμηση προσθέτων για κάθε ενέργεια με τη σειρά που θα κληθεί."
 
 #: napari/utils/settings/_defaults.py:308
 msgid "Plugins"
-msgstr ""
+msgstr "Πρόσθετα"
 
 #: napari/utils/settings/_manager.py:135
 msgid "The content of the napari settings file could not be read\n\n"
 "The default settings will be used and the content of the file will be replaced the next time settings are changed.\n\n"
 "Error:\n"
 "{err}"
-msgstr ""
+msgstr "Το περιεχόμενο του αρχείου ρυθμίσεων napari δεν μπορεί να διαβαστεί\n\n"
+"Θα χρησιμοποιηθούν οι προεπιλεγμένες ρυθμίσεις και το περιεχόμενο του αρχείου θα αντικατασταθεί την επόμενη φορά που θα αλλάξουν οι ρυθμίσεις.\n\n"
+"Σφάλμα:\n"
+"{err}"
 
 #: napari/utils/_tests/test_translations.py:176
 msgid "BOO"
-msgstr ""
+msgstr "BOO"
 
 #: napari/utils/_tests/test_translations.py:184
 msgid "More about napari"
-msgstr ""
+msgstr "Περισσότερα για το napari"
 
 #: napari/utils/_tests/test_translations.py:397
 msgid "MORE ABOUT NAPARI"
-msgstr ""
+msgstr "ΠΕΡΙΣΣΟΤΕΡΑ ΣΧΕΤΙΚΑ ΜΕ NAPARI"
 
 #: napari/utils/transforms/transform_utils.py:81
 msgid "Scalars are not valid values for shear. Shear must be an upper triangular vector or square matrix with ones along the main diagonal."
-msgstr ""
+msgstr "Οι κλίμακες δεν είναι έγκυρες τιμές για τη διάτμηση. Η διάτμηση πρέπει να είναι ένα άνω τριγωνικό διάνυσμα ή τετράγωνο πλέγμα με αυτές κατά μήκος της κύριας διαγώνου."
 
 #: napari/utils/transforms/transform_utils.py:122
 msgid "{number} is a strange number of shear elements"
-msgstr ""
+msgstr "{number} είναι ένας παράξενος αριθμός των στοιχείων διάτμησης"
 
 #: napari/utils/transforms/transform_utils.py:153
 msgid "Improper transform matrix {matrix}"
-msgstr ""
+msgstr "Ακατάλληλος μετασχηματισμός πίνακα {matrix}"
 
 #: napari/utils/transforms/transforms.py:48
 msgid "Inverse function was not provided."
-msgstr ""
+msgstr "Η αντίστροφη συνάρτηση δεν παρέχεται."
 
 #: napari/utils/transforms/transforms.py:54
 msgid "Transform composition rule not provided"
-msgstr ""
+msgstr "Δεν παρέχεται κανόνας σύνθεσης μετασχηματισμού"
 
 #: napari/utils/transforms/transforms.py:71 napari/utils/transforms/transforms.py:90
 msgid "Cannot subset arbitrary transforms."
-msgstr ""
+msgstr "Αδυναμία υποσυνόλου αυθαίρετων μετασχηματισμών."
 
 #: napari/utils/transforms/transforms.py:342 napari/utils/transforms/transforms.py:420
 msgid "Only upper triangular or lower triangular matrices are accepted for shear, got {shear}. For other matrices, set the affine_matrix or linear_matrix directly."
-msgstr ""
+msgstr "Μόνο οι άνω τριγωνικοί ή κάτω τριγωνικοί πίνακες γίνονται αποδεκτοί για διάτμηση, πήραν {shear}. Για άλλους πίνακες, ρυθμίστε κατευθείαν το affine_matrix ή το linear_matrix."
 
 #: napari/utils/events/event.py:311
 msgid "print_callback_errors must be \"first\", \"reminders\", \"always\", or \"never\""
-msgstr ""
+msgstr "print_callback_errors πρέπει να είναι \"πρώτα\", \"υπενθυμίσεις\", \"πάντα\", ή \"ποτέ\""
 
 #: napari/utils/events/event.py:421
 msgid "ref must be a bool or string"
-msgstr ""
+msgstr "ref πρέπει να είναι ένα σκαμνί ή κορδόνι"
 
 #: napari/utils/events/event.py:428
 msgid "ref \"{ref}\" is not unique"
-msgstr ""
+msgstr "ref \"{ref}\" δεν είναι μοναδικό"
 
 #: napari/utils/events/event.py:434
 msgid "position must be \"first\" or \"last\", not {position}"
-msgstr ""
+msgstr "η θέση πρέπει να είναι \"πρώτη\" ή \"τελευταία\", όχι {position}"
 
 #: napari/utils/events/event.py:458
 msgid "criteria \"{criteria}\" is in the current callback list {count} times:\n"
 "{callback_refs}\n"
 "{callbacks}"
-msgstr ""
+msgstr "κριτήρια \"{criteria}\" είναι στην τρέχουσα λίστα callback {count} φορές:\n"
+"{callback_refs}\n"
+"{callbacks}"
 
 #: napari/utils/events/event.py:477
 msgid "cannot place callback before \"{before}\" and after \"{after}\" for callbacks: {callback_refs}"
-msgstr ""
+msgstr "δεν μπορεί να τοποθετήσει επιστροφή κλήσης πριν από το \"{before}\" και μετά το \"{after}\" για επιστροφή κλήσεων: {callback_refs}"
 
 #: napari/utils/events/event.py:583
 msgid "Event source-stack mismatch."
-msgstr ""
+msgstr "Ασυμφωνία πηγής συμβάντων."
 
 #: napari/utils/events/event.py:616
 msgid "Event emitters can be called with an Event instance or with keyword arguments only."
-msgstr ""
+msgstr "Οι εκπομπές συμβάντων μπορούν να κληθούν μόνο με μια παρουσία συμβάντος ή με παραμέτρους λέξεων-κλειδιών."
 
 #: napari/utils/events/event.py:648
 msgid "Cannot unblock {self_} for callback {callback}; emitter was not previously blocked."
-msgstr ""
+msgstr "Δεν είναι δυνατή η κατάργηση αποκλεισμού του {self_} για επανάκληση {callback}· ο πομπός δεν είχε αποκλειστεί προηγουμένως."
 
 #: napari/utils/events/event.py:817
 msgid "EmitterGroup already has an emitter named '{name}'"
-msgstr ""
+msgstr "Το EmitterGroup έχει ήδη έναν πομπό με το όνομα '{name}'"
 
 #: napari/utils/events/event.py:825
 msgid "The name '{name}' cannot be used as an emitter; it is already an attribute of EmitterGroup"
-msgstr ""
+msgstr "Το όνομα '{name}' δεν μπορεί να χρησιμοποιηθεί ως εκπομπής; είναι ήδη ένα χαρακτηριστικό του EmitterGroup"
 
 #: napari/utils/events/event.py:843
 msgid "Emitter must be specified as either an EventEmitter instance or Event subclass. (got {name}={emitter})"
-msgstr ""
+msgstr "Ο πομπός πρέπει να καθοριστεί είτε ως παρουσία EventEmitter είτε ως υπο-class. (έχεις {name}={emitter})"
 
 #: napari/utils/events/evented_model.py:165
 msgid "The `asdict` method has been renamed `dict` and is now deprecated. It will be removed in 0.4.7"
-msgstr ""
+msgstr "Η μέθοδος «asdict» έχει μετονομαστεί σε «δικτάτορα» και τώρα έχει καταργηθεί. Θα αφαιρεθεί σε 0.4.7"
 
 #: napari/utils/events/evented_model.py:191
 msgid "Unsupported update from {values}"
-msgstr ""
+msgstr "Μη υποστηριζόμενη ενημέρωση από {values}"
 
 #: napari/utils/perf/_config.py:110
 msgid "{path} has no callable list '{list_name}'"
-msgstr ""
+msgstr "{path} δεν έχει λίστα καλούμενων '{list_name}'"
 
 #: napari/utils/perf/_patcher.py:47
 msgid "Nested attribute not found: {attribute_str}"
-msgstr ""
+msgstr "Το ένθετο χαρακτηριστικό δεν βρέθηκε: {attribute_str}"
 
 #: napari/utils/perf/_patcher.py:61
 msgid "Module {module_name} has no attribute {attribute_str}"
-msgstr ""
+msgstr "Το πρόσθετο {module_name} δεν έχει χαρακτηριστικό {attribute_str}"
 
 #: napari/utils/perf/_patcher.py:80
 msgid "Parent {parent_str} has no attribute {callable_str}"
-msgstr ""
+msgstr "Το γονικό {parent_str} δεν έχει χαρακτηριστικό {callable_str}"
 
 #: napari/utils/perf/_patcher.py:135
 msgid "Module not found: {module_path}"
-msgstr ""
+msgstr "Δεν βρέθηκε πρόσθετο: {module_path}"
 
 #: napari/utils/colormaps/bop_colors.py:787
 msgid "bop blue"
-msgstr ""
+msgstr "μπλε bop"
 
 #: napari/utils/colormaps/bop_colors.py:788
 msgid "bop orange"
-msgstr ""
+msgstr "πορτοκαλί bop"
 
 #: napari/utils/colormaps/bop_colors.py:789
 msgid "bop purple"
-msgstr ""
+msgstr "μοβ μποπ"
 
 #: napari/utils/colormaps/categorical_colormap.py:106
 msgid "colormap should be an array or dict"
-msgstr ""
+msgstr "colormap πρέπει να είναι μια σειρά ή dict"
 
 #: napari/utils/colormaps/categorical_colormap_utils.py:62
 msgid "ColorCycle requires a values argument"
-msgstr ""
+msgstr "Ο ColorCycle απαιτεί ένα όρισμα τιμών"
 
 #: napari/utils/colormaps/colormap.py:97
 msgid "Unrecognized Colormap Interpolation Mode"
-msgstr ""
+msgstr "Μη Αναγνωρισμένη Λειτουργία Παρεμβολής Χάρτη Χρωμάτων"
 
 #: napari/utils/colormaps/colormap_utils.py:27 napari/utils/colormaps/colormap_utils.py:56
 msgctxt "colormap"
 msgid "viridis"
-msgstr ""
+msgstr "βιρίδη"
 
 #: napari/utils/colormaps/colormap_utils.py:28
 msgctxt "colormap"
 msgid "magma"
-msgstr ""
+msgstr "magma"
 
 #: napari/utils/colormaps/colormap_utils.py:29
 msgctxt "colormap"
 msgid "inferno"
-msgstr ""
+msgstr "ινφερόνη"
 
 #: napari/utils/colormaps/colormap_utils.py:30
 msgctxt "colormap"
 msgid "plasma"
-msgstr ""
+msgstr "πλάσμα"
 
 #: napari/utils/colormaps/colormap_utils.py:31
 msgctxt "colormap"
 msgid "gray"
-msgstr ""
+msgstr "γκρι"
 
 #: napari/utils/colormaps/colormap_utils.py:32
 msgctxt "colormap"
 msgid "gray r"
-msgstr ""
+msgstr "γκρι r"
 
 #: napari/utils/colormaps/colormap_utils.py:33
 msgctxt "colormap"
 msgid "hsv"
-msgstr ""
+msgstr "hsv"
 
 #: napari/utils/colormaps/colormap_utils.py:34
 msgctxt "colormap"
 msgid "turbo"
-msgstr ""
+msgstr "turbo"
 
 #: napari/utils/colormaps/colormap_utils.py:35
 msgctxt "colormap"
 msgid "twilight"
-msgstr ""
+msgstr "λυκόφως"
 
 #: napari/utils/colormaps/colormap_utils.py:36
 msgctxt "colormap"
 msgid "twilight shifted"
-msgstr ""
+msgstr "το λυκόφως μετατοπίστηκε"
 
 #: napari/utils/colormaps/colormap_utils.py:37
 msgctxt "colormap"
 msgid "gist earth"
-msgstr ""
+msgstr "γλάστρα γείωσης"
 
 #: napari/utils/colormaps/colormap_utils.py:38
 msgctxt "colormap"
 msgid "PiYG"
-msgstr ""
+msgstr "PiYG"
 
 #: napari/utils/colormaps/colormap_utils.py:42
 msgctxt "colormap"
 msgid "autumn"
-msgstr ""
+msgstr "φθινόπωρο"
 
 #: napari/utils/colormaps/colormap_utils.py:43
 msgctxt "colormap"
 msgid "blues"
-msgstr ""
+msgstr "μπλουζ"
 
 #: napari/utils/colormaps/colormap_utils.py:44
 msgctxt "colormap"
 msgid "cool"
-msgstr ""
+msgstr "δροσερό"
 
 #: napari/utils/colormaps/colormap_utils.py:45
 msgctxt "colormap"
 msgid "greens"
-msgstr ""
+msgstr "χόρτα"
 
 #: napari/utils/colormaps/colormap_utils.py:46
 msgctxt "colormap"
 msgid "reds"
-msgstr ""
+msgstr "Κόκκινα"
 
 #: napari/utils/colormaps/colormap_utils.py:47
 msgctxt "colormap"
 msgid "spring"
-msgstr ""
+msgstr "άνοιξη"
 
 #: napari/utils/colormaps/colormap_utils.py:48
 msgctxt "colormap"
 msgid "summer"
-msgstr ""
+msgstr "καλοκαίρι"
 
 #: napari/utils/colormaps/colormap_utils.py:49
 msgctxt "colormap"
 msgid "fire"
-msgstr ""
+msgstr "φωτιά"
 
 #: napari/utils/colormaps/colormap_utils.py:50
 msgctxt "colormap"
 msgid "grays"
-msgstr ""
+msgstr "γκρι"
 
 #: napari/utils/colormaps/colormap_utils.py:51
 msgctxt "colormap"
 msgid "hot"
-msgstr ""
+msgstr "ζεστό"
 
 #: napari/utils/colormaps/colormap_utils.py:52
 msgctxt "colormap"
 msgid "ice"
-msgstr ""
+msgstr "πάγος"
 
 #: napari/utils/colormaps/colormap_utils.py:53
 msgctxt "colormap"
 msgid "winter"
-msgstr ""
+msgstr "χειμώνας"
 
 #: napari/utils/colormaps/colormap_utils.py:54
 msgctxt "colormap"
 msgid "light blues"
-msgstr ""
+msgstr "φως μπλουζ"
 
 #: napari/utils/colormaps/colormap_utils.py:55
 msgctxt "colormap"
 msgid "orange"
-msgstr ""
+msgstr "πορτοκαλί"
 
 #: napari/utils/colormaps/colormap_utils.py:57
 msgctxt "colormap"
 msgid "coolwarm"
-msgstr ""
+msgstr "δροσερό"
 
 #: napari/utils/colormaps/colormap_utils.py:58
 msgctxt "colormap"
 msgid "PuGr"
-msgstr ""
+msgstr "PuGr"
 
 #: napari/utils/colormaps/colormap_utils.py:59
 msgctxt "colormap"
 msgid "GrBu"
-msgstr ""
+msgstr "GrBu"
 
 #: napari/utils/colormaps/colormap_utils.py:60
 msgctxt "colormap"
 msgid "GrBu_d"
-msgstr ""
+msgstr "GrBu_d"
 
 #: napari/utils/colormaps/colormap_utils.py:61
 msgctxt "colormap"
 msgid "RdBu"
-msgstr ""
+msgstr "RdBu"
 
 #: napari/utils/colormaps/colormap_utils.py:62
 msgctxt "colormap"
 msgid "cubehelix"
-msgstr ""
+msgstr "cubehelix"
 
 #: napari/utils/colormaps/colormap_utils.py:63
 msgctxt "colormap"
 msgid "single hue"
-msgstr ""
+msgstr "μοναδική απόχρωση"
 
 #: napari/utils/colormaps/colormap_utils.py:64
 msgctxt "colormap"
 msgid "hsl"
-msgstr ""
+msgstr "hsl"
 
 #: napari/utils/colormaps/colormap_utils.py:65
 msgctxt "colormap"
 msgid "husl"
-msgstr ""
+msgstr "φλοιός"
 
 #: napari/utils/colormaps/colormap_utils.py:66
 msgctxt "colormap"
 msgid "diverging"
-msgstr ""
+msgstr "αποκλίνουσα"
 
 #: napari/utils/colormaps/colormap_utils.py:67
 msgctxt "colormap"
 msgid "RdYeBuCy"
-msgstr ""
+msgstr "RdYeBuCy"
 
 #: napari/utils/colormaps/colormap_utils.py:70
 msgctxt "colormap"
 msgid "red"
-msgstr ""
+msgstr "κόκκινο"
 
 #: napari/utils/colormaps/colormap_utils.py:71
 msgctxt "colormap"
 msgid "green"
-msgstr ""
+msgstr "Πράσινα"
 
 #: napari/utils/colormaps/colormap_utils.py:72
 msgctxt "colormap"
 msgid "blue"
-msgstr ""
+msgstr "μπλε"
 
 #: napari/utils/colormaps/colormap_utils.py:73
 msgctxt "colormap"
 msgid "cyan"
-msgstr ""
+msgstr "κυανό"
 
 #: napari/utils/colormaps/colormap_utils.py:74
 msgctxt "colormap"
 msgid "magenta"
-msgstr ""
+msgstr "ματζέντα"
 
 #: napari/utils/colormaps/colormap_utils.py:75
 msgctxt "colormap"
 msgid "yellow"
-msgstr ""
+msgstr "κίτρινο"
 
 #: napari/utils/colormaps/colormap_utils.py:127
 msgid "Colormap must be a vispy colormap if passed to from_vispy"
-msgstr ""
+msgstr "Ο χρωματικός χάρτης πρέπει να είναι ένας vispy colormap αν περάσει στο from_vispy"
 
 #: napari/utils/colormaps/colormap_utils.py:357
 msgctxt "colormap"
 msgid "low discrepancy colors"
-msgstr ""
+msgstr "χαμηλή απόκλιση χρωμάτων"
 
 #: napari/utils/colormaps/colormap_utils.py:391
 msgid "Colormap \"{name}\" not found in either vispy or matplotlib."
-msgstr ""
+msgstr "Χρωματικός χάρτης \"{name}\" δεν βρέθηκε ούτε στο παχύ ούτε στο matplotlib."
 
 #: napari/utils/colormaps/colormap_utils.py:444
 msgid "[unnamed colormap]"
-msgstr ""
+msgstr "[ανώνυμο χρωματικό χάρτη]"
 
 #: napari/utils/colormaps/colormap_utils.py:450
 msgid "[unnamed colormap {number}]"
-msgstr ""
+msgstr "[ανώνυμο colormap {number}]"
 
 #: napari/utils/colormaps/colormap_utils.py:523
 msgid "When providing a tuple as a colormap argument, the first element must be a string and the second a Colormap instance"
-msgstr ""
+msgstr "Κατά την παροχή ενός σωλήνα ως παράμετρο colormap, το πρώτο στοιχείο πρέπει να είναι μια συμβολοσειρά και το δεύτερο ένα Colormap παράδειγμα"
 
 #: napari/utils/colormaps/colormap_utils.py:549
 msgid "When providing a dict as a colormap, all values must be Colormap instances"
-msgstr ""
+msgstr "Κατά την παροχή ενός dict ως colormap, όλες οι τιμές πρέπει να είναι Colormap instances"
 
 #: napari/utils/colormaps/colormap_utils.py:572
 msgid "only the first item in a colormap dict is used as an argument"
-msgstr ""
+msgstr "μόνο το πρώτο στοιχείο σε ένα έγχρωμο χάρτη dict χρησιμοποιείται ως παράμετρο"
 
 #: napari/utils/colormaps/colormap_utils.py:579
 msgid "Received an empty dict as a colormap argument."
-msgstr ""
+msgstr "Λήφθηκε μια άδεια dict ως παράμετρο colormap."
 
 #: napari/utils/colormaps/colormap_utils.py:589
 msgid "invalid type for colormap: {cm_type}. Must be a {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
-msgstr ""
+msgstr "μη έγκυρος τύπος για το colormap: {cm_type}. Πρέπει να είναι {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
 
 #: napari/utils/colormaps/standardize_color.py:88
 msgid "Empty string detected. Returning black instead."
-msgstr ""
+msgstr "Εντοπίστηκε κενό string. Αντ' αυτού επιστρέφεται μαύρο."
 
 #: napari/utils/colormaps/standardize_color.py:133
 msgid "Coudln't convert input color array to a proper numpy array. Please make sure that your input data is in a parsable format. Converting input to a white color array."
-msgstr ""
+msgstr "Το ζευγάρι δεν μετατρέπει τον χρωματικό πίνακα εισόδου σε κατάλληλο αριθμητικό πίνακα. Παρακαλώ βεβαιωθείτε ότι τα δεδομένα εισόδου σας είναι σε μορφή παραβολή. Μετατροπή εισόδου σε ένα λευκό χρωματικό πίνακα."
 
 #: napari/utils/colormaps/standardize_color.py:171
 msgid "An object array was passed as the color input. Please convert its datatype before sending it to napari. Converting input to a white color array."
-msgstr ""
+msgstr "Ένας πίνακας αντικειμένων πέρασε ως είσοδος χρώματος. Μετατρέψτε τον τύπο δεδομένων πριν τον στείλετε στο napari. Μετατροπή εισόδου σε ένα λευκό χρωματικό πίνακα."
 
 #: napari/utils/colormaps/standardize_color.py:184
 msgid "String color arrays should be one-dimensional. Converting input to a white color array."
-msgstr ""
+msgstr "Οι πίνακες χρωμάτων συμβολοσειράς πρέπει να είναι μονοδιάστατες. Μετατροπή εισόδου σε έναν λευκό πίνακα χρωμάτων."
 
 #: napari/utils/colormaps/standardize_color.py:198
 msgid "Given color input is empty. Converting input to a white color array."
-msgstr ""
+msgstr "Το δοσμένο χρώμα εισόδου είναι κενό. Μετατροπή εισόδου σε λευκό χρωματικό πίνακα."
 
 #: napari/utils/colormaps/standardize_color.py:211
 msgid "Given colors input should contain one or two dimensions. Received array with {ndim} dimensions."
-msgstr ""
+msgstr "Τα δοσμένα χρώματα εισόδου πρέπει να περιέχουν μία ή δύο διαστάσεις. Λήφθηκε πίνακας με {ndim} διαστάσεις."
 
 #: napari/utils/colormaps/standardize_color.py:223
 msgid "Given color array has an unsupported format. Received the following array:\n"
 "{colors}\n"
 "A proper color array should have 3-4 columns with a row per data entry."
-msgstr ""
+msgstr "Ο δοσμένος πίνακας χρωμάτων έχει μη υποστηριζόμενη μορφή. Λάβατε τον ακόλουθο πίνακα:\n"
+"{colors}\n"
+"Ένας σωστός χρωματικός πίνακας θα πρέπει να έχει 3-4 στήλες με μια σειρά ανά καταχώρηση δεδομένων."
 
 #: napari/utils/colormaps/standardize_color.py:239
 msgid "Given colors input should contain three or four columns. Received array with {shape} columns. Converting input to a white color array."
-msgstr ""
+msgstr "Τα δοσμένα χρώματα εισόδου πρέπει να περιέχουν τρεις ή τέσσερις στήλες. Λήφθηκε πίνακας με {shape} στήλες. Μετατροπή εισόδου σε λευκό χρωματικό πίνακα."
 
 #: napari/utils/colormaps/standardize_color.py:253
 msgid "Data type of array ({color_dtype}) not supported."
-msgstr ""
+msgstr "Ο τύπος δεδομένων του πίνακα ({color_dtype}) δεν υποστηρίζεται."
 
 #: napari/utils/colormaps/standardize_color.py:287
 msgid "Colors input had negative values."
-msgstr ""
+msgstr "Τα χρώματα εισόδου είχαν αρνητικές τιμές."
 
 #: napari/utils/colormaps/standardize_color.py:295
 msgid "Colors with values larger than one detected. napari will normalize these colors for you. If you'd like to convert these yourself, please use the proper method from skimage.color."
-msgstr ""
+msgstr "Χρώματα με τιμές μεγαλύτερες από μία ανιχνεύεται. napari θα ομαλοποιήσει αυτά τα χρώματα για εσάς. Αν θα θέλατε να μετατρέψετε αυτά τον εαυτό σας, παρακαλώ χρησιμοποιήστε τη σωστή μέθοδο από skimage.χρώμα."
 
 #: napari/utils/colormaps/standardize_color.py:324
 msgid "Invalid color found: {color} at index {idx}."
-msgstr ""
+msgstr "Βρέθηκε μη έγκυρο χρώμα: {color} στο ευρετήριο {idx}."
 
 #: napari/utils/colormaps/standardize_color.py:440
 msgid "Value must have second dimension of size 3 or 4"
-msgstr ""
+msgstr "Η τιμή πρέπει να έχει τη δεύτερη διάσταση του μεγέθους 3 ή 4"
 
 #: napari/components/experimental/chunk/_commands/_tables.py:99
 msgid "Row with {row_cols} columns not compatible with headers ({header_cols} columns)"
-msgstr ""
+msgstr "Σειρά με {row_cols} στήλες δεν είναι συμβατή με κεφαλίδες ({header_cols} στήλες)"
 
 #: napari/components/experimental/monitor/_monitor.py:41
 msgid "Monitor: Config file not found: {path}"
-msgstr ""
+msgstr "Monitor: Το αρχείο ρυθμίσεων δεν βρέθηκε: {path}"
 
 #: napari/components/experimental/chunk/_pool_group.py:133
 msgid "Missing 'loader_defaults' in octree config."
-msgstr ""
+msgstr "Λείπει το 'loader_defaults' στο octree config."
 
 #: napari/_qt/layer_controls/qt_image_controls.py:56
 msgid "interpolation:"
@@ -1301,12 +1310,14 @@ msgstr "Λειτουργία βαφής (P)"
 #: napari/_qt/layer_controls/qt_labels_controls.py:179
 msgid "Fill mode (F) \n"
 "Toggle with {shortcut}"
-msgstr ""
+msgstr "Λειτουργία γεμίσματος (F) \n"
+"Εναλλαγή με {shortcut}"
 
 #: napari/_qt/layer_controls/qt_labels_controls.py:188
 msgid "Erase mode (E) \n"
 "Toggle with {shortcut}"
-msgstr ""
+msgstr "Λειτουργία διαγραφής (E) \n"
+"Εναλλαγή με {shortcut}"
 
 #: napari/_qt/layer_controls/qt_labels_controls.py:233
 msgid "label:"
@@ -1374,7 +1385,7 @@ msgstr "Pan/zoom (Z)"
 
 #: napari/_qt/layer_controls/qt_points_controls.py:152
 msgid "Delete selected points ({shortcut})"
-msgstr ""
+msgstr "Διαγραφή επιλεγμένων σημείων ({shortcut})"
 
 #: napari/_qt/layer_controls/qt_points_controls.py:157 napari/_qt/layer_controls/qt_shapes_controls.py:231
 msgid "toggle text visibility"
@@ -1450,7 +1461,7 @@ msgstr "Μετακίνηση πίσω"
 
 #: napari/_qt/layer_controls/qt_shapes_controls.py:183
 msgid "Delete selected shapes ({shortcut})"
-msgstr ""
+msgstr "Διαγραφή επιλεγμένων σχημάτων ({shortcut})"
 
 #: napari/_qt/layer_controls/qt_shapes_controls.py:241
 msgid "edge width:"
@@ -1554,15 +1565,15 @@ msgstr "Χωρίς συντομεύσεις πλήκτρων"
 
 #: napari/_qt/dialogs/qt_modal.py:92
 msgid "Specifying position as a string is only possible if the popup has a parent"
-msgstr ""
+msgstr "Ο καθορισμός θέσης ως συμβολοσειράς είναι δυνατός μόνο αν το αναδυόμενο παράθυρο έχει γονέα"
 
 #: napari/_qt/dialogs/qt_modal.py:120
 msgid "position must be one of [\"top\", \"left\", \"bottom\", \"right\"]"
-msgstr ""
+msgstr "η θέση πρέπει να είναι μία από τις [\"πάνω\", \"αριστερά\", \"κάτω\", \"δεξιά\"]"
 
 #: napari/_qt/dialogs/qt_modal.py:130
 msgid "Wrong type of position {position}"
-msgstr ""
+msgstr "Λάθος τύπος θέσης {position}"
 
 #: napari/_qt/dialogs/qt_notification.py:108
 msgid "Source: {source}"
@@ -1570,15 +1581,15 @@ msgstr "Πηγή: {source}"
 
 #: napari/_qt/dialogs/qt_notification.py:331 napari/_qt/dialogs/qt_notification.py:340
 msgid "Enter Debugger"
-msgstr ""
+msgstr "Εισαγωγή Αποσφαλματωτή"
 
 #: napari/_qt/dialogs/qt_notification.py:335
 msgid "Now Debugging. Please quit debugger in console to continue"
-msgstr ""
+msgstr "Τώρα Αποσφαλμάτωση. Παρακαλώ τερματίστε τον αποσφαλματωτή στην κονσόλα για να συνεχίσετε"
 
 #: napari/_qt/dialogs/qt_notification.py:348
 msgid "View Traceback"
-msgstr ""
+msgstr "Προβολή Traceback"
 
 #: napari/_qt/dialogs/qt_plugin_dialog.py:123
 msgid "remove"
@@ -1688,15 +1699,15 @@ msgstr "{save_path} υπάρχει ήδη. Θέλετε να το αντικατ
 
 #: napari/_qt/containers/_base_item_model.py:198
 msgid "root must be an instance of {class_name}"
-msgstr ""
+msgstr "το root πρέπει να είναι μια παρουσία του {class_name}"
 
 #: napari/_qt/containers/_factory.py:40
 msgid "Cannot create Qt view for obj: {obj}"
-msgstr ""
+msgstr "Αδυναμία δημιουργίας προβολής Qt για obj: {obj}"
 
 #: napari/_qt/containers/_factory.py:74
 msgid "Cannot create Qt model for obj: {obj}"
-msgstr ""
+msgstr "Αδυναμία δημιουργίας μοντέλου Qt για obj: {obj}"
 
 #: napari/_qt/containers/qt_layer_list.py:45
 msgid "Layer list"
@@ -1704,11 +1715,11 @@ msgstr "Λίστα επιπέδων"
 
 #: napari/_qt/containers/qt_tree_model.py:180
 msgid "root node must be an instance of {Group}"
-msgstr ""
+msgstr "ο κόμβος ρίζας πρέπει να είναι μια παρουσία του {Group}"
 
 #: napari/_qt/containers/qt_tree_model.py:201
 msgid "nested_index must be an int or tuple of int."
-msgstr ""
+msgstr "nested_index πρέπει να είναι ένα int ή ένα σωληνάριο int."
 
 #: napari/_qt/perf/qt_debug_menu.py:35
 msgid "&Debug"
@@ -1728,7 +1739,7 @@ msgstr "Ξεκινήστε την εγγραφή ενός αρχείου ίχν�
 
 #: napari/_qt/perf/qt_debug_menu.py:85
 msgid "Stop Recording"
-msgstr ""
+msgstr "Διακοπή Εγγραφής"
 
 #: napari/_qt/perf/qt_debug_menu.py:87
 msgid "Stop recording a trace file"
@@ -1768,15 +1779,15 @@ msgstr "Ενημέρωση: {elapsed:.2f}"
 
 #: napari/_qt/widgets/qt_dict_table.py:85
 msgid "'data' argument must be a list of dicts"
-msgstr ""
+msgstr "'data' argument πρέπει να είναι μια λίστα με τα dicts"
 
 #: napari/_qt/widgets/qt_dict_table.py:95
 msgid "Argument 'headers' got item '{header}', which was not found in any of the items in 'data'"
-msgstr ""
+msgstr "Argument 'headers' got item '{header}', which was not found in any of the items in 'data'"
 
 #: napari/_qt/widgets/qt_dims.py:295
 msgid "loop_mode must be one of {_modes}. Got: {loop_mode}"
-msgstr ""
+msgstr "Το loop_mode πρέπει να είναι ένα από τα {_modes}. Got: {loop_mode}"
 
 #: napari/_qt/widgets/qt_dims.py:304
 msgid "axis argument out of range"
@@ -1836,11 +1847,11 @@ msgstr "Προεπισκόπηση"
 
 #: napari/_qt/widgets/qt_highlight_preview.py:533 napari/_qt/widgets/qt_size_preview.py:309
 msgid "Minimum value must be smaller than {max_value}"
-msgstr ""
+msgstr "Η ελάχιστη τιμή πρέπει να είναι μικρότερη από {max_value}"
 
 #: napari/_qt/widgets/qt_highlight_preview.py:572 napari/_qt/widgets/qt_size_preview.py:348
 msgid "Maximum value must be larger than {min_value}"
-msgstr ""
+msgstr "Η μέγιστη τιμή πρέπει να είναι μεγαλύτερη από {min_value}"
 
 #: napari/_qt/widgets/qt_plugin_sorter.py:86
 msgid "Click and drag to change call order"
@@ -1902,43 +1913,43 @@ msgstr "Νέο στρώμα ετικετών"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:105
 msgid "Open IPython terminal ({shortcut})"
-msgstr ""
+msgstr "Open IPython terminal ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:114
 msgid "Roll dimensions order for display ({shortcut})"
-msgstr ""
+msgstr "Σειρά διαστάσεων ρολού για εμφάνιση ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:123
 msgid "Transpose displayed dimensions ({shortcut})"
-msgstr ""
+msgstr "Μεταφορά προβαλλόμενων διαστάσεων ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:132
 msgid "Reset view ({shortcut})"
-msgstr ""
+msgstr "Επαναφορά προβολής ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:145
 msgid "Toggle grid view ({shortcut})"
-msgstr ""
+msgstr "Εναλλαγή προβολής πλέγματος ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:160
 msgid "Toggle number of displayed dimensions ({shortcut})"
-msgstr ""
+msgstr "Εναλλαγή αριθμού διαστάσεων που εμφανίζονται ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:199
 msgid "Delete selected layers ({shortcut})"
-msgstr ""
+msgstr "Διαγραφή επιλεγμένων επιπέδων ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_dock_widget.py:69
 msgid "area argument must be in {areas}"
-msgstr ""
+msgstr "το επιχείρημα περιοχής πρέπει να είναι σε {areas}"
 
 #: napari/_qt/widgets/qt_viewer_dock_widget.py:79
 msgid "`allowed_areas` must be a list or tuple"
-msgstr ""
+msgstr "`allowed_areas` πρέπει να είναι μια λίστα ή ένας σωλήνας"
 
 #: napari/_qt/widgets/qt_viewer_dock_widget.py:90
 msgid "all allowed_areas argument must be in {areas}"
-msgstr ""
+msgstr "όλα τα παράμετρο allowed_areas πρέπει να είναι σε {areas}"
 
 #: napari/_qt/widgets/qt_viewer_dock_widget.py:176
 msgid "drag to move. double-click to float"
@@ -1956,398 +1967,403 @@ msgstr "επιπλέουν σε αυτόν τον πίνακα"
 msgid "Drag image(s) here to open\n"
 "or\n"
 "Use the menu shortcuts below:"
-msgstr ""
+msgstr "Σύρετε εικόνα(ες) εδώ για να ανοίξετε\n"
+"ή\n"
+"Χρησιμοποιήστε τις παρακάτω συντομεύσεις μενού:"
 
 #: napari/_qt/widgets/qt_welcome.py:59
 msgid "open image(s)"
-msgstr ""
+msgstr "άνοιγμα εικόνας(ων)"
 
 #: napari/_qt/widgets/qt_welcome.py:64
 msgid "show all key bindings"
-msgstr ""
+msgstr "εμφάνιση όλων των συντομεύσεων πλήκτρων"
 
 #: napari/plugins/__init__.py:158
 msgid "Plugin {plugin_name!r} provided an invalid tuple to {hook_name}. Skipping"
-msgstr ""
+msgstr "Το πρόσθετο {plugin_name!r} παρείχε ένα μη έγκυρο tuple στο {hook_name}. Παράλειψη"
 
 #: napari/plugins/__init__.py:173
 msgid "Plugin {plugin_name!r} provided a non-callable object (widget) to {hook_name}: {_cls!r}. Widget ignored."
-msgstr ""
+msgstr "Το πρόσθετο {plugin_name!r} παρείχε ένα αντικείμενο που δεν μπορεί να κληθεί (widget) σε {hook_name}: {_cls!r}. Το widget αγνοήθηκε."
 
 #: napari/plugins/__init__.py:185
 msgid "Plugin {plugin_name!r} provided invalid kwargs to {hook_name} for class {class_name}. Widget ignored."
-msgstr ""
+msgstr "Το πρόσθετο {plugin_name!r} παρείχε μη έγκυρα kwargs στο {hook_name} για την κλάση {class_name}. Widget αγνοήθηκε."
 
 #: napari/plugins/__init__.py:203
 msgid "Plugin '{plugin_name}' has already registered a dock widget '{name}' which has now been overwritten"
-msgstr ""
+msgstr "Το Plugin '{plugin_name}' έχει ήδη καταγράψει ένα widget '{name}' το οποίο έχει πλέον αντικατασταθεί"
 
 #: napari/plugins/__init__.py:250
 msgid "Plugin {plugin_name!r} does not provide any dock widgets"
-msgstr ""
+msgstr "Plugin {plugin_name!r} δεν παρέχει κανένα widget βάσης σύνδεσης"
 
 #: napari/plugins/__init__.py:264
 msgid "Plugin {plugin_name!r} provides more than 1 dock_widget. Must also provide \"widget_name\" from {widgets}"
-msgstr ""
+msgstr "Το πρόσθετο {plugin_name!r} παρέχει περισσότερα από 1 dock_widget. Πρέπει επίσης να παρέχει \"widget_name\" από {widgets}"
 
 #: napari/plugins/__init__.py:271
 msgid "Plugin {plugin_name!r} does not provide a widget named {widget_name!r}"
-msgstr ""
+msgstr "Plugin {plugin_name!r} δεν παρέχει ένα widget που ονομάζεται {widget_ name!r}"
 
 #: napari/plugins/__init__.py:302
 msgid "Plugin {plugin_name!r} provided a non-callable type to {hook_name}: {func_type!r}. Function widget ignored."
-msgstr ""
+msgstr "Το πρόσθετο {plugin_name!r} παρείχε έναν τύπο που δεν μπορεί να κληθεί στο {hook_name}: {func_type!r}. Το widget λειτουργίας αγνοήθηκε."
 
 #: napari/plugins/__init__.py:307
 msgid " To provide multiple function widgets please use a LIST of callables"
-msgstr ""
+msgstr " Για να παρέχετε πολλαπλά widget συναρτήσεων, παρακαλώ χρησιμοποιήστε ένα LIST callables"
 
 #: napari/plugins/__init__.py:324
 msgid "Plugin '{plugin_name}' has already registered a function widget '{name}' which has now been overwritten"
-msgstr ""
+msgstr "Το Plugin '{plugin_name}' έχει ήδη καταχωρήσει ένα widget συνάρτηση '{name}' το οποίο έχει πλέον αντικατασταθεί"
 
 #: napari/plugins/__init__.py:358
 msgid "Plugin {plugin_name!r} provided a non-dict object to {hook_name!r}: data ignored."
-msgstr ""
+msgstr "Το πρόσθετο {plugin_name!r} παρείχε ένα μη dict αντικείμενο {hook_name!r}: τα δεδομένα αγνοήθηκαν."
 
 #: napari/plugins/__init__.py:372
 msgid "In {hook_name!r}, plugin {plugin_name!r} provided an invalid dict object for key {name!r} that does not have required keys: \"data\" and \"display_name\".  Ignoring"
-msgstr ""
+msgstr "Στο {hook_name!r}, plugin {plugin_name!r} παρέχεται ένα μη έγκυρο αντικείμενο dict για το κλειδί {name!r} που δεν έχει απαιτούμενα κλειδιά: \"data\" και \"display_name\". Αγνοώντας"
 
 #: napari/plugins/__init__.py:394
 msgid "Plugin {plugin_name!r} provided invalid data for key {name!r} in the dict returned by {hook_name!r}. (Must be str, callable, or dict), got ({data_type})."
-msgstr ""
+msgstr "Το πρόσθετο {plugin_name!r} παρείχε μη έγκυρα δεδομένα για το κλειδί {name!r} στην εντολή που επέστρεψε από {hook_name!r}. (Πρέπει να είναι str, callable, ή δική), πήρε ({data_type})."
 
 #: napari/plugins/_skimage_data.py:6
 msgid "Astronaut (RGB)"
-msgstr ""
+msgstr "Astronaut (RGB)"
 
 #: napari/plugins/_skimage_data.py:7
 msgid "Binary Blobs"
-msgstr ""
+msgstr "Δυαδικές Σφαίρες"
 
 #: napari/plugins/_skimage_data.py:8
 msgid "Binary Blobs (3D)"
-msgstr ""
+msgstr "Δυαδικό Blobs (3D)"
 
 #: napari/plugins/_skimage_data.py:9
 msgid "Brain (3D)"
-msgstr ""
+msgstr "Εγκέφαλος (3D)"
 
 #: napari/plugins/_skimage_data.py:10
 msgid "Brick"
-msgstr ""
+msgstr "Τούβλο"
 
 #: napari/plugins/_skimage_data.py:11
 msgid "Camera"
-msgstr ""
+msgstr "Κάμερα"
 
 #: napari/plugins/_skimage_data.py:12
 msgid "Cat (RGB)"
-msgstr ""
+msgstr "Γάτα (RGB)"
 
 #: napari/plugins/_skimage_data.py:13
 msgid "Cell"
-msgstr ""
+msgstr "Κελί"
 
 #: napari/plugins/_skimage_data.py:14
 msgid "Cells (3D+2Ch)"
-msgstr ""
+msgstr "Κύτταρα (3D+2Ch)"
 
 #: napari/plugins/_skimage_data.py:15
 msgid "Checkerboard"
-msgstr ""
+msgstr "Ταμπλό"
 
 #: napari/plugins/_skimage_data.py:16
 msgid "Clock"
-msgstr ""
+msgstr "Ρολόι"
 
 #: napari/plugins/_skimage_data.py:17
 msgid "Coffee (RGB)"
-msgstr ""
+msgstr "Καφές (RGB)"
 
 #: napari/plugins/_skimage_data.py:18
 msgid "Coins"
-msgstr ""
+msgstr "Νομίσματα"
 
 #: napari/plugins/_skimage_data.py:19
 msgid "Colorwheel (RGB)"
-msgstr ""
+msgstr "Τροχός Χρώματος (RGB)"
 
 #: napari/plugins/_skimage_data.py:20
 msgid "Eagle"
-msgstr ""
+msgstr "Αετός"
 
 #: napari/plugins/_skimage_data.py:21
 msgid "Grass"
-msgstr ""
+msgstr "Γρασίδι"
 
 #: napari/plugins/_skimage_data.py:22
 msgid "Gravel"
-msgstr ""
+msgstr "Χαλίκι"
 
 #: napari/plugins/_skimage_data.py:23
 msgid "Horse"
-msgstr ""
+msgstr "Άλογα"
 
 #: napari/plugins/_skimage_data.py:24
 msgid "Hubble Deep Field (RGB)"
-msgstr ""
+msgstr "Βαθύ Πεδίο (Hubble Deep Field (RGB)"
 
 #: napari/plugins/_skimage_data.py:25
 msgid "Human Mitosis"
-msgstr ""
+msgstr "Ανθρώπινη Μίτωση"
 
 #: napari/plugins/_skimage_data.py:26
 msgid "Immunohistochemistry (RGB)"
-msgstr ""
+msgstr "Immunohistochemistry (RGB)"
 
 #: napari/plugins/_skimage_data.py:27
 msgid "Kidney (3D+3Ch)"
-msgstr ""
+msgstr "Νεφροί (3D+3Ch)"
 
 #: napari/plugins/_skimage_data.py:28
 msgid "Labeled Faces in the Wild"
-msgstr ""
+msgstr "Επισήμανση Πρόσωπα στο Wild"
 
 #: napari/plugins/_skimage_data.py:29
 msgid "Lily (4Ch)"
-msgstr ""
+msgstr "Lily (4Ch)"
 
 #: napari/plugins/_skimage_data.py:30
 msgid "Microaneurysms"
-msgstr ""
+msgstr "Μικροανευρύσματα"
 
 #: napari/plugins/_skimage_data.py:31
 msgid "Moon"
-msgstr ""
+msgstr "Σελήνη"
 
 #: napari/plugins/_skimage_data.py:32
 msgid "Page"
-msgstr ""
+msgstr "Σελίδα"
 
 #: napari/plugins/_skimage_data.py:33
 msgid "Retina (RGB)"
-msgstr ""
+msgstr "Retina (RGB)"
 
 #: napari/plugins/_skimage_data.py:34
 msgid "Rocket (RGB)"
-msgstr ""
+msgstr "Πύραυλος (RGB)"
 
 #: napari/plugins/_skimage_data.py:35
 msgid "Shepp Logan Phantom"
-msgstr ""
+msgstr "Λογότυπο Shepp Φάντασμα"
 
 #: napari/plugins/_skimage_data.py:36
 msgid "Skin (RGB)"
-msgstr ""
+msgstr "Skin (RGB)"
 
 #: napari/plugins/_skimage_data.py:37
 msgid "Text"
-msgstr ""
+msgstr "Κείμενο"
 
 #: napari/plugins/exceptions.py:44
 msgid "{pad} Errors for plugin '{plugin_name}' {pad}"
-msgstr ""
+msgstr "{pad} Σφάλματα για το πρόσθετο '{plugin_name}' {pad}"
 
 #: napari/plugins/io.py:69
 msgid "There is no registered plugin named '{plugin}'.\n"
 "Names of plugins offering readers are: {names}"
-msgstr ""
+msgstr "Δεν υπάρχει καταχωρημένο plugin με το όνομα '{plugin}'.\n"
+"Τα ονόματα των plugins που προσφέρουν στους αναγνώστες είναι: {names}"
 
 #: napari/plugins/io.py:79
 msgid "Plugin {plugin!r} does not support file {path}"
-msgstr ""
+msgstr "Το πρόσθετο {plugin!r} δεν υποστηρίζει το αρχείο {path}"
 
 #: napari/plugins/io.py:126
 msgid "No plugin found capable of reading [{repr_path}, ...] as stack."
-msgstr ""
+msgstr "Δεν βρέθηκε κανένα πρόσθετο ικανό να διαβάσει [{repr_path}, ...] ως στοίβα."
 
 #: napari/plugins/io.py:135
 msgid "No plugin found capable of reading {repr_path}."
-msgstr ""
+msgstr "Δεν βρέθηκε πρόσθετο ικανό να διαβάσει το {repr_path}."
 
 #: napari/plugins/io.py:227
 msgid "No data written! There may be no plugins capable of writing these {length} layers to {path}."
-msgstr ""
+msgstr "Δεν έχουν γραφτεί δεδομένα! Δεν υπάρχουν πρόσθετα ικανά να γράψουν αυτά τα {length} επίπεδα στο {path}."
 
 #: napari/plugins/io.py:312
 msgid "There is no registered plugin named '{plugin_name}'.\n"
 "Names of plugins offering writers are: {names}"
-msgstr ""
+msgstr "Δεν υπάρχει καταχωρημένο plugin με το όνομα '{plugin_name}'.\n"
+"Τα ονόματα των plugins που προσφέρουν συγγραφείς είναι: {names}"
 
 #: napari/plugins/io.py:332
 msgid "Requested plugin \"{plugin_name}\" is not capable of writing this combination of layer types: {layer_types}"
-msgstr ""
+msgstr "Το ζητούμενο πρόσθετο \"{plugin_name}\" δεν είναι σε θέση να γράψει αυτόν τον συνδυασμό τύπων επιπέδου: {layer_types}"
 
 #: napari/plugins/io.py:339
 msgid "Unable to find plugin capable of writing this combination of layer types: {layer_types}"
-msgstr ""
+msgstr "Αδυναμία εύρεσης πρόσθετου ικανού να γράψει αυτό το συνδυασμό τύπων στρώματος: {layer_types}"
 
 #: napari/plugins/io.py:401
 msgid "There is no registered plugin named '{plugin_name}'.\n"
 "Plugins capable of writing layer._type_string layers are: {names}"
-msgstr ""
+msgstr "Δεν υπάρχει κανένα καταχωρημένο plugin με το όνομα '{plugin_name}'.\n"
+"Τα πρόσθετα μπορούν να γράψουν στρώματα._type_string στρώματα είναι: {names}"
 
 #: napari/resources/__init__.py:14
 msgid "Moved to module napari._qt.qt_resources. Will be removed after version 0.4.6."
-msgstr ""
+msgstr "Μετακινήθηκε στο module napari._qt.qt_resources. Θα αφαιρεθεί μετά την έκδοση 0.4.6."
 
 #: napari/resources/_icons.py:16
 msgid "unrecognized icon name: {name!r}. Known names: {icons}"
-msgstr ""
+msgstr "μη αναγνωρισμένο όνομα εικονιδίου: {όνομα!r}. Γνωστά ονόματα: {icons}"
 
 #: napari/resources/_icons.py:59
 msgid "Could not detect svg tag in {path_or_xml!r}"
-msgstr ""
+msgstr "Αδυναμία εντοπισμού της ετικέτας svg στο {path_ or_ xml!r}"
 
 #: napari/_vispy/utils.py:63
 msgid "Could not find VispyLayer for layer of type {dtype}"
-msgstr ""
+msgstr "Αδυναμία εύρεσης του VispyLayer για στρώμα τύπου {dtype}"
 
 #: napari/_vispy/utils_gl.py:99
 msgid "type {dtype} not allowed for texture; must be one of {textures}"
-msgstr ""
+msgstr "ο τύπος {dtype} δεν επιτρέπεται για υφή· πρέπει να είναι ένα από {textures}"
 
 #: napari/_vispy/vispy_axes_visual.py:79 napari/_vispy/vispy_axes_visual.py:100 napari/_vispy/vispy_axes_visual.py:125
 msgid "Either 2 or 3 colors must be provided, got {number}."
-msgstr ""
+msgstr "Πρέπει να παρέχονται είτε 2 είτε 3 χρώματα, πάρτε {number}."
 
 #: napari/_vispy/vispy_axes_visual.py:278
 msgid "Axes dash status and ndisplay combination not supported"
-msgstr ""
+msgstr "Δεν υποστηρίζεται η κατάσταση παύλας αξόνων και ο συνδυασμός ndisplay"
 
 #: napari/_vispy/vispy_image_layer.py:172
 msgid "Shape of in dividual tiles in multiscale {shape} cannot exceed GL_MAX_TEXTURE_SIZE {texture_size}. Rendering is currently in {ndisplay}D mode."
-msgstr ""
+msgstr "Σχήμα σε επιμέρους πλακίδια σε πολλαπλή κλίμακα {shape} δεν μπορεί να υπερβαίνει το GL_MAX_TEXTURE_SIZE {texture_size}. Απόδοση είναι αυτή τη στιγμή σε {ndisplay}D λειτουργία."
 
 #: napari/_vispy/vispy_image_layer.py:181
 msgid "data shape {shape} exceeds GL_MAX_TEXTURE_SIZE {texture_size} in at least one axis and will be downsampled. Rendering is currently in {ndisplay}D mode."
-msgstr ""
+msgstr "το σχήμα δεδομένων {shape} υπερβαίνει το GL_MAX_TEXTURE_SIZE {texture_size} σε τουλάχιστον έναν άξονα και θα υποβαθμιστούν. Η αποτύπωση είναι αυτή τη στιγμή σε λειτουργία {ndisplay}D."
 
 #: napari/_vispy/vispy_scale_bar_visual.py:169
 msgid "Position {position} not recognized."
-msgstr ""
+msgstr "Η θέση {position} δεν αναγνωρίστηκε."
 
 #: napari/qt/__init__.py:15
 msgid "QtNDisplayButton is deprecated and will be removed in 0.4.9. Instead a more general QtStateButton is provided."
-msgstr ""
+msgstr "Το QtNDisplayButton είναι παρωχημένο και θα αφαιρεθεί στο 0.4.9. Παρέχεται ένα πιο γενικό QtStateButton."
 
 #: napari/utils/_magicgui.py:177
 msgid "magicgui function {gui} annotated with a return type of napari.types.LayerDataTuple did not return LayerData tuple(s)"
-msgstr ""
+msgstr "λειτουργία magicgui {gui} σχολιασμένη με έναν τύπο επιστροφής napari.types.LayerDataTuple δεν επέστρεψε σωλήνα(-ες) LayerData"
 
 #: napari/utils/_register.py:23
 msgid "name {name} should not include 'layer'"
-msgstr ""
+msgstr "το όνομα {name} δεν πρέπει να περιλαμβάνει το 'στρώμα'"
 
 #: napari/utils/dask_utils.py:173
 msgid "For best performance with Dask arrays in napari, please upgrade Dask to v2.15.0 or later. Current version is {dask_version}"
-msgstr ""
+msgstr "Για καλύτερη απόδοση με πίνακες Dask στο napari, παρακαλώ αναβαθμίστε την Dask σε v2.15.0 ή νεότερη έκδοση. Η τρέχουσα έκδοση είναι {dask_version}"
 
 #: napari/utils/interactions.py:18
 msgid "cannot set attribute {name}"
-msgstr ""
+msgstr "δεν μπορεί να ορίσει χαρακτηριστικό {name}"
 
 #: napari/utils/interactions.py:29
 msgid "cannot set item {name}"
-msgstr ""
+msgstr "δεν μπορεί να ορίσει στοιχείο {name}"
 
 #: napari/utils/io.py:196
 msgid "No files found in {filenames} after removing subdirectories"
-msgstr ""
+msgstr "Δεν βρέθηκαν αρχεία στο {filenames} μετά την αφαίρεση των υποκαταλόγων"
 
 #: napari/utils/io.py:234
 msgid "To stack multiple files into a single array with numpy, all input arrays must have the same shape. Set `use_dask` to True to stack arrays with different shapes."
-msgstr ""
+msgstr "Για να στοιβάξετε πολλαπλά αρχεία σε έναν ενιαίο πίνακα με numpy, όλοι οι πίνακες εισόδου πρέπει να έχουν το ίδιο σχήμα. Ορίστε το αρχείο `use_dask` στο True to stack arrays με διαφορετικά σχήματα."
 
 #: napari/utils/io.py:297
 msgid "Not a zarr dataset or group: {path}"
-msgstr ""
+msgstr "Δεν είναι σύνολο δεδομένων ή ομάδα: {path}"
 
 #: napari/utils/io.py:402
 msgid "File \"{filename}\" not recognized as valid Layer data"
-msgstr ""
+msgstr "Αρχείο \"{filename}\" δεν αναγνωρίζεται ως έγκυρα δεδομένα στρώματος"
 
 #: napari/utils/io.py:410
 msgid "File \"{filename}\" not recognized as {require_type} data"
-msgstr ""
+msgstr "Αρχείο \"{filename}\" δεν αναγνωρίζεται ως {require_type} δεδομένα"
 
 #: napari/utils/io.py:535
 msgid "Expected number of shapes not found"
-msgstr ""
+msgstr "Αναμενόμενος αριθμός σχημάτων που δεν βρέθηκαν"
 
 #: napari/utils/key_bindings.py:176
 msgid "invalid key {key}"
-msgstr ""
+msgstr "μη έγκυρο κλειδί {key}"
 
 #: napari/utils/key_bindings.py:186
 msgid "invalid modifier key {modifier}"
-msgstr ""
+msgstr "μη έγκυρο κλειδί τροποποιητή {modifier}"
 
 #: napari/utils/key_bindings.py:272
 msgid "key combination {key} already used! specify 'overwrite=True' to bypass this check"
-msgstr ""
+msgstr "ο συνδυασμός κλειδιών {key} χρησιμοποιείται ήδη! καθορίστε το 'overwrite=True' για να παρακάμψετε αυτόν τον έλεγχο"
 
 #: napari/utils/key_bindings.py:284
 msgid "'func' must be a callable"
-msgstr ""
+msgstr "'λειτουργία' πρέπει να είναι καλούμενο"
 
 #: napari/utils/key_bindings.py:433
 msgid "expected {func} to be callable"
-msgstr ""
+msgstr "αναμένεται ότι {func} θα είναι καλούμενο"
 
 #: napari/utils/misc.py:187
 msgid "length of {obj} must equal {length}"
-msgstr ""
+msgstr "μήκος {obj} πρέπει να ισούται με {length}"
 
 #: napari/utils/misc.py:241
 msgid "{class_name} may only be called with a `str` or an instance of {class_name}. Got {dtype}"
-msgstr ""
+msgstr "Το {class_name} μπορεί να κληθεί μόνο με ένα `str` ή ένα στιγμιότυπο του {class_name}. Έχεις {dtype}"
 
 #: napari/utils/misc.py:319
 msgid "Argument must be a string, PathLike, or sequence thereof"
-msgstr ""
+msgstr "Το όρισμα πρέπει να είναι μια συμβολοσειρά, ένα μονοπάτι ή μια ακολουθία αυτών"
 
 #: napari/utils/misc.py:388
 msgid "Not a valid layer data tuple: {value!r}"
-msgstr ""
+msgstr "Μη έγκυρος σωλήνας δεδομένων επιπέδου: {value!r}"
 
 #: napari/utils/misc.py:404
 msgid "Not a valid list of layer data tuples!"
-msgstr ""
+msgstr "Μη έγκυρη λίστα με σωλήνες δεδομένων επιπέδου!"
 
 #: napari/utils/misc.py:458
 msgid "{path} is not a directory."
-msgstr ""
+msgstr "{path} δεν είναι κατάλογος."
 
 #: napari/utils/theme.py:21
 msgid "palette is deprecated and will be removed after version 0.4.6. Please use get_theme and register_theme instead"
-msgstr ""
+msgstr "παλέτα είναι παρωχημένη και θα αφαιρεθεί μετά την έκδοση 0.4.6. Παρακαλούμε χρησιμοποιήστε get_theme και register_theme αντί αυτού"
 
 #: napari/utils/theme.py:166
 msgid "Unrecognized theme {name}. Availabe themes are {themes}"
-msgstr ""
+msgstr "Μη αναγνωρίσιμο θέμα {name}. Τα θέματα διαθεσιμότητας είναι {themes}"
 
 #: napari/utils/translations.py:181 napari/utils/translations.py:208 napari/utils/translations.py:386
 msgid "Must provide at least a `msgid` parameter!"
-msgstr ""
+msgstr "Πρέπει να παρέχει τουλάχιστον μια παράμετρο `msgid`!"
 
 #: napari/utils/translations.py:344
 msgid "Requested locale not available: {locale}"
-msgstr ""
+msgstr "Η ζητούμενη τοπική ρύθμιση δεν είναι διαθέσιμη: {locale}"
 
 #: napari/utils/validators.py:55
 msgid "object '{obj}' is not an indexable collection (list, tuple, or np.array), of length {number}"
-msgstr ""
+msgstr "object '{obj}' δεν είναι μια ευρετήριο συλλογής (λίστα, σωλήνας ή np.array), μήκους {number}"
 
 #: napari/utils/validators.py:68
 msgid "object must have length {number}, got {obj_len}"
-msgstr ""
+msgstr "το αντικείμενο πρέπει να έχει μήκος {number}, {obj_len}"
 
 #: napari/utils/validators.py:80
 msgid "Every item in the sequence must be of type {dtype}, but {item} is of type {item_type}"
-msgstr ""
+msgstr "Κάθε αντικείμενο της ακολουθίας πρέπει να είναι του τύπου {dtype}, αλλά {item} είναι του τύπου {item_type}"
 
 #: napari/components/_viewer_key_bindings.py:18
 msgid "Reset dims scroll progress"
@@ -2395,107 +2411,111 @@ msgstr "Εναλλαγή ορατότητας των επιλεγμένων επ
 
 #: napari/components/dims.py:126
 msgid "Invalid ordering {order} for {ndim} dimensions"
-msgstr ""
+msgstr "Μη έγκυρη παραγγελία {order} για {ndim} διαστάσεις"
 
 #: napari/components/dims.py:360
 msgid "Axis {axis} not defined for dimensionality {ndim}. Must be in [{ndim_lower}, {ndim})."
-msgstr ""
+msgstr "Ο Άξονας {axis} δεν έχει οριστεί για τη διάσταση {ndim}. Πρέπει να βρίσκεται στο [{ndim_lower}, {ndim})."
 
 #: napari/components/layerlist.py:94
 msgid "'viewer.layers.selected' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection'"
-msgstr ""
+msgstr "'viewer.layers.selected' είναι παρωχημένη και θα αφαιρεθεί μέσα ή μετά το v0.4.9. Παρακαλούμε χρησιμοποιήστε το 'viewer.layers.selection'"
 
 #: napari/components/layerlist.py:137
 msgid "'viewer.layers.unselect_all()' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection.clear()'. To unselect everything but a set of ignored layers, use 'viewer.layers.selection.intersection_update({ignored})'"
-msgstr ""
+msgstr "'viewer.layers.unselect_all()' είναι παρωχημένη και θα αφαιρεθεί μέσα ή μετά το v0.4.9. Παρακαλούμε χρησιμοποιήστε το 'viewer.layers.selection. μάθηση()'. Για να αποεπιλέξετε τα πάντα, εκτός από ένα σύνολο αγνοημένων επιπέδων, χρησιμοποιήστε το 'viewer.layers.selection.intersection_update({ignored})'"
 
 #: napari/components/layerlist.py:190
 msgid "All-NaN axis encountered"
-msgstr ""
+msgstr "Αντιμετωπίστηκε ο άξονας All-NaN"
 
 #: napari/components/layerlist.py:321
 msgid "No layers selected"
-msgstr ""
+msgstr "Δεν επιλέχθηκαν επίπεδα"
 
 #: napari/components/layerlist.py:323
 msgid "No layers to save"
-msgstr ""
+msgstr "Δεν υπάρχουν επίπεδα για αποθήκευση"
 
 #: napari/components/viewer_model.py:149
 msgid "'viewer.events.active_layer' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.active' instead"
-msgstr ""
+msgstr "'viewer.events.active_layer' είναι παρωχημένη και θα αφαιρεθεί σε napari v0.4.9, χρησιμοποιήστε 'viewer.layers.selection.events.active' αντί αυτού"
 
 #: napari/components/viewer_model.py:162
 msgid "Theme '{theme_name}' not found; options are {themes}."
-msgstr ""
+msgstr "Το θέμα '{theme_name}' δεν βρέθηκε; οι επιλογές είναι {themes}."
 
 #: napari/components/viewer_model.py:294 napari/components/viewer_model.py:310
 msgid "'viewer.active_layer' is deprecated and will be removed in napari v0.4.9.  Please use 'viewer.layers.selection.active' instead."
-msgstr ""
+msgstr "'viewer.active_layer' είναι παρωχημένη και θα αφαιρεθεί σε napari v0.4.9. Παρακαλούμε χρησιμοποιήστε το 'viewer.layers.selection.active'."
 
 #: napari/components/viewer_model.py:353
 msgid "layer.position is deprecated"
-msgstr ""
+msgstr "layer.position είναι παρωχημένη"
 
 #: napari/components/viewer_model.py:664
 msgid "Received sequence for argument '{argument}', did you mean to specify a 'channel_axis'? "
-msgstr ""
+msgstr "Ελήφθη ακολουθία για το όρισμα '{argument}', εννοείτε να καθορίσετε ένα 'channel_axis'? "
 
 #: napari/components/viewer_model.py:728
 msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. Available samples include: {samples}."
-msgstr ""
+msgstr "Το πρόσθετο {plugin!r} δεν παρέχει δεδομένα δείγματος με όνομα {sample!r}. Τα διαθέσιμα δείγματα περιλαμβάνουν: {samples}."
 
 #: napari/components/viewer_model.py:736
 msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. No plugin samples have been registered."
-msgstr ""
+msgstr "Το πρόσθετο {plugin!r} δεν παρέχει δεδομένα δείγματος με όνομα {sample!r}. Κανένα δείγμα δεν έχει καταχωρηθεί."
 
 #: napari/components/viewer_model.py:760
 msgid "Got unexpected type for sample ({plugin!r}, {sample!r}): {data_type}"
-msgstr ""
+msgstr "Μη αναμενόμενος τύπος δείγματος ({plugin!r}, {sample!r}): {data_type}"
 
 #: napari/components/viewer_model.py:812
 msgid "'path' argument must be a string, list, or tuple"
-msgstr ""
+msgstr "'path' όρισμα πρέπει να είναι μια συμβολοσειρά, λίστα ή σωληνάριο"
 
 #: napari/components/viewer_model.py:960
 msgid "Unrecognized layer_type: '{layer_type}'. Must be one of: {layer_names}."
-msgstr ""
+msgstr "Μη αναγνωρίσιμο layer_type: '{layer_type}. Πρέπει να είναι ένα από: {layer_names}."
 
 #: napari/components/viewer_model.py:976
 msgid "_add_layer_from_data received an unexpected keyword argument ({bad_key}) for layer type {layer_type}"
-msgstr ""
+msgstr "_add_layer_from_data έλαβε μια μη αναμενόμενη παράμετρος λέξης-κλειδιού ({bad_key}) για τον τύπο στρώματος {layer_type}"
 
 #: napari/components/viewer_model.py:1007
 msgid "LayerData must be a 1-, 2-, or 3-tuple"
-msgstr ""
+msgstr "Τα LayerData πρέπει να είναι ένα σωλήνα 1-, 2 ή 3"
 
 #: napari/components/viewer_model.py:1017
 msgid "The second item in a LayerData tuple must be a dict"
-msgstr ""
+msgstr "Το δεύτερο στοιχείο σε ένα σωλήνα LayerData πρέπει να είναι μια εντολή"
 
 #: napari/components/viewer_model.py:1027
 msgid "The third item in a LayerData tuple must be one of: {layers!r}."
-msgstr ""
+msgstr "Το τρίτο στοιχείο σε μια λυχνία LayerData πρέπει να είναι ένα από: {layers!r}."
 
 #: napari/components/viewer_model.py:1140
 msgid "Invalid layer_type: {layer_type}"
-msgstr ""
+msgstr "Μη έγκυρο layer_type: {layer_type}"
 
 #: napari/_qt/__init__.py:13
 msgid "No Qt bindings could be found.\n\n"
 "napari requires either PyQt5 or PySide2 to be installed in the environment.\n"
 "To install the default backend (currently PyQt5), run \"pip install napari[all]\" \n"
 "You may also use \"pip install napari[pyside2]\"for Pyside2, or \"pip install napari[pyqt5]\" for PyQt5"
-msgstr ""
+msgstr "Δεν βρέθηκαν δεσμοί Qt.\n\n"
+"Το napari απαιτεί είτε το PyQt5 είτε το PySide2 να εγκατασταθεί στο περιβάλλον.\n"
+"Για να εγκαταστήσετε το προεπιλεγμένο σύστημα υποστήριξης (αυτή τη στιγμή PyQt5), τρέξιμο \"pip install napari[all]\" \n"
+"Μπορείτε επίσης να χρησιμοποιήσετε \"pip install napari[pyside2]\"for Pyside2, ή \"pip install napari[pyqt5]\" για το PyQt5"
 
 #: napari/_qt/__init__.py:33
 msgid "napari was tested with QT library `>=5.12.3`.\n"
 "The version installed is {version}. Please report any issues with this specific QT version at https://github.com/Napari/napari/issues."
-msgstr ""
+msgstr "Το napari δοκιμάστηκε με τη βιβλιοθήκη QT `>=5.12.3`.\n"
+"Η εγκατεστημένη έκδοση είναι {version}. Παρακαλώ αναφέρετε οποιαδήποτε προβλήματα με τη συγκεκριμένη έκδοση του QT στο https://github.com/Napari/napari/issues."
 
 #: napari/_qt/qt_event_loop.py:122
 msgid "QApplication already existed, these arguments to to 'get_app' were ignored: {args}"
-msgstr ""
+msgstr "Το QApplication υπήρχε ήδη, αυτά τα ορίσματα προς το 'get_app' αγνοήθηκαν: {args}"
 
 #: napari/_qt/qt_event_loop.py:245
 msgid "\n"
@@ -2509,21 +2529,31 @@ msgid "\n"
 "start an interactive event loop for you: \n\n"
 "    import napari\n"
 "    viewer = napari.Viewer()  # that's it!\n"
-msgstr ""
+msgstr "\n"
+"Ο διαχειριστής περιβάλλοντος 'gui_qt()' είναι παρωχημένος.\n"
+"Αν εκτελείτε napari από ένα σενάριο, παρακαλώ χρησιμοποιήστε το 'napari. un()' ως εξής:\n\n"
+"    εισαγωγή napari\n\n"
+"    θεατής = napari. iewer() # δεν απαιτείται προηγούμενη ρύθμιση\n"
+"    # άλλος κώδικας χρησιμοποιώντας το θεατή. .\n"
+"    napari.run()\n\n"
+"Στο IPython ή στο Jupyter, το 'napari.run()' δεν είναι απαραίτητο. Το napari αυτόματα\n"
+"θα ξεκινήσει έναν διαδραστικό βρόχο συμβάντος για εσάς: \n\n"
+"    εισαγωγή napari\n"
+"    θεατή = napari. iewer() # αυτό είναι!\n"
 
 #: napari/_qt/qt_event_loop.py:335
 msgid "No Qt app has been created. One can be created by calling `get_app()` or `qtpy.QtWidgets.QApplication([])`"
-msgstr ""
+msgstr "Δεν έχει δημιουργηθεί καμία εφαρμογή Qt. Μπορεί να δημιουργηθεί κάποιος καλώντας το `get_app()` ή το `qtpy.QtWidgets.QApplication([])`"
 
 #: napari/_qt/qt_event_loop.py:342
 msgid "Refusing to run a QApplication with no topLevelWidgets. To run the app anyway, use `{_func_name}(force=True)`"
-msgstr ""
+msgstr "Άρνηση εκτέλεσης ενός QApplication χωρίς topLevelWidgets. Για να εκτελέσετε την εφαρμογή ούτως ή άλλως, χρησιμοποιήστε το `{_func_name}(force=True)`"
 
 #: napari/_qt/qt_event_loop.py:353
 msgid "A QApplication is already running with 1 event loop. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
 msgid_plural "A QApplication is already running with {n} event loops. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Μια QApplication εκτελείται ήδη με 1 βρόχο εκδήλωσης. Για να εισάγετε το *ένα άλλο* βρόχο εκδήλωσης, χρησιμοποιήστε το `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[1] "Μια QApplication εκτελείται ήδη με {n} βρόχους εκδήλωσης. Για να εισάγετε το *ένα άλλο* βρόχο εκδήλωσης, χρησιμοποιήστε το `{_func_name}(max_loop_level={max_loop_level})`"
 
 #: napari/_qt/qt_main_window.py:310
 msgid "Ready"
@@ -2531,7 +2561,7 @@ msgstr "Έτοιμο"
 
 #: napari/_qt/qt_main_window.py:350
 msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7. Please use `napari.qt.get_stylesheet` instead"
-msgstr ""
+msgstr "Το χαρακτηριστικό 'raw_stylesheet' είναι παρωχημένο και θα αφαιρεθεί στην έκδοση 0.4.7. Παρακαλώ χρησιμοποιήστε `napari.qt.get_stylesheet` αντί αυτού"
 
 #: napari/_qt/qt_main_window.py:396
 msgid "Open File(s)..."
@@ -2599,7 +2629,7 @@ msgstr "Έξοδος"
 
 #: napari/_qt/qt_main_window.py:468
 msgid "Restart"
-msgstr ""
+msgstr "Επανεκκίνηση"
 
 #: napari/_qt/qt_main_window.py:471
 msgid "Close Window"
@@ -2607,7 +2637,7 @@ msgstr "Κλείσιμο Παραθύρου"
 
 #: napari/_qt/qt_main_window.py:477
 msgid "Open Sample"
-msgstr ""
+msgstr "Άνοιγμα Δείγματος"
 
 #: napari/_qt/qt_main_window.py:502
 msgid "&File"
@@ -2727,7 +2757,7 @@ msgstr "συντομεύσεις_κλειδιού"
 
 #: napari/_qt/qt_main_window.py:936
 msgid "Dock widget {number}"
-msgstr ""
+msgstr "Γραφικό στοιχείο βάσης σύνδεσης {number}"
 
 #: napari/_qt/qt_main_window.py:1028
 msgid "Could not find a dock widget containing: {widget}"
@@ -2811,57 +2841,57 @@ msgstr "Επιλογή φακέλου..."
 
 #: napari/_qt/qthreading.py:135
 msgid "RuntimeError in aborted thread: {result}"
-msgstr ""
+msgstr "Σφάλμα εκτέλεσης στο ματαιωμένο νήμα: {result}"
 
 #: napari/_qt/qthreading.py:177
 msgid "\"{name}\" failed to define work() method"
-msgstr ""
+msgstr "\"{name}\" αποτυχία ορισμού μεθόδου εργασίας ()"
 
 #: napari/_qt/qthreading.py:200
 msgid "This worker is already started!"
-msgstr ""
+msgstr "Αυτός ο εργαζόμενος έχει ήδη ξεκινήσει!"
 
 #: napari/_qt/qthreading.py:242
 msgid "Generator function {func} cannot be used with FunctionWorker, use GeneratorWorker instead"
-msgstr ""
+msgstr "Η λειτουργία γεννήτριας {func} δεν μπορεί να χρησιμοποιηθεί με FunctionWorker, χρησιμοποιήστε το GeneratorWorker αντί"
 
 #: napari/_qt/qthreading.py:295
 msgid "Regular function {func} cannot be used with GeneratorWorker, use FunctionWorker instead"
-msgstr ""
+msgstr "Κανονική λειτουργία {func} δεν μπορεί να χρησιμοποιηθεί με GeneratorWorker, χρησιμοποιήστε FunctionWorker αντί"
 
 #: napari/_qt/qthreading.py:451
 msgid "Workers did not quit gracefully in the time allotted ({msecs} ms)"
-msgstr ""
+msgstr "Οι εργαζόμενοι δεν εγκατέλειψαν χαριτωμένα το χρόνο που τους αναλογεί ({msecs} ms)"
 
 #: napari/_qt/qthreading.py:543
 msgid "Worker {_worker_class} must be a subclass of WorkerBase"
-msgstr ""
+msgstr "Ο εργαζόμενος {_worker_class} πρέπει να είναι υποκλάση WorkerBase"
 
 #: napari/_qt/qthreading.py:555
 msgid "The '_connect' argument must be a dict"
-msgstr ""
+msgstr "Το όρισμα '_connect' πρέπει να είναι μια εντολή"
 
 #: napari/_qt/qthreading.py:569
 msgid "\"_connect[{key!r}]\" must be a function or sequence of functions"
-msgstr ""
+msgstr "\"_connect[{key!r}]\" πρέπει να είναι συνάρτηση ή ακολουθία συναρτήσεων"
 
 #: napari/_qt/qthreading.py:817
 msgid "_connect parameter must be a dict"
-msgstr ""
+msgstr "_connect παράμετρος πρέπει να είναι ένα dict"
 
 #: napari/_qt/utils.py:61
 msgid "Invalid QByte string. QByte strings start with '{QBYTE_FLAG}'"
-msgstr ""
+msgstr "Μη έγκυρη συμβολοσειρά QByte. Οι συμβολοσειρές QByte ξεκινούν με '{QBYTE_FLAG}'"
 
 #: napari/_qt/utils.py:255
 msgid "\"widget\" must be a QWidget or a sequence of QWidgets"
-msgstr ""
+msgstr "\"widget\" πρέπει να είναι ένα QWidget ή μια ακολουθία QWidgets"
 
 #: napari/view_layers.py:105
 msgid "No Viewer method named '{add_string}'"
-msgstr ""
+msgstr "Δεν υπάρχει μέθοδος προβολής με το όνομα '{add_string}'"
 
 #: napari/window.py:26
 msgid "could not import `qtpy`. Cannot show napari window."
-msgstr ""
+msgstr "αδυναμία εισαγωγής του `qtpy`. Δεν είναι δυνατή η εμφάνιση του παραθύρου napari."
 
