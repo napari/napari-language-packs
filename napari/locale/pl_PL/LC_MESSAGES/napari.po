@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: napari\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-04-23 19:01-0500\n"
-"PO-Revision-Date: 2021-04-24 00:05\n"
+"PO-Revision-Date: 2021-04-24 02:09\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -20,51 +20,51 @@ msgstr ""
 
 #: napari/layers/shapes/_shapes_models/_polgyon_base.py:71
 msgid "Shape needs at least two vertices, {number} provided."
-msgstr ""
+msgstr "Kształt wymaga co najmniej dwóch wierzchołków ( {number})."
 
 #: napari/layers/shapes/_shapes_models/ellipse.py:76
 msgid "Data shape does not match a ellipse. Ellipse expects four corner vertices, {number} provided."
-msgstr ""
+msgstr "Kształt danych nie pasuje do elipsy. Elipsa oczekuje czterech wierzchołków, {number} dostarczonych."
 
 #: napari/layers/shapes/_shapes_models/line.py:61
 msgid "Data shape does not match a line. A line expects two end vertices, {number} provided."
-msgstr ""
+msgstr "Kształt danych nie pasuje do linii. Linia oczekuje dwóch wierzchołków końcowych, {number} podanych."
 
 #: napari/layers/shapes/_shapes_models/rectangle.py:68
 msgid "Data shape does not match a rectangle. Rectangle expects four corner vertices, {number} provided."
-msgstr ""
+msgstr "Kształt danych nie pasuje do prostokąta. Prostokąt oczekuje czterech wierzchołków ( {number})."
 
 #: napari/layers/shapes/_shapes_models/shape.py:346
 msgid "Axis not recognized, must be one of \"{{0, 1}}\""
-msgstr ""
+msgstr "Oś nie rozpoznana, musi być jednym z \"{{0, 1}}\""
 
 #: napari/layers/shapes/_shapes_models/shape.py:400
 msgid "mask shape length must either be 2 or the same as the dimensionality of the shape, expected {expected} got {received}."
-msgstr ""
+msgstr "Długość kształtu maski musi być 2 lub taka sama jak rozmiar kształtu, oczekiwany {expected} ma {received}."
 
 #: napari/layers/image/experimental/_octree_slice.py:92
 msgid "Octree level {index} is not in range(0, {num_levels})"
-msgstr ""
+msgstr "Octree poziom {index} nie jest w zakresie(0, {num_levels})"
 
 #: napari/layers/image/experimental/_octree_slice.py:137
 msgid "Invalid octree level {index}"
-msgstr ""
+msgstr "Nieprawidłowy poziom octdrzewa {index}"
 
 #: napari/layers/image/experimental/octree.py:66
 msgid "Data of shape {shape} resulted no octree levels?"
-msgstr ""
+msgstr "Dane kształtu {shape} nie przyniosły poziomów ośmiornic?"
 
 #: napari/layers/image/experimental/octree.py:116
 msgid "Level {level_index} is not in range(0, {top})"
-msgstr ""
+msgstr "Poziom {level_index} nie jest w zakresie(0, {top})"
 
 #: napari/layers/image/experimental/octree.py:403
 msgid "Multiscale data has downsampling ratio of {ratio}, expected 2."
-msgstr ""
+msgstr "Wieloskalowe dane mają współczynnik downsamplingu {ratio}, oczekiwano 2."
 
 #: napari/layers/image/experimental/octree_image.py:223
 msgid "Octree level {level} is negative."
-msgstr ""
+msgstr "Octree poziom {level} jest ujemny."
 
 #: napari/layers/labels/_labels_constants.py:71
 msgid "circle"
@@ -88,11 +88,11 @@ msgstr "przejdź do trybu malowania lub wypełniania, aby edytować etykiety"
 
 #: napari/layers/labels/labels.py:401
 msgid "Only integer types are supported for Labels layers, but data contains {data_level_type}."
-msgstr ""
+msgstr "Tylko typy całkowite są obsługiwane dla warstw etykiet, ale dane zawierają {data_level_type}."
 
 #: napari/layers/labels/labels.py:427
 msgid "the number of items must be equal for all properties"
-msgstr ""
+msgstr "liczba elementów musi być równa dla wszystkich właściwości"
 
 #: napari/layers/labels/labels.py:469
 msgid "cannot reduce selected label below 0"
@@ -104,7 +104,7 @@ msgstr "Nieobsługiwany tryb koloru"
 
 #: napari/layers/labels/labels.py:532 napari/layers/labels/labels.py:549
 msgid "The square brush shape is deprecated and will be removed in version 0.4.9. Afterward, only the circle brush shape will be available, and the layer.brush_shape attribute will be removed."
-msgstr ""
+msgstr "Kształt pędzla kwadratowego jest przestarzały i zostanie usunięty w wersji 0.4.9. Następnie dostępny będzie tylko kształt pędzla okręgu, a atrybut layer.brush_shape zostanie usunięty."
 
 #: napari/layers/labels/labels.py:610
 msgid "hold <space> to pan/zoom, click to pick a label"
@@ -128,87 +128,87 @@ msgstr "Tryb nie rozpoznany"
 
 #: napari/layers/labels/labels.py:774
 msgid "Contours are not displayed during 3D rendering"
-msgstr ""
+msgstr "Kontury nie są wyświetlane podczas renderowania 3D"
 
 #: napari/layers/labels/labels.py:1082
 msgid "[No Properties]"
-msgstr ""
+msgstr "[Brak właściwości]"
 
 #: napari/layers/tracks/_track_utils.py:205
 msgid "track vertices should be a NxD array"
-msgstr ""
+msgstr "wierzchołki śladu powinny być tablicą NxD"
 
 #: napari/layers/tracks/_track_utils.py:210
 msgid "track vertices should be 4 or 5-dimensional"
-msgstr ""
+msgstr "wierzchołki toru powinny mieć 4 lub 5 wymiarów"
 
 #: napari/layers/tracks/_track_utils.py:220
 msgid "track id must be an integer"
-msgstr ""
+msgstr "id ścieżki musi być liczbą całkowitą"
 
 #: napari/layers/tracks/_track_utils.py:225
 msgid "track timestamps must be greater than zero"
-msgstr ""
+msgstr "znaczniki czasu śladu muszą być większe niż zero"
 
 #: napari/layers/tracks/_track_utils.py:234
 msgid "tracks should be ordered by ID and time"
-msgstr ""
+msgstr "utwory powinny być uporządkowane według ID i czasu"
 
 #: napari/layers/tracks/_track_utils.py:249
 msgid "the number of properties must equal the number of vertices"
-msgstr ""
+msgstr "liczba właściwości musi być równa liczbie wierzchołków"
 
 #: napari/layers/tracks/_track_utils.py:277
 msgid "graph node {node_idx} not found"
-msgstr ""
+msgstr "węzeł wykresu {node_idx} nie został znaleziony"
 
 #: napari/layers/tracks/_track_utils.py:345
 msgid "Property {color_by} not found"
-msgstr ""
+msgstr "Właściwość {color_by} nie została znaleziona"
 
 #: napari/layers/tracks/tracks.py:385
 msgid "Previous color_by key {key!r} not present in new properties. Falling back to track_id"
-msgstr ""
+msgstr "Poprzedni klucz color_by {key!r} nie występuje w nowych właściwościach. Wróć do track_id"
 
 #: napari/layers/tracks/tracks.py:470
 msgid "{color_by} is not a valid property key"
-msgstr ""
+msgstr "{color_by} nie jest prawidłowym kluczem właściwości"
 
 #: napari/layers/tracks/tracks.py:489
 msgid "Colormap {colormap} not available"
-msgstr ""
+msgstr "Mapa kolorów {colormap} nie jest dostępna"
 
 #: napari/layers/surface/surface.py:157
 msgid "Surface data tuple must be 2 or 3, specifying verictes, faces, and optionally vertex values, instead got length {length}."
-msgstr ""
+msgstr "Powierzchnia krotki danych musi mieć 2 lub 3, określając weryfikacje, twarze i opcjonalnie wartości wierzchołka zamiast {length}."
 
 #: napari/layers/surface/surface.py:203
 msgid "Surface data tuple must be 2 or 3, specifying vertices, faces, and optionally vertex values, instead got length {data_length}."
-msgstr ""
+msgstr "Powierzchnia krotki danych musi mieć 2 lub 3, określając wierzchołki, twarze i opcjonalnie wartości wierzchołka zamiast {data_length}."
 
 #: napari/layers/surface/surface.py:318
 msgid "Assigning multiple values per vertex after slicing is not allowed. All dimensions corresponding to vertex_values must be non-displayed dimensions. Data will not be visible."
-msgstr ""
+msgstr "Przypisywanie wielu wartości wierzchołka po przecinku nie jest dozwolone. Wszystkie wymiary odpowiadające wierzchołkom muszą być niewyświetlane wymiary. Dane nie będą widoczne."
 
 #: napari/layers/shapes/_shape_list.py:152
 msgid "{attribute}_color must have shape ({n_shapes}, 4)"
-msgstr ""
+msgstr "{attribute}_color musi mieć kształt ({n_shapes}, 4)"
 
 #: napari/layers/shapes/_shape_list.py:248
 msgid "shape must be subclass of Shape"
-msgstr ""
+msgstr "kształt musi być podklasą kształtu"
 
 #: napari/layers/shapes/_shape_list.py:490
 msgid "{shape_type} must be one of {shape_classes}"
-msgstr ""
+msgstr "{shape_type} musi być jednym z {shape_classes}"
 
 #: napari/layers/shapes/_shapes_utils.py:403
 msgid "Data shape does not match expected `[4, D]` shape specifying corners for the rectangle"
-msgstr ""
+msgstr "Kształt danych nie pasuje do oczekiwanego kształtu `[4, D]` określającego narożniki prostokąta"
 
 #: napari/layers/shapes/_shapes_utils.py:498
 msgid "Data shape does not match expected `[4, D]` shape specifying corners for the ellipse"
-msgstr ""
+msgstr "Kształt danych nie pasuje do oczekiwanego kształtu `[4, D]` określającego narożniki dla elipsy"
 
 #: napari/layers/shapes/shapes.py:337
 msgid "Shape dimensions must be equal to ndim"
@@ -224,27 +224,27 @@ msgstr "wprowadź tryb wyboru, aby edytować właściwości kształtu"
 
 #: napari/layers/points/points.py:505 napari/layers/shapes/shapes.py:626
 msgid "property used for face_color dropped"
-msgstr ""
+msgstr "właściwość używana dla twarzy_kolor upuszczony"
 
 #: napari/layers/points/points.py:524 napari/layers/shapes/shapes.py:638 napari/layers/vectors/vectors.py:314
 msgid "property used for edge_color dropped"
-msgstr ""
+msgstr "właściwość użyta dla edge_color upuszczona"
 
 #: napari/layers/points/points.py:919 napari/layers/shapes/shapes.py:931
 msgid "_{attribute}_color_property was not set, setting to: {new_color_property}"
-msgstr ""
+msgstr "_{attribute}_color_property nie został ustawiony, ustawiono na: {new_color_property}"
 
 #: napari/layers/shapes/shapes.py:940
 msgid "There must be a valid Shapes.properties to use {color_mode}"
-msgstr ""
+msgstr "Musi być poprawny Shapes.properties aby użyć {color_mode}"
 
 #: napari/layers/points/points.py:941 napari/layers/shapes/shapes.py:953 napari/layers/vectors/vectors.py:526
 msgid "selected property must be numeric to use ColorMode.COLORMAP"
-msgstr ""
+msgstr "wybrana właściwość musi być numeryczna, aby użyć ColorMode.COLORMAP"
 
 #: napari/layers/shapes/shapes.py:1325 napari/layers/utils/color_manager_utils.py:47
 msgid "face_color should be the name of a color, an array of colors, or the name of an property"
-msgstr ""
+msgstr "face_color powinien być nazwą koloru, tablicą kolorów lub nazwą właściwości"
 
 #: napari/layers/shapes/shapes.py:1460
 msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
@@ -260,105 +260,107 @@ msgstr "przytrzymaj <space> do pan/zoom, naciśnij <esc> , aby zakończyć rysow
 
 #: napari/layers/shapes/shapes.py:1865
 msgid "the number of properties must equal the number of shapes"
-msgstr ""
+msgstr "liczba właściwości musi być równa liczbie kształtów"
 
 #: napari/layers/shapes/shapes.py:2276
 msgid "expand_shape is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should work with full nD shape data as much as possible."
-msgstr ""
+msgstr "expand_shape jest przestarzały i zostanie usunięty w wersji 0.4.9. Nie powinno być już używane, ponieważ warstwa wkrótce nie będzie wiedziała, które wymiary są wyświetlane. Zamiast tego powinieneś pracować z pełnymi danymi nD kształtu w możliwie najszerszym zakresie."
 
 #: napari/layers/utils/_link_layers.py:74
 msgid "Cannot link attributes that are not shared by all layers: {extra}. Allowable attrs include:\n"
 "{valid_attrs}"
-msgstr ""
+msgstr "Nie można połączyć atrybutów, które nie są współdzielone przez wszystkie warstwy: {extra}. Dozwolone atrakcje obejmują:\n"
+"{valid_attrs}"
 
 #: napari/layers/utils/_link_layers.py:136
 msgid "Must provide at least one layer to unlink"
-msgstr ""
+msgstr "Musisz podać co najmniej jedną warstwę, aby odłączyć"
 
 #: napari/layers/utils/_link_layers.py:194
 msgid "``layers`` iterable must have at least one layer"
-msgstr ""
+msgstr "``warstwy`` iterable musi mieć co najmniej jedną warstwę"
 
 #: napari/layers/utils/_text_utils.py:44
 msgid "view_data should be a numpy array or list when using Anchor.CENTER"
-msgstr ""
+msgstr "view_data powinien być tablicą lub listą numerów, gdy używasz Anchor.CENTER"
 
 #: napari/layers/utils/_text_utils.py:141
 msgid "view_data should be a numpy array or list"
-msgstr ""
+msgstr "view_data powinien być tablicą lub listą numerów"
 
 #: napari/layers/utils/_text_utils.py:189
 msgid "Number of text elements ({length}) should equal the length of the data ({n_text})"
-msgstr ""
+msgstr "Liczba elementów tekstowych ({length}) powinna być równa długości danych ({n_text})"
 
 #: napari/layers/utils/color_manager.py:66
 msgid "color_properties dictionary should have keys: name, values, and optionally current_value"
-msgstr ""
+msgstr "słownik color_properties powinien mieć klucze: nazwę, wartości i opcjonalnie bieżące_value"
 
 #: napari/layers/utils/color_manager.py:76
 msgid "color_properties should be None, a dict, or ColorProperties object"
-msgstr ""
+msgstr "Właściwości kolor_nie powinny być obiektami diody lub kolorów"
 
 #: napari/layers/utils/color_manager.py:485
 msgid "if color_properties is a string, it should be a property name"
-msgstr ""
+msgstr "jeśli color_properties jest ciągiem, powinna to być nazwa właściwości"
 
 #: napari/layers/utils/color_transformations.py:45
 msgid "The provided {elem_name} parameter contained illegal values, resetting all {elem_name} values to {default}."
-msgstr ""
+msgstr "Podany parametr {elem_name} zawierał niedozwolone wartości, resetując wszystkie wartości {elem_name} do {default}."
 
 #: napari/layers/utils/color_transformations.py:60
 msgid "The provided {elem_name} parameter has {length} entries, while the data contains {num_entries} entries. Setting {elem_name} to {default}."
-msgstr ""
+msgstr "Podany parametr {elem_name} ma {length} wpisów, podczas gdy dane zawierają {num_entries} wpisów. Ustawienie {elem_name} do {default}."
 
 #: napari/layers/utils/color_transformations.py:137
 msgid "The number of supplied colors mismatch the number of given data points. Length of data is {num_entries}, while the number of colors is {length}. Color for all points is reset to white."
-msgstr ""
+msgstr "Liczba dostarczonych kolorów nie pasuje do liczby podanych punktów danych. Długość danych wynosi {num_entries}, a liczba kolorów wynosi {length}. Kolor wszystkich punktów jest zresetowany do białego."
 
 #: napari/layers/utils/stack_utils.py:102
 msgid "Error adding multichannel image with data shape {data_shape!r}.\n"
 "Requested channel_axis ({channel_axis}) had length {n_channels}, but the '{key}' argument only provided {i} values. "
-msgstr ""
+msgstr "Błąd podczas dodawania obrazu wielokanałowego z kształtem danych {data_shape!r}.\n"
+"Żądany kanał_axis ({channel_axis}) miał długość {n_channels}, ale argument '{key}' dostarczył tylko {i} wartości. "
 
 #: napari/layers/utils/stack_utils.py:159
 msgid "The image needs more than 2 dimensions for splitting"
-msgstr ""
+msgstr "Obraz potrzebuje więcej niż 2 wymiary do podziału"
 
 #: napari/layers/utils/stack_utils.py:167
 msgid "Can't split along axis {axis}. The image has {num_dim} dimensions"
-msgstr ""
+msgstr "Nie można podzielić wzdłuż osi {axis}. Obraz ma {num_dim} wymiarów"
 
 #: napari/layers/utils/stack_utils.py:235
 msgid "images list is empty"
-msgstr ""
+msgstr "lista obrazów jest pusta"
 
 #: napari/layers/utils/text.py:217
 msgid "opaque blending mode is not allowed for text. setting to translucent."
-msgstr ""
+msgstr "nieprzezroczysty tryb mieszania nie jest dozwolony dla tekstu. Ustawienie do przezroczystości."
 
 #: napari/layers/vectors/_vector_utils.py:35
 msgid "Vector data of shape {shape} is not supported"
-msgstr ""
+msgstr "Dane wektorowe kształtu {shape} nie są obsługiwane"
 
 #: napari/layers/points/points.py:572 napari/layers/vectors/vectors.py:336
 msgid "the number of properties must equal the number of points"
-msgstr ""
+msgstr "liczba właściwości musi być równa liczbie punktów"
 
 #: napari/layers/vectors/vectors.py:504
 msgid "edge_color property was not set, setting to: {color_property}"
-msgstr ""
+msgstr "edge_color właściwość nie została ustawiona, ustawiono na: {color_property}"
 
 #: napari/layers/vectors/vectors.py:513
 msgid "There must be a valid Points.properties to use {edge_color_mode}"
-msgstr ""
+msgstr "Musi być poprawny Points.properties aby użyć {edge_color_mode}"
 
 #: napari/layers/image/_image_utils.py:68
 msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays of single shape: {shape}"
-msgstr ""
+msgstr "Dane wejściowe powinny być obiektem podobnym do tablicy lub sekwencją malejących tablic. Znajdują się tablice pojedynczego kształtu: {shape}"
 
 #: napari/layers/image/_image_utils.py:76
 msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays in incorrect order, shapes: {shapes}"
-msgstr ""
+msgstr "Dane wejściowe powinny być obiektem podobnym do tablicy lub sekwencją malejącego rozmiaru. Masz tablice w niewłaściwej kolejności, kształty: {shapes}"
 
 #: napari/layers/points/_points_constants.py:84
 msgid "arrow"
@@ -414,15 +416,15 @@ msgstr "x"
 
 #: napari/layers/points/_points_utils.py:119
 msgid "Points dimensions must be equal to ndim"
-msgstr ""
+msgstr "Wymiary punktów muszą być równe ndim"
 
 #: napari/layers/points/points.py:666
 msgid "Size is not compatible for broadcasting"
-msgstr ""
+msgstr "Rozmiar nie jest kompatybilny dla nadawania"
 
 #: napari/layers/points/points.py:928
 msgid "There must be a valid Points.properties to use {color_mode}"
-msgstr ""
+msgstr "Musi być poprawny Points.properties aby użyć {color_mode}"
 
 #: napari/layers/base/_base_constants.py:34
 msgid "translucent"
@@ -438,233 +440,233 @@ msgstr "nieprzezroczysty"
 
 #: napari/layers/base/base.py:237
 msgid "affine input not recognized. must be either napari.utils.transforms.Affine, ndarray, or None. Got {dtype}"
-msgstr ""
+msgstr "nie rozpoznano danych wejściowych. musi być napari.utils.transforms.Affine, ndarray, lub None. Masz {dtype}"
 
 #: napari/layers/base/base.py:283
 msgid "'layer.events.select' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'added' attribute on the event."
-msgstr ""
+msgstr "'layer.events.select' jest przestarzały i zostanie usunięty w napari v0.4.9, zamiast tego użyj 'viewer.layers.selection.events.changed' i sprawdź atrybut 'addded' na tym wydarzeniu."
 
 #: napari/layers/base/base.py:290
 msgid "'layer.events.deselect' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'removed' attribute on the event."
-msgstr ""
+msgstr "'layer.events.deselect' jest przestarzały i zostanie usunięty w napari v0.4.9, zamiast tego użyj 'viewer.layers.selection.events.changed' i sprawdź 'removed' atrybut na tym wydarzeniu."
 
 #: napari/layers/base/base.py:347
 msgid "opacity must be between 0.0 and 1.0; got {opacity}"
-msgstr ""
+msgstr "nieprzezroczystość musi wynosić od 0.0 do 1.0; otrzymano {opacity}"
 
 #: napari/layers/base/base.py:471
 msgid "affine input not recognized. must be either napari.utils.transforms.Affine or ndarray. Got {dtype}"
-msgstr ""
+msgstr "nie rozpoznano danych wejściowych. musi być napari.utils.transforms.Affine lub ndarray. Masz {dtype}"
 
 #: napari/layers/base/base.py:493 napari/layers/base/base.py:505
 msgid "layer.position is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position."
-msgstr ""
+msgstr "Pozycja warstwy jest przestarzała i zostanie usunięta w wersji 0.4.9. Nie należy go już stosować jako warstwy nie powinny już wiedzieć, gdzie znajduje się pozycja kursora. Możesz uzyskać pozycję kursora w współrzędnych świata z widza.cursor.position."
 
 #: napari/layers/base/base.py:656
 msgid "Non-orthogonal slicing is being requested, but is not fully supported. Data is displayed without applying an out-of-slice rotation or shear component."
-msgstr ""
+msgstr "Wymagane jest krojenie nieortogonalne, ale nie jest w pełni obsługiwane. Dane są wyświetlane bez stosowania rotacji plastycznej lub ścinania elementu."
 
 #: napari/layers/base/base.py:757
 msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `layer in viewer.layers.selection`"
-msgstr ""
+msgstr "'layer.selected' jest przestarzały i zostanie usunięty w wersji 0.4.9. Użyj `warstwy w viewer.layers.selection`"
 
 #: napari/layers/base/base.py:772
 msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `viewer.layers.selection.add(layer)` or `viewer.layers.selection.remove(layer)`"
-msgstr ""
+msgstr "'layer.selected' jest przestarzały i zostanie usunięty w wersji 0.4.9. Użyj `viewer.layers.selection.add(layer)` lub `viewer.layers.selection.remove(layer)`"
 
 #: napari/layers/base/base.py:981
 msgid "layer.coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position. You can then transform that into data coordinates using the layer.world_to_data method."
-msgstr ""
+msgstr "współrzędne są przestarzałe i zostaną usunięte w wersji 0.4.9. Nie należy go już stosować jako warstwy nie powinny już wiedzieć, gdzie znajduje się pozycja kursora. Możesz uzyskać pozycję kursora w współrzędnych świata z viewwer.cursor.position. Następnie można ją przekształcić w współrzędne danych za pomocą metody warstwy.world_to_data."
 
 #: napari/layers/base/base.py:1069
 msgid "displayed_coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should use [layer.coordinates[d] for d in viewer.dims.displayed]"
-msgstr ""
+msgstr "displayed_współrzędne są przestarzałe i zostaną usunięte w wersji 0.4.9. Nie powinno być już używane, ponieważ warstwa wkrótce nie będzie wiedziała, które wymiary są wyświetlane. Zamiast tego powinieneś używać [layer.coordinates[d] dla d w viewer.dims.displayed]"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:147
 msgid "zero"
-msgstr ""
+msgstr "zera"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:148
 msgid "one"
-msgstr ""
+msgstr "jeden"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:149
 msgid "two"
-msgstr ""
+msgstr "dwa"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:150
 msgid "three"
-msgstr ""
+msgstr "trzy"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:151
 msgid "four"
-msgstr ""
+msgstr "cztery"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:152
 msgid "five"
-msgstr ""
+msgstr "pięć"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:153
 msgid "six"
-msgstr ""
+msgstr "sześć"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:154
 msgid "seven"
-msgstr ""
+msgstr "siedemnaście"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:155
 msgid "eight"
-msgstr ""
+msgstr "osiem"
 
 #: napari/_vendor/experimental/humanize/src/humanize/number.py:156
 msgid "nine"
-msgstr ""
+msgstr "dziewięć"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:130 napari/_vendor/experimental/humanize/src/humanize/time.py:203
 msgid "a moment"
-msgstr ""
+msgstr "chwila"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:132
 msgid "a second"
-msgstr ""
+msgstr "sekundę"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:136
 msgid "a minute"
-msgstr ""
+msgstr "minutę"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:141
 msgid "an hour"
-msgstr ""
+msgstr "godzina"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:147
 msgid "a day"
-msgstr ""
+msgstr "dziennie"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:154
 msgid "a month"
-msgstr ""
+msgstr "miesiąc"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:159
 msgid "a year"
-msgstr ""
+msgstr "rok"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:164
 msgid "1 year, 1 month"
-msgstr ""
+msgstr "1 rok, 1 miesiąc"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:200
 #, python-format
 msgid "%s from now"
-msgstr ""
+msgstr "%s od teraz"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:200
 #, python-format
 msgid "%s ago"
-msgstr ""
+msgstr "%s temu"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:204
 msgid "now"
-msgstr ""
+msgstr "teraz"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:223
 msgid "today"
-msgstr ""
+msgstr "dziś"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:225
 msgid "tomorrow"
-msgstr ""
+msgstr "jutro"
 
 #: napari/_vendor/experimental/humanize/src/humanize/time.py:227
 msgid "yesterday"
-msgstr ""
+msgstr "wczoraj"
 
 #: napari/_vispy/experimental/texture_atlas.py:309
 msgid "Data with shape {shape} is not compatible with this TextureAtlas2D which has tile shape {spec_shape}"
-msgstr ""
+msgstr "Dane o kształcie {shape} nie są kompatybilne z tym TextureAtlas2D, który ma kształt kafelka {spec_shape}"
 
 #: napari/_vispy/experimental/tiled_image_visual.py:310
 msgid "Tile index {tile_index} not found."
-msgstr ""
+msgstr "Nie znaleziono indeksu kafelków {tile_index}."
 
 #: napari/_vispy/experimental/tiled_image_visual.py:361
 msgid "Auto clims not supported for tiled image visual"
-msgstr ""
+msgstr "Automatyczne wznoszenie nie jest obsługiwane dla wizualnego obrazu z kafelkami"
 
 #: napari/utils/events/containers/_evented_list.py:117 napari/utils/events/containers/_typed.py:92
 msgid "Can only assign an iterable to slice"
-msgstr ""
+msgstr "Można przypisać tylko iteralne do wycinania"
 
 #: napari/utils/events/containers/_evented_list.py:132
 msgid "attempt to assign sequence of size {size} to extended slice of size {slice_size}"
-msgstr ""
+msgstr "próba przypisania sekwencji rozmiaru {size} do wydłużonego wycinka o rozmiarze {slice_size}"
 
 #: napari/utils/events/containers/_evented_list.py:163
 msgid "Deletion index must be {valid!r}, got {dtype}"
-msgstr ""
+msgstr "Indeks usunięcia musi być {valid!r}, otrzymano {dtype}"
 
 #: napari/utils/events/containers/_evented_list.py:298 napari/utils/events/containers/_nested_list.py:298 napari/utils/events/containers/_nested_list.py:405
 msgid "Destination index may not be a slice"
-msgstr ""
+msgstr "Indeks docelowy nie może być wycinkiem"
 
 #: napari/utils/events/containers/_evented_list.py:312
 msgid "Can only move integer or slice indices"
-msgstr ""
+msgstr "Można przenosić tylko wskaźniki liczby całkowitej lub wycinania"
 
 #: napari/utils/events/containers/_nested_list.py:57
 msgid "Invalid nested index: {index}. Must be an int or tuple"
-msgstr ""
+msgstr "Nieprawidłowy zagnieżdżony indeks: {index}. Musi być int lub kropką"
 
 #: napari/utils/events/containers/_nested_list.py:97
 msgid "The parent index must be a tuple of int"
-msgstr ""
+msgstr "Indeks nadrzędny musi być kropką int"
 
 #: napari/utils/events/containers/_nested_list.py:314 napari/utils/events/containers/_nested_list.py:413
 msgid "Group cannot move itself"
-msgstr ""
+msgstr "Grupa nie może się przenieść"
 
 #: napari/utils/events/containers/_nested_list.py:327
 msgid "Can't yet deal with slice source indices in multimove"
-msgstr ""
+msgstr "Nie można jeszcze zarządzać wskaźnikami wycinka źródłowego w wielu ruchach"
 
 #: napari/utils/events/containers/_nested_list.py:338 napari/utils/events/containers/_nested_list.py:397
 msgid "Terminal source index may not be a slice"
-msgstr ""
+msgstr "Indeks terminalu źródłowego nie może być wycinkiem"
 
 #: napari/utils/events/containers/_nested_list.py:446
 msgid "Cannot add object with type {dtype!r} to TypedList expecting type {types_!r}"
-msgstr ""
+msgstr "Nie można dodać obiektu z typem {dtype!r} do TypedList oczekującego typu {types_!r}"
 
 #: napari/utils/events/containers/_selectable_list.py:54
 msgid "Cannot select item that is not in list: {value!r}"
-msgstr ""
+msgstr "Nie można wybrać elementu, który nie znajduje się na liście: {value!r}"
 
 #: napari/utils/events/containers/_selection.py:150
 msgid "Value is not a valid sequence: {data}"
-msgstr ""
+msgstr "Wartość nie jest prawidłową sekwencją: {data}"
 
 #: napari/utils/events/containers/_set.py:166
 msgid "Value is not a valid sequence: {value}"
-msgstr ""
+msgstr "Wartość nie jest prawidłową sekwencją: {value}"
 
 #: napari/utils/events/containers/_typed.py:164
 msgid "Cannot add object with type {dtype!r} to TypedList expecting type {basetypes!r}"
-msgstr ""
+msgstr "Nie można dodać obiektu z typem {dtype!r} do TypedList oczekującego typu {basetypes!r}"
 
 #: napari/utils/events/containers/_typed.py:239
 msgid "{value!r} is not in list"
-msgstr ""
+msgstr "{value!r} nie jest na liście"
 
 #: napari/utils/tree/node.py:93
 msgid "Cannot unparent orphaned Node: {node!r}"
-msgstr ""
+msgstr "Nie można nierodzic osieroconego węzła: {węzeł!r}"
 
 #: napari/utils/settings/_defaults.py:51 napari/utils/settings/_defaults.py:60
 msgid "A schema version must be a 3 element tuple or string!"
-msgstr ""
+msgstr "Wersja schematu musi być 3-elementową krotką lub ciągiem!"
 
 #: napari/utils/settings/_defaults.py:71
 msgid "A schema version subparts must be positive integers or parseable as integers!"
-msgstr ""
+msgstr "Podczęści wersji schematu muszą być dodatnią liczbą całkowitą lub mogą być analizowalne jako liczby całkowite!"
 
 #: napari/utils/settings/_defaults.py:109 napari/utils/settings/_defaults.py:147
 msgid "must be a string"
@@ -672,15 +674,15 @@ msgstr "musi być ciągiem znaków"
 
 #: napari/utils/settings/_defaults.py:119
 msgid "\"{value}\" is not valid. It must be one of {themes}"
-msgstr ""
+msgstr "\"{value}\" jest nieprawidłowy. Musi być jednym z {themes}"
 
 #: napari/utils/settings/_defaults.py:156
 msgid "\"{value}\" is not valid. It must be one of {language_packs}."
-msgstr ""
+msgstr "\"{value}\" jest nieprawidłowy. Musi być jednym z {language_packs}."
 
 #: napari/utils/settings/_defaults.py:192
 msgid "Theme"
-msgstr ""
+msgstr "Motyw"
 
 #: napari/utils/settings/_defaults.py:193
 msgid "Theme selection."
@@ -688,527 +690,534 @@ msgstr "Wybór motywu."
 
 #: napari/utils/settings/_defaults.py:198
 msgid "Appearance"
-msgstr ""
+msgstr "Wygląd"
 
 #: napari/utils/settings/_defaults.py:221
 msgid "IPython interactive"
-msgstr ""
+msgstr "Interaktywne IPython"
 
 #: napari/utils/settings/_defaults.py:222
 #, python-format
 msgid "Use interactive %gui qt event loop when creating napari Viewers in IPython"
-msgstr ""
+msgstr "Użyj interaktywnej pętli %gui qt zdarzeń podczas tworzenia przeglądarek w IPython"
 
 #: napari/utils/settings/_defaults.py:229
 msgid "Language"
-msgstr ""
+msgstr "Język"
 
 #: napari/utils/settings/_defaults.py:230
 msgid "Interface display language."
-msgstr ""
+msgstr "Język wyświetlania interfejsu."
 
 #: napari/utils/settings/_defaults.py:236
 msgid "Save Window Geometry"
-msgstr ""
+msgstr "Zapisz geometrię okna"
 
 #: napari/utils/settings/_defaults.py:237
 msgid "Save window size and position."
-msgstr ""
+msgstr "Zapisz rozmiar i pozycję okna."
 
 #: napari/utils/settings/_defaults.py:241
 msgid "Save Window State"
-msgstr ""
+msgstr "Zapisz stan okna"
 
 #: napari/utils/settings/_defaults.py:242
 msgid "Save window state of dock widgets."
-msgstr ""
+msgstr "Zapisz stan okien widżetów doku."
 
 #: napari/utils/settings/_defaults.py:262
 msgid "Application"
-msgstr ""
+msgstr "Aplikacja"
 
 #: napari/utils/settings/_defaults.py:300
 msgid "Plugin sort order"
-msgstr ""
+msgstr "Kolejność sortowania wtyczek"
 
 #: napari/utils/settings/_defaults.py:301
 msgid "Sort plugins for each action in the order to be called."
-msgstr ""
+msgstr "Sortuj wtyczki dla każdej akcji w kolejności do wywołania."
 
 #: napari/utils/settings/_defaults.py:308
 msgid "Plugins"
-msgstr ""
+msgstr "Wtyczki"
 
 #: napari/utils/settings/_manager.py:135
 msgid "The content of the napari settings file could not be read\n\n"
 "The default settings will be used and the content of the file will be replaced the next time settings are changed.\n\n"
 "Error:\n"
 "{err}"
-msgstr ""
+msgstr "Zawartość pliku ustawień napari nie może zostać odczytana\n\n"
+"Domyślne ustawienia zostaną użyte i zawartość pliku zostanie zastąpiona kolejnymi ustawieniami.\n\n"
+"Błąd:\n"
+"{err}"
 
 #: napari/utils/_tests/test_translations.py:176
 msgid "BOO"
-msgstr ""
+msgstr "BOO"
 
 #: napari/utils/_tests/test_translations.py:184
 msgid "More about napari"
-msgstr ""
+msgstr "Więcej o napari"
 
 #: napari/utils/_tests/test_translations.py:397
 msgid "MORE ABOUT NAPARI"
-msgstr ""
+msgstr "WIĘCEJ NAPARI"
 
 #: napari/utils/transforms/transform_utils.py:81
 msgid "Scalars are not valid values for shear. Shear must be an upper triangular vector or square matrix with ones along the main diagonal."
-msgstr ""
+msgstr "Skalary nie są prawidłowymi wartościami nożyca. Nośnik musi być górnym trójkątnym wektorem lub kwadratową matrycą z tymi wzdłuż głównej przekątnej."
 
 #: napari/utils/transforms/transform_utils.py:122
 msgid "{number} is a strange number of shear elements"
-msgstr ""
+msgstr "{number} jest dziwną liczbą ścinających elementów"
 
 #: napari/utils/transforms/transform_utils.py:153
 msgid "Improper transform matrix {matrix}"
-msgstr ""
+msgstr "Niewłaściwa matryca przekształcająca {matrix}"
 
 #: napari/utils/transforms/transforms.py:48
 msgid "Inverse function was not provided."
-msgstr ""
+msgstr "Funkcja odwrotna nie została podana."
 
 #: napari/utils/transforms/transforms.py:54
 msgid "Transform composition rule not provided"
-msgstr ""
+msgstr "Przekształć regułę składu nie podano"
 
 #: napari/utils/transforms/transforms.py:71 napari/utils/transforms/transforms.py:90
 msgid "Cannot subset arbitrary transforms."
-msgstr ""
+msgstr "Nie można podzbić arbitralnych transformacji."
 
 #: napari/utils/transforms/transforms.py:342 napari/utils/transforms/transforms.py:420
 msgid "Only upper triangular or lower triangular matrices are accepted for shear, got {shear}. For other matrices, set the affine_matrix or linear_matrix directly."
-msgstr ""
+msgstr "Tylko górne trójkątne lub dolne trójkątne matryce są akceptowane dla ścinki i mają {shear}. Dla innych matryc ustaw bezpośrednio affine_matrix lub linear_matrycę."
 
 #: napari/utils/events/event.py:311
 msgid "print_callback_errors must be \"first\", \"reminders\", \"always\", or \"never\""
-msgstr ""
+msgstr "print_callback_errors musi być \"first\", \"reminders\", \"zawsze\", lub \"nigdy\""
 
 #: napari/utils/events/event.py:421
 msgid "ref must be a bool or string"
-msgstr ""
+msgstr "ref musi być boolem lub ciągiem"
 
 #: napari/utils/events/event.py:428
 msgid "ref \"{ref}\" is not unique"
-msgstr ""
+msgstr "ref \"{ref}\" nie jest unikatowy"
 
 #: napari/utils/events/event.py:434
 msgid "position must be \"first\" or \"last\", not {position}"
-msgstr ""
+msgstr "pozycja musi być \"pierwszy\" lub \"ostatni\", nie {position}"
 
 #: napari/utils/events/event.py:458
 msgid "criteria \"{criteria}\" is in the current callback list {count} times:\n"
 "{callback_refs}\n"
 "{callbacks}"
-msgstr ""
+msgstr "kryteria \"{criteria}\" znajdują się w bieżącej liście wywołań zwrotnych {count} razy:\n"
+"{callback_refs}\n"
+"{callbacks}"
 
 #: napari/utils/events/event.py:477
 msgid "cannot place callback before \"{before}\" and after \"{after}\" for callbacks: {callback_refs}"
-msgstr ""
+msgstr "nie można wysłać wywołania zwrotnego przed \"{before}\" i po \"{after}\" dla wywołań zwrotnych: {callback_refs}"
 
 #: napari/utils/events/event.py:583
 msgid "Event source-stack mismatch."
-msgstr ""
+msgstr "Niezgodność stosu źródłowego."
 
 #: napari/utils/events/event.py:616
 msgid "Event emitters can be called with an Event instance or with keyword arguments only."
-msgstr ""
+msgstr "Emitery zdarzeń mogą być wywoływane z instancją zdarzenia lub tylko z argumentami słów kluczowych."
 
 #: napari/utils/events/event.py:648
 msgid "Cannot unblock {self_} for callback {callback}; emitter was not previously blocked."
-msgstr ""
+msgstr "Nie można odblokować {self_} dla wywołania zwrotnego {callback}; emitent nie był wcześniej zablokowany."
 
 #: napari/utils/events/event.py:817
 msgid "EmitterGroup already has an emitter named '{name}'"
-msgstr ""
+msgstr "EmitterGroup ma już emitenta o nazwie '{name}'"
 
 #: napari/utils/events/event.py:825
 msgid "The name '{name}' cannot be used as an emitter; it is already an attribute of EmitterGroup"
-msgstr ""
+msgstr "Nazwa '{name}' nie może być użyta jako emiter; jest już atrybutem EmitterGroup"
 
 #: napari/utils/events/event.py:843
 msgid "Emitter must be specified as either an EventEmitter instance or Event subclass. (got {name}={emitter})"
-msgstr ""
+msgstr "Emitter musi być określony jako instancja EventEmitter lub podklasa zdarzeń. (otrzymano {name}={emitter})"
 
 #: napari/utils/events/evented_model.py:165
 msgid "The `asdict` method has been renamed `dict` and is now deprecated. It will be removed in 0.4.7"
-msgstr ""
+msgstr "Metoda `asdict` została zmieniona na `dict` i jest przestarzała. Zostanie usunięta w 0.4.7"
 
 #: napari/utils/events/evented_model.py:191
 msgid "Unsupported update from {values}"
-msgstr ""
+msgstr "Nieobsługiwana aktualizacja z {values}"
 
 #: napari/utils/perf/_config.py:110
 msgid "{path} has no callable list '{list_name}'"
-msgstr ""
+msgstr "{path} nie ma listy wywołań '{list_name}'"
 
 #: napari/utils/perf/_patcher.py:47
 msgid "Nested attribute not found: {attribute_str}"
-msgstr ""
+msgstr "Zagnieżdżony atrybut nie znaleziony: {attribute_str}"
 
 #: napari/utils/perf/_patcher.py:61
 msgid "Module {module_name} has no attribute {attribute_str}"
-msgstr ""
+msgstr "Moduł {module_name} nie ma atrybutu {attribute_str}"
 
 #: napari/utils/perf/_patcher.py:80
 msgid "Parent {parent_str} has no attribute {callable_str}"
-msgstr ""
+msgstr "Rodzic {parent_str} nie ma atrybutu {callable_str}"
 
 #: napari/utils/perf/_patcher.py:135
 msgid "Module not found: {module_path}"
-msgstr ""
+msgstr "Nie znaleziono modułu: {module_path}"
 
 #: napari/utils/colormaps/bop_colors.py:787
 msgid "bop blue"
-msgstr ""
+msgstr "bop niebieski"
 
 #: napari/utils/colormaps/bop_colors.py:788
 msgid "bop orange"
-msgstr ""
+msgstr "bop pomarańczowy"
 
 #: napari/utils/colormaps/bop_colors.py:789
 msgid "bop purple"
-msgstr ""
+msgstr "bop purpurowy"
 
 #: napari/utils/colormaps/categorical_colormap.py:106
 msgid "colormap should be an array or dict"
-msgstr ""
+msgstr "kolorowa mapa powinna być tablicą lub słownikiem"
 
 #: napari/utils/colormaps/categorical_colormap_utils.py:62
 msgid "ColorCycle requires a values argument"
-msgstr ""
+msgstr "Cykl kolorów wymaga argumentu wartości"
 
 #: napari/utils/colormaps/colormap.py:97
 msgid "Unrecognized Colormap Interpolation Mode"
-msgstr ""
+msgstr "Nierozpoznany tryb interpolacji kolorów"
 
 #: napari/utils/colormaps/colormap_utils.py:27 napari/utils/colormaps/colormap_utils.py:56
 msgctxt "colormap"
 msgid "viridis"
-msgstr ""
+msgstr "wiryd"
 
 #: napari/utils/colormaps/colormap_utils.py:28
 msgctxt "colormap"
 msgid "magma"
-msgstr ""
+msgstr "magma"
 
 #: napari/utils/colormaps/colormap_utils.py:29
 msgctxt "colormap"
 msgid "inferno"
-msgstr ""
+msgstr "Pałeczka"
 
 #: napari/utils/colormaps/colormap_utils.py:30
 msgctxt "colormap"
 msgid "plasma"
-msgstr ""
+msgstr "osocza"
 
 #: napari/utils/colormaps/colormap_utils.py:31
 msgctxt "colormap"
 msgid "gray"
-msgstr ""
+msgstr "szary"
 
 #: napari/utils/colormaps/colormap_utils.py:32
 msgctxt "colormap"
 msgid "gray r"
-msgstr ""
+msgstr "szary"
 
 #: napari/utils/colormaps/colormap_utils.py:33
 msgctxt "colormap"
 msgid "hsv"
-msgstr ""
+msgstr "Hsv"
 
 #: napari/utils/colormaps/colormap_utils.py:34
 msgctxt "colormap"
 msgid "turbo"
-msgstr ""
+msgstr "turbo"
 
 #: napari/utils/colormaps/colormap_utils.py:35
 msgctxt "colormap"
 msgid "twilight"
-msgstr ""
+msgstr "podwójne światło"
 
 #: napari/utils/colormaps/colormap_utils.py:36
 msgctxt "colormap"
 msgid "twilight shifted"
-msgstr ""
+msgstr "skręcenie przesunięte"
 
 #: napari/utils/colormaps/colormap_utils.py:37
 msgctxt "colormap"
 msgid "gist earth"
-msgstr ""
+msgstr "ziemia gwiaździsta"
 
 #: napari/utils/colormaps/colormap_utils.py:38
 msgctxt "colormap"
 msgid "PiYG"
-msgstr ""
+msgstr "PiYG"
 
 #: napari/utils/colormaps/colormap_utils.py:42
 msgctxt "colormap"
 msgid "autumn"
-msgstr ""
+msgstr "jesień"
 
 #: napari/utils/colormaps/colormap_utils.py:43
 msgctxt "colormap"
 msgid "blues"
-msgstr ""
+msgstr "niebieskie"
 
 #: napari/utils/colormaps/colormap_utils.py:44
 msgctxt "colormap"
 msgid "cool"
-msgstr ""
+msgstr "fajny"
 
 #: napari/utils/colormaps/colormap_utils.py:45
 msgctxt "colormap"
 msgid "greens"
-msgstr ""
+msgstr "Zieloni"
 
 #: napari/utils/colormaps/colormap_utils.py:46
 msgctxt "colormap"
 msgid "reds"
-msgstr ""
+msgstr "wiedźmy"
 
 #: napari/utils/colormaps/colormap_utils.py:47
 msgctxt "colormap"
 msgid "spring"
-msgstr ""
+msgstr "wiosna"
 
 #: napari/utils/colormaps/colormap_utils.py:48
 msgctxt "colormap"
 msgid "summer"
-msgstr ""
+msgstr "lato"
 
 #: napari/utils/colormaps/colormap_utils.py:49
 msgctxt "colormap"
 msgid "fire"
-msgstr ""
+msgstr "ogień"
 
 #: napari/utils/colormaps/colormap_utils.py:50
 msgctxt "colormap"
 msgid "grays"
-msgstr ""
+msgstr "szary"
 
 #: napari/utils/colormaps/colormap_utils.py:51
 msgctxt "colormap"
 msgid "hot"
-msgstr ""
+msgstr "gorący"
 
 #: napari/utils/colormaps/colormap_utils.py:52
 msgctxt "colormap"
 msgid "ice"
-msgstr ""
+msgstr "lód"
 
 #: napari/utils/colormaps/colormap_utils.py:53
 msgctxt "colormap"
 msgid "winter"
-msgstr ""
+msgstr "zima"
 
 #: napari/utils/colormaps/colormap_utils.py:54
 msgctxt "colormap"
 msgid "light blues"
-msgstr ""
+msgstr "jasnoniebieskie"
 
 #: napari/utils/colormaps/colormap_utils.py:55
 msgctxt "colormap"
 msgid "orange"
-msgstr ""
+msgstr "pomarańczowy"
 
 #: napari/utils/colormaps/colormap_utils.py:57
 msgctxt "colormap"
 msgid "coolwarm"
-msgstr ""
+msgstr "chłodzący"
 
 #: napari/utils/colormaps/colormap_utils.py:58
 msgctxt "colormap"
 msgid "PuGr"
-msgstr ""
+msgstr "PuGr"
 
 #: napari/utils/colormaps/colormap_utils.py:59
 msgctxt "colormap"
 msgid "GrBu"
-msgstr ""
+msgstr "GrBu"
 
 #: napari/utils/colormaps/colormap_utils.py:60
 msgctxt "colormap"
 msgid "GrBu_d"
-msgstr ""
+msgstr "GrBu_d"
 
 #: napari/utils/colormaps/colormap_utils.py:61
 msgctxt "colormap"
 msgid "RdBu"
-msgstr ""
+msgstr "RdBu"
 
 #: napari/utils/colormaps/colormap_utils.py:62
 msgctxt "colormap"
 msgid "cubehelix"
-msgstr ""
+msgstr "cubehelix"
 
 #: napari/utils/colormaps/colormap_utils.py:63
 msgctxt "colormap"
 msgid "single hue"
-msgstr ""
+msgstr "pojedynczy odcień"
 
 #: napari/utils/colormaps/colormap_utils.py:64
 msgctxt "colormap"
 msgid "hsl"
-msgstr ""
+msgstr "hsl"
 
 #: napari/utils/colormaps/colormap_utils.py:65
 msgctxt "colormap"
 msgid "husl"
-msgstr ""
+msgstr "mąż"
 
 #: napari/utils/colormaps/colormap_utils.py:66
 msgctxt "colormap"
 msgid "diverging"
-msgstr ""
+msgstr "rozbieżne"
 
 #: napari/utils/colormaps/colormap_utils.py:67
 msgctxt "colormap"
 msgid "RdYeBuCy"
-msgstr ""
+msgstr "RdYeBuCy"
 
 #: napari/utils/colormaps/colormap_utils.py:70
 msgctxt "colormap"
 msgid "red"
-msgstr ""
+msgstr "czerwony"
 
 #: napari/utils/colormaps/colormap_utils.py:71
 msgctxt "colormap"
 msgid "green"
-msgstr ""
+msgstr "zielony"
 
 #: napari/utils/colormaps/colormap_utils.py:72
 msgctxt "colormap"
 msgid "blue"
-msgstr ""
+msgstr "niebieski"
 
 #: napari/utils/colormaps/colormap_utils.py:73
 msgctxt "colormap"
 msgid "cyan"
-msgstr ""
+msgstr "cyjan"
 
 #: napari/utils/colormaps/colormap_utils.py:74
 msgctxt "colormap"
 msgid "magenta"
-msgstr ""
+msgstr "magentny"
 
 #: napari/utils/colormaps/colormap_utils.py:75
 msgctxt "colormap"
 msgid "yellow"
-msgstr ""
+msgstr "żółty"
 
 #: napari/utils/colormaps/colormap_utils.py:127
 msgid "Colormap must be a vispy colormap if passed to from_vispy"
-msgstr ""
+msgstr "Mapa kolorów musi być lepką mapą kolorów, jeśli została przekazana do from_vispy"
 
 #: napari/utils/colormaps/colormap_utils.py:357
 msgctxt "colormap"
 msgid "low discrepancy colors"
-msgstr ""
+msgstr "niska rozbieżność kolorów"
 
 #: napari/utils/colormaps/colormap_utils.py:391
 msgid "Colormap \"{name}\" not found in either vispy or matplotlib."
-msgstr ""
+msgstr "Mapa kolorów \"{name}\" nie została znaleziona ani w nalepce, ani w matplotlib."
 
 #: napari/utils/colormaps/colormap_utils.py:444
 msgid "[unnamed colormap]"
-msgstr ""
+msgstr "[bez nazwy kolorów]"
 
 #: napari/utils/colormaps/colormap_utils.py:450
 msgid "[unnamed colormap {number}]"
-msgstr ""
+msgstr "[nienazwana mapa kolorów {number}]"
 
 #: napari/utils/colormaps/colormap_utils.py:523
 msgid "When providing a tuple as a colormap argument, the first element must be a string and the second a Colormap instance"
-msgstr ""
+msgstr "Przy podawaniu krotki jako argumentu mapy kolorów, pierwszy element musi być ciągiem, a drugi instancją kolormapy"
 
 #: napari/utils/colormaps/colormap_utils.py:549
 msgid "When providing a dict as a colormap, all values must be Colormap instances"
-msgstr ""
+msgstr "Przy podawaniu karty jako mapy kolorów, wszystkie wartości muszą być instancjami kolorów"
 
 #: napari/utils/colormaps/colormap_utils.py:572
 msgid "only the first item in a colormap dict is used as an argument"
-msgstr ""
+msgstr "jako argument używany jest tylko pierwszy element w kolorowych dictach"
 
 #: napari/utils/colormaps/colormap_utils.py:579
 msgid "Received an empty dict as a colormap argument."
-msgstr ""
+msgstr "Otrzymano pusty słownik jako argument na mapie kolorów."
 
 #: napari/utils/colormaps/colormap_utils.py:589
 msgid "invalid type for colormap: {cm_type}. Must be a {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
-msgstr ""
+msgstr "niepoprawny typ dla mapy koloru: {cm_type}. Musi być {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
 
 #: napari/utils/colormaps/standardize_color.py:88
 msgid "Empty string detected. Returning black instead."
-msgstr ""
+msgstr "Wykryto pusty ciąg. Zamiast tego wraca czarny."
 
 #: napari/utils/colormaps/standardize_color.py:133
 msgid "Coudln't convert input color array to a proper numpy array. Please make sure that your input data is in a parsable format. Converting input to a white color array."
-msgstr ""
+msgstr "Nie konwertuj tablicy kolorów wejściowych do właściwej tablicy. Upewnij się, że dane wejściowe są w formacie parsowalnym. Konwertuję dane wejściowe na białą tablicę kolorów."
 
 #: napari/utils/colormaps/standardize_color.py:171
 msgid "An object array was passed as the color input. Please convert its datatype before sending it to napari. Converting input to a white color array."
-msgstr ""
+msgstr "Tablica obiektów została przekazana jako dane wejściowe koloru. Proszę przekonwertować jej dane przed wysłaniem na napari. Konwersja danych wejściowych na białą tablicę kolorów."
 
 #: napari/utils/colormaps/standardize_color.py:184
 msgid "String color arrays should be one-dimensional. Converting input to a white color array."
-msgstr ""
+msgstr "Tablice kolorów ciągu powinny być jednowymiarowe. Konwertacja danych wejściowych na białą tablicę kolorów."
 
 #: napari/utils/colormaps/standardize_color.py:198
 msgid "Given color input is empty. Converting input to a white color array."
-msgstr ""
+msgstr "Podana wartość koloru jest pusta. Konwersja danych wejściowych na białą tablicę kolorów."
 
 #: napari/utils/colormaps/standardize_color.py:211
 msgid "Given colors input should contain one or two dimensions. Received array with {ndim} dimensions."
-msgstr ""
+msgstr "Podana wartość kolorów powinna zawierać jeden lub dwa wymiary. Otrzymana tablica z {ndim} wymiarami."
 
 #: napari/utils/colormaps/standardize_color.py:223
 msgid "Given color array has an unsupported format. Received the following array:\n"
 "{colors}\n"
 "A proper color array should have 3-4 columns with a row per data entry."
-msgstr ""
+msgstr "Tablica kolorów ma nieobsługiwany format. Otrzymano następującą tablicę:\n"
+"{colors}\n"
+"Prawidłowa tablica kolorów powinna mieć 3-4 kolumny z każdym wpisem danych."
 
 #: napari/utils/colormaps/standardize_color.py:239
 msgid "Given colors input should contain three or four columns. Received array with {shape} columns. Converting input to a white color array."
-msgstr ""
+msgstr "Podane kolory powinny zawierać trzy lub cztery kolumny. Otrzymano tablicę z {shape} kolumnami. Konwertuję dane wejściowe na białą tablicę kolorów."
 
 #: napari/utils/colormaps/standardize_color.py:253
 msgid "Data type of array ({color_dtype}) not supported."
-msgstr ""
+msgstr "Typ danych tablicy ({color_dtype}) nie jest obsługiwany."
 
 #: napari/utils/colormaps/standardize_color.py:287
 msgid "Colors input had negative values."
-msgstr ""
+msgstr "Podane kolory miały ujemne wartości."
 
 #: napari/utils/colormaps/standardize_color.py:295
 msgid "Colors with values larger than one detected. napari will normalize these colors for you. If you'd like to convert these yourself, please use the proper method from skimage.color."
-msgstr ""
+msgstr "Kolory z wartościami większymi niż jeden. napari znormalizuje te kolory dla ciebie. Jeśli chcesz przekonwertować te same, użyj odpowiedniej metody z separatora.color."
 
 #: napari/utils/colormaps/standardize_color.py:324
 msgid "Invalid color found: {color} at index {idx}."
-msgstr ""
+msgstr "Znaleziono nieprawidłowy kolor: {color} w indeksie {idx}."
 
 #: napari/utils/colormaps/standardize_color.py:440
 msgid "Value must have second dimension of size 3 or 4"
-msgstr ""
+msgstr "Wartość musi mieć drugi wymiar rozmiaru 3 lub 4"
 
 #: napari/components/experimental/chunk/_commands/_tables.py:99
 msgid "Row with {row_cols} columns not compatible with headers ({header_cols} columns)"
-msgstr ""
+msgstr "Wiersz z {row_cols} kolumnami nie jest kompatybilny z nagłówkami ({header_cols} kolumn)"
 
 #: napari/components/experimental/monitor/_monitor.py:41
 msgid "Monitor: Config file not found: {path}"
-msgstr ""
+msgstr "Monitor: Nie znaleziono pliku konfiguracyjnego: {path}"
 
 #: napari/components/experimental/chunk/_pool_group.py:133
 msgid "Missing 'loader_defaults' in octree config."
-msgstr ""
+msgstr "Brakuje 'loader_defaults' w konfiguracji octree"
 
 #: napari/_qt/layer_controls/qt_image_controls.py:56
 msgid "interpolation:"
@@ -1301,12 +1310,14 @@ msgstr "Tryb farby (P)"
 #: napari/_qt/layer_controls/qt_labels_controls.py:179
 msgid "Fill mode (F) \n"
 "Toggle with {shortcut}"
-msgstr ""
+msgstr "Tryb wypełnienia (F) \n"
+"Przełącz {shortcut}"
 
 #: napari/_qt/layer_controls/qt_labels_controls.py:188
 msgid "Erase mode (E) \n"
 "Toggle with {shortcut}"
-msgstr ""
+msgstr "Tryb czyszczenia (E) \n"
+"Przełącz na {shortcut}"
 
 #: napari/_qt/layer_controls/qt_labels_controls.py:233
 msgid "label:"
@@ -1374,7 +1385,7 @@ msgstr "Pan/powiększenie (Z)"
 
 #: napari/_qt/layer_controls/qt_points_controls.py:152
 msgid "Delete selected points ({shortcut})"
-msgstr ""
+msgstr "Usuń wybrane punkty ({shortcut})"
 
 #: napari/_qt/layer_controls/qt_points_controls.py:157 napari/_qt/layer_controls/qt_shapes_controls.py:231
 msgid "toggle text visibility"
@@ -1450,7 +1461,7 @@ msgstr "Przenieś do tyłu"
 
 #: napari/_qt/layer_controls/qt_shapes_controls.py:183
 msgid "Delete selected shapes ({shortcut})"
-msgstr ""
+msgstr "Usuń wybrane kształty ({shortcut})"
 
 #: napari/_qt/layer_controls/qt_shapes_controls.py:241
 msgid "edge width:"
@@ -1554,15 +1565,15 @@ msgstr "Brak skrótów kluczy"
 
 #: napari/_qt/dialogs/qt_modal.py:92
 msgid "Specifying position as a string is only possible if the popup has a parent"
-msgstr ""
+msgstr "Określanie pozycji jako ciągu jest możliwe tylko wtedy, gdy wyskakujące okno ma nadrzędne"
 
 #: napari/_qt/dialogs/qt_modal.py:120
 msgid "position must be one of [\"top\", \"left\", \"bottom\", \"right\"]"
-msgstr ""
+msgstr "pozycja musi być jednym z [\"góry\", \"lewy\", \"dół\", \"prawo\"]"
 
 #: napari/_qt/dialogs/qt_modal.py:130
 msgid "Wrong type of position {position}"
-msgstr ""
+msgstr "Nieprawidłowy typ pozycji {position}"
 
 #: napari/_qt/dialogs/qt_notification.py:108
 msgid "Source: {source}"
@@ -1570,15 +1581,15 @@ msgstr "Źródło: {source}"
 
 #: napari/_qt/dialogs/qt_notification.py:331 napari/_qt/dialogs/qt_notification.py:340
 msgid "Enter Debugger"
-msgstr ""
+msgstr "Wejdź do debugera"
 
 #: napari/_qt/dialogs/qt_notification.py:335
 msgid "Now Debugging. Please quit debugger in console to continue"
-msgstr ""
+msgstr "Teraz debugowanie. Proszę wyjdź z debugera w konsoli aby kontynuować"
 
 #: napari/_qt/dialogs/qt_notification.py:348
 msgid "View Traceback"
-msgstr ""
+msgstr "Zobacz ślad wstecz"
 
 #: napari/_qt/dialogs/qt_plugin_dialog.py:123
 msgid "remove"
@@ -1688,15 +1699,15 @@ msgstr "{save_path} już istnieje. Czy chcesz go zastąpić?"
 
 #: napari/_qt/containers/_base_item_model.py:198
 msgid "root must be an instance of {class_name}"
-msgstr ""
+msgstr "root musi być instancją {class_name}"
 
 #: napari/_qt/containers/_factory.py:40
 msgid "Cannot create Qt view for obj: {obj}"
-msgstr ""
+msgstr "Nie można utworzyć widoku Qt dla obj: {obj}"
 
 #: napari/_qt/containers/_factory.py:74
 msgid "Cannot create Qt model for obj: {obj}"
-msgstr ""
+msgstr "Nie można utworzyć modelu Qt dla obj: {obj}"
 
 #: napari/_qt/containers/qt_layer_list.py:45
 msgid "Layer list"
@@ -1704,11 +1715,11 @@ msgstr "Lista warstw"
 
 #: napari/_qt/containers/qt_tree_model.py:180
 msgid "root node must be an instance of {Group}"
-msgstr ""
+msgstr "węzeł główny musi być instancją {Group}"
 
 #: napari/_qt/containers/qt_tree_model.py:201
 msgid "nested_index must be an int or tuple of int."
-msgstr ""
+msgstr "nested_index musi być intą lub krotką."
 
 #: napari/_qt/perf/qt_debug_menu.py:35
 msgid "&Debug"
@@ -1728,7 +1739,7 @@ msgstr "Rozpocznij nagrywanie pliku śladowego"
 
 #: napari/_qt/perf/qt_debug_menu.py:85
 msgid "Stop Recording"
-msgstr ""
+msgstr "Zatrzymaj nagrywanie"
 
 #: napari/_qt/perf/qt_debug_menu.py:87
 msgid "Stop recording a trace file"
@@ -1768,15 +1779,15 @@ msgstr "Czas dostawy: {elapsed:.2f}"
 
 #: napari/_qt/widgets/qt_dict_table.py:85
 msgid "'data' argument must be a list of dicts"
-msgstr ""
+msgstr "Argument 'data' musi być listą kart"
 
 #: napari/_qt/widgets/qt_dict_table.py:95
 msgid "Argument 'headers' got item '{header}', which was not found in any of the items in 'data'"
-msgstr ""
+msgstr "Argument 'headerss' got item '{header}', który nie został znaleziony w żadnym z elementów w 'data'"
 
 #: napari/_qt/widgets/qt_dims.py:295
 msgid "loop_mode must be one of {_modes}. Got: {loop_mode}"
-msgstr ""
+msgstr "pętla_mode musi być jednym z {_modes}. Got: {loop_mode}"
 
 #: napari/_qt/widgets/qt_dims.py:304
 msgid "axis argument out of range"
@@ -1836,11 +1847,11 @@ msgstr "Podgląd"
 
 #: napari/_qt/widgets/qt_highlight_preview.py:533 napari/_qt/widgets/qt_size_preview.py:309
 msgid "Minimum value must be smaller than {max_value}"
-msgstr ""
+msgstr "Minimalna wartość musi być mniejsza niż {max_value}"
 
 #: napari/_qt/widgets/qt_highlight_preview.py:572 napari/_qt/widgets/qt_size_preview.py:348
 msgid "Maximum value must be larger than {min_value}"
-msgstr ""
+msgstr "Maksymalna wartość musi być większa niż {min_value}"
 
 #: napari/_qt/widgets/qt_plugin_sorter.py:86
 msgid "Click and drag to change call order"
@@ -1902,43 +1913,43 @@ msgstr "Nowa warstwa etykiet"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:105
 msgid "Open IPython terminal ({shortcut})"
-msgstr ""
+msgstr "Open IPython terminal ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:114
 msgid "Roll dimensions order for display ({shortcut})"
-msgstr ""
+msgstr "Kolejność wymiarów dla wyświetlacza ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:123
 msgid "Transpose displayed dimensions ({shortcut})"
-msgstr ""
+msgstr "Transpozycja wyświetlanych wymiarów ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:132
 msgid "Reset view ({shortcut})"
-msgstr ""
+msgstr "Resetuj widok ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:145
 msgid "Toggle grid view ({shortcut})"
-msgstr ""
+msgstr "Przełącz widok siatki ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:160
 msgid "Toggle number of displayed dimensions ({shortcut})"
-msgstr ""
+msgstr "Przełącz liczbę wyświetlanych wymiarów ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_buttons.py:199
 msgid "Delete selected layers ({shortcut})"
-msgstr ""
+msgstr "Usuń wybrane warstwy ({shortcut})"
 
 #: napari/_qt/widgets/qt_viewer_dock_widget.py:69
 msgid "area argument must be in {areas}"
-msgstr ""
+msgstr "argument obszaru musi być w {areas}"
 
 #: napari/_qt/widgets/qt_viewer_dock_widget.py:79
 msgid "`allowed_areas` must be a list or tuple"
-msgstr ""
+msgstr "`allowed_areas` musi być listą lub krotką"
 
 #: napari/_qt/widgets/qt_viewer_dock_widget.py:90
 msgid "all allowed_areas argument must be in {areas}"
-msgstr ""
+msgstr "argument wszystkich dozwolonych_obszarów musi być w {areas}"
 
 #: napari/_qt/widgets/qt_viewer_dock_widget.py:176
 msgid "drag to move. double-click to float"
@@ -1956,398 +1967,403 @@ msgstr "uaktywnij ten panel"
 msgid "Drag image(s) here to open\n"
 "or\n"
 "Use the menu shortcuts below:"
-msgstr ""
+msgstr "Przeciągnij obraz(y) tutaj, aby otworzyć\n"
+"lub\n"
+"Użyj poniższych skrótów menu:"
 
 #: napari/_qt/widgets/qt_welcome.py:59
 msgid "open image(s)"
-msgstr ""
+msgstr "otwórz obraz(y)"
 
 #: napari/_qt/widgets/qt_welcome.py:64
 msgid "show all key bindings"
-msgstr ""
+msgstr "pokaż wszystkie powiązania klawiszy"
 
 #: napari/plugins/__init__.py:158
 msgid "Plugin {plugin_name!r} provided an invalid tuple to {hook_name}. Skipping"
-msgstr ""
+msgstr "Wtyczka {plugin_name!r} dostarczyła niepoprawną kropkę dla {hook_name}. Pomijam"
 
 #: napari/plugins/__init__.py:173
 msgid "Plugin {plugin_name!r} provided a non-callable object (widget) to {hook_name}: {_cls!r}. Widget ignored."
-msgstr ""
+msgstr "Wtyczka {plugin_name!r} dostarczyła obiekt niewywoływalny (widżet) {hook_name}: {_cls!r}. Widżet zignorowany."
 
 #: napari/plugins/__init__.py:185
 msgid "Plugin {plugin_name!r} provided invalid kwargs to {hook_name} for class {class_name}. Widget ignored."
-msgstr ""
+msgstr "Wtyczka {plugin_name!r} dostarczyła niepoprawnych kwargów {hook_name} dla klasy {class_name}. Widżet zignorowany."
 
 #: napari/plugins/__init__.py:203
 msgid "Plugin '{plugin_name}' has already registered a dock widget '{name}' which has now been overwritten"
-msgstr ""
+msgstr "Wtyczka '{plugin_name}' już zarejestrowała widżet dokujący '{name}' , który został teraz nadpisany"
 
 #: napari/plugins/__init__.py:250
 msgid "Plugin {plugin_name!r} does not provide any dock widgets"
-msgstr ""
+msgstr "Wtyczka {plugin_name!r} nie zawiera żadnych widżetów doku"
 
 #: napari/plugins/__init__.py:264
 msgid "Plugin {plugin_name!r} provides more than 1 dock_widget. Must also provide \"widget_name\" from {widgets}"
-msgstr ""
+msgstr "Wtyczka {plugin_name!r} zawiera więcej niż 1 dock_widget. Musi również podać \"widget_name\" z {widgets}"
 
 #: napari/plugins/__init__.py:271
 msgid "Plugin {plugin_name!r} does not provide a widget named {widget_name!r}"
-msgstr ""
+msgstr "Wtyczka {plugin_name!r} nie udostępnia widżetu o nazwie {widget_name!r}"
 
 #: napari/plugins/__init__.py:302
 msgid "Plugin {plugin_name!r} provided a non-callable type to {hook_name}: {func_type!r}. Function widget ignored."
-msgstr ""
+msgstr "Wtyczka {plugin_name!r} dostarczyła niewywoływalny typ {hook_name}: {func_type!r}. Widżet funkcji zignorowany."
 
 #: napari/plugins/__init__.py:307
 msgid " To provide multiple function widgets please use a LIST of callables"
-msgstr ""
+msgstr " Aby dostarczyć wiele widżetów funkcji, użyj LIST wywołań"
 
 #: napari/plugins/__init__.py:324
 msgid "Plugin '{plugin_name}' has already registered a function widget '{name}' which has now been overwritten"
-msgstr ""
+msgstr "Wtyczka '{plugin_name}' już zarejestrowała widżet funkcji '{name}' , który został teraz nadpisany"
 
 #: napari/plugins/__init__.py:358
 msgid "Plugin {plugin_name!r} provided a non-dict object to {hook_name!r}: data ignored."
-msgstr ""
+msgstr "Wtyczka {plugin_name!r} dostarczyła niedyktowany obiekt {hook_name!r}: dane ignorowane."
 
 #: napari/plugins/__init__.py:372
 msgid "In {hook_name!r}, plugin {plugin_name!r} provided an invalid dict object for key {name!r} that does not have required keys: \"data\" and \"display_name\".  Ignoring"
-msgstr ""
+msgstr "W {hook_name!r}, wtyczka {plugin_name!r} dostarczyła nieprawidłowy obiekt dict dla klucza {name!r}, który nie ma wymaganych kluczy: \"data\" i \"display_name\". Ignorowanie"
 
 #: napari/plugins/__init__.py:394
 msgid "Plugin {plugin_name!r} provided invalid data for key {name!r} in the dict returned by {hook_name!r}. (Must be str, callable, or dict), got ({data_type})."
-msgstr ""
+msgstr "Wtyczka {plugin_name!r} dostarczyła nieprawidłowe dane dla klucza {name!r} w słowniku zwracanym przez {hook_name!r}. (Musi być ciągiem, wywoływalnym lub dyktowanym), otrzymano ({data_type})."
 
 #: napari/plugins/_skimage_data.py:6
 msgid "Astronaut (RGB)"
-msgstr ""
+msgstr "Astronaut (RGB)"
 
 #: napari/plugins/_skimage_data.py:7
 msgid "Binary Blobs"
-msgstr ""
+msgstr "Binarne bloby"
 
 #: napari/plugins/_skimage_data.py:8
 msgid "Binary Blobs (3D)"
-msgstr ""
+msgstr "Binarne bloby (3D)"
 
 #: napari/plugins/_skimage_data.py:9
 msgid "Brain (3D)"
-msgstr ""
+msgstr "Mózg (3D)"
 
 #: napari/plugins/_skimage_data.py:10
 msgid "Brick"
-msgstr ""
+msgstr "Cegły"
 
 #: napari/plugins/_skimage_data.py:11
 msgid "Camera"
-msgstr ""
+msgstr "Aparat"
 
 #: napari/plugins/_skimage_data.py:12
 msgid "Cat (RGB)"
-msgstr ""
+msgstr "Kot (RGB)"
 
 #: napari/plugins/_skimage_data.py:13
 msgid "Cell"
-msgstr ""
+msgstr "Komórka"
 
 #: napari/plugins/_skimage_data.py:14
 msgid "Cells (3D+2Ch)"
-msgstr ""
+msgstr "Ogniwa (3D+2Ch)"
 
 #: napari/plugins/_skimage_data.py:15
 msgid "Checkerboard"
-msgstr ""
+msgstr "Panel kontrolny"
 
 #: napari/plugins/_skimage_data.py:16
 msgid "Clock"
-msgstr ""
+msgstr "Zegar"
 
 #: napari/plugins/_skimage_data.py:17
 msgid "Coffee (RGB)"
-msgstr ""
+msgstr "Kawa (RGB)"
 
 #: napari/plugins/_skimage_data.py:18
 msgid "Coins"
-msgstr ""
+msgstr "Monety"
 
 #: napari/plugins/_skimage_data.py:19
 msgid "Colorwheel (RGB)"
-msgstr ""
+msgstr "Koło koloru (RGB)"
 
 #: napari/plugins/_skimage_data.py:20
 msgid "Eagle"
-msgstr ""
+msgstr "Eagle"
 
 #: napari/plugins/_skimage_data.py:21
 msgid "Grass"
-msgstr ""
+msgstr "Trawa"
 
 #: napari/plugins/_skimage_data.py:22
 msgid "Gravel"
-msgstr ""
+msgstr "Żwir"
 
 #: napari/plugins/_skimage_data.py:23
 msgid "Horse"
-msgstr ""
+msgstr "Konie"
 
 #: napari/plugins/_skimage_data.py:24
 msgid "Hubble Deep Field (RGB)"
-msgstr ""
+msgstr "Hubble Deep Field (RGB)"
 
 #: napari/plugins/_skimage_data.py:25
 msgid "Human Mitosis"
-msgstr ""
+msgstr "Mitoza ludzka"
 
 #: napari/plugins/_skimage_data.py:26
 msgid "Immunohistochemistry (RGB)"
-msgstr ""
+msgstr "Immunohistochemistry (RGB)"
 
 #: napari/plugins/_skimage_data.py:27
 msgid "Kidney (3D+3Ch)"
-msgstr ""
+msgstr "Nerka (3D+3Ch)"
 
 #: napari/plugins/_skimage_data.py:28
 msgid "Labeled Faces in the Wild"
-msgstr ""
+msgstr "Etylowane twarze w dzikim"
 
 #: napari/plugins/_skimage_data.py:29
 msgid "Lily (4Ch)"
-msgstr ""
+msgstr "Lily (4Ch)"
 
 #: napari/plugins/_skimage_data.py:30
 msgid "Microaneurysms"
-msgstr ""
+msgstr "Mikrotętnice"
 
 #: napari/plugins/_skimage_data.py:31
 msgid "Moon"
-msgstr ""
+msgstr "Księżyc"
 
 #: napari/plugins/_skimage_data.py:32
 msgid "Page"
-msgstr ""
+msgstr "Strona"
 
 #: napari/plugins/_skimage_data.py:33
 msgid "Retina (RGB)"
-msgstr ""
+msgstr "Retina (RGB)"
 
 #: napari/plugins/_skimage_data.py:34
 msgid "Rocket (RGB)"
-msgstr ""
+msgstr "Rakieta (RGB)"
 
 #: napari/plugins/_skimage_data.py:35
 msgid "Shepp Logan Phantom"
-msgstr ""
+msgstr "Owca Phantom Logan"
 
 #: napari/plugins/_skimage_data.py:36
 msgid "Skin (RGB)"
-msgstr ""
+msgstr "Skin (RGB)"
 
 #: napari/plugins/_skimage_data.py:37
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: napari/plugins/exceptions.py:44
 msgid "{pad} Errors for plugin '{plugin_name}' {pad}"
-msgstr ""
+msgstr "{pad} Błędy dla wtyczki '{plugin_name}' {pad}"
 
 #: napari/plugins/io.py:69
 msgid "There is no registered plugin named '{plugin}'.\n"
 "Names of plugins offering readers are: {names}"
-msgstr ""
+msgstr "Nie ma zarejestrowanej wtyczki o nazwie '{plugin}'.\n"
+"Nazwy wtyczek oferujących czytelnikom to: {names}"
 
 #: napari/plugins/io.py:79
 msgid "Plugin {plugin!r} does not support file {path}"
-msgstr ""
+msgstr "Wtyczka {plugin!r} nie obsługuje pliku {path}"
 
 #: napari/plugins/io.py:126
 msgid "No plugin found capable of reading [{repr_path}, ...] as stack."
-msgstr ""
+msgstr "Nie znaleziono wtyczki zdolnej do czytania [{repr_path}, ...] jako stack."
 
 #: napari/plugins/io.py:135
 msgid "No plugin found capable of reading {repr_path}."
-msgstr ""
+msgstr "Nie znaleziono wtyczki zdolnej do czytania {repr_path}."
 
 #: napari/plugins/io.py:227
 msgid "No data written! There may be no plugins capable of writing these {length} layers to {path}."
-msgstr ""
+msgstr "Brak zapisanych danych! Nie ma wtyczek zdolnych do zapisywania tych {length} warstw na {path}."
 
 #: napari/plugins/io.py:312
 msgid "There is no registered plugin named '{plugin_name}'.\n"
 "Names of plugins offering writers are: {names}"
-msgstr ""
+msgstr "Nie ma zarejestrowanej wtyczki o nazwie '{plugin_name}'.\n"
+"Nazwy wtyczek oferujących twórcom to: {names}"
 
 #: napari/plugins/io.py:332
 msgid "Requested plugin \"{plugin_name}\" is not capable of writing this combination of layer types: {layer_types}"
-msgstr ""
+msgstr "Żądana wtyczka \"{plugin_name}\" nie jest w stanie zapisać tej kombinacji typów warstwy: {layer_types}"
 
 #: napari/plugins/io.py:339
 msgid "Unable to find plugin capable of writing this combination of layer types: {layer_types}"
-msgstr ""
+msgstr "Nie można znaleźć wtyczki zdolnej do zapisu tej kombinacji typów warstwy: {layer_types}"
 
 #: napari/plugins/io.py:401
 msgid "There is no registered plugin named '{plugin_name}'.\n"
 "Plugins capable of writing layer._type_string layers are: {names}"
-msgstr ""
+msgstr "Nie ma zarejestrowanej wtyczki o nazwie '{plugin_name}'.\n"
+"Wtyczki zdolne do pisania warstwy._type_string to: {names}"
 
 #: napari/resources/__init__.py:14
 msgid "Moved to module napari._qt.qt_resources. Will be removed after version 0.4.6."
-msgstr ""
+msgstr "Przeniesiono do modułu napari._qt.qt_resources. Zostanie usunięty po wersji 0.4.6."
 
 #: napari/resources/_icons.py:16
 msgid "unrecognized icon name: {name!r}. Known names: {icons}"
-msgstr ""
+msgstr "nierozpoznana nazwa ikony: {name!r}. Znane nazwy: {icons}"
 
 #: napari/resources/_icons.py:59
 msgid "Could not detect svg tag in {path_or_xml!r}"
-msgstr ""
+msgstr "Nie można wykryć tagu svg w {path_or_xml!r}"
 
 #: napari/_vispy/utils.py:63
 msgid "Could not find VispyLayer for layer of type {dtype}"
-msgstr ""
+msgstr "Nie można znaleźć VispyLayer dla warstwy typu {dtype}"
 
 #: napari/_vispy/utils_gl.py:99
 msgid "type {dtype} not allowed for texture; must be one of {textures}"
-msgstr ""
+msgstr "typ {dtype} niedozwolony dla tekstury; musi być jednym z {textures}"
 
 #: napari/_vispy/vispy_axes_visual.py:79 napari/_vispy/vispy_axes_visual.py:100 napari/_vispy/vispy_axes_visual.py:125
 msgid "Either 2 or 3 colors must be provided, got {number}."
-msgstr ""
+msgstr "2 lub 3 kolory muszą być podane, otrzymano {number}."
 
 #: napari/_vispy/vispy_axes_visual.py:278
 msgid "Axes dash status and ndisplay combination not supported"
-msgstr ""
+msgstr "Status myślnika osi i kombinacja ndisplay nie jest obsługiwana"
 
 #: napari/_vispy/vispy_image_layer.py:172
 msgid "Shape of in dividual tiles in multiscale {shape} cannot exceed GL_MAX_TEXTURE_SIZE {texture_size}. Rendering is currently in {ndisplay}D mode."
-msgstr ""
+msgstr "Kształt w płytkach wybieranych w wielu skalach {shape} nie może przekraczać GL_MAX_TEXTURE_SIZE {texture_size}. Renderowanie jest obecnie w trybie {ndisplay}D."
 
 #: napari/_vispy/vispy_image_layer.py:181
 msgid "data shape {shape} exceeds GL_MAX_TEXTURE_SIZE {texture_size} in at least one axis and will be downsampled. Rendering is currently in {ndisplay}D mode."
-msgstr ""
+msgstr "kształt danych {shape} przekracza GL_MAX_TEXTURE_SIZE {texture_size} w co najmniej jednej osi i zostanie pobrany. Renderowanie jest obecnie w trybie {ndisplay}D."
 
 #: napari/_vispy/vispy_scale_bar_visual.py:169
 msgid "Position {position} not recognized."
-msgstr ""
+msgstr "Pozycja {position} nie rozpoznana."
 
 #: napari/qt/__init__.py:15
 msgid "QtNDisplayButton is deprecated and will be removed in 0.4.9. Instead a more general QtStateButton is provided."
-msgstr ""
+msgstr "QtNDisplayButton jest przestarzały i zostanie usunięty w 0.4.9. Zamiast tego dostępny jest bardziej ogólny QtStateButton."
 
 #: napari/utils/_magicgui.py:177
 msgid "magicgui function {gui} annotated with a return type of napari.types.LayerDataTuple did not return LayerData tuple(s)"
-msgstr ""
+msgstr "funkcja magicgui {gui} opatrzona adnotacją typu zwracanego napari.types.LayerDataTuple nie zwracała rury LayerData"
 
 #: napari/utils/_register.py:23
 msgid "name {name} should not include 'layer'"
-msgstr ""
+msgstr "nazwa {name} nie powinna zawierać 'warstwy'"
 
 #: napari/utils/dask_utils.py:173
 msgid "For best performance with Dask arrays in napari, please upgrade Dask to v2.15.0 or later. Current version is {dask_version}"
-msgstr ""
+msgstr "Aby uzyskać najlepszą wydajność z tablicami masek w napari, zaktualizuj Maskę do wersji v2.15.0 lub nowszej. Aktualna wersja to {dask_version}"
 
 #: napari/utils/interactions.py:18
 msgid "cannot set attribute {name}"
-msgstr ""
+msgstr "nie można ustawić atrybutu {name}"
 
 #: napari/utils/interactions.py:29
 msgid "cannot set item {name}"
-msgstr ""
+msgstr "nie można ustawić przedmiotu {name}"
 
 #: napari/utils/io.py:196
 msgid "No files found in {filenames} after removing subdirectories"
-msgstr ""
+msgstr "Nie znaleziono plików w {filenames} po usunięciu podkatalogów"
 
 #: napari/utils/io.py:234
 msgid "To stack multiple files into a single array with numpy, all input arrays must have the same shape. Set `use_dask` to True to stack arrays with different shapes."
-msgstr ""
+msgstr "Aby połączyć wiele plików w pojedynczą tablicę z numerem, wszystkie tablice wejściowe muszą mieć ten sam kształt. Ustaw `use_dask` na True, aby stosować tablice o różnych kształtach."
 
 #: napari/utils/io.py:297
 msgid "Not a zarr dataset or group: {path}"
-msgstr ""
+msgstr "To nie jest dziwny zbiór danych lub grupa: {path}"
 
 #: napari/utils/io.py:402
 msgid "File \"{filename}\" not recognized as valid Layer data"
-msgstr ""
+msgstr "Plik \"{filename}\" nie rozpoznano jako poprawne dane warstwy"
 
 #: napari/utils/io.py:410
 msgid "File \"{filename}\" not recognized as {require_type} data"
-msgstr ""
+msgstr "Plik \"{filename}\" nie rozpoznano jako {require_type} danych"
 
 #: napari/utils/io.py:535
 msgid "Expected number of shapes not found"
-msgstr ""
+msgstr "Nie znaleziono oczekiwanej liczby kształtów"
 
 #: napari/utils/key_bindings.py:176
 msgid "invalid key {key}"
-msgstr ""
+msgstr "niepoprawny klucz {key}"
 
 #: napari/utils/key_bindings.py:186
 msgid "invalid modifier key {modifier}"
-msgstr ""
+msgstr "niepoprawny klucz modyfikujący {modifier}"
 
 #: napari/utils/key_bindings.py:272
 msgid "key combination {key} already used! specify 'overwrite=True' to bypass this check"
-msgstr ""
+msgstr "kombinacja klawiszy {key} jest już używana! określ 'overwrite=True' aby ominąć to sprawdzenie"
 
 #: napari/utils/key_bindings.py:284
 msgid "'func' must be a callable"
-msgstr ""
+msgstr "'func' musi być wywoływalne"
 
 #: napari/utils/key_bindings.py:433
 msgid "expected {func} to be callable"
-msgstr ""
+msgstr "oczekiwano, że {func} będzie wywoływalne"
 
 #: napari/utils/misc.py:187
 msgid "length of {obj} must equal {length}"
-msgstr ""
+msgstr "długość {obj} musi być równa {length}"
 
 #: napari/utils/misc.py:241
 msgid "{class_name} may only be called with a `str` or an instance of {class_name}. Got {dtype}"
-msgstr ""
+msgstr "{class_name} może być wywołane tylko z `str` lub instancją {class_name}. Masz {dtype}"
 
 #: napari/utils/misc.py:319
 msgid "Argument must be a string, PathLike, or sequence thereof"
-msgstr ""
+msgstr "Argument musi być ciągiem, PathLike lub jego sekwencją"
 
 #: napari/utils/misc.py:388
 msgid "Not a valid layer data tuple: {value!r}"
-msgstr ""
+msgstr "Niepoprawna kroczka danych warstwy: {value!r}"
 
 #: napari/utils/misc.py:404
 msgid "Not a valid list of layer data tuples!"
-msgstr ""
+msgstr "Niepoprawna lista krotek danych warstwy!"
 
 #: napari/utils/misc.py:458
 msgid "{path} is not a directory."
-msgstr ""
+msgstr "{path} nie jest katalogiem."
 
 #: napari/utils/theme.py:21
 msgid "palette is deprecated and will be removed after version 0.4.6. Please use get_theme and register_theme instead"
-msgstr ""
+msgstr "paleta jest przestarzała i zostanie usunięta po wersji 0.4.6. Użyj get_theme i register_theme"
 
 #: napari/utils/theme.py:166
 msgid "Unrecognized theme {name}. Availabe themes are {themes}"
-msgstr ""
+msgstr "Nierozpoznany motyw {name}. Dostępne motywy to {themes}"
 
 #: napari/utils/translations.py:181 napari/utils/translations.py:208 napari/utils/translations.py:386
 msgid "Must provide at least a `msgid` parameter!"
-msgstr ""
+msgstr "Musisz podać co najmniej parametr `msgid`!"
 
 #: napari/utils/translations.py:344
 msgid "Requested locale not available: {locale}"
-msgstr ""
+msgstr "Żądana wersja językowa niedostępna: {locale}"
 
 #: napari/utils/validators.py:55
 msgid "object '{obj}' is not an indexable collection (list, tuple, or np.array), of length {number}"
-msgstr ""
+msgstr "obiekt '{obj}' nie jest zindeksowalną kolekcją (lista, tuple, lub np.array), o długości {number}"
 
 #: napari/utils/validators.py:68
 msgid "object must have length {number}, got {obj_len}"
-msgstr ""
+msgstr "obiekt musi mieć długość {number}, otrzymano {obj_len}"
 
 #: napari/utils/validators.py:80
 msgid "Every item in the sequence must be of type {dtype}, but {item} is of type {item_type}"
-msgstr ""
+msgstr "Każdy element w sekwencji musi być typu {dtype}, ale {item} jest typu {item_type}"
 
 #: napari/components/_viewer_key_bindings.py:18
 msgid "Reset dims scroll progress"
@@ -2395,107 +2411,111 @@ msgstr "Przełącz widoczność wybranych warstw"
 
 #: napari/components/dims.py:126
 msgid "Invalid ordering {order} for {ndim} dimensions"
-msgstr ""
+msgstr "Nieprawidłowe zamówienie {order} dla {ndim} wymiarów"
 
 #: napari/components/dims.py:360
 msgid "Axis {axis} not defined for dimensionality {ndim}. Must be in [{ndim_lower}, {ndim})."
-msgstr ""
+msgstr "Oś {axis} nie została zdefiniowana dla wymiaru {ndim}. Musi być w [{ndim_lower}, {ndim})."
 
 #: napari/components/layerlist.py:94
 msgid "'viewer.layers.selected' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection'"
-msgstr ""
+msgstr "'viewwer.layers.selected' jest przestarzały i zostanie usunięty w lub po v0.4.9. Użyj 'viewwer.layers.selection'"
 
 #: napari/components/layerlist.py:137
 msgid "'viewer.layers.unselect_all()' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection.clear()'. To unselect everything but a set of ignored layers, use 'viewer.layers.selection.intersection_update({ignored})'"
-msgstr ""
+msgstr "'viewer.layers.unselect_all()' jest przestarzały i zostanie usunięty w lub po v0.4.9. Użyj 'viewer.layers.selection. Ucz się()'. Aby odznaczyć wszystkie warstwy oprócz zestawu ignorowanych, użyj 'viewer.layers.selection.intersection_update({ignored})'"
 
 #: napari/components/layerlist.py:190
 msgid "All-NaN axis encountered"
-msgstr ""
+msgstr "Napotkano wszystkie osie NaN"
 
 #: napari/components/layerlist.py:321
 msgid "No layers selected"
-msgstr ""
+msgstr "Nie wybrano żadnych warstw"
 
 #: napari/components/layerlist.py:323
 msgid "No layers to save"
-msgstr ""
+msgstr "Brak warstw do zapisania"
 
 #: napari/components/viewer_model.py:149
 msgid "'viewer.events.active_layer' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.active' instead"
-msgstr ""
+msgstr "'viewer.events.active_layer' jest przestarzały i zostanie usunięty w napari v0.4.9, zamiast 'viewer.layers.selection.events.active'"
 
 #: napari/components/viewer_model.py:162
 msgid "Theme '{theme_name}' not found; options are {themes}."
-msgstr ""
+msgstr "Nie znaleziono motywu{theme_name}'; opcjami są {themes}."
 
 #: napari/components/viewer_model.py:294 napari/components/viewer_model.py:310
 msgid "'viewer.active_layer' is deprecated and will be removed in napari v0.4.9.  Please use 'viewer.layers.selection.active' instead."
-msgstr ""
+msgstr "'viewer.active_layer' jest przestarzały i zostanie usunięty w napari v0.4.9. Zamiast tego użyj 'viewer.layers.selection.active'."
 
 #: napari/components/viewer_model.py:353
 msgid "layer.position is deprecated"
-msgstr ""
+msgstr "Pozycja warstwy jest przestarzała"
 
 #: napari/components/viewer_model.py:664
 msgid "Received sequence for argument '{argument}', did you mean to specify a 'channel_axis'? "
-msgstr ""
+msgstr "Otrzymano sekwencję dla argumentu{argument}', czy chcesz określić 'channel_axis'? "
 
 #: napari/components/viewer_model.py:728
 msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. Available samples include: {samples}."
-msgstr ""
+msgstr "Wtyczka {plugin!r} nie dostarcza przykładowych danych o nazwie {sample!r}. Dostępne próbki obejmują: {samples}."
 
 #: napari/components/viewer_model.py:736
 msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. No plugin samples have been registered."
-msgstr ""
+msgstr "Wtyczka {plugin!r} nie dostarcza przykładowych danych o nazwie {sample!r}. Żadne próbki wtyczki nie zostały zarejestrowane."
 
 #: napari/components/viewer_model.py:760
 msgid "Got unexpected type for sample ({plugin!r}, {sample!r}): {data_type}"
-msgstr ""
+msgstr "Nieoczekiwany typ próbki ({plugin!r}, {sample!r}): {data_type}"
 
 #: napari/components/viewer_model.py:812
 msgid "'path' argument must be a string, list, or tuple"
-msgstr ""
+msgstr "argument 'path' musi być ciągiem, listą lub krotką"
 
 #: napari/components/viewer_model.py:960
 msgid "Unrecognized layer_type: '{layer_type}'. Must be one of: {layer_names}."
-msgstr ""
+msgstr "Nierozpoznana warstwa_typ: '{layer_type}'. Musi być jednym z: {layer_names}."
 
 #: napari/components/viewer_model.py:976
 msgid "_add_layer_from_data received an unexpected keyword argument ({bad_key}) for layer type {layer_type}"
-msgstr ""
+msgstr "_add_layer_from_data otrzymał nieoczekiwany argument słów kluczowych ({bad_key}) dla typu warstwy {layer_type}"
 
 #: napari/components/viewer_model.py:1007
 msgid "LayerData must be a 1-, 2-, or 3-tuple"
-msgstr ""
+msgstr "Dane warstwy muszą być krotką 1-, 2-, lub 3-krotki"
 
 #: napari/components/viewer_model.py:1017
 msgid "The second item in a LayerData tuple must be a dict"
-msgstr ""
+msgstr "Drugi element w krotek LayerData musi być kartą"
 
 #: napari/components/viewer_model.py:1027
 msgid "The third item in a LayerData tuple must be one of: {layers!r}."
-msgstr ""
+msgstr "Trzeci element w krotek LayerData musi być jednym z: {warstwy!r}."
 
 #: napari/components/viewer_model.py:1140
 msgid "Invalid layer_type: {layer_type}"
-msgstr ""
+msgstr "Nieprawidłowy typ_warstwy: {layer_type}"
 
 #: napari/_qt/__init__.py:13
 msgid "No Qt bindings could be found.\n\n"
 "napari requires either PyQt5 or PySide2 to be installed in the environment.\n"
 "To install the default backend (currently PyQt5), run \"pip install napari[all]\" \n"
 "You may also use \"pip install napari[pyside2]\"for Pyside2, or \"pip install napari[pyqt5]\" for PyQt5"
-msgstr ""
+msgstr "Nie znaleziono powiązania Qt.\n\n"
+"napari wymaga zainstalowania PyQt5 lub PySide2 w środowisku.\n"
+"Aby zainstalować domyślny backend (obecnie PyQt5), uruchom \"pip install napari[all] \n"
+"Możesz również użyć \"pip install napari[pyside2]\"for Pyside2, lub \"pip install napari[pyqt5]\" dla PyQt5"
 
 #: napari/_qt/__init__.py:33
 msgid "napari was tested with QT library `>=5.12.3`.\n"
 "The version installed is {version}. Please report any issues with this specific QT version at https://github.com/Napari/napari/issues."
-msgstr ""
+msgstr "napari został przetestowany w bibliotece QT `>=5.12.3`.\n"
+"Zainstalowana wersja to {version}. Zgłoś wszelkie problemy z tą wersją QT na https://github.com/Napari/napari/issues"
 
 #: napari/_qt/qt_event_loop.py:122
 msgid "QApplication already existed, these arguments to to 'get_app' were ignored: {args}"
-msgstr ""
+msgstr "Aplikacja QApplication już istnieje, te argumenty dla 'get_app' zostały zignorowane: {args}"
 
 #: napari/_qt/qt_event_loop.py:245
 msgid "\n"
@@ -2509,23 +2529,33 @@ msgid "\n"
 "start an interactive event loop for you: \n\n"
 "    import napari\n"
 "    viewer = napari.Viewer()  # that's it!\n"
-msgstr ""
+msgstr "\n"
+"Menedżer kontekstowy 'gui_qt()' jest przestarzały.\n"
+"Jeśli używasz napari ze skryptu, użyj 'napari. un()' w następujący sposób:\n\n"
+"    import napari\n\n"
+"    viewer = napari. iewer() # żadne wcześniejsze ustawienia nie były wymagane\n"
+"    # inny kod za pomocą widza. .\n"
+"    napari.run()\n\n"
+"W IPython lub Jupyter, 'napari.run()' nie jest potrzebny. napari automatycznie\n"
+"uruchomi dla Ciebie interaktywną pętlę zdarzeń: \n\n"
+"    importuj napari\n"
+"    przeglądarkę = napari. iewer() # to to!\n"
 
 #: napari/_qt/qt_event_loop.py:335
 msgid "No Qt app has been created. One can be created by calling `get_app()` or `qtpy.QtWidgets.QApplication([])`"
-msgstr ""
+msgstr "Nie utworzono aplikacji Qt. Można ją utworzyć wywołując `get_app()` lub `qtpy.QtWidgets.QApplication([])`"
 
 #: napari/_qt/qt_event_loop.py:342
 msgid "Refusing to run a QApplication with no topLevelWidgets. To run the app anyway, use `{_func_name}(force=True)`"
-msgstr ""
+msgstr "Odmowa uruchomienia aplikacji QApplication bez topLevelWidgets. Aby mimo to uruchomić aplikację, użyj `{_func_name}(force=True)`"
 
 #: napari/_qt/qt_event_loop.py:353
 msgid "A QApplication is already running with 1 event loop. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
 msgid_plural "A QApplication is already running with {n} event loops. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "QApplication jest już uruchomiony z 1 pętlą zdarzeń. Aby wprowadzić *inną* pętlę zdarzeń, użyj `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[1] "QApplication jest już uruchomiony z pętlami zdarzeniowymi {n} . Aby wejść do pętli zdarzenia *inne* użyj `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[2] "QApplication jest już uruchomiony z pętlami zdarzeniowymi {n} . Aby wejść do pętli zdarzenia *inne* użyj `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[3] "QApplication jest już uruchomiony z pętlami zdarzeniowymi {n} . Aby wejść do pętli zdarzenia *inne* użyj `{_func_name}(max_loop_level={max_loop_level})`"
 
 #: napari/_qt/qt_main_window.py:310
 msgid "Ready"
@@ -2533,7 +2563,7 @@ msgstr "Gotowy"
 
 #: napari/_qt/qt_main_window.py:350
 msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7. Please use `napari.qt.get_stylesheet` instead"
-msgstr ""
+msgstr "Atrybut 'raw_stylesheet' jest przestarzały i zostanie usunięty w wersji 0.4.7. Zamiast tego użyj `napari.qt.get_stylesheet`"
 
 #: napari/_qt/qt_main_window.py:396
 msgid "Open File(s)..."
@@ -2601,7 +2631,7 @@ msgstr "Wyjście"
 
 #: napari/_qt/qt_main_window.py:468
 msgid "Restart"
-msgstr ""
+msgstr "Uruchom ponownie"
 
 #: napari/_qt/qt_main_window.py:471
 msgid "Close Window"
@@ -2609,7 +2639,7 @@ msgstr "Zamknij okno"
 
 #: napari/_qt/qt_main_window.py:477
 msgid "Open Sample"
-msgstr ""
+msgstr "Otwórz próbkę"
 
 #: napari/_qt/qt_main_window.py:502
 msgid "&File"
@@ -2729,7 +2759,7 @@ msgstr "Wiązania"
 
 #: napari/_qt/qt_main_window.py:936
 msgid "Dock widget {number}"
-msgstr ""
+msgstr "Widżet doku {number}"
 
 #: napari/_qt/qt_main_window.py:1028
 msgid "Could not find a dock widget containing: {widget}"
@@ -2813,57 +2843,57 @@ msgstr "Wybierz folder..."
 
 #: napari/_qt/qthreading.py:135
 msgid "RuntimeError in aborted thread: {result}"
-msgstr ""
+msgstr "Błąd czasu pracy w porzuconym wątku: {result}"
 
 #: napari/_qt/qthreading.py:177
 msgid "\"{name}\" failed to define work() method"
-msgstr ""
+msgstr "\"{name}\" nie udało się zdefiniować metody prac()"
 
 #: napari/_qt/qthreading.py:200
 msgid "This worker is already started!"
-msgstr ""
+msgstr "Ten pracownik jest już uruchomiony!"
 
 #: napari/_qt/qthreading.py:242
 msgid "Generator function {func} cannot be used with FunctionWorker, use GeneratorWorker instead"
-msgstr ""
+msgstr "Funkcja generatora {func} nie może być użyta z FunctionWorker, zamiast tego użyj GeneratorWorker"
 
 #: napari/_qt/qthreading.py:295
 msgid "Regular function {func} cannot be used with GeneratorWorker, use FunctionWorker instead"
-msgstr ""
+msgstr "Funkcja standardowa {func} nie może być użyta z GeneratorWorker, zamiast niej użyj FunctionWorker"
 
 #: napari/_qt/qthreading.py:451
 msgid "Workers did not quit gracefully in the time allotted ({msecs} ms)"
-msgstr ""
+msgstr "Pracownicy nie porzucili wściekłego czasu ({msecs} ms)"
 
 #: napari/_qt/qthreading.py:543
 msgid "Worker {_worker_class} must be a subclass of WorkerBase"
-msgstr ""
+msgstr "Pracownik {_worker_class} musi być podklasą bazy roboczej"
 
 #: napari/_qt/qthreading.py:555
 msgid "The '_connect' argument must be a dict"
-msgstr ""
+msgstr "Argument '_connect' musi być słownikiem"
 
 #: napari/_qt/qthreading.py:569
 msgid "\"_connect[{key!r}]\" must be a function or sequence of functions"
-msgstr ""
+msgstr "\"_connect[{key!r}]\" musi być funkcją lub sekwencją funkcji"
 
 #: napari/_qt/qthreading.py:817
 msgid "_connect parameter must be a dict"
-msgstr ""
+msgstr "_podłącz parametr musi być słownikiem"
 
 #: napari/_qt/utils.py:61
 msgid "Invalid QByte string. QByte strings start with '{QBYTE_FLAG}'"
-msgstr ""
+msgstr "Nieprawidłowy ciąg QByte. Ciągi QByte zaczynają się od '{QBYTE_FLAG}'"
 
 #: napari/_qt/utils.py:255
 msgid "\"widget\" must be a QWidget or a sequence of QWidgets"
-msgstr ""
+msgstr "\"widget\" musi być QWidget lub sekwencją QWidgetów"
 
 #: napari/view_layers.py:105
 msgid "No Viewer method named '{add_string}'"
-msgstr ""
+msgstr "Brak metody przeglądania o nazwie '{add_string}'"
 
 #: napari/window.py:26
 msgid "could not import `qtpy`. Cannot show napari window."
-msgstr ""
+msgstr "nie można zaimportować `qtpy`. Nie można wyświetlić okna typu napari."
 
