@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: napari\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-04-23 19:01-0500\n"
-"PO-Revision-Date: 2021-07-18 00:54\n"
+"PO-Revision-Date: 2021-07-18 01:03\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -2479,7 +2479,7 @@ msgstr "layer_type: '{layer_type}'. のいずれかでなければなりませ�
 
 #: napari/components/viewer_model.py:976
 msgid "_add_layer_from_data received an unexpected keyword argument ({bad_key}) for layer type {layer_type}"
-msgstr ""
+msgstr "_add_layer_from_dataはレイヤータイプが{layer_type}ですが、不適切なキーワード引数 ({bad_key}) が渡されました。"
 
 #: napari/components/viewer_model.py:1007
 msgid "LayerData must be a 1-, 2-, or 3-tuple"
@@ -2502,7 +2502,10 @@ msgid "No Qt bindings could be found.\n\n"
 "napari requires either PyQt5 or PySide2 to be installed in the environment.\n"
 "To install the default backend (currently PyQt5), run \"pip install napari[all]\" \n"
 "You may also use \"pip install napari[pyside2]\"for Pyside2, or \"pip install napari[pyqt5]\" for PyQt5"
-msgstr ""
+msgstr "Qtバインディングが見つかりませんでした。\n\n"
+"napariの実行には、PyQt5またはPySide2が環境にインストールされていることが必要です。\n"
+"デフォルトのバックエンド (現在はPyQt5) でインストールする場合は \"pip install napari[all]\" を実行してください。\n"
+"Pyside2を使用する場合は \"pip install napari[pyside2]\"、PyQt5を使用する場合は \"pip install napari[pyqt5]\" でも構いません。"
 
 #: napari/_qt/__init__.py:33
 msgid "napari was tested with QT library `>=5.12.3`.\n"
