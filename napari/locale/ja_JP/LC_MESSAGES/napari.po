@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: napari\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-04-23 19:01-0500\n"
-"PO-Revision-Date: 2021-07-18 01:10\n"
+"PO-Revision-Date: 2021-07-18 01:22\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -20,19 +20,19 @@ msgstr ""
 
 #: napari/layers/shapes/_shapes_models/_polgyon_base.py:71
 msgid "Shape needs at least two vertices, {number} provided."
-msgstr "シェイプには少なくとも 2 つの頂点が必要です。 {number} が提供されています。"
+msgstr "Shapeには少なくとも頂点が2つ必要ですが、{number} 個しか与えられていません。"
 
 #: napari/layers/shapes/_shapes_models/ellipse.py:76
 msgid "Data shape does not match a ellipse. Ellipse expects four corner vertices, {number} provided."
-msgstr "データの形状が楕円と一致しません。楕円は、 {number} 提供された4つの角頂点を期待しています。"
+msgstr "データの形状が楕円と一致しません。楕円は角の4つの頂点で定められますが、{number} 点が与えられています。"
 
 #: napari/layers/shapes/_shapes_models/line.py:61
 msgid "Data shape does not match a line. A line expects two end vertices, {number} provided."
-msgstr "データの形状が行と一致しません。行は2つの終点、 {number} を指定する必要があります。"
+msgstr "データの形状が直線のものではありません。直線は始点と終点の2点で定まりますが 、{number} 点が与えられています。"
 
 #: napari/layers/shapes/_shapes_models/rectangle.py:68
 msgid "Data shape does not match a rectangle. Rectangle expects four corner vertices, {number} provided."
-msgstr "データの形状が長方形と一致しません。長方形は、 {number} 提供された4つの角頂点を期待しています。"
+msgstr "データの形状が長方形のものではありません。長方形は角の4つの頂点で定まりますが、 {number} 点が与えられています。"
 
 #: napari/layers/shapes/_shapes_models/shape.py:346
 msgid "Axis not recognized, must be one of \"{{0, 1}}\""
@@ -188,11 +188,11 @@ msgstr "サーフェスタデータタプルは 2 または 3 でなければな
 
 #: napari/layers/surface/surface.py:318
 msgid "Assigning multiple values per vertex after slicing is not allowed. All dimensions corresponding to vertex_values must be non-displayed dimensions. Data will not be visible."
-msgstr "スライス後に頂点ごとに複数の値を割り当てることは許可されていません。頂点_値に対応するすべての寸法は非表示の寸法でなければなりません。データは表示されません。"
+msgstr "スライス後に頂点ごとに複数の値を割り当てることはできません。vertex_valuesに対応するすべての次元は非表示の次元でなければなりません。データは表示されません。"
 
 #: napari/layers/shapes/_shape_list.py:152
 msgid "{attribute}_color must have shape ({n_shapes}, 4)"
-msgstr "{attribute}_color must have shape ({n_shapes}, 4)"
+msgstr "{attribute}_color は ({n_shapes}, 4) の形をしていなければなりません"
 
 #: napari/layers/shapes/_shape_list.py:248
 msgid "shape must be subclass of Shape"
