@@ -1,0 +1,2898 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: napari\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-04-23 19:01-0500\n"
+"PO-Revision-Date: 2021-04-24 02:09\n"
+"Last-Translator: \n"
+"Language-Team: Romanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Crowdin-Project: napari\n"
+"X-Crowdin-Project-ID: 443044\n"
+"X-Crowdin-Language: ro\n"
+"X-Crowdin-File: /[goanpeca.napari-language-packs] main/napari/locale/napari.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Language: ro_RO\n"
+
+#: napari/layers/shapes/_shapes_models/_polgyon_base.py:71
+msgid "Shape needs at least two vertices, {number} provided."
+msgstr "Forma are nevoie de cel puțin două noduri, {number} oferite."
+
+#: napari/layers/shapes/_shapes_models/ellipse.py:76
+msgid "Data shape does not match a ellipse. Ellipse expects four corner vertices, {number} provided."
+msgstr "Forma de date nu se potrivește cu o elipsă. Ellipse se așteaptă la patru noduri, {number} furnizate."
+
+#: napari/layers/shapes/_shapes_models/line.py:61
+msgid "Data shape does not match a line. A line expects two end vertices, {number} provided."
+msgstr "Forma de date nu se potrivește cu o linie. O linie așteaptă două noduri, {number} furnizate."
+
+#: napari/layers/shapes/_shapes_models/rectangle.py:68
+msgid "Data shape does not match a rectangle. Rectangle expects four corner vertices, {number} provided."
+msgstr "Forma de date nu se potrivește cu un dreptunghi. Dreptunghiul se așteaptă la patru colțuri de colț, {number} furnizate."
+
+#: napari/layers/shapes/_shapes_models/shape.py:346
+msgid "Axis not recognized, must be one of \"{{0, 1}}\""
+msgstr "Axa nu este recunoscută, trebuie să fie una din \"{{0, 1}}\""
+
+#: napari/layers/shapes/_shapes_models/shape.py:400
+msgid "mask shape length must either be 2 or the same as the dimensionality of the shape, expected {expected} got {received}."
+msgstr "lungimea formei trebuie să fie 2 sau la fel ca dimensionalitatea formei, aşteptată {expected} a primit {received}."
+
+#: napari/layers/image/experimental/_octree_slice.py:92
+msgid "Octree level {index} is not in range(0, {num_levels})"
+msgstr "Nivelul octren {index} nu este în interval (0, {num_levels})"
+
+#: napari/layers/image/experimental/_octree_slice.py:137
+msgid "Invalid octree level {index}"
+msgstr "Nivel octree invalid {index}"
+
+#: napari/layers/image/experimental/octree.py:66
+msgid "Data of shape {shape} resulted no octree levels?"
+msgstr "Datele formei {shape} nu au dus la nivele octre?"
+
+#: napari/layers/image/experimental/octree.py:116
+msgid "Level {level_index} is not in range(0, {top})"
+msgstr "Nivelul {level_index} nu este în interval(0, {top})"
+
+#: napari/layers/image/experimental/octree.py:403
+msgid "Multiscale data has downsampling ratio of {ratio}, expected 2."
+msgstr "Raportul de eșantionare pe mai multe scări a fost de {ratio}, preconizat 2."
+
+#: napari/layers/image/experimental/octree_image.py:223
+msgid "Octree level {level} is negative."
+msgstr "Nivelul octren {level} este negativ."
+
+#: napari/layers/labels/_labels_constants.py:71
+msgid "circle"
+msgstr "cerc"
+
+#: napari/layers/labels/_labels_constants.py:72 napari/layers/points/_points_constants.py:91
+msgid "square"
+msgstr "pătrat"
+
+#: napari/layers/labels/_labels_constants.py:77
+msgid "auto"
+msgstr "automat"
+
+#: napari/layers/labels/_labels_constants.py:78
+msgid "direct"
+msgstr "direct"
+
+#: napari/layers/labels/labels.py:252 napari/layers/labels/labels.py:606
+msgid "enter paint or fill mode to edit labels"
+msgstr "introduceți pictura sau modul de umplere pentru a edita etichetele"
+
+#: napari/layers/labels/labels.py:401
+msgid "Only integer types are supported for Labels layers, but data contains {data_level_type}."
+msgstr "Numai tipurile întregi sunt acceptate pentru nivelurile etichetelor, dar datele conțin {data_level_type}."
+
+#: napari/layers/labels/labels.py:427
+msgid "the number of items must be equal for all properties"
+msgstr "numărul de elemente trebuie să fie egal pentru toate proprietățile"
+
+#: napari/layers/labels/labels.py:469
+msgid "cannot reduce selected label below 0"
+msgstr "nu poate reduce eticheta selectată sub 0"
+
+#: napari/layers/labels/labels.py:507
+msgid "Unsupported Color Mode"
+msgstr "Mod culoare nesuportat"
+
+#: napari/layers/labels/labels.py:532 napari/layers/labels/labels.py:549
+msgid "The square brush shape is deprecated and will be removed in version 0.4.9. Afterward, only the circle brush shape will be available, and the layer.brush_shape attribute will be removed."
+msgstr "Forma periuței pătrate este învechită și va fi eliminată în versiunea 0.4.9. După aceea, vor fi disponibile doar forma pensulei de cerc, iar atributul nivel.brush_shape va fi eliminat."
+
+#: napari/layers/labels/labels.py:610
+msgid "hold <space> to pan/zoom, click to pick a label"
+msgstr "țineți apăsat <space> pentru a panoul/zoom, faceți clic pentru a alege o etichetă"
+
+#: napari/layers/labels/labels.py:623
+msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
+msgstr "țineți apăsat <space> pentru a pano/zoom, țineți apăsat <shift> pentru a comuta conserv_etichete, țineți apăsat <control> pentru a completa, țineți apăsat <alt> pentru a șterge, trageți pentru a desena o etichetă"
+
+#: napari/layers/labels/labels.py:630
+msgid "hold <space> to pan/zoom, click to fill a label"
+msgstr "țineți apăsat <space> pentru a panoul/zoom, faceți clic pentru a completa o etichetă"
+
+#: napari/layers/labels/labels.py:643
+msgid "hold <space> to pan/zoom, drag to erase a label"
+msgstr "ține apăsat <space> pentru panoram/zoom, trage pentru a șterge o etichetă"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:287 napari/_qt/layer_controls/qt_points_controls.py:225 napari/layers/labels/labels.py:648 napari/layers/points/points.py:1120 napari/layers/shapes/shapes.py:1495
+msgid "Mode not recognized"
+msgstr "Mod nerecunoscut"
+
+#: napari/layers/labels/labels.py:774
+msgid "Contours are not displayed during 3D rendering"
+msgstr "Contururile nu sunt afișate în timpul redării 3D"
+
+#: napari/layers/labels/labels.py:1082
+msgid "[No Properties]"
+msgstr "[Fără proprietăți]"
+
+#: napari/layers/tracks/_track_utils.py:205
+msgid "track vertices should be a NxD array"
+msgstr "nodurile piesei trebuie să fie o matrice NxD"
+
+#: napari/layers/tracks/_track_utils.py:210
+msgid "track vertices should be 4 or 5-dimensional"
+msgstr "nodurile pistei ar trebui să fie 4 sau 5 dimensionale"
+
+#: napari/layers/tracks/_track_utils.py:220
+msgid "track id must be an integer"
+msgstr "ID-ul piesei trebuie să fie un număr întreg"
+
+#: napari/layers/tracks/_track_utils.py:225
+msgid "track timestamps must be greater than zero"
+msgstr "marcajele de timp ale piesei trebuie să fie mai mari decât zero"
+
+#: napari/layers/tracks/_track_utils.py:234
+msgid "tracks should be ordered by ID and time"
+msgstr "Piesele ar trebui comandate prin ID și timp"
+
+#: napari/layers/tracks/_track_utils.py:249
+msgid "the number of properties must equal the number of vertices"
+msgstr "numărul proprietăţilor trebuie să fie egal cu numărul de noduri"
+
+#: napari/layers/tracks/_track_utils.py:277
+msgid "graph node {node_idx} not found"
+msgstr "nodul grafic {node_idx} nu a fost găsit"
+
+#: napari/layers/tracks/_track_utils.py:345
+msgid "Property {color_by} not found"
+msgstr "Proprietatea {color_by} nu a fost găsită"
+
+#: napari/layers/tracks/tracks.py:385
+msgid "Previous color_by key {key!r} not present in new properties. Falling back to track_id"
+msgstr "Culoarea precedentă cu tasta {key!r} nu este prezentă în proprietăți noi. Făcând înapoi la track_id"
+
+#: napari/layers/tracks/tracks.py:470
+msgid "{color_by} is not a valid property key"
+msgstr "{color_by} nu este o cheie validă de proprietate"
+
+#: napari/layers/tracks/tracks.py:489
+msgid "Colormap {colormap} not available"
+msgstr "Colormap {colormap} nu este disponibil"
+
+#: napari/layers/surface/surface.py:157
+msgid "Surface data tuple must be 2 or 3, specifying verictes, faces, and optionally vertex values, instead got length {length}."
+msgstr "Tubul de date de suprafață trebuie să fie 2 sau 3, specificând vericturi, fețe și, opțional, valori de vârf, în loc de lungimea {length}."
+
+#: napari/layers/surface/surface.py:203
+msgid "Surface data tuple must be 2 or 3, specifying vertices, faces, and optionally vertex values, instead got length {data_length}."
+msgstr "Tuplul de date de suprafață trebuie să fie 2 sau 3, specificând noduri, fețe și, opțional, valori de vârf, în loc să atingă lungimea {data_length}."
+
+#: napari/layers/surface/surface.py:318
+msgid "Assigning multiple values per vertex after slicing is not allowed. All dimensions corresponding to vertex_values must be non-displayed dimensions. Data will not be visible."
+msgstr "Atribuirea de valori multiple per vertex după feliere nu este permisă. Toate dimensiunile corespunzătoare vertex_values trebuie să nu fie afișate. Datele nu vor fi vizibile."
+
+#: napari/layers/shapes/_shape_list.py:152
+msgid "{attribute}_color must have shape ({n_shapes}, 4)"
+msgstr "{attribute}_culoare trebuie să aibă formă ({n_shapes}, 4)"
+
+#: napari/layers/shapes/_shape_list.py:248
+msgid "shape must be subclass of Shape"
+msgstr "forma trebuie să fie subclasa de forma"
+
+#: napari/layers/shapes/_shape_list.py:490
+msgid "{shape_type} must be one of {shape_classes}"
+msgstr "{shape_type} trebuie să fie unul din {shape_classes}"
+
+#: napari/layers/shapes/_shapes_utils.py:403
+msgid "Data shape does not match expected `[4, D]` shape specifying corners for the rectangle"
+msgstr "Forma de date nu se potrivește cu forma așteptată `[4, D]` specificând colțurile pentru dreptunghiul"
+
+#: napari/layers/shapes/_shapes_utils.py:498
+msgid "Data shape does not match expected `[4, D]` shape specifying corners for the ellipse"
+msgstr "Forma de date nu se potrivește cu forma așteptată `[4, D]` specificând colțurile pentru elipsă"
+
+#: napari/layers/shapes/shapes.py:337
+msgid "Shape dimensions must be equal to ndim"
+msgstr "Dimensiunile formei trebuie să fie egale cu ndim"
+
+#: napari/layers/points/points.py:329 napari/layers/shapes/shapes.py:407
+msgid "text should be a string, array, or dict"
+msgstr "textul ar trebui să fie un string, o matrice sau un dicționar"
+
+#: napari/layers/shapes/shapes.py:452 napari/layers/shapes/shapes.py:1454
+msgid "enter a selection mode to edit shape properties"
+msgstr "introduceți un mod de selecție pentru a edita proprietățile formei"
+
+#: napari/layers/points/points.py:505 napari/layers/shapes/shapes.py:626
+msgid "property used for face_color dropped"
+msgstr "proprietatea folosită pentru față_culoare abandonată"
+
+#: napari/layers/points/points.py:524 napari/layers/shapes/shapes.py:638 napari/layers/vectors/vectors.py:314
+msgid "property used for edge_color dropped"
+msgstr "proprietatea utilizată pentru edge_color abandonată"
+
+#: napari/layers/points/points.py:919 napari/layers/shapes/shapes.py:931
+msgid "_{attribute}_color_property was not set, setting to: {new_color_property}"
+msgstr "_{attribute}_color_property nu a fost setat, setând la: {new_color_property}"
+
+#: napari/layers/shapes/shapes.py:940
+msgid "There must be a valid Shapes.properties to use {color_mode}"
+msgstr "Trebuie să existe o variabilă validă.proprietăți pentru a utiliza {color_mode}"
+
+#: napari/layers/points/points.py:941 napari/layers/shapes/shapes.py:953 napari/layers/vectors/vectors.py:526
+msgid "selected property must be numeric to use ColorMode.COLORMAP"
+msgstr "proprietatea selectată trebuie să fie numerică pentru a utiliza ColorMode.COLORMAP"
+
+#: napari/layers/shapes/shapes.py:1325 napari/layers/utils/color_manager_utils.py:47
+msgid "face_color should be the name of a color, an array of colors, or the name of an property"
+msgstr "Culoarea-feței ar trebui să fie numele unei culori, o serie de culori sau numele unei proprietăți"
+
+#: napari/layers/shapes/shapes.py:1460
+msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
+msgstr "țineți apăsat <space> pentru pano/zoom, apăsați <{BACKSPACE}> pentru a elimina selecția"
+
+#: napari/layers/points/points.py:1103 napari/layers/points/points.py:1110 napari/layers/shapes/shapes.py:1469 napari/layers/shapes/shapes.py:1478
+msgid "hold <space> to pan/zoom"
+msgstr "ține apăsat <space> pentru a pano/zoom"
+
+#: napari/layers/shapes/shapes.py:1488
+msgid "hold <space> to pan/zoom, press <esc> to finish drawing"
+msgstr "ține apăsat <space> pentru panoram/zoom, apasă <esc> pentru a termina desenul"
+
+#: napari/layers/shapes/shapes.py:1865
+msgid "the number of properties must equal the number of shapes"
+msgstr "numărul de proprietăți trebuie să fie egal cu numărul de forme"
+
+#: napari/layers/shapes/shapes.py:2276
+msgid "expand_shape is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should work with full nD shape data as much as possible."
+msgstr "forma expand_este învechită și va fi eliminată în versiunea 0.4.9. Acesta nu ar mai trebui utilizat deoarece straturile nu ar trebui să știe în curând care dimensiuni sunt afișate. În schimb, ar trebui să lucrezi cu date complete de formă nD cât mai mult posibil."
+
+#: napari/layers/utils/_link_layers.py:74
+msgid "Cannot link attributes that are not shared by all layers: {extra}. Allowable attrs include:\n"
+"{valid_attrs}"
+msgstr "Nu se pot conecta atributele care nu sunt partajate de toate nivelurile: {extra}. atracțiile permise includ:\n"
+"{valid_attrs}"
+
+#: napari/layers/utils/_link_layers.py:136
+msgid "Must provide at least one layer to unlink"
+msgstr "Trebuie să furnizaţi cel puţin un strat pentru a dezlega"
+
+#: napari/layers/utils/_link_layers.py:194
+msgid "``layers`` iterable must have at least one layer"
+msgstr "`stratur`` iterable must have least one layer"
+
+#: napari/layers/utils/_text_utils.py:44
+msgid "view_data should be a numpy array or list when using Anchor.CENTER"
+msgstr "view_data trebuie să fie o matrice numpy sau o listă când se utilizează Anchor.CENTER"
+
+#: napari/layers/utils/_text_utils.py:141
+msgid "view_data should be a numpy array or list"
+msgstr "view_data ar trebui să fie un array sau o listă numpy"
+
+#: napari/layers/utils/_text_utils.py:189
+msgid "Number of text elements ({length}) should equal the length of the data ({n_text})"
+msgstr "Numărul elementelor de text ({length}) ar trebui să fie egal cu lungimea datelor ({n_text})"
+
+#: napari/layers/utils/color_manager.py:66
+msgid "color_properties dictionary should have keys: name, values, and optionally current_value"
+msgstr "dicționarul de color_properties ar trebui să aibă chei: nume, valori, și opțional valoarea curentă"
+
+#: napari/layers/utils/color_manager.py:76
+msgid "color_properties should be None, a dict, or ColorProperties object"
+msgstr "Proprietățile color_trebuie să nu fie una, dictul, sau obiectul ColorProperties"
+
+#: napari/layers/utils/color_manager.py:485
+msgid "if color_properties is a string, it should be a property name"
+msgstr "dacă color_properties este un string, ar trebui să fie un nume de obiect"
+
+#: napari/layers/utils/color_transformations.py:45
+msgid "The provided {elem_name} parameter contained illegal values, resetting all {elem_name} values to {default}."
+msgstr "Parametrul {elem_name} a conţinut valori ilegale, resetând toate {elem_name} valori la {default}."
+
+#: napari/layers/utils/color_transformations.py:60
+msgid "The provided {elem_name} parameter has {length} entries, while the data contains {num_entries} entries. Setting {elem_name} to {default}."
+msgstr "Parametrul {elem_name} are {length} intrări, în timp ce datele conțin {num_entries} intrări. Setarea {elem_name} la {default}."
+
+#: napari/layers/utils/color_transformations.py:137
+msgid "The number of supplied colors mismatch the number of given data points. Length of data is {num_entries}, while the number of colors is {length}. Color for all points is reset to white."
+msgstr "Numărul de culori furnizate incorect corespunde numărului de puncte de date date. Lungimea datelor este {num_entries}, în timp ce numărul de culori este {length}. Culoarea pentru toate punctele este resetată la alb."
+
+#: napari/layers/utils/stack_utils.py:102
+msgid "Error adding multichannel image with data shape {data_shape!r}.\n"
+"Requested channel_axis ({channel_axis}) had length {n_channels}, but the '{key}' argument only provided {i} values. "
+msgstr "Eroare la adăugarea imaginii multicannel cu forma de date {data_shape!r}.\n"
+"Versiunea solicitată a canalului_axei ({channel_axis}) a avut lungimea {n_channels}, dar argumentul '{key}' a furnizat doar {i} valori. "
+
+#: napari/layers/utils/stack_utils.py:159
+msgid "The image needs more than 2 dimensions for splitting"
+msgstr "Imaginea are nevoie de mai mult de 2 dimensiuni pentru divizare"
+
+#: napari/layers/utils/stack_utils.py:167
+msgid "Can't split along axis {axis}. The image has {num_dim} dimensions"
+msgstr "Nu se poate împărți de-a lungul axei {axis}. Imaginea are {num_dim} dimensiuni"
+
+#: napari/layers/utils/stack_utils.py:235
+msgid "images list is empty"
+msgstr "lista imaginilor este goală"
+
+#: napari/layers/utils/text.py:217
+msgid "opaque blending mode is not allowed for text. setting to translucent."
+msgstr "modul opac de amestecare nu este permis pentru text. Setare la translucid."
+
+#: napari/layers/vectors/_vector_utils.py:35
+msgid "Vector data of shape {shape} is not supported"
+msgstr "Vectorul de date al formei {shape} nu este acceptat"
+
+#: napari/layers/points/points.py:572 napari/layers/vectors/vectors.py:336
+msgid "the number of properties must equal the number of points"
+msgstr "numărul de proprietăți trebuie să fie egal cu numărul de puncte"
+
+#: napari/layers/vectors/vectors.py:504
+msgid "edge_color property was not set, setting to: {color_property}"
+msgstr "edge_color proprietatea nu a fost setată, setând: {color_property}"
+
+#: napari/layers/vectors/vectors.py:513
+msgid "There must be a valid Points.properties to use {edge_color_mode}"
+msgstr "Trebuie să existe un Punct de Proprietăți valid pentru a folosi {edge_color_mode}"
+
+#: napari/layers/image/_image_utils.py:68
+msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays of single shape: {shape}"
+msgstr "Datele de intrare ar trebui să fie un obiect tip array-like sau o secvență de raze de mărime descrescătoare. Am obținut o singură formă: {shape}"
+
+#: napari/layers/image/_image_utils.py:76
+msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays in incorrect order, shapes: {shapes}"
+msgstr "Datele de intrare ar trebui să fie un obiect tip array-like sau o secvență de serii de dimensiuni descrescătoare. Aveți array-uri în ordine incorectă, forme: {shapes}"
+
+#: napari/layers/points/_points_constants.py:84
+msgid "arrow"
+msgstr "săgeată"
+
+#: napari/layers/points/_points_constants.py:85
+msgid "clobber"
+msgstr "clobber"
+
+#: napari/layers/points/_points_constants.py:86
+msgid "cross"
+msgstr "cruce"
+
+#: napari/layers/points/_points_constants.py:87
+msgid "diamond"
+msgstr "diamant"
+
+#: napari/layers/points/_points_constants.py:88
+msgid "disc"
+msgstr "disc"
+
+#: napari/layers/points/_points_constants.py:89
+msgid "hbar"
+msgstr "bară"
+
+#: napari/layers/points/_points_constants.py:90
+msgid "ring"
+msgstr "inel"
+
+#: napari/layers/points/_points_constants.py:92
+msgid "star"
+msgstr "stea"
+
+#: napari/layers/points/_points_constants.py:93
+msgid "tailed arrow"
+msgstr "săgeată croită"
+
+#: napari/layers/points/_points_constants.py:94
+msgid "triangle down"
+msgstr "triunghi în jos"
+
+#: napari/layers/points/_points_constants.py:95
+msgid "triangle up"
+msgstr "Triunghi în sus"
+
+#: napari/layers/points/_points_constants.py:96
+msgid "vbar"
+msgstr "vbar"
+
+#: napari/layers/points/_points_constants.py:97
+msgid "x"
+msgstr "x"
+
+#: napari/layers/points/_points_utils.py:119
+msgid "Points dimensions must be equal to ndim"
+msgstr "Punctele trebuie să fie egale cu nudim"
+
+#: napari/layers/points/points.py:666
+msgid "Size is not compatible for broadcasting"
+msgstr "Mărimea nu este compatibilă pentru transmisie"
+
+#: napari/layers/points/points.py:928
+msgid "There must be a valid Points.properties to use {color_mode}"
+msgstr "Trebuie să existe un Punct de Proprietăți valid pentru a folosi {color_mode}"
+
+#: napari/layers/base/_base_constants.py:34
+msgid "translucent"
+msgstr "translucid"
+
+#: napari/layers/base/_base_constants.py:35
+msgid "additive"
+msgstr "aditiv"
+
+#: napari/layers/base/_base_constants.py:36
+msgid "opaque"
+msgstr "opac"
+
+#: napari/layers/base/base.py:237
+msgid "affine input not recognized. must be either napari.utils.transforms.Affine, ndarray, or None. Got {dtype}"
+msgstr "intrarea nu este recunoscută. trebuie să fie napari.utils.transforms.Affină, ndarray, sau niciunul. Am {dtype}"
+
+#: napari/layers/base/base.py:283
+msgid "'layer.events.select' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'added' attribute on the event."
+msgstr "'layer.events.select' este învechit și va fi șters în napari v0.4.9, folosiți 'viewer.layers.selection.events.changed' în schimb și inspectați atributul 'adăugat' pe eveniment."
+
+#: napari/layers/base/base.py:290
+msgid "'layer.events.deselect' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'removed' attribute on the event."
+msgstr "'layer.events.deselect' este învechit și va fi șters în napari v0.4.9, folosiți 'viewer.layers.selection.events.changed' în schimb și inspectați atributul 'removed' pe eveniment."
+
+#: napari/layers/base/base.py:347
+msgid "opacity must be between 0.0 and 1.0; got {opacity}"
+msgstr "opacitatea trebuie să fie între 0.0 și 1.0; obținut {opacity}"
+
+#: napari/layers/base/base.py:471
+msgid "affine input not recognized. must be either napari.utils.transforms.Affine or ndarray. Got {dtype}"
+msgstr "intrarea nu este recunoscută. trebuie să fie napari.utils.transforms.Affine sau ndarray. Am {dtype}"
+
+#: napari/layers/base/base.py:493 napari/layers/base/base.py:505
+msgid "layer.position is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position."
+msgstr "layer.position este învechit și va fi eliminat în versiunea 0.4.9. Acesta nu mai trebuie folosit pentru că straturile nu mai trebuie să știe unde este poziția cursorului. Poți obține poziția cursorului în lumea coordonatelor de la viewer.cursor.position"
+
+#: napari/layers/base/base.py:656
+msgid "Non-orthogonal slicing is being requested, but is not fully supported. Data is displayed without applying an out-of-slice rotation or shear component."
+msgstr "Felierea nestogonală este solicitată, dar nu este pe deplin suportată. Datele sunt afișate fără a aplica o componentă de rotație a tăieturii sau de shear-ului."
+
+#: napari/layers/base/base.py:757
+msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `layer in viewer.layers.selection`"
+msgstr "'layer.selected' este învechit și va fi eliminat în v0.4.9. Utilizați `layer în viewer.layers.selection`"
+
+#: napari/layers/base/base.py:772
+msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `viewer.layers.selection.add(layer)` or `viewer.layers.selection.remove(layer)`"
+msgstr "'layer.selected' este învechit și va fi eliminat în v0.4.9. Utilizați `viewer.layers.selection.add(layer)` sau `viewer.layers.selection.remove(layer)`"
+
+#: napari/layers/base/base.py:981
+msgid "layer.coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position. You can then transform that into data coordinates using the layer.world_to_data method."
+msgstr "layer.coordinates is depreciat and will be removed in version 0.4.9. Acesta nu mai trebuie folosit pentru că straturile nu mai trebuie să știe unde este poziția cursorului. Poți obține poziția cursorului în lume coordonate de la viewer.cursor.positionPoți transforma aceasta în coordonate de date folosind metoda layer.world_to_data."
+
+#: napari/layers/base/base.py:1069
+msgid "displayed_coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should use [layer.coordinates[d] for d in viewer.dims.displayed]"
+msgstr "coordonatele afișate sunt învechite și vor fi eliminate în versiunea 0.4.9. Acesta nu ar mai trebui utilizat deoarece straturile nu ar trebui să știe în curând care dimensiuni sunt afișate. În schimb, ar trebui să utilizaţi [layer.coordinates[d] pentru d în viewer.dims.displayed]"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:147
+msgid "zero"
+msgstr "zero"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:148
+msgid "one"
+msgstr "unul"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:149
+msgid "two"
+msgstr "două"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:150
+msgid "three"
+msgstr "trei"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:151
+msgid "four"
+msgstr "patru"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:152
+msgid "five"
+msgstr "cinci"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:153
+msgid "six"
+msgstr "şase"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:154
+msgid "seven"
+msgstr "şapte"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:155
+msgid "eight"
+msgstr "opt"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:156
+msgid "nine"
+msgstr "nouă"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:130 napari/_vendor/experimental/humanize/src/humanize/time.py:203
+msgid "a moment"
+msgstr "un moment"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:132
+msgid "a second"
+msgstr "o secundă"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:136
+msgid "a minute"
+msgstr "un minut"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:141
+msgid "an hour"
+msgstr "o oră"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:147
+msgid "a day"
+msgstr "o zi"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:154
+msgid "a month"
+msgstr "o lună"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:159
+msgid "a year"
+msgstr "un an"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:164
+msgid "1 year, 1 month"
+msgstr "1 an, 1 lună"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:200
+#, python-format
+msgid "%s from now"
+msgstr "%s de acum"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:200
+#, python-format
+msgid "%s ago"
+msgstr "%s în urmă"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:204
+msgid "now"
+msgstr "acum"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:223
+msgid "today"
+msgstr "astăzi"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:225
+msgid "tomorrow"
+msgstr "mâine"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:227
+msgid "yesterday"
+msgstr "ieri"
+
+#: napari/_vispy/experimental/texture_atlas.py:309
+msgid "Data with shape {shape} is not compatible with this TextureAtlas2D which has tile shape {spec_shape}"
+msgstr "Datele cu forma {shape} nu sunt compatibile cu acest TextureAtlas2D care are forma de dală {spec_shape}"
+
+#: napari/_vispy/experimental/tiled_image_visual.py:310
+msgid "Tile index {tile_index} not found."
+msgstr "Indexul de file {tile_index} nu a fost găsit."
+
+#: napari/_vispy/experimental/tiled_image_visual.py:361
+msgid "Auto clims not supported for tiled image visual"
+msgstr "Caractere automate nu sunt acceptate pentru imaginea înclinată"
+
+#: napari/utils/events/containers/_evented_list.py:117 napari/utils/events/containers/_typed.py:92
+msgid "Can only assign an iterable to slice"
+msgstr "Poți atribui doar o iterabilitate la felie"
+
+#: napari/utils/events/containers/_evented_list.py:132
+msgid "attempt to assign sequence of size {size} to extended slice of size {slice_size}"
+msgstr "tentativa de a atribui secvența de dimensiune {size} pentru o felie extinsă de dimensiune {slice_size}"
+
+#: napari/utils/events/containers/_evented_list.py:163
+msgid "Deletion index must be {valid!r}, got {dtype}"
+msgstr "Indicele de ștergere trebuie să fie {valid!r}, să aibă {dtype}"
+
+#: napari/utils/events/containers/_evented_list.py:298 napari/utils/events/containers/_nested_list.py:298 napari/utils/events/containers/_nested_list.py:405
+msgid "Destination index may not be a slice"
+msgstr "Indexul destinaţiei nu poate fi o felie"
+
+#: napari/utils/events/containers/_evented_list.py:312
+msgid "Can only move integer or slice indices"
+msgstr "Se pot muta doar indici de întreg sau de felie"
+
+#: napari/utils/events/containers/_nested_list.py:57
+msgid "Invalid nested index: {index}. Must be an int or tuple"
+msgstr "Indice imbricat nevalid: {index}. Trebuie să fie un indiciu sau un tuple"
+
+#: napari/utils/events/containers/_nested_list.py:97
+msgid "The parent index must be a tuple of int"
+msgstr "Indexul părinte trebuie să fie un tuplu de int"
+
+#: napari/utils/events/containers/_nested_list.py:314 napari/utils/events/containers/_nested_list.py:413
+msgid "Group cannot move itself"
+msgstr "Grupul nu se poate muta singur"
+
+#: napari/utils/events/containers/_nested_list.py:327
+msgid "Can't yet deal with slice source indices in multimove"
+msgstr "Încă nu se pot ocupa de indicii sursă ai segmentelor în mai multe mişcări"
+
+#: napari/utils/events/containers/_nested_list.py:338 napari/utils/events/containers/_nested_list.py:397
+msgid "Terminal source index may not be a slice"
+msgstr "Indexul sursă terminal nu poate fi o felie"
+
+#: napari/utils/events/containers/_nested_list.py:446
+msgid "Cannot add object with type {dtype!r} to TypedList expecting type {types_!r}"
+msgstr "Nu se poate adăuga un obiect cu tipul {dtype!r} la TypedList care aşteaptă tipul {types_!r}"
+
+#: napari/utils/events/containers/_selectable_list.py:54
+msgid "Cannot select item that is not in list: {value!r}"
+msgstr "Nu se poate selecta un element care nu este în listă: {value!r}"
+
+#: napari/utils/events/containers/_selection.py:150
+msgid "Value is not a valid sequence: {data}"
+msgstr "Valoarea nu este o secvență validă: {data}"
+
+#: napari/utils/events/containers/_set.py:166
+msgid "Value is not a valid sequence: {value}"
+msgstr "Valoarea nu este o secvență validă: {value}"
+
+#: napari/utils/events/containers/_typed.py:164
+msgid "Cannot add object with type {dtype!r} to TypedList expecting type {basetypes!r}"
+msgstr "Nu se poate adăuga un obiect cu tipul {dtype!r} la TypedList care aşteaptă tipul {basetypes!r}"
+
+#: napari/utils/events/containers/_typed.py:239
+msgid "{value!r} is not in list"
+msgstr "{value!r} nu este în listă"
+
+#: napari/utils/tree/node.py:93
+msgid "Cannot unparent orphaned Node: {node!r}"
+msgstr "Nu se poate renunța la modulul orfan: {node!r}"
+
+#: napari/utils/settings/_defaults.py:51 napari/utils/settings/_defaults.py:60
+msgid "A schema version must be a 3 element tuple or string!"
+msgstr "O versiune schema trebuie să fie un tuplu sau un șir cu 3 elemente!"
+
+#: napari/utils/settings/_defaults.py:71
+msgid "A schema version subparts must be positive integers or parseable as integers!"
+msgstr "Subcomponentele unei scheme trebuie să fie numere întregi pozitive sau parseabile ca întregi!"
+
+#: napari/utils/settings/_defaults.py:109 napari/utils/settings/_defaults.py:147
+msgid "must be a string"
+msgstr "trebuie să fie un şir"
+
+#: napari/utils/settings/_defaults.py:119
+msgid "\"{value}\" is not valid. It must be one of {themes}"
+msgstr "\"{value}nu este valid. Acesta trebuie să fie unul din {themes}"
+
+#: napari/utils/settings/_defaults.py:156
+msgid "\"{value}\" is not valid. It must be one of {language_packs}."
+msgstr "\"{value}\" nu este valid. Trebuie să fie unul din {language_packs}."
+
+#: napari/utils/settings/_defaults.py:192
+msgid "Theme"
+msgstr "Tema"
+
+#: napari/utils/settings/_defaults.py:193
+msgid "Theme selection."
+msgstr "Selectare tema."
+
+#: napari/utils/settings/_defaults.py:198
+msgid "Appearance"
+msgstr "Aspectul"
+
+#: napari/utils/settings/_defaults.py:221
+msgid "IPython interactive"
+msgstr "IPython interactiv"
+
+#: napari/utils/settings/_defaults.py:222
+#, python-format
+msgid "Use interactive %gui qt event loop when creating napari Viewers in IPython"
+msgstr "Folosește bucla interactivă de evenimente ui qt %gcând creezi vizualizatori napari în IPython"
+
+#: napari/utils/settings/_defaults.py:229
+msgid "Language"
+msgstr "Limba"
+
+#: napari/utils/settings/_defaults.py:230
+msgid "Interface display language."
+msgstr "Limba de afișare a interfeței."
+
+#: napari/utils/settings/_defaults.py:236
+msgid "Save Window Geometry"
+msgstr "Salvează geometria ferestrei"
+
+#: napari/utils/settings/_defaults.py:237
+msgid "Save window size and position."
+msgstr "Salvați dimensiunea și poziția ferestrei."
+
+#: napari/utils/settings/_defaults.py:241
+msgid "Save Window State"
+msgstr "Salvează starea ferestrei"
+
+#: napari/utils/settings/_defaults.py:242
+msgid "Save window state of dock widgets."
+msgstr "Salvează starea ferestrei pentru widget-urile dock."
+
+#: napari/utils/settings/_defaults.py:262
+msgid "Application"
+msgstr "Cerere"
+
+#: napari/utils/settings/_defaults.py:300
+msgid "Plugin sort order"
+msgstr "Ordine sortare plugin"
+
+#: napari/utils/settings/_defaults.py:301
+msgid "Sort plugins for each action in the order to be called."
+msgstr "Sortați plugin-urile pentru fiecare acțiune pentru a fi apelate."
+
+#: napari/utils/settings/_defaults.py:308
+msgid "Plugins"
+msgstr "Extensii"
+
+#: napari/utils/settings/_manager.py:135
+msgid "The content of the napari settings file could not be read\n\n"
+"The default settings will be used and the content of the file will be replaced the next time settings are changed.\n\n"
+"Error:\n"
+"{err}"
+msgstr "Conținutul fișierului de setări napari nu a putut fi citit\n\n"
+"Setările implicite vor fi folosite și conținutul fișierului va fi înlocuit data viitoare când vor fi modificate setările.\n\n"
+"Eroare:\n"
+"{err}"
+
+#: napari/utils/_tests/test_translations.py:176
+msgid "BOO"
+msgstr "BOO"
+
+#: napari/utils/_tests/test_translations.py:184
+msgid "More about napari"
+msgstr "Mai multe despre napari"
+
+#: napari/utils/_tests/test_translations.py:397
+msgid "MORE ABOUT NAPARI"
+msgstr "MAI MULTE DESPRE NAPARI"
+
+#: napari/utils/transforms/transform_utils.py:81
+msgid "Scalars are not valid values for shear. Shear must be an upper triangular vector or square matrix with ones along the main diagonal."
+msgstr "Scalarii nu sunt valori valide pentru shear. Pălăria trebuie să fie un vector triunghiular superior sau o matrice pătrată cu cei de-a lungul diagonalei principale."
+
+#: napari/utils/transforms/transform_utils.py:122
+msgid "{number} is a strange number of shear elements"
+msgstr "{number} este un număr ciudat de elemente de shear"
+
+#: napari/utils/transforms/transform_utils.py:153
+msgid "Improper transform matrix {matrix}"
+msgstr "Matricea transformării inadecvată {matrix}"
+
+#: napari/utils/transforms/transforms.py:48
+msgid "Inverse function was not provided."
+msgstr "Nu a fost furnizată funcția inversă."
+
+#: napari/utils/transforms/transforms.py:54
+msgid "Transform composition rule not provided"
+msgstr "Regula de transformare a compoziției nu este furnizată"
+
+#: napari/utils/transforms/transforms.py:71 napari/utils/transforms/transforms.py:90
+msgid "Cannot subset arbitrary transforms."
+msgstr "Nu se pot subseta transformările arbitrare."
+
+#: napari/utils/transforms/transforms.py:342 napari/utils/transforms/transforms.py:420
+msgid "Only upper triangular or lower triangular matrices are accepted for shear, got {shear}. For other matrices, set the affine_matrix or linear_matrix directly."
+msgstr "Doar matricea triunghiulară superioară sau cea inferioară sunt acceptate pentru shear, a primit {shear}. Pentru alte matrice, setează direct affine_matrice_matrice."
+
+#: napari/utils/events/event.py:311
+msgid "print_callback_errors must be \"first\", \"reminders\", \"always\", or \"never\""
+msgstr "print_callback_errors trebuie să fie \"primul\", \"mementouri\", \"întotdeauna\" sau \"niciodată\""
+
+#: napari/utils/events/event.py:421
+msgid "ref must be a bool or string"
+msgstr "ref trebuie să fie bool sau şir"
+
+#: napari/utils/events/event.py:428
+msgid "ref \"{ref}\" is not unique"
+msgstr "ref \"{ref}\" nu este unic"
+
+#: napari/utils/events/event.py:434
+msgid "position must be \"first\" or \"last\", not {position}"
+msgstr "poziția trebuie să fie \"primul\" sau \"ultimul\", nu {position}"
+
+#: napari/utils/events/event.py:458
+msgid "criteria \"{criteria}\" is in the current callback list {count} times:\n"
+"{callback_refs}\n"
+"{callbacks}"
+msgstr "criteriile \"{criteria}\" sunt în lista curentă de retroapelare de {count} ori:\n"
+"{callback_refs}\n"
+"{callbacks}"
+
+#: napari/utils/events/event.py:477
+msgid "cannot place callback before \"{before}\" and after \"{after}\" for callbacks: {callback_refs}"
+msgstr "nu poate plasa retroapelarea înainte de \"{before}\" şi după \"{after}\" pentru callback-uri: {callback_refs}"
+
+#: napari/utils/events/event.py:583
+msgid "Event source-stack mismatch."
+msgstr "Nepotrivire sursă-stivuire eveniment"
+
+#: napari/utils/events/event.py:616
+msgid "Event emitters can be called with an Event instance or with keyword arguments only."
+msgstr "Emitenţii de evenimente pot fi apelaţi doar cu un eveniment sau doar cu cuvinte cheie."
+
+#: napari/utils/events/event.py:648
+msgid "Cannot unblock {self_} for callback {callback}; emitter was not previously blocked."
+msgstr "Nu se poate debloca {self_} pentru callback {callback}; emitentul nu a fost blocat anterior."
+
+#: napari/utils/events/event.py:817
+msgid "EmitterGroup already has an emitter named '{name}'"
+msgstr "EmitterGroup are deja un emiţător numit '{name}'"
+
+#: napari/utils/events/event.py:825
+msgid "The name '{name}' cannot be used as an emitter; it is already an attribute of EmitterGroup"
+msgstr "Numele '{name}' nu poate fi folosit ca emitent; este deja un atribut al EmitterGroup"
+
+#: napari/utils/events/event.py:843
+msgid "Emitter must be specified as either an EventEmitter instance or Event subclass. (got {name}={emitter})"
+msgstr "Emitter-ul trebuie să fie specificat fie ca o instanță EventEmitter sau ca o subclasă de evenimente. (a obținut {name}={emitter})"
+
+#: napari/utils/events/evented_model.py:165
+msgid "The `asdict` method has been renamed `dict` and is now deprecated. It will be removed in 0.4.7"
+msgstr "Metoda `asdict` a fost redenumită `dict` şi este acum învechită. Aceasta va fi eliminată în 0.4.7"
+
+#: napari/utils/events/evented_model.py:191
+msgid "Unsupported update from {values}"
+msgstr "Actualizare neacceptată de la {values}"
+
+#: napari/utils/perf/_config.py:110
+msgid "{path} has no callable list '{list_name}'"
+msgstr "{path} nu are nicio listă apelabilă '{list_name}'"
+
+#: napari/utils/perf/_patcher.py:47
+msgid "Nested attribute not found: {attribute_str}"
+msgstr "Atributul imbricat nu a fost găsit: {attribute_str}"
+
+#: napari/utils/perf/_patcher.py:61
+msgid "Module {module_name} has no attribute {attribute_str}"
+msgstr "Modulul {module_name} nu are atributul {attribute_str}"
+
+#: napari/utils/perf/_patcher.py:80
+msgid "Parent {parent_str} has no attribute {callable_str}"
+msgstr "Părintele {parent_str} nu are atributul {callable_str}"
+
+#: napari/utils/perf/_patcher.py:135
+msgid "Module not found: {module_path}"
+msgstr "Modulul nu a fost găsit: {module_path}"
+
+#: napari/utils/colormaps/bop_colors.py:787
+msgid "bop blue"
+msgstr "bop albastru"
+
+#: napari/utils/colormaps/bop_colors.py:788
+msgid "bop orange"
+msgstr "bop portocaliu"
+
+#: napari/utils/colormaps/bop_colors.py:789
+msgid "bop purple"
+msgstr "bop violet"
+
+#: napari/utils/colormaps/categorical_colormap.py:106
+msgid "colormap should be an array or dict"
+msgstr "harta trebuie să fie o matrice sau un dicționar"
+
+#: napari/utils/colormaps/categorical_colormap_utils.py:62
+msgid "ColorCycle requires a values argument"
+msgstr "ColorCycle necesită un argument pentru valori"
+
+#: napari/utils/colormaps/colormap.py:97
+msgid "Unrecognized Colormap Interpolation Mode"
+msgstr "Mod de interpolare de colormap nerecunoscut"
+
+#: napari/utils/colormaps/colormap_utils.py:27 napari/utils/colormaps/colormap_utils.py:56
+msgctxt "colormap"
+msgid "viridis"
+msgstr "viridis"
+
+#: napari/utils/colormaps/colormap_utils.py:28
+msgctxt "colormap"
+msgid "magma"
+msgstr "magma"
+
+#: napari/utils/colormaps/colormap_utils.py:29
+msgctxt "colormap"
+msgid "inferno"
+msgstr "inferit"
+
+#: napari/utils/colormaps/colormap_utils.py:30
+msgctxt "colormap"
+msgid "plasma"
+msgstr "plasmă"
+
+#: napari/utils/colormaps/colormap_utils.py:31
+msgctxt "colormap"
+msgid "gray"
+msgstr "gri"
+
+#: napari/utils/colormaps/colormap_utils.py:32
+msgctxt "colormap"
+msgid "gray r"
+msgstr "gri r"
+
+#: napari/utils/colormaps/colormap_utils.py:33
+msgctxt "colormap"
+msgid "hsv"
+msgstr "hsv"
+
+#: napari/utils/colormaps/colormap_utils.py:34
+msgctxt "colormap"
+msgid "turbo"
+msgstr "turbo"
+
+#: napari/utils/colormaps/colormap_utils.py:35
+msgctxt "colormap"
+msgid "twilight"
+msgstr "răsucire"
+
+#: napari/utils/colormaps/colormap_utils.py:36
+msgctxt "colormap"
+msgid "twilight shifted"
+msgstr "contractură schimbată"
+
+#: napari/utils/colormaps/colormap_utils.py:37
+msgctxt "colormap"
+msgid "gist earth"
+msgstr "Pământ de gist"
+
+#: napari/utils/colormaps/colormap_utils.py:38
+msgctxt "colormap"
+msgid "PiYG"
+msgstr "PiYG"
+
+#: napari/utils/colormaps/colormap_utils.py:42
+msgctxt "colormap"
+msgid "autumn"
+msgstr "toamnă"
+
+#: napari/utils/colormaps/colormap_utils.py:43
+msgctxt "colormap"
+msgid "blues"
+msgstr "albastru"
+
+#: napari/utils/colormaps/colormap_utils.py:44
+msgctxt "colormap"
+msgid "cool"
+msgstr "răceală"
+
+#: napari/utils/colormaps/colormap_utils.py:45
+msgctxt "colormap"
+msgid "greens"
+msgstr "Verzi"
+
+#: napari/utils/colormaps/colormap_utils.py:46
+msgctxt "colormap"
+msgid "reds"
+msgstr "reclame"
+
+#: napari/utils/colormaps/colormap_utils.py:47
+msgctxt "colormap"
+msgid "spring"
+msgstr "arc"
+
+#: napari/utils/colormaps/colormap_utils.py:48
+msgctxt "colormap"
+msgid "summer"
+msgstr "vară"
+
+#: napari/utils/colormaps/colormap_utils.py:49
+msgctxt "colormap"
+msgid "fire"
+msgstr "foc"
+
+#: napari/utils/colormaps/colormap_utils.py:50
+msgctxt "colormap"
+msgid "grays"
+msgstr "gri"
+
+#: napari/utils/colormaps/colormap_utils.py:51
+msgctxt "colormap"
+msgid "hot"
+msgstr "fierbinte"
+
+#: napari/utils/colormaps/colormap_utils.py:52
+msgctxt "colormap"
+msgid "ice"
+msgstr "gheață"
+
+#: napari/utils/colormaps/colormap_utils.py:53
+msgctxt "colormap"
+msgid "winter"
+msgstr "iarna"
+
+#: napari/utils/colormaps/colormap_utils.py:54
+msgctxt "colormap"
+msgid "light blues"
+msgstr "albastru deschis"
+
+#: napari/utils/colormaps/colormap_utils.py:55
+msgctxt "colormap"
+msgid "orange"
+msgstr "portocaliu"
+
+#: napari/utils/colormaps/colormap_utils.py:57
+msgctxt "colormap"
+msgid "coolwarm"
+msgstr "cald"
+
+#: napari/utils/colormaps/colormap_utils.py:58
+msgctxt "colormap"
+msgid "PuGr"
+msgstr "PuGr"
+
+#: napari/utils/colormaps/colormap_utils.py:59
+msgctxt "colormap"
+msgid "GrBu"
+msgstr "GrBu"
+
+#: napari/utils/colormaps/colormap_utils.py:60
+msgctxt "colormap"
+msgid "GrBu_d"
+msgstr "GrBu_d"
+
+#: napari/utils/colormaps/colormap_utils.py:61
+msgctxt "colormap"
+msgid "RdBu"
+msgstr "RdBu"
+
+#: napari/utils/colormaps/colormap_utils.py:62
+msgctxt "colormap"
+msgid "cubehelix"
+msgstr "cubehelix"
+
+#: napari/utils/colormaps/colormap_utils.py:63
+msgctxt "colormap"
+msgid "single hue"
+msgstr "nuanță unică"
+
+#: napari/utils/colormaps/colormap_utils.py:64
+msgctxt "colormap"
+msgid "hsl"
+msgstr "hsl"
+
+#: napari/utils/colormaps/colormap_utils.py:65
+msgctxt "colormap"
+msgid "husl"
+msgstr "ceas"
+
+#: napari/utils/colormaps/colormap_utils.py:66
+msgctxt "colormap"
+msgid "diverging"
+msgstr "divergente"
+
+#: napari/utils/colormaps/colormap_utils.py:67
+msgctxt "colormap"
+msgid "RdYeBuCy"
+msgstr "RdYeBuCy"
+
+#: napari/utils/colormaps/colormap_utils.py:70
+msgctxt "colormap"
+msgid "red"
+msgstr "rosu"
+
+#: napari/utils/colormaps/colormap_utils.py:71
+msgctxt "colormap"
+msgid "green"
+msgstr "verde"
+
+#: napari/utils/colormaps/colormap_utils.py:72
+msgctxt "colormap"
+msgid "blue"
+msgstr "albastru"
+
+#: napari/utils/colormaps/colormap_utils.py:73
+msgctxt "colormap"
+msgid "cyan"
+msgstr "turcoaz"
+
+#: napari/utils/colormaps/colormap_utils.py:74
+msgctxt "colormap"
+msgid "magenta"
+msgstr "magenta"
+
+#: napari/utils/colormaps/colormap_utils.py:75
+msgctxt "colormap"
+msgid "yellow"
+msgstr "galben"
+
+#: napari/utils/colormaps/colormap_utils.py:127
+msgid "Colormap must be a vispy colormap if passed to from_vispy"
+msgstr "Colormap trebuie să fie o hartă de culori vispy dacă este trecut la from_vispy"
+
+#: napari/utils/colormaps/colormap_utils.py:357
+msgctxt "colormap"
+msgid "low discrepancy colors"
+msgstr "culori mici ale discrepanțelor"
+
+#: napari/utils/colormaps/colormap_utils.py:391
+msgid "Colormap \"{name}\" not found in either vispy or matplotlib."
+msgstr "Culoarea \"{name}\" nu a fost găsită nici în vispy, nici în matplotlib."
+
+#: napari/utils/colormaps/colormap_utils.py:444
+msgid "[unnamed colormap]"
+msgstr "[culoare nesemnificativă]"
+
+#: napari/utils/colormaps/colormap_utils.py:450
+msgid "[unnamed colormap {number}]"
+msgstr "[fără nume hartă {number}]"
+
+#: napari/utils/colormaps/colormap_utils.py:523
+msgid "When providing a tuple as a colormap argument, the first element must be a string and the second a Colormap instance"
+msgstr "Când se furnizează un tuple ca argument de culoare hartă, primul element trebuie să fie un şir şi al doilea caz o instanţă de Colormap"
+
+#: napari/utils/colormaps/colormap_utils.py:549
+msgid "When providing a dict as a colormap, all values must be Colormap instances"
+msgstr "Când se furnizează un dicționar ca hartă de culori, toate valorile trebuie să fie instanțe de Colormap"
+
+#: napari/utils/colormaps/colormap_utils.py:572
+msgid "only the first item in a colormap dict is used as an argument"
+msgstr "numai primul element dintr-un dicționar de culoare este folosit ca argument"
+
+#: napari/utils/colormaps/colormap_utils.py:579
+msgid "Received an empty dict as a colormap argument."
+msgstr "A primit un dicționar gol ca argument de culoare hartă."
+
+#: napari/utils/colormaps/colormap_utils.py:589
+msgid "invalid type for colormap: {cm_type}. Must be a {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
+msgstr "tip nevalid pentru harta de culori: {cm_type}. Trebuie să fie {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
+
+#: napari/utils/colormaps/standardize_color.py:88
+msgid "Empty string detected. Returning black instead."
+msgstr "Șirul gol detectat. Se întoarce negrul în schimb."
+
+#: napari/utils/colormaps/standardize_color.py:133
+msgid "Coudln't convert input color array to a proper numpy array. Please make sure that your input data is in a parsable format. Converting input to a white color array."
+msgstr "Nu s-a convertit matricea culorilor de intrare într-o matrice numerică corespunzătoare. Asigurați-vă că datele dvs. de intrare sunt într-un format parsabil. Convertiți într-un array de culoare albă."
+
+#: napari/utils/colormaps/standardize_color.py:171
+msgid "An object array was passed as the color input. Please convert its datatype before sending it to napari. Converting input to a white color array."
+msgstr "Un obiect array a fost trecut ca intrare de culoare. Vă rugăm să convertiți tipul său de date înainte de a-l trimite la napari. Conversia intrării într-un array de culoare albă."
+
+#: napari/utils/colormaps/standardize_color.py:184
+msgid "String color arrays should be one-dimensional. Converting input to a white color array."
+msgstr "Grupurile de culoare string trebuie să fie unidimensionale. Conversia intrării într-o matrice de culoare albă."
+
+#: napari/utils/colormaps/standardize_color.py:198
+msgid "Given color input is empty. Converting input to a white color array."
+msgstr "Dată fiind introducerea culorii este goală. Conversia intrării la o matrice de culoare albă."
+
+#: napari/utils/colormaps/standardize_color.py:211
+msgid "Given colors input should contain one or two dimensions. Received array with {ndim} dimensions."
+msgstr "Intrarea culorilor ar trebui să conțină una sau două dimensiuni. Array-ul primit cu dimensiunea {ndim}."
+
+#: napari/utils/colormaps/standardize_color.py:223
+msgid "Given color array has an unsupported format. Received the following array:\n"
+"{colors}\n"
+"A proper color array should have 3-4 columns with a row per data entry."
+msgstr "Având în vedere array-ul culorilor are un format nesuportat. Primit următorul array:\n"
+"{colors}\n"
+"Un array corect de culori ar trebui să aibă 3-4 coloane cu un rând pentru fiecare intrare de date."
+
+#: napari/utils/colormaps/standardize_color.py:239
+msgid "Given colors input should contain three or four columns. Received array with {shape} columns. Converting input to a white color array."
+msgstr "Intrarea culorilor ar trebui să conțină trei sau patru coloane. Array primit cu coloane {shape} . Convertirea intrării la o matrice de culoare albă."
+
+#: napari/utils/colormaps/standardize_color.py:253
+msgid "Data type of array ({color_dtype}) not supported."
+msgstr "Tipul de array de date ({color_dtype}) nu este suportat."
+
+#: napari/utils/colormaps/standardize_color.py:287
+msgid "Colors input had negative values."
+msgstr "Intrarea culorilor a avut valori negative."
+
+#: napari/utils/colormaps/standardize_color.py:295
+msgid "Colors with values larger than one detected. napari will normalize these colors for you. If you'd like to convert these yourself, please use the proper method from skimage.color."
+msgstr "Culori cu valori mai mari decât una detectată. napari va normaliza aceste culori pentru tine. Dacă doriţi să le convertiţi singur, vă rugăm să folosiţi metoda corectă din skimage.color."
+
+#: napari/utils/colormaps/standardize_color.py:324
+msgid "Invalid color found: {color} at index {idx}."
+msgstr "Culoare invalidă: {color} la indexul {idx}."
+
+#: napari/utils/colormaps/standardize_color.py:440
+msgid "Value must have second dimension of size 3 or 4"
+msgstr "Valoarea trebuie să aibă a doua dimensiune a dimensiunii 3 sau 4"
+
+#: napari/components/experimental/chunk/_commands/_tables.py:99
+msgid "Row with {row_cols} columns not compatible with headers ({header_cols} columns)"
+msgstr "Rând cu {row_cols} coloane incompatibil cu antetele ({header_cols} coloane)"
+
+#: napari/components/experimental/monitor/_monitor.py:41
+msgid "Monitor: Config file not found: {path}"
+msgstr "Monitor: Fișierul de configurare nu a fost găsit: {path}"
+
+#: napari/components/experimental/chunk/_pool_group.py:133
+msgid "Missing 'loader_defaults' in octree config."
+msgstr "Lipsesc 'loader_defaults' in octree config."
+
+#: napari/_qt/layer_controls/qt_image_controls.py:56
+msgid "interpolation:"
+msgstr "interpolare:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:66
+msgid "rendering:"
+msgstr "randare:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:76
+msgid "iso threshold:"
+msgstr "prag iso:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:86
+msgid "attenuation:"
+msgstr "atenuare:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:101 napari/_qt/layer_controls/qt_labels_controls.py:235 napari/_qt/layer_controls/qt_points_controls.py:179 napari/_qt/layer_controls/qt_shapes_controls.py:239 napari/_qt/layer_controls/qt_surface_controls.py:34 napari/_qt/layer_controls/qt_tracks_controls.py:89 napari/_qt/layer_controls/qt_vectors_controls.py:100
+msgid "opacity:"
+msgstr "opacitate:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:103 napari/_qt/layer_controls/qt_surface_controls.py:36
+msgid "contrast limits:"
+msgstr "limite de contrast:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:105 napari/_qt/layer_controls/qt_surface_controls.py:38
+msgid "gamma:"
+msgstr "gamma:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:107 napari/_qt/layer_controls/qt_surface_controls.py:40 napari/_qt/layer_controls/qt_tracks_controls.py:85
+msgid "colormap:"
+msgstr "colormap:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:109 napari/_qt/layer_controls/qt_labels_controls.py:239 napari/_qt/layer_controls/qt_points_controls.py:183 napari/_qt/layer_controls/qt_shapes_controls.py:243 napari/_qt/layer_controls/qt_surface_controls.py:42 napari/_qt/layer_controls/qt_tracks_controls.py:87 napari/_qt/layer_controls/qt_vectors_controls.py:106
+msgid "blending:"
+msgstr "amestec:"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:91
+msgid "Colorbar"
+msgstr "Colorbar"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:238
+msgid "Layer {layer} must have attribute {range_attr} to use \"create_range_popup\""
+msgstr "Nivelul {layer} trebuie să aibă atributul {range_attr} pentru a folosi \"create_range_popup\""
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:300
+msgid "autoscale contrast to data range"
+msgstr "contrast autoscară cu gama de date"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:311
+msgid "set contrast range to full bit-depth"
+msgstr "setează gama de contrast la adâncimea maximă"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:113
+msgid "contiguous editing"
+msgstr "editare concomitentă"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:119
+msgid "edit all dimensions"
+msgstr "editează toate dimensiunile"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:125
+msgid "display contours of labels"
+msgstr "afișează contururile etichetelor"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:139
+msgid "preserve existing labels while painting"
+msgstr "păstrarea etichetelor existente în timpul pictării"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:147
+msgid "Display only selected label"
+msgstr "Afişează doar eticheta selectată"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:157
+msgid "shuffle colors"
+msgstr "amestecă culori"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:164
+msgid "Pan/zoom mode (Space)"
+msgstr "Mod Pan/zoom (spațiu)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:168
+msgid "Pick mode (L)"
+msgstr "Alege modul (L)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:171
+msgid "Paint mode (P)"
+msgstr "Mod vopsea (P)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:179
+msgid "Fill mode (F) \n"
+"Toggle with {shortcut}"
+msgstr "Mod de umplere (F) \n"
+"Comutare cu {shortcut}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:188
+msgid "Erase mode (E) \n"
+"Toggle with {shortcut}"
+msgstr "Mod de ștergere (E) \n"
+"Comutare cu {shortcut}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:233
+msgid "label:"
+msgstr "etichetă:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:237
+msgid "brush size:"
+msgstr "dimensiunea pensulei:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:241
+msgid "color mode:"
+msgstr "mod culoare:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:243
+msgid "contour:"
+msgstr "tur:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:245
+msgid "contiguous:"
+msgstr "contiguous:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:247 napari/_qt/layer_controls/qt_points_controls.py:193
+msgid "n-dim:"
+msgstr "n-dim:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:250
+msgid "preserve labels:"
+msgstr "etichetele conservante:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:254
+msgid "show selected:"
+msgstr "arată cele selectate:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:504
+msgid "Selected label color"
+msgstr "Culoare etichetă selectată"
+
+#: napari/_qt/layer_controls/qt_layer_controls_container.py:55
+msgid "Could not find QtControls for layer of type {type_}"
+msgstr "Nu s-a putut găsi QtControls pentru stratul de tip {type_}"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:102 napari/_qt/layer_controls/qt_shapes_controls.py:219
+msgid "click to set current face color"
+msgstr "click pentru a seta culoarea curentă a feței"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:106 napari/_qt/layer_controls/qt_shapes_controls.py:224 napari/_qt/layer_controls/qt_vectors_controls.py:66
+msgid "click to set current edge color"
+msgstr "click pentru a seta culoarea marginii curente"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:125
+msgid "N-dimensional points"
+msgstr "Puncte N-dimensionale"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:134
+msgid "Select points (S)"
+msgstr "Selectaţi punctele (S)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:137
+msgid "Add points (P)"
+msgstr "Adaugă puncte (P)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:143
+msgid "Pan/zoom (Z)"
+msgstr "Panoramare/zoom (Z)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:152
+msgid "Delete selected points ({shortcut})"
+msgstr "Ştergeţi punctele selectate ({shortcut})"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:157 napari/_qt/layer_controls/qt_shapes_controls.py:231
+msgid "toggle text visibility"
+msgstr "comută vizibilitatea textului"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:181
+msgid "point size:"
+msgstr "dimensiune punctă:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:185
+msgid "symbol:"
+msgstr "simbol:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:187 napari/_qt/layer_controls/qt_shapes_controls.py:245
+msgid "face color:"
+msgstr "Culoare față:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:189 napari/_qt/layer_controls/qt_shapes_controls.py:247 napari/_qt/layer_controls/qt_vectors_controls.py:71
+msgid "edge color:"
+msgstr "culoare margini:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:191 napari/_qt/layer_controls/qt_shapes_controls.py:249
+msgid "display text:"
+msgstr "text de afişare:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:113
+msgid "Select shapes (S)"
+msgstr "Selectaţi formele (S)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:119
+msgid "Select vertices (D)"
+msgstr "Selectați nodurile (D)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:125
+msgid "Pan/zoom (Space)"
+msgstr "Panoramare/zoom (spațiu)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:132
+msgid "Add rectangles (R)"
+msgstr "Adaugă dreptunghiuri (R)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:138
+msgid "Add ellipses (E)"
+msgstr "Adaugă elipse (E)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:141
+msgid "Add lines (L)"
+msgstr "Adaugă linii (L)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:144
+msgid "Add paths (T)"
+msgstr "Adaugă căi (T)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:150
+msgid "Add polygons (P)"
+msgstr "Adaugă poligoni (P)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:156
+msgid "Insert vertex (I)"
+msgstr "Insert vertex (I)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:162
+msgid "Remove vertex (X)"
+msgstr "Elimină vertex (X)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:169
+msgid "Move to front"
+msgstr "Muta in fata"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:175
+msgid "Move to back"
+msgstr "Mută în spate"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:183
+msgid "Delete selected shapes ({shortcut})"
+msgstr "Șterge formele selectate ({shortcut})"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:241
+msgid "edge width:"
+msgstr "edge width:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:297
+msgid "Mode '{mode}'not recognized"
+msgstr "Mod '{mode}'nerecunoscut"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:83
+msgid "color by:"
+msgstr "culoare după:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:91
+msgid "tail width:"
+msgstr "lățime coadă:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:93
+msgid "tail length:"
+msgstr "lungimea cozii:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:95
+msgid "tail:"
+msgstr "coadă:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:97
+msgid "show ID:"
+msgstr "show ID:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:99
+msgid "graph:"
+msgstr "grafic:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:61
+msgid "edge property:"
+msgstr "proprietatea marginii:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:102
+msgid "width:"
+msgstr "lăţime:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:104
+msgid "length:"
+msgstr "lungime:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:108
+msgid "edge color mode:"
+msgstr "modul culoare margini:"
+
+#: napari/_qt/dialogs/preferences_dialog.py:39 napari/_qt/dialogs/preferences_dialog.py:293
+msgid "Cancel"
+msgstr "Anulează"
+
+#: napari/_qt/dialogs/preferences_dialog.py:40
+msgid "OK"
+msgstr "Ok"
+
+#: napari/_qt/dialogs/preferences_dialog.py:41
+msgid "Restore defaults"
+msgstr "Restabilire valori implicite"
+
+#: napari/_qt/dialogs/preferences_dialog.py:44 napari/_qt/qt_main_window.py:416
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: napari/_qt/dialogs/preferences_dialog.py:151
+msgid "Are you sure you want to restore default settings?"
+msgstr "Sunteţi sigur că doriţi să restauraţi setările implicite?"
+
+#: napari/_qt/dialogs/preferences_dialog.py:292
+msgid "Restore"
+msgstr "Restaurează"
+
+#: napari/_qt/dialogs/qt_about.py:50
+msgid "<b>napari: a multi-dimensional image viewer for python</b>"
+msgstr "<b>napari: un vizualizator de imagini multidimensional pentru python</b>"
+
+#: napari/_qt/dialogs/qt_about.py:75
+msgid "<b>citation information:</b>"
+msgstr "<b>Informații despre citație:</b>"
+
+#: napari/_qt/dialogs/qt_about.py:100
+msgid "About"
+msgstr "Despre"
+
+#: napari/_qt/dialogs/qt_about.py:123
+msgid "Copy to clipboard"
+msgstr "Copiază în clipboard"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:52
+msgid "All active key bindings"
+msgstr "Toate legările de taste active"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:60
+msgid "Keybindings"
+msgstr "Legături cheie"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:84
+msgid "No key bindings"
+msgstr "Nicio legare de cheie"
+
+#: napari/_qt/dialogs/qt_modal.py:92
+msgid "Specifying position as a string is only possible if the popup has a parent"
+msgstr "Specificarea poziției ca șir de caractere este posibilă numai dacă popup are un părinte"
+
+#: napari/_qt/dialogs/qt_modal.py:120
+msgid "position must be one of [\"top\", \"left\", \"bottom\", \"right\"]"
+msgstr "poziția trebuie să fie una dintre [„sus”, „stânga”, „jos”, „dreapta”]"
+
+#: napari/_qt/dialogs/qt_modal.py:130
+msgid "Wrong type of position {position}"
+msgstr "Tip de poziție {position} greșit"
+
+#: napari/_qt/dialogs/qt_notification.py:108
+msgid "Source: {source}"
+msgstr "Sursa: {source}"
+
+#: napari/_qt/dialogs/qt_notification.py:331 napari/_qt/dialogs/qt_notification.py:340
+msgid "Enter Debugger"
+msgstr "Introduceți depanatorul"
+
+#: napari/_qt/dialogs/qt_notification.py:335
+msgid "Now Debugging. Please quit debugger in console to continue"
+msgstr "Depanare acum. Te rugăm să ieși din depanator în consolă pentru a continua"
+
+#: napari/_qt/dialogs/qt_notification.py:348
+msgid "View Traceback"
+msgstr "Vezi Traceback"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:123
+msgid "remove"
+msgstr "elimină"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:133
+msgid "close"
+msgstr "închide"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:149
+msgid "install"
+msgstr "instalează"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:167
+msgid "enable/disable"
+msgstr "activează/dezactivează"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:283
+msgid "update (v{latest})"
+msgstr "actualizează (v{latest})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:380
+msgid "Installed Plugins"
+msgstr "Plugin-uri instalate"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:387
+msgid "Available Plugins"
+msgstr "Plugin-uri disponibile"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:398
+msgid "loading ..."
+msgstr "se încarcă..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:414
+msgid "install by name/url, or drop file..."
+msgstr "instalați după nume/url, sau plasați fișierul..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:416
+msgid "Install"
+msgstr "Instalează"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:419 napari/_qt/dialogs/qt_plugin_dialog.py:478
+msgid "Show Status"
+msgstr "Arată starea"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:421 napari/_qt/dialogs/qt_plugin_dialog.py:470
+msgid "<< Show Sorter"
+msgstr "<< Arată sortator"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:422
+msgid "Close"
+msgstr "Inchide"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:449
+msgid "Available Plugins ({count})"
+msgstr "Plugin-uri disponibile ({count})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:467
+msgid ">> Hide Sorter"
+msgstr ">> Ascundere sortator"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:475
+msgid "Hide Status"
+msgstr "Ascunde Starea"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:52
+msgid "select plugin... "
+msgstr "selectează plugin... "
+
+#: napari/_qt/dialogs/qt_plugin_report.py:69
+msgid "Recorded Plugin Exceptions"
+msgstr "Excepții înregistrate pentru Plugin-uri"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:89
+msgid "Open issue on GitHub"
+msgstr "Deschide problema pe GitHub"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:91
+msgid "Open a web browser to submit this error log\n"
+"to the developer's GitHub issue tracker"
+msgstr "Deschide un browser web pentru a trimite acest jurnal de erori\n"
+"în trackerul cu probleme GitHub al dezvoltatorului"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:102
+msgid "Copy error log to clipboard"
+msgstr "Copiază jurnalul erorilor în clipboard"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:159
+msgid "No errors reported for plugin '{plugin}'"
+msgstr "Nicio eroare raportată pentru plugin-ul{plugin}'"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:32
+msgid "Save screenshot"
+msgstr "Salvare captură ecran"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:36
+msgid "Image files (*.png *.bmp *.gif *.tif *.tiff)"
+msgstr "Fișiere imagine (*.png *.bmp *.gif *.tif *.tiff)"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:50
+msgid "Confirm overwrite"
+msgstr "Confirmați rescrierea"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:51
+msgid "{save_path} already exists. Do you want to replace it?"
+msgstr "{save_path} există deja. Doriți să îl înlocuiți?"
+
+#: napari/_qt/containers/_base_item_model.py:198
+msgid "root must be an instance of {class_name}"
+msgstr "rădăcina trebuie să fie o instanță de {class_name}"
+
+#: napari/_qt/containers/_factory.py:40
+msgid "Cannot create Qt view for obj: {obj}"
+msgstr "Nu se poate crea Qt view pentru obiect: {obj}"
+
+#: napari/_qt/containers/_factory.py:74
+msgid "Cannot create Qt model for obj: {obj}"
+msgstr "Nu se poate crea modelul Qt pentru obiect: {obj}"
+
+#: napari/_qt/containers/qt_layer_list.py:45
+msgid "Layer list"
+msgstr "Listă straturi"
+
+#: napari/_qt/containers/qt_tree_model.py:180
+msgid "root node must be an instance of {Group}"
+msgstr "nodul rădăcină trebuie să fie o instanță de {Group}"
+
+#: napari/_qt/containers/qt_tree_model.py:201
+msgid "nested_index must be an int or tuple of int."
+msgstr "indexul nested_trebuie să fie un int sau un tuplu de int."
+
+#: napari/_qt/perf/qt_debug_menu.py:35
+msgid "&Debug"
+msgstr "&Debug"
+
+#: napari/_qt/perf/qt_debug_menu.py:38
+msgid "Performance Trace"
+msgstr "Urmărirea performanţei"
+
+#: napari/_qt/perf/qt_debug_menu.py:75
+msgid "Start Recording..."
+msgstr "Începe înregistrarea..."
+
+#: napari/_qt/perf/qt_debug_menu.py:78
+msgid "Start recording a trace file"
+msgstr "Începeți înregistrarea unui fișier"
+
+#: napari/_qt/perf/qt_debug_menu.py:85
+msgid "Stop Recording"
+msgstr "Oprește înregistrarea"
+
+#: napari/_qt/perf/qt_debug_menu.py:87
+msgid "Stop recording a trace file"
+msgstr "Opriți înregistrarea unui fișier de urmărire"
+
+#: napari/_qt/perf/qt_debug_menu.py:101
+msgid "Record performance trace file"
+msgstr "Înregistrați urmele de performanță"
+
+#: napari/_qt/perf/qt_debug_menu.py:103
+msgid "Trace Files (*.json)"
+msgstr "Urmărire fişiere (*.json)"
+
+#: napari/_qt/perf/qt_event_tracing.py:101
+msgid "UnknownEvent:{event}"
+msgstr "Eveniment necunoscut:{event}"
+
+#: napari/_qt/perf/qt_performance.py:42
+msgid "{time_ms:5.0f}ms {name}\n"
+msgstr "{time_ms:5.0f}ms {name}\n"
+
+#: napari/_qt/perf/qt_performance.py:103
+msgid "Draw Time:"
+msgstr "Timp de desenare:"
+
+#: napari/_qt/perf/qt_performance.py:123
+msgid "Show Events Slower Than:"
+msgstr "Arată evenimentele mai încet Mulțumesc:"
+
+#: napari/_qt/perf/qt_performance.py:125
+msgid "milliseconds"
+msgstr "milisecunde"
+
+#: napari/_qt/perf/qt_performance.py:179
+msgid "Uptime: {elapsed:.2f}"
+msgstr "Actualizare: {elapsed:.2f}"
+
+#: napari/_qt/widgets/qt_dict_table.py:85
+msgid "'data' argument must be a list of dicts"
+msgstr "Argumentul \"date\" trebuie să fie o listă de dicturi"
+
+#: napari/_qt/widgets/qt_dict_table.py:95
+msgid "Argument 'headers' got item '{header}', which was not found in any of the items in 'data'"
+msgstr "Argument 'headers' a obținut elementul '{header}', care nu a fost găsit în niciunul dintre articole în 'data'"
+
+#: napari/_qt/widgets/qt_dims.py:295
+msgid "loop_mode must be one of {_modes}. Got: {loop_mode}"
+msgstr "loop_mode trebuie să fie unul dintre {_modes}. Got: {loop_mode}"
+
+#: napari/_qt/widgets/qt_dims.py:304
+msgid "axis argument out of range"
+msgstr "Argumentul axei în afara razei"
+
+#: napari/_qt/widgets/qt_dims.py:325
+msgid "Refusing to play a hidden axis"
+msgstr "Refuzul de a reda o axă ascunsă"
+
+#: napari/_qt/widgets/qt_dims_slider.py:52
+msgid "Current slice for axis {axis}"
+msgstr "Secțiune curentă pentru axa {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:65
+msgid "Total slices for axis {axis}"
+msgstr "Total felii pentru axa {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:118
+msgid "Edit to change axis label"
+msgstr "Editează pentru a schimba eticheta axei"
+
+#: napari/_qt/widgets/qt_dims_slider.py:309
+msgid "frame_range value must be a list or tuple"
+msgstr "Valoarea cadrului_intervalului trebuie să fie o listă sau un tuple"
+
+#: napari/_qt/widgets/qt_dims_slider.py:313
+msgid "frame_range must have a length of 2"
+msgstr "Frame_range trebuie să aibă o lungime de 2"
+
+#: napari/_qt/widgets/qt_dims_slider.py:500
+msgid "frames per second:"
+msgstr "cadre pe secundă:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:508
+msgid "play direction:"
+msgstr "direcția de redare:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:515
+msgid "play mode:"
+msgstr "mod de redare:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:630
+msgid "frame_range[0] must be <= frame_range[1]"
+msgstr "raza[0] trebuie sa fie <= Frame_rang[1]"
+
+#: napari/_qt/widgets/qt_dims_slider.py:633
+msgid "frame_range[0] out of range"
+msgstr "interval cadru_[0] din interval"
+
+#: napari/_qt/widgets/qt_dims_slider.py:635
+msgid "frame_range[1] out of range"
+msgstr "raza cadr_[1] din raza"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:362
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:533 napari/_qt/widgets/qt_size_preview.py:309
+msgid "Minimum value must be smaller than {max_value}"
+msgstr "Valoarea minimă trebuie să fie mai mică decât {max_value}"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:572 napari/_qt/widgets/qt_size_preview.py:348
+msgid "Maximum value must be larger than {min_value}"
+msgstr "Valoarea maximă trebuie să fie mai mare decât {min_value}"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:86
+msgid "Click and drag to change call order"
+msgstr "Faceți clic și trageți pentru a schimba ordinea apelului"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:102
+msgid "Uncheck to disable this plugin"
+msgstr "Debifați pentru a dezactiva acest plugin"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:283
+msgid "select hook... "
+msgstr "selectează cârlig... "
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:317
+msgid "select the hook specification to reorder"
+msgstr "selectaţi specificaţia cârligului pentru a reordona"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:324
+msgid "Plugin Sorter"
+msgstr "Sorter Plugin"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:328
+msgid "Select a hook to rearrange, then drag and drop plugins into the desired call order.\n\n"
+"Disable plugins for a specific hook by unchecking their checkbox."
+msgstr "Selectați un cârlig pentru a rearanja, apoi trageți și plasați plugin-uri în ordinea dorită a apelurilor.\n\n"
+"Dezactivează plugin-urile pentru un anume cârlig debifând caseta de selectare."
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:149
+msgid "current minimum contrast limit"
+msgstr "limita minimă de contrast curentă"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:150
+msgid "current maximum contrast limit"
+msgstr "limita maximă de contrast curentă"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:158
+msgid "minimum contrast range"
+msgstr "interval minim de contrast"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:159
+msgid "maximum contrast range"
+msgstr "interval maxim de contrast"
+
+#: napari/_qt/widgets/qt_size_preview.py:137
+msgid "preview"
+msgstr "previzualizare"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:37
+msgid "New points layer"
+msgstr "Stratul de puncte noi"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:47
+msgid "New shapes layer"
+msgstr "Stratul de forme noi"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:56
+msgid "New labels layer"
+msgstr "Stratul nou de etichete"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:105
+msgid "Open IPython terminal ({shortcut})"
+msgstr "Open IPython terminal ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:114
+msgid "Roll dimensions order for display ({shortcut})"
+msgstr "Reglaţi dimensiunile ordinului pentru afişare ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:123
+msgid "Transpose displayed dimensions ({shortcut})"
+msgstr "Dimensiuni afişate transparente ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:132
+msgid "Reset view ({shortcut})"
+msgstr "Resetare vizualizare ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:145
+msgid "Toggle grid view ({shortcut})"
+msgstr "Comutare vizualizare grilă ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:160
+msgid "Toggle number of displayed dimensions ({shortcut})"
+msgstr "Comută numărul de dimensiuni afișate ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:199
+msgid "Delete selected layers ({shortcut})"
+msgstr "Șterge straturile selectate ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:69
+msgid "area argument must be in {areas}"
+msgstr "argumentul zonei trebuie să fie în {areas}"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:79
+msgid "`allowed_areas` must be a list or tuple"
+msgstr "`allowed_areas` trebuie să fie o listă sau un tuple"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:90
+msgid "all allowed_areas argument must be in {areas}"
+msgstr "toate argumentele permise în zone trebuie să fie în {areas}"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:176
+msgid "drag to move. double-click to float"
+msgstr "glisați pentru a muta. dublu-clic pentru a pluti"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:182
+msgid "hide this panel"
+msgstr "ascunde acest panou"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:189
+msgid "float this panel"
+msgstr "plutește acest panou"
+
+#: napari/_qt/widgets/qt_welcome.py:39
+msgid "Drag image(s) here to open\n"
+"or\n"
+"Use the menu shortcuts below:"
+msgstr "Trageți imaginile aici pentru a deschide\n"
+"sau\n"
+"Utilizați scurtăturile din meniu de mai jos:"
+
+#: napari/_qt/widgets/qt_welcome.py:59
+msgid "open image(s)"
+msgstr "deschide imaginea"
+
+#: napari/_qt/widgets/qt_welcome.py:64
+msgid "show all key bindings"
+msgstr "arată toate legările de cheie"
+
+#: napari/plugins/__init__.py:158
+msgid "Plugin {plugin_name!r} provided an invalid tuple to {hook_name}. Skipping"
+msgstr "Plugin-ul {plugin_name!r} a furnizat un tur nevalid către {hook_name}. Omiterea"
+
+#: napari/plugins/__init__.py:173
+msgid "Plugin {plugin_name!r} provided a non-callable object (widget) to {hook_name}: {_cls!r}. Widget ignored."
+msgstr "Plugin-ul {plugin_name!r} a furnizat un obiect non-callable (widget) către {hook_name}: {_cls!r}. Widget ignorat."
+
+#: napari/plugins/__init__.py:185
+msgid "Plugin {plugin_name!r} provided invalid kwargs to {hook_name} for class {class_name}. Widget ignored."
+msgstr ""
+
+#: napari/plugins/__init__.py:203
+msgid "Plugin '{plugin_name}' has already registered a dock widget '{name}' which has now been overwritten"
+msgstr "Plugin-ul '{plugin_name}' a înregistrat deja un widget dock '{name}' care a fost acum suprascris"
+
+#: napari/plugins/__init__.py:250
+msgid "Plugin {plugin_name!r} does not provide any dock widgets"
+msgstr "Plugin-ul {plugin_name!r} nu oferă widget-uri dock"
+
+#: napari/plugins/__init__.py:264
+msgid "Plugin {plugin_name!r} provides more than 1 dock_widget. Must also provide \"widget_name\" from {widgets}"
+msgstr "Plugin {plugin_name!r} furnizează mai mult de 1 dock_widget. De asemenea, trebuie să furnizeze \"widget_name\" de la {widgets}"
+
+#: napari/plugins/__init__.py:271
+msgid "Plugin {plugin_name!r} does not provide a widget named {widget_name!r}"
+msgstr "Plugin-ul {plugin_name!r} nu oferă un widget numit {widget_name!r}"
+
+#: napari/plugins/__init__.py:302
+msgid "Plugin {plugin_name!r} provided a non-callable type to {hook_name}: {func_type!r}. Function widget ignored."
+msgstr "Plugin-ul {plugin_name!r} a furnizat un tip non-callable la {hook_name}: {func_type!r}. Widget-ul funcției este ignorat."
+
+#: napari/plugins/__init__.py:307
+msgid " To provide multiple function widgets please use a LIST of callables"
+msgstr " Pentru a furniza mai multe funcții widget-uri, vă rugăm să utilizaţi LIST de apeluri"
+
+#: napari/plugins/__init__.py:324
+msgid "Plugin '{plugin_name}' has already registered a function widget '{name}' which has now been overwritten"
+msgstr "Plugin-ul '{plugin_name}' a înregistrat deja un widget funcțional '{name}' care a fost acum suprascris"
+
+#: napari/plugins/__init__.py:358
+msgid "Plugin {plugin_name!r} provided a non-dict object to {hook_name!r}: data ignored."
+msgstr "Plugin-ul {plugin_name!r} a furnizat un obiect non-dict pentru {hook_name!r}: date ignorate."
+
+#: napari/plugins/__init__.py:372
+msgid "In {hook_name!r}, plugin {plugin_name!r} provided an invalid dict object for key {name!r} that does not have required keys: \"data\" and \"display_name\".  Ignoring"
+msgstr "În {hook_name!r}, plugin-ul {plugin_name!r} a furnizat un obiect dictat nevalid pentru tasta {name!r} care nu are tastele necesare: \"data\" și \"display_name\". Se ignoră"
+
+#: napari/plugins/__init__.py:394
+msgid "Plugin {plugin_name!r} provided invalid data for key {name!r} in the dict returned by {hook_name!r}. (Must be str, callable, or dict), got ({data_type})."
+msgstr "Plugin-ul {plugin_name!r} a furnizat date incorecte pentru tasta {name!r} din dictul returnat de {hook_name!r}. (Trebuie să fie str, apelabil sau dictator), primit ({data_type})."
+
+#: napari/plugins/_skimage_data.py:6
+msgid "Astronaut (RGB)"
+msgstr "Astronaut (RGB)"
+
+#: napari/plugins/_skimage_data.py:7
+msgid "Binary Blobs"
+msgstr "Bloburi binare"
+
+#: napari/plugins/_skimage_data.py:8
+msgid "Binary Blobs (3D)"
+msgstr "Bloburi binare (3D)"
+
+#: napari/plugins/_skimage_data.py:9
+msgid "Brain (3D)"
+msgstr "Creier (3D)"
+
+#: napari/plugins/_skimage_data.py:10
+msgid "Brick"
+msgstr "Cărămidă"
+
+#: napari/plugins/_skimage_data.py:11
+msgid "Camera"
+msgstr "Cameră"
+
+#: napari/plugins/_skimage_data.py:12
+msgid "Cat (RGB)"
+msgstr "Pisică (RGB)"
+
+#: napari/plugins/_skimage_data.py:13
+msgid "Cell"
+msgstr "Celulă"
+
+#: napari/plugins/_skimage_data.py:14
+msgid "Cells (3D+2Ch)"
+msgstr "Celule (3D+2Ch)"
+
+#: napari/plugins/_skimage_data.py:15
+msgid "Checkerboard"
+msgstr "Verificare"
+
+#: napari/plugins/_skimage_data.py:16
+msgid "Clock"
+msgstr "Ceas"
+
+#: napari/plugins/_skimage_data.py:17
+msgid "Coffee (RGB)"
+msgstr "Cafea (RGB)"
+
+#: napari/plugins/_skimage_data.py:18
+msgid "Coins"
+msgstr "Monede"
+
+#: napari/plugins/_skimage_data.py:19
+msgid "Colorwheel (RGB)"
+msgstr "Colorant (RGB)"
+
+#: napari/plugins/_skimage_data.py:20
+msgid "Eagle"
+msgstr "Vântână"
+
+#: napari/plugins/_skimage_data.py:21
+msgid "Grass"
+msgstr "Iarbă"
+
+#: napari/plugins/_skimage_data.py:22
+msgid "Gravel"
+msgstr "Gravel"
+
+#: napari/plugins/_skimage_data.py:23
+msgid "Horse"
+msgstr "Cai"
+
+#: napari/plugins/_skimage_data.py:24
+msgid "Hubble Deep Field (RGB)"
+msgstr "Câmp de adâncime hubble (RGB)"
+
+#: napari/plugins/_skimage_data.py:25
+msgid "Human Mitosis"
+msgstr "Mitoză umană"
+
+#: napari/plugins/_skimage_data.py:26
+msgid "Immunohistochemistry (RGB)"
+msgstr "Immunohistochemistry (RGB)"
+
+#: napari/plugins/_skimage_data.py:27
+msgid "Kidney (3D+3Ch)"
+msgstr "Rinichi (3D+3Ch)"
+
+#: napari/plugins/_skimage_data.py:28
+msgid "Labeled Faces in the Wild"
+msgstr "Chipuri etichetate în sălbăticie"
+
+#: napari/plugins/_skimage_data.py:29
+msgid "Lily (4Ch)"
+msgstr "Lily (4Ch)"
+
+#: napari/plugins/_skimage_data.py:30
+msgid "Microaneurysms"
+msgstr "Microanevrism"
+
+#: napari/plugins/_skimage_data.py:31
+msgid "Moon"
+msgstr "Lună"
+
+#: napari/plugins/_skimage_data.py:32
+msgid "Page"
+msgstr "Pagină"
+
+#: napari/plugins/_skimage_data.py:33
+msgid "Retina (RGB)"
+msgstr "Retina (RGB)"
+
+#: napari/plugins/_skimage_data.py:34
+msgid "Rocket (RGB)"
+msgstr "Rachetă (RGB)"
+
+#: napari/plugins/_skimage_data.py:35
+msgid "Shepp Logan Phantom"
+msgstr "Fantoma Logan Tropicală"
+
+#: napari/plugins/_skimage_data.py:36
+msgid "Skin (RGB)"
+msgstr "Skin (RGB)"
+
+#: napari/plugins/_skimage_data.py:37
+msgid "Text"
+msgstr "Text"
+
+#: napari/plugins/exceptions.py:44
+msgid "{pad} Errors for plugin '{plugin_name}' {pad}"
+msgstr "{pad} Erori pentru plugin-ul '{plugin_name}' {pad}"
+
+#: napari/plugins/io.py:69
+msgid "There is no registered plugin named '{plugin}'.\n"
+"Names of plugins offering readers are: {names}"
+msgstr "Nu există niciun plugin înregistrat numit '{plugin}'.\n"
+"Numele plugin-urilor care oferă cititori sunt: {names}"
+
+#: napari/plugins/io.py:79
+msgid "Plugin {plugin!r} does not support file {path}"
+msgstr "Plugin-ul {plugin!r} nu suportă fișierul {path}"
+
+#: napari/plugins/io.py:126
+msgid "No plugin found capable of reading [{repr_path}, ...] as stack."
+msgstr "Nici un plugin găsit capabil să citească [{repr_path}, ...] ca stivă."
+
+#: napari/plugins/io.py:135
+msgid "No plugin found capable of reading {repr_path}."
+msgstr "Niciun plugin găsit capabil să citească {repr_path}."
+
+#: napari/plugins/io.py:227
+msgid "No data written! There may be no plugins capable of writing these {length} layers to {path}."
+msgstr "Nu există date scrise! Este posibil să nu existe plugin-uri capabile să scrie aceste {length} straturi la {path}."
+
+#: napari/plugins/io.py:312
+msgid "There is no registered plugin named '{plugin_name}'.\n"
+"Names of plugins offering writers are: {names}"
+msgstr "Nu există niciun plugin înregistrat numit '{plugin_name}'.\n"
+"Numele plugin-urilor care oferă autori sunt: {names}"
+
+#: napari/plugins/io.py:332
+msgid "Requested plugin \"{plugin_name}\" is not capable of writing this combination of layer types: {layer_types}"
+msgstr "Plugin-ul solicitat \"{plugin_name}nu este capabil să scrie această combinație de tipuri de straturi: {layer_types}"
+
+#: napari/plugins/io.py:339
+msgid "Unable to find plugin capable of writing this combination of layer types: {layer_types}"
+msgstr "Nu s-a putut găsi plugin-ul capabil să scrie această combinație de tipuri de straturi: {layer_types}"
+
+#: napari/plugins/io.py:401
+msgid "There is no registered plugin named '{plugin_name}'.\n"
+"Plugins capable of writing layer._type_string layers are: {names}"
+msgstr "Nu există niciun plugin înregistrat numit '{plugin_name}'.\n"
+"Plugin-uri capabile să scrie straturi._type_string layers sunt: {names}"
+
+#: napari/resources/__init__.py:14
+msgid "Moved to module napari._qt.qt_resources. Will be removed after version 0.4.6."
+msgstr "Mutat la modulul napari._qt.qt_resources. Va fi eliminat după versiunea 0.4.6."
+
+#: napari/resources/_icons.py:16
+msgid "unrecognized icon name: {name!r}. Known names: {icons}"
+msgstr "Nume necunoscut al pictogramei: {name!r}. Nume cunoscute: {icons}"
+
+#: napari/resources/_icons.py:59
+msgid "Could not detect svg tag in {path_or_xml!r}"
+msgstr "Nu s-a putut detecta eticheta svg în {path_or_xml!r}"
+
+#: napari/_vispy/utils.py:63
+msgid "Could not find VispyLayer for layer of type {dtype}"
+msgstr "VispyLayer nu a putut fi găsit pentru stratul de tip {dtype}"
+
+#: napari/_vispy/utils_gl.py:99
+msgid "type {dtype} not allowed for texture; must be one of {textures}"
+msgstr "tipul {dtype} nu este permis pentru textură; trebuie să fie unul din {textures}"
+
+#: napari/_vispy/vispy_axes_visual.py:79 napari/_vispy/vispy_axes_visual.py:100 napari/_vispy/vispy_axes_visual.py:125
+msgid "Either 2 or 3 colors must be provided, got {number}."
+msgstr "Trebuie să fie furnizate 2 sau 3 culori, să obținem {number}."
+
+#: napari/_vispy/vispy_axes_visual.py:278
+msgid "Axes dash status and ndisplay combination not supported"
+msgstr "Starea liniei de axe și combinația de afișare nu sunt suportate"
+
+#: napari/_vispy/vispy_image_layer.py:172
+msgid "Shape of in dividual tiles in multiscale {shape} cannot exceed GL_MAX_TEXTURE_SIZE {texture_size}. Rendering is currently in {ndisplay}D mode."
+msgstr "Forma în dale împărțite în mai multe scări {shape} nu poate depăși GL_MAX_TEXTURE_SIZE {texture_size}. Redarea este în prezent în modul {ndisplay}D."
+
+#: napari/_vispy/vispy_image_layer.py:181
+msgid "data shape {shape} exceeds GL_MAX_TEXTURE_SIZE {texture_size} in at least one axis and will be downsampled. Rendering is currently in {ndisplay}D mode."
+msgstr "forma datelor {shape} depășește GL_MAX_TEXTURE_SIZE {texture_size} în cel puțin o axă și va fi downsamplat. Redarea este în prezent în modul {ndisplay}D."
+
+#: napari/_vispy/vispy_scale_bar_visual.py:169
+msgid "Position {position} not recognized."
+msgstr "Poziția {position} nu este recunoscută."
+
+#: napari/qt/__init__.py:15
+msgid "QtNDisplayButton is deprecated and will be removed in 0.4.9. Instead a more general QtStateButton is provided."
+msgstr "QtNDisplayButton este învechit și va fi eliminat în 0.4.9. În schimb, este furnizat un QtStateButton mai general."
+
+#: napari/utils/_magicgui.py:177
+msgid "magicgui function {gui} annotated with a return type of napari.types.LayerDataTuple did not return LayerData tuple(s)"
+msgstr "funcţia magicgui {gui} adnotată cu un tip de returnare napari.types.LayerDataTuple nu a returnat LayerData tuple(uri)"
+
+#: napari/utils/_register.py:23
+msgid "name {name} should not include 'layer'"
+msgstr "numele {name} nu ar trebui să includă 'strat'"
+
+#: napari/utils/dask_utils.py:173
+msgid "For best performance with Dask arrays in napari, please upgrade Dask to v2.15.0 or later. Current version is {dask_version}"
+msgstr "Pentru cea mai bună performanță în napari de array-uri, te rugăm să actualizezi Dask la v2.15.0 sau mai târziu. Versiunea curentă este {dask_version}"
+
+#: napari/utils/interactions.py:18
+msgid "cannot set attribute {name}"
+msgstr "nu poate seta atributul {name}"
+
+#: napari/utils/interactions.py:29
+msgid "cannot set item {name}"
+msgstr "nu poate seta articolul {name}"
+
+#: napari/utils/io.py:196
+msgid "No files found in {filenames} after removing subdirectories"
+msgstr "Nu s-au găsit fișiere în {filenames} după ștergerea subdosarelor"
+
+#: napari/utils/io.py:234
+msgid "To stack multiple files into a single array with numpy, all input arrays must have the same shape. Set `use_dask` to True to stack arrays with different shapes."
+msgstr "Pentru a pune mai multe fişiere într-o singură matrice cu amorţeli, toate array-urile de intrare trebuie să aibă aceeaşi formă. Setați `use_dask` la True pentru a stiva array-uri cu diferite forme."
+
+#: napari/utils/io.py:297
+msgid "Not a zarr dataset or group: {path}"
+msgstr "Nu este un set de date sau un grup: {path}"
+
+#: napari/utils/io.py:402
+msgid "File \"{filename}\" not recognized as valid Layer data"
+msgstr "Fișierul „{filename}” nu este recunoscut ca fiind valabil pentru datele nivelului"
+
+#: napari/utils/io.py:410
+msgid "File \"{filename}\" not recognized as {require_type} data"
+msgstr "Fișierul „{filename}” nu este recunoscut ca {require_type} date"
+
+#: napari/utils/io.py:535
+msgid "Expected number of shapes not found"
+msgstr "Numărul așteptat de forme nu a fost găsit"
+
+#: napari/utils/key_bindings.py:176
+msgid "invalid key {key}"
+msgstr "cheie nevalidă {key}"
+
+#: napari/utils/key_bindings.py:186
+msgid "invalid modifier key {modifier}"
+msgstr "cheie invalidă pentru modificator {modifier}"
+
+#: napari/utils/key_bindings.py:272
+msgid "key combination {key} already used! specify 'overwrite=True' to bypass this check"
+msgstr "combinația de chei {key} deja utilizată! specificați 'suprascrie=True' pentru a ocoli această verificare"
+
+#: napari/utils/key_bindings.py:284
+msgid "'func' must be a callable"
+msgstr "'funcție' trebuie să fie un apel apelabil"
+
+#: napari/utils/key_bindings.py:433
+msgid "expected {func} to be callable"
+msgstr "așteptat {func} să fie apelabil"
+
+#: napari/utils/misc.py:187
+msgid "length of {obj} must equal {length}"
+msgstr "lungimea de {obj} trebuie să fie {length}"
+
+#: napari/utils/misc.py:241
+msgid "{class_name} may only be called with a `str` or an instance of {class_name}. Got {dtype}"
+msgstr "{class_name} poate fi apelat doar cu un `str` sau o instanță de {class_name}. Am {dtype}"
+
+#: napari/utils/misc.py:319
+msgid "Argument must be a string, PathLike, or sequence thereof"
+msgstr "Argumentul trebuie să fie un şir, un like-u sau o secvenţă a acestuia"
+
+#: napari/utils/misc.py:388
+msgid "Not a valid layer data tuple: {value!r}"
+msgstr "Nu este un strat valid de date: {value!r}"
+
+#: napari/utils/misc.py:404
+msgid "Not a valid list of layer data tuples!"
+msgstr "Nu este o listă validă de tupluri de date!"
+
+#: napari/utils/misc.py:458
+msgid "{path} is not a directory."
+msgstr "{path} nu este un director."
+
+#: napari/utils/theme.py:21
+msgid "palette is deprecated and will be removed after version 0.4.6. Please use get_theme and register_theme instead"
+msgstr "paleta este învechită și va fi eliminată după versiunea 0.4.6. Folosiți în schimb get_theme și registrează_theme"
+
+#: napari/utils/theme.py:166
+msgid "Unrecognized theme {name}. Availabe themes are {themes}"
+msgstr "Temă nerecunoscută {name}. Temele disponibile sunt {themes}"
+
+#: napari/utils/translations.py:181 napari/utils/translations.py:208 napari/utils/translations.py:386
+msgid "Must provide at least a `msgid` parameter!"
+msgstr "Trebuie să furnizați cel puțin un parametru `msgid`!"
+
+#: napari/utils/translations.py:344
+msgid "Requested locale not available: {locale}"
+msgstr "Localizarea solicitată nu este disponibilă: {locale}"
+
+#: napari/utils/validators.py:55
+msgid "object '{obj}' is not an indexable collection (list, tuple, or np.array), of length {number}"
+msgstr "obiectul '{obj}' nu este o colecție indexabilă (listă, tub sau np.array), de lungime {number}"
+
+#: napari/utils/validators.py:68
+msgid "object must have length {number}, got {obj_len}"
+msgstr "obiectul trebuie să aibă lungimea {number}, a obținut {obj_len}"
+
+#: napari/utils/validators.py:80
+msgid "Every item in the sequence must be of type {dtype}, but {item} is of type {item_type}"
+msgstr "Fiecare articol din secvenţă trebuie să fie de tip {dtype}, dar {item} este de tip {item_type}"
+
+#: napari/components/_viewer_key_bindings.py:18
+msgid "Reset dims scroll progress"
+msgstr "Resetare progres derulare dims"
+
+#: napari/components/_viewer_key_bindings.py:30
+msgid "Toggle ndisplay."
+msgstr "Comută afișajul."
+
+#: napari/components/_viewer_key_bindings.py:52
+msgid "Increment dimensions slider to the left."
+msgstr "Slider dimensiuni incrementate la stanga."
+
+#: napari/components/_viewer_key_bindings.py:63
+msgid "Increment dimensions slider to the right."
+msgstr "Incrementează glisorul la dreapta."
+
+#: napari/components/_viewer_key_bindings.py:74
+msgid "Move focus of dimensions slider up."
+msgstr "Mutați centrul dimensiunilor glisor în sus."
+
+#: napari/components/_viewer_key_bindings.py:83
+msgid "Move focus of dimensions slider down."
+msgstr "Mutați focalizarea dimensiunilor în jos."
+
+#: napari/components/_viewer_key_bindings.py:92
+msgid "Change order of the visible axes, e.g. [0, 1, 2] -> [2, 0, 1]."
+msgstr "Schimbă ordinea axelor vizibile, de ex. [0, 1, 2] -> [2, 0, 1]."
+
+#: napari/components/_viewer_key_bindings.py:103
+msgid "Transpose order of the last two visible axes, e.g. [0, 1] -> [1, 0]."
+msgstr "Transpuneți ordinea ultimelor două axe vizibile, de ex. [0, 1] -> [1, 0]."
+
+#: napari/components/_viewer_key_bindings.py:114
+msgid "Reset view to original state."
+msgstr "Resetează vizualizarea la starea originală."
+
+#: napari/components/_viewer_key_bindings.py:123
+msgid "Toggle grid mode."
+msgstr "Comutare mod grilă."
+
+#: napari/components/_viewer_key_bindings.py:132
+msgid "Toggle visibility of selected layers"
+msgstr "Comută vizibilitatea straturilor selectate"
+
+#: napari/components/dims.py:126
+msgid "Invalid ordering {order} for {ndim} dimensions"
+msgstr "Comandă nevalidă {order} pentru {ndim} dimensiuni"
+
+#: napari/components/dims.py:360
+msgid "Axis {axis} not defined for dimensionality {ndim}. Must be in [{ndim_lower}, {ndim})."
+msgstr "Axa {axis} nu este definită pentru dimensionalitatea {ndim}. Trebuie să fie în [{ndim_lower}, {ndim})."
+
+#: napari/components/layerlist.py:94
+msgid "'viewer.layers.selected' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection'"
+msgstr "'viewer.layers.selected' este învechit și va fi eliminat în sau după v0.4.9. Utilizați 'viewer.layers.selection'"
+
+#: napari/components/layerlist.py:137
+msgid "'viewer.layers.unselect_all()' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection.clear()'. To unselect everything but a set of ignored layers, use 'viewer.layers.selection.intersection_update({ignored})'"
+msgstr "'viewer.layers.unselect_all()' este învechit și va fi eliminat în sau după v0.4.9. Utilizați 'viewer.layers.selection. lear()'. Pentru a deselecta totul, dar un set de straturi ignorate, folosiți 'viewer.layers.selection.intersection_update({ignored})'"
+
+#: napari/components/layerlist.py:190
+msgid "All-NaN axis encountered"
+msgstr "Între-NaN axe întâlnite"
+
+#: napari/components/layerlist.py:321
+msgid "No layers selected"
+msgstr "Nici un strat selectat"
+
+#: napari/components/layerlist.py:323
+msgid "No layers to save"
+msgstr "Niciun strat de salvat"
+
+#: napari/components/viewer_model.py:149
+msgid "'viewer.events.active_layer' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.active' instead"
+msgstr "'viewer.events.active_layer' este învechit și va fi șters în napari v0.4.9, folosiți 'viewer.layers.selection.events.active' în schimb"
+
+#: napari/components/viewer_model.py:162
+msgid "Theme '{theme_name}' not found; options are {themes}."
+msgstr "Tema '{theme_name}' nu a fost găsită; opţiunile sunt {themes}."
+
+#: napari/components/viewer_model.py:294 napari/components/viewer_model.py:310
+msgid "'viewer.active_layer' is deprecated and will be removed in napari v0.4.9.  Please use 'viewer.layers.selection.active' instead."
+msgstr "'viewer.active_layer' este învechit și va fi eliminat în napari v0.4.9. Folosiți în schimb 'viewer.layers.selection.active'."
+
+#: napari/components/viewer_model.py:353
+msgid "layer.position is deprecated"
+msgstr "layer.position este învechit"
+
+#: napari/components/viewer_model.py:664
+msgid "Received sequence for argument '{argument}', did you mean to specify a 'channel_axis'? "
+msgstr "Secvență primită pentru argumentul '{argument}', vrei să specifici un 'canel_axis'? "
+
+#: napari/components/viewer_model.py:728
+msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. Available samples include: {samples}."
+msgstr "Plugin-ul {plugin!r} nu furnizează date eșantion numite {sample!r}. Probele disponibile includ: {samples}."
+
+#: napari/components/viewer_model.py:736
+msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. No plugin samples have been registered."
+msgstr "Plugin-ul {plugin!r} nu furnizează date eșantion numite {sample!r}. Nici un eșantion de plugin nu a fost înregistrat."
+
+#: napari/components/viewer_model.py:760
+msgid "Got unexpected type for sample ({plugin!r}, {sample!r}): {data_type}"
+msgstr "Am primit tip neașteptat de exemplu ({plugin!r}, {sample!r}): {data_type}"
+
+#: napari/components/viewer_model.py:812
+msgid "'path' argument must be a string, list, or tuple"
+msgstr "Argumentul \"cale\" trebuie să fie un string, o listă sau un tuple"
+
+#: napari/components/viewer_model.py:960
+msgid "Unrecognized layer_type: '{layer_type}'. Must be one of: {layer_names}."
+msgstr "layer_type: '{layer_type}'. Trebuie să fie unul dintre el: {layer_names}."
+
+#: napari/components/viewer_model.py:976
+msgid "_add_layer_from_data received an unexpected keyword argument ({bad_key}) for layer type {layer_type}"
+msgstr "_add_layer_from_data a primit un argument neașteptat de cuvinte cheie ({bad_key}) pentru tipul de nivel {layer_type}"
+
+#: napari/components/viewer_model.py:1007
+msgid "LayerData must be a 1-, 2-, or 3-tuple"
+msgstr "LayerDatele trebuie să fie 1-, 2-, sau 3-tuple"
+
+#: napari/components/viewer_model.py:1017
+msgid "The second item in a LayerData tuple must be a dict"
+msgstr "Al doilea element dintr-un LayerData tuple trebuie să fie un dicționar"
+
+#: napari/components/viewer_model.py:1027
+msgid "The third item in a LayerData tuple must be one of: {layers!r}."
+msgstr "Al treilea element dintr-un LayerData tuple trebuie să fie unul din: {straturi!r}."
+
+#: napari/components/viewer_model.py:1140
+msgid "Invalid layer_type: {layer_type}"
+msgstr "Tip strat nevalid: {layer_type}"
+
+#: napari/_qt/__init__.py:13
+msgid "No Qt bindings could be found.\n\n"
+"napari requires either PyQt5 or PySide2 to be installed in the environment.\n"
+"To install the default backend (currently PyQt5), run \"pip install napari[all]\" \n"
+"You may also use \"pip install napari[pyside2]\"for Pyside2, or \"pip install napari[pyqt5]\" for PyQt5"
+msgstr "Nu au putut fi găsite legături Qt.\n\n"
+"napari necesită ca PyQt5 sau PySide2 să fie instalat în mediul înconjurător.\n"
+"Pentru a instala backend-ul implicit (în prezent PyQt5), rulează \"pip install napari[all]\" \n"
+"Poți folosi, de asemenea, \"pip install napari[pyside2]\"for Pyside2, sau \"pip install napari[pyqt5]\" pentru PyQt5"
+
+#: napari/_qt/__init__.py:33
+msgid "napari was tested with QT library `>=5.12.3`.\n"
+"The version installed is {version}. Please report any issues with this specific QT version at https://github.com/Napari/napari/issues."
+msgstr "napari a fost testat cu biblioteca QT `>=5.12.3`.\n"
+"Versiunea instalată este {version}. Vă rugăm să raportați orice problemă cu această versiune QT specifică la https://github.com/Napari/napari/problema."
+
+#: napari/_qt/qt_event_loop.py:122
+msgid "QApplication already existed, these arguments to to 'get_app' were ignored: {args}"
+msgstr "QApplication a existat deja, aceste argumente pentru 'get_app' au fost ignorate: {args}"
+
+#: napari/_qt/qt_event_loop.py:245
+msgid "\n"
+"The 'gui_qt()' context manager is deprecated.\n"
+"If you are running napari from a script, please use 'napari.run()' as follows:\n\n"
+"    import napari\n\n"
+"    viewer = napari.Viewer()  # no prior setup needed\n"
+"    # other code using the viewer...\n"
+"    napari.run()\n\n"
+"In IPython or Jupyter, 'napari.run()' is not necessary. napari will automatically\n"
+"start an interactive event loop for you: \n\n"
+"    import napari\n"
+"    viewer = napari.Viewer()  # that's it!\n"
+msgstr "\n"
+"Managerul contextului 'gui_qt()' este învechit.\n"
+"Dacă rulați napari dintr-un script, vă rugăm să folosiți 'napari. un()\" după cum urmează:\n\n"
+"    import napari\n\n"
+"    viewer = napari. iewer() # nu este necesară o configurare anterioară\n"
+"    # alt cod folosind vizualizatorul. .\n"
+"    napari.run()\n\n"
+"În IPython sau Jupyter, \"napari.run()\" nu este necesar. napari va începe automat\n"
+"o buclă interactivă de evenimente pentru tine: \n\n"
+"    import napari\n"
+"    viewer = napari. iewer() # asta!\n"
+
+#: napari/_qt/qt_event_loop.py:335
+msgid "No Qt app has been created. One can be created by calling `get_app()` or `qtpy.QtWidgets.QApplication([])`"
+msgstr "Nu a fost creată nicio aplicație Qt. Una poate fi creată apelând `get_app()` sau `qtpy.QtWidgets.QApplication([])`"
+
+#: napari/_qt/qt_event_loop.py:342
+msgid "Refusing to run a QApplication with no topLevelWidgets. To run the app anyway, use `{_func_name}(force=True)`"
+msgstr "Refuzați să rulați o aplicație QApplication fără topLevelWidget. Pentru a rula aplicația oricum, folosiți `{_func_name}(forță=True)`"
+
+#: napari/_qt/qt_event_loop.py:353
+msgid "A QApplication is already running with 1 event loop. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
+msgid_plural "A QApplication is already running with {n} event loops. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[0] "O aplicație rulează deja cu o buclă de eveniment. Pentru a introduce *o alta* buclă de eveniment, utilizați `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[1] "O aplicație rulează deja cu {n} bucle de evenimente. Pentru a introduce *o altă buclă* de eveniment, utilizați `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[2] "O aplicație rulează deja cu {n} bucle de evenimente. Pentru a introduce *o altă buclă* de eveniment, utilizați `{_func_name}(max_loop_level={max_loop_level})`"
+
+#: napari/_qt/qt_main_window.py:310
+msgid "Ready"
+msgstr "Gata"
+
+#: napari/_qt/qt_main_window.py:350
+msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7. Please use `napari.qt.get_stylesheet` instead"
+msgstr "Atributul 'raw_stylesheet' este învechit și va fi eliminat în versiunea 0.4.7. Folosiți în schimb `napari.qt.get_stylesheet`"
+
+#: napari/_qt/qt_main_window.py:396
+msgid "Open File(s)..."
+msgstr "Deschide Fișier(e) ..."
+
+#: napari/_qt/qt_main_window.py:398
+msgid "Open file(s)"
+msgstr "Deschide fişier(e)"
+
+#: napari/_qt/qt_main_window.py:402
+msgid "Open Files as Stack..."
+msgstr "Deschide fișierele ca stivuitor..."
+
+#: napari/_qt/qt_main_window.py:405
+msgid "Open files"
+msgstr "Deschide fişiere"
+
+#: napari/_qt/qt_main_window.py:410
+msgid "Open Folder..."
+msgstr "Deschide dosar..."
+
+#: napari/_qt/qt_main_window.py:412
+msgid "Open a folder"
+msgstr "Deschide un dosar"
+
+#: napari/_qt/qt_main_window.py:418
+msgid "Open preferences dialog"
+msgstr "Deschide dialogul preferințe"
+
+#: napari/_qt/qt_main_window.py:423
+msgid "Save Selected Layer(s)..."
+msgstr "Salvează layer(urile) selectat(e)..."
+
+#: napari/_qt/qt_main_window.py:426
+msgid "Save selected layers"
+msgstr "Salvează straturile selectate"
+
+#: napari/_qt/qt_main_window.py:432
+msgid "Save All Layers..."
+msgstr "Salvează toate nivelele..."
+
+#: napari/_qt/qt_main_window.py:435
+msgid "Save all layers"
+msgstr "Salvează toate straturile"
+
+#: napari/_qt/qt_main_window.py:440
+msgid "Save Screenshot..."
+msgstr "Salvează captura ecranului..."
+
+#: napari/_qt/qt_main_window.py:443
+msgid "Save screenshot of current display, default .png"
+msgstr "Salvează captura de ecran a ecranului curent, .png implicit"
+
+#: napari/_qt/qt_main_window.py:448
+msgid "Save Screenshot with Viewer..."
+msgstr "Salvează captura de ecran cu vizualizator..."
+
+#: napari/_qt/qt_main_window.py:452
+msgid "Save screenshot of current display with the viewer, default .png"
+msgstr "Salvați captura de ecran a afișajului curent cu vizualizatorul, .png implicit"
+
+#: napari/_qt/qt_main_window.py:460
+msgid "Exit"
+msgstr "Ieșire"
+
+#: napari/_qt/qt_main_window.py:468
+msgid "Restart"
+msgstr "Repornire"
+
+#: napari/_qt/qt_main_window.py:471
+msgid "Close Window"
+msgstr "Închide fereastra"
+
+#: napari/_qt/qt_main_window.py:477
+msgid "Open Sample"
+msgstr "Deschide Mostră"
+
+#: napari/_qt/qt_main_window.py:502
+msgid "&File"
+msgstr "&Fișier"
+
+#: napari/_qt/qt_main_window.py:546
+msgid "Toggle Menubar Visibility"
+msgstr "Comutare vizibilitate meniu"
+
+#: napari/_qt/qt_main_window.py:549
+msgid "Hide Menubar"
+msgstr "Hide Menubar"
+
+#: napari/_qt/qt_main_window.py:552
+msgid "Toggle Full Screen"
+msgstr "Comutare ecran complet"
+
+#: napari/_qt/qt_main_window.py:555
+msgid "Toggle full screen"
+msgstr "Comutare ecran complet"
+
+#: napari/_qt/qt_main_window.py:557 napari/_qt/qt_main_window.py:560
+msgid "Toggle Play"
+msgstr "Comutare redare"
+
+#: napari/_qt/qt_main_window.py:562
+msgid "&View"
+msgstr "&Vizualizare"
+
+#: napari/_qt/qt_main_window.py:571 napari/_qt/qt_main_window.py:577
+msgid "Toggle Chunk Outlines"
+msgstr "Comută contururile chunk-ului"
+
+#: napari/_qt/qt_main_window.py:582
+msgid "Axes"
+msgstr "Axe"
+
+#: napari/_qt/qt_main_window.py:584 napari/_qt/qt_main_window.py:635
+msgid "Visible"
+msgstr "Vizibil"
+
+#: napari/_qt/qt_main_window.py:592 napari/_qt/qt_main_window.py:647
+msgid "Colored"
+msgstr "Colorat"
+
+#: napari/_qt/qt_main_window.py:600
+msgid "Labels"
+msgstr "Etichete"
+
+#: napari/_qt/qt_main_window.py:608
+msgid "Dashed"
+msgstr "Oprită"
+
+#: napari/_qt/qt_main_window.py:616
+msgid "Arrows"
+msgstr "Săgeți"
+
+#: napari/_qt/qt_main_window.py:633
+msgid "Scale Bar"
+msgstr "Scară Bară"
+
+#: napari/_qt/qt_main_window.py:659
+msgid "Ticks"
+msgstr "Căpuşe"
+
+#: napari/_qt/qt_main_window.py:681
+msgid "Remove Dock Widgets"
+msgstr "Elimină widget-urile de andocare"
+
+#: napari/_qt/qt_main_window.py:682
+msgid "Remove all dock widgets"
+msgstr "Elimină toate widget-urile de andocare"
+
+#: napari/_qt/qt_main_window.py:687
+msgid "&Window"
+msgstr "&Fereastră"
+
+#: napari/_qt/qt_main_window.py:693
+msgid "&Plugins"
+msgstr "&Extensii"
+
+#: napari/_qt/qt_main_window.py:696
+msgid "Install/Uninstall Package(s)..."
+msgstr "Instalare/Dezinstalare Pachete(e)..."
+
+#: napari/_qt/qt_main_window.py:702
+msgid "Plugin Errors..."
+msgstr "Erori Plugin..."
+
+#: napari/_qt/qt_main_window.py:705
+msgid "Review stack traces for plugin exceptions and notify developers"
+msgstr "Revizuiește stilurile de urmărire pentru excepțiile plugin-urilor și anunță dezvoltatorii"
+
+#: napari/_qt/qt_main_window.py:713
+msgid "Add Dock Widget"
+msgstr "Adaugă widget de andocare"
+
+#: napari/_qt/qt_main_window.py:761
+msgid "&Help"
+msgstr "&Ajutor"
+
+#: napari/_qt/qt_main_window.py:763
+msgid "napari Info"
+msgstr "napari Info"
+
+#: napari/_qt/qt_main_window.py:765
+msgid "About napari"
+msgstr "Despre napari"
+
+#: napari/_qt/qt_main_window.py:772
+msgid "Show Key Bindings"
+msgstr "Afișare butoane"
+
+#: napari/_qt/qt_main_window.py:776
+msgid "key_bindings"
+msgstr "bindări cheie_"
+
+#: napari/_qt/qt_main_window.py:936
+msgid "Dock widget {number}"
+msgstr "Widget andocare {number}"
+
+#: napari/_qt/qt_main_window.py:1028
+msgid "Could not find a dock widget containing: {widget}"
+msgstr "Nu s-a putut găsi un widget dock care conține: {widget}"
+
+#: napari/_qt/qt_main_window.py:1141 napari/_qt/qt_main_window.py:1153
+msgid "This viewer has already been closed and deleted. Please create a new one."
+msgstr "Acest vizualizator a fost deja închis şi şters. Vă rugăm să creaţi unul nou."
+
+#: napari/_qt/qt_main_window.py:1168
+msgid "The window geometry settings could not be loaded due to the following error: {err}"
+msgstr "Setările de geometrie ale ferestrei nu au putut fi încărcate din cauza următoarei erori: {err}"
+
+#: napari/_qt/qt_viewer.py:131
+msgid "layer list"
+msgstr "listă strat"
+
+#: napari/_qt/qt_viewer.py:139
+msgid "layer controls"
+msgstr "comenzi strat"
+
+#: napari/_qt/qt_viewer.py:147
+msgid "console"
+msgstr "consolă"
+
+#: napari/_qt/qt_viewer.py:253
+msgid "The 'raw_stylesheet' attribute is deprecated and will beremoved in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "Atributul 'raw_stylesheet' este învechit și va fi mutat în versiunea 0.4.7. Folosiți în schimb `napari.qt.get_stylesheet`"
+
+#: napari/_qt/qt_viewer.py:307
+msgid "performance"
+msgstr "performanțe"
+
+#: napari/_qt/qt_viewer.py:323
+msgid "napari-console not found. It can be installed with \"pip install napari_console\""
+msgstr "napari-console nu a fost găsit. Poate fi instalat cu \"pip install napari_console\""
+
+#: napari/_qt/qt_viewer.py:445
+msgid "There are no layers in the viewer to save"
+msgstr "Nu există straturi în vizualizator pentru a salva"
+
+#: napari/_qt/qt_viewer.py:447
+msgid "Please select one or more layers to save,\n"
+"or use \"Save all layers...\""
+msgstr "Vă rugăm să selectaţi unul sau mai multe straturi pentru a salva,\n"
+"sau utilizaţi \"Salvaţi toate nivelele...\""
+
+#: napari/_qt/qt_viewer.py:452
+msgid "Nothing to save"
+msgstr "Nimic de salvat"
+
+#: napari/_qt/qt_viewer.py:454
+msgid "selected"
+msgstr "selectat"
+
+#: napari/_qt/qt_viewer.py:454
+msgid "all"
+msgstr "toate"
+
+#: napari/_qt/qt_viewer.py:460
+msgid "Save {msg} layers"
+msgstr "Salvează {msg} straturi"
+
+#: napari/_qt/qt_viewer.py:473
+msgid "File {filename} save failed.\n"
+"{error_messages}"
+msgstr "Salvarea fișierului {filename} a eșuat.\n"
+"{error_messages}"
+
+#: napari/_qt/qt_viewer.py:527
+msgid "Select file(s)..."
+msgstr "Selectaţi fişier(e)..."
+
+#: napari/_qt/qt_viewer.py:542
+msgid "Select files..."
+msgstr "Selectați fișiere..."
+
+#: napari/_qt/qt_viewer.py:556
+msgid "Select folder..."
+msgstr "Selectați dosarul..."
+
+#: napari/_qt/qthreading.py:135
+msgid "RuntimeError in aborted thread: {result}"
+msgstr "Eroare RuntimeError în discuția abandonată: {result}"
+
+#: napari/_qt/qthreading.py:177
+msgid "\"{name}\" failed to define work() method"
+msgstr "\"{name}\" nu a reușit să definească metoda de lucru ()"
+
+#: napari/_qt/qthreading.py:200
+msgid "This worker is already started!"
+msgstr "Acest lucrător a început deja!"
+
+#: napari/_qt/qthreading.py:242
+msgid "Generator function {func} cannot be used with FunctionWorker, use GeneratorWorker instead"
+msgstr "Funcția Generator {func} nu poate fi folosită cu FunctionWorker, folosește GeneratorWorker în schimb"
+
+#: napari/_qt/qthreading.py:295
+msgid "Regular function {func} cannot be used with GeneratorWorker, use FunctionWorker instead"
+msgstr "Funcția regulată {func} nu poate fi folosită cu GeneratorWorker, folosește FunctionWorker în schimb"
+
+#: napari/_qt/qthreading.py:451
+msgid "Workers did not quit gracefully in the time allotted ({msecs} ms)"
+msgstr "Lucrătorii nu au renunțat cu grație în timpul alocat ({msecs} ms)"
+
+#: napari/_qt/qthreading.py:543
+msgid "Worker {_worker_class} must be a subclass of WorkerBase"
+msgstr "Lucrătorul {_worker_class} trebuie să fie o subclasă de WorkerBase"
+
+#: napari/_qt/qthreading.py:555
+msgid "The '_connect' argument must be a dict"
+msgstr "Argumentul '_connect' trebuie să fie un dict"
+
+#: napari/_qt/qthreading.py:569
+msgid "\"_connect[{key!r}]\" must be a function or sequence of functions"
+msgstr "\"_connect[{key!r}]\" trebuie să fie o funcţie sau o secvenţă de funcţii"
+
+#: napari/_qt/qthreading.py:817
+msgid "_connect parameter must be a dict"
+msgstr "parametrul _connect trebuie să fie dictat"
+
+#: napari/_qt/utils.py:61
+msgid "Invalid QByte string. QByte strings start with '{QBYTE_FLAG}'"
+msgstr "Șir QByte invalid. Șirurile QByte încep cu '{QBYTE_FLAG}'"
+
+#: napari/_qt/utils.py:255
+msgid "\"widget\" must be a QWidget or a sequence of QWidgets"
+msgstr "\"widget\" trebuie să fie un QWidget sau o secvență de QWidgets"
+
+#: napari/view_layers.py:105
+msgid "No Viewer method named '{add_string}'"
+msgstr "Nicio metodă de vizualizare numită '{add_string}'"
+
+#: napari/window.py:26
+msgid "could not import `qtpy`. Cannot show napari window."
+msgstr "Nu s-a putut importa `qtpy`. Nu se poate afișa fereastra napari."
+

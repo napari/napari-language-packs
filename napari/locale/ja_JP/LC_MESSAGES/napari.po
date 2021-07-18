@@ -1,0 +1,2895 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: napari\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-04-23 19:01-0500\n"
+"PO-Revision-Date: 2021-07-18 01:54\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: napari\n"
+"X-Crowdin-Project-ID: 443044\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /[goanpeca.napari-language-packs] main/napari/locale/napari.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Language: ja_JP\n"
+
+#: napari/layers/shapes/_shapes_models/_polgyon_base.py:71
+msgid "Shape needs at least two vertices, {number} provided."
+msgstr "Shapeには少なくとも頂点が2つ必要ですが、{number} 個しか与えられていません。"
+
+#: napari/layers/shapes/_shapes_models/ellipse.py:76
+msgid "Data shape does not match a ellipse. Ellipse expects four corner vertices, {number} provided."
+msgstr "データの形状が楕円と一致しません。楕円は角の4つの頂点で定められますが、{number} 点が与えられています。"
+
+#: napari/layers/shapes/_shapes_models/line.py:61
+msgid "Data shape does not match a line. A line expects two end vertices, {number} provided."
+msgstr "データの形状が直線のものではありません。直線は始点と終点の2点で定まりますが 、{number} 点が与えられています。"
+
+#: napari/layers/shapes/_shapes_models/rectangle.py:68
+msgid "Data shape does not match a rectangle. Rectangle expects four corner vertices, {number} provided."
+msgstr "データの形状が長方形のものではありません。長方形は角の4つの頂点で定まりますが、 {number} 点が与えられています。"
+
+#: napari/layers/shapes/_shapes_models/shape.py:346
+msgid "Axis not recognized, must be one of \"{{0, 1}}\""
+msgstr "軸が認識できません。\"{{0, 1}}\" のいずれかでなければなりません"
+
+#: napari/layers/shapes/_shapes_models/shape.py:400
+msgid "mask shape length must either be 2 or the same as the dimensionality of the shape, expected {expected} got {received}."
+msgstr "マスクの形状の長さは 2 か、shapeの次元と同じでなければなりません。 {received} が{expected} になると予想されます。"
+
+#: napari/layers/image/experimental/_octree_slice.py:92
+msgid "Octree level {index} is not in range(0, {num_levels})"
+msgstr "Octree level {index} is not in range(0, {num_levels})"
+
+#: napari/layers/image/experimental/_octree_slice.py:137
+msgid "Invalid octree level {index}"
+msgstr "無効な octree レベル {index}"
+
+#: napari/layers/image/experimental/octree.py:66
+msgid "Data of shape {shape} resulted no octree levels?"
+msgstr "形状の {shape} のデータはoctree レベルをもたらしませんでしたか？"
+
+#: napari/layers/image/experimental/octree.py:116
+msgid "Level {level_index} is not in range(0, {top})"
+msgstr "レベル {level_index} が (0, {top}) の範囲にありません"
+
+#: napari/layers/image/experimental/octree.py:403
+msgid "Multiscale data has downsampling ratio of {ratio}, expected 2."
+msgstr "マルチスケールデータのダウンサンプリング比が {ratio} です。2であると思われます。"
+
+#: napari/layers/image/experimental/octree_image.py:223
+msgid "Octree level {level} is negative."
+msgstr "Octreeレベル {level} が負です。"
+
+#: napari/layers/labels/_labels_constants.py:71
+msgid "circle"
+msgstr "円"
+
+#: napari/layers/labels/_labels_constants.py:72 napari/layers/points/_points_constants.py:91
+msgid "square"
+msgstr "正方形の"
+
+#: napari/layers/labels/_labels_constants.py:77
+msgid "auto"
+msgstr "自動"
+
+#: napari/layers/labels/_labels_constants.py:78
+msgid "direct"
+msgstr "「direct」!"
+
+#: napari/layers/labels/labels.py:252 napari/layers/labels/labels.py:606
+msgid "enter paint or fill mode to edit labels"
+msgstr "ラベルを編集するにはペイントモードまたは塗りつぶしモードを入力してください"
+
+#: napari/layers/labels/labels.py:401
+msgid "Only integer types are supported for Labels layers, but data contains {data_level_type}."
+msgstr "ラベルレイヤーでは整数型のみサポートされますが、データには {data_level_type} が含まれています。"
+
+#: napari/layers/labels/labels.py:427
+msgid "the number of items must be equal for all properties"
+msgstr "すべてのプロパティに対してアイテム数は等しくなければなりません"
+
+#: napari/layers/labels/labels.py:469
+msgid "cannot reduce selected label below 0"
+msgstr "選択したラベルを0以下に減らすことはできません"
+
+#: napari/layers/labels/labels.py:507
+msgid "Unsupported Color Mode"
+msgstr "サポートされていないカラーモード"
+
+#: napari/layers/labels/labels.py:532 napari/layers/labels/labels.py:549
+msgid "The square brush shape is deprecated and will be removed in version 0.4.9. Afterward, only the circle brush shape will be available, and the layer.brush_shape attribute will be removed."
+msgstr "正方形ブラシは推奨されず、バージョン 0.4.9 で削除されます。 その後、円ブラシのみが利用可能になり、layer.brush_shape 属性は削除されます。"
+
+#: napari/layers/labels/labels.py:610
+msgid "hold <space> to pan/zoom, click to pick a label"
+msgstr "<space> を長押しでパン/ズーム、クリックでラベルを選択"
+
+#: napari/layers/labels/labels.py:623
+msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
+msgstr "<space> を押してパン/ズーム、 <shift> を押してラベル切り替え、 <control> を押して塗りつぶし、 <alt> を押して消しゴム、ドラッグしてラベルを描く"
+
+#: napari/layers/labels/labels.py:630
+msgid "hold <space> to pan/zoom, click to fill a label"
+msgstr "<space> を押してパン/ズーム、クリックでラベルを塗りつぶします。"
+
+#: napari/layers/labels/labels.py:643
+msgid "hold <space> to pan/zoom, drag to erase a label"
+msgstr "<space> を押してパン/ズーム、ドラッグでラベルを消します。"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:287 napari/_qt/layer_controls/qt_points_controls.py:225 napari/layers/labels/labels.py:648 napari/layers/points/points.py:1120 napari/layers/shapes/shapes.py:1495
+msgid "Mode not recognized"
+msgstr "モードが認識されていません"
+
+#: napari/layers/labels/labels.py:774
+msgid "Contours are not displayed during 3D rendering"
+msgstr "3Dレンダリング中は輪郭が表示されません"
+
+#: napari/layers/labels/labels.py:1082
+msgid "[No Properties]"
+msgstr "[プロパティなし]"
+
+#: napari/layers/tracks/_track_utils.py:205
+msgid "track vertices should be a NxD array"
+msgstr "トラックの頂点はN×D配列でなければなりません"
+
+#: napari/layers/tracks/_track_utils.py:210
+msgid "track vertices should be 4 or 5-dimensional"
+msgstr "トラックの頂点は4または5次元でなければなりません"
+
+#: napari/layers/tracks/_track_utils.py:220
+msgid "track id must be an integer"
+msgstr "トラック IDは整数でなければなりません"
+
+#: napari/layers/tracks/_track_utils.py:225
+msgid "track timestamps must be greater than zero"
+msgstr "トラックのタイムスタンプは0より大きくなければなりません"
+
+#: napari/layers/tracks/_track_utils.py:234
+msgid "tracks should be ordered by ID and time"
+msgstr "トラックはIDと時刻順に並び替える必要があります"
+
+#: napari/layers/tracks/_track_utils.py:249
+msgid "the number of properties must equal the number of vertices"
+msgstr "プロパティの数は頂点の数と等しくなければなりません"
+
+#: napari/layers/tracks/_track_utils.py:277
+msgid "graph node {node_idx} not found"
+msgstr "グラフノード {node_idx} が見つかりません"
+
+#: napari/layers/tracks/_track_utils.py:345
+msgid "Property {color_by} not found"
+msgstr "プロパティ {color_by} が見つかりません"
+
+#: napari/layers/tracks/tracks.py:385
+msgid "Previous color_by key {key!r} not present in new properties. Falling back to track_id"
+msgstr "前の color_by キー {key!r} は新しいプロパティに存在しません。track_id に戻ります"
+
+#: napari/layers/tracks/tracks.py:470
+msgid "{color_by} is not a valid property key"
+msgstr "{color_by} は有効なプロパティキーではありません"
+
+#: napari/layers/tracks/tracks.py:489
+msgid "Colormap {colormap} not available"
+msgstr "カラーマップ {colormap} は利用できません"
+
+#: napari/layers/surface/surface.py:157
+msgid "Surface data tuple must be 2 or 3, specifying verictes, faces, and optionally vertex values, instead got length {length}."
+msgstr "サーフェスデータタプルは長さが2または3で、頂点の座標、面、必要に応じて頂点の値を与える必要があります。現在長さ {length} のタプルが与えられています。"
+
+#: napari/layers/surface/surface.py:203
+msgid "Surface data tuple must be 2 or 3, specifying vertices, faces, and optionally vertex values, instead got length {data_length}."
+msgstr "サーフェスデータタプルは長さが2または3で、頂点の座標、面、必要に応じて頂点の値を与える必要があります。現在長さ {data_length} のタプルが与えられています。"
+
+#: napari/layers/surface/surface.py:318
+msgid "Assigning multiple values per vertex after slicing is not allowed. All dimensions corresponding to vertex_values must be non-displayed dimensions. Data will not be visible."
+msgstr "スライス後に頂点ごとに複数の値を割り当てることはできません。vertex_valuesに対応するすべての次元は非表示の次元でなければなりません。データは表示されません。"
+
+#: napari/layers/shapes/_shape_list.py:152
+msgid "{attribute}_color must have shape ({n_shapes}, 4)"
+msgstr "{attribute}_color は ({n_shapes}, 4) の形をしていなければなりません"
+
+#: napari/layers/shapes/_shape_list.py:248
+msgid "shape must be subclass of Shape"
+msgstr "shapeはShapeのサブクラスでなければなりません"
+
+#: napari/layers/shapes/_shape_list.py:490
+msgid "{shape_type} must be one of {shape_classes}"
+msgstr "{shape_type} は {shape_classes} のいずれかでなければなりません"
+
+#: napari/layers/shapes/_shapes_utils.py:403
+msgid "Data shape does not match expected `[4, D]` shape specifying corners for the rectangle"
+msgstr "長方形の角を指定する `[4, D]` の形状とデータの形状が一致しません"
+
+#: napari/layers/shapes/_shapes_utils.py:498
+msgid "Data shape does not match expected `[4, D]` shape specifying corners for the ellipse"
+msgstr "楕円の角を指定する `[4, D]` 形状のデータ形状が一致しません。"
+
+#: napari/layers/shapes/shapes.py:337
+msgid "Shape dimensions must be equal to ndim"
+msgstr "シェイプの寸法はndimと等しくなければなりません"
+
+#: napari/layers/points/points.py:329 napari/layers/shapes/shapes.py:407
+msgid "text should be a string, array, or dict"
+msgstr "テキストは文字列、配列、またはdictでなければなりません"
+
+#: napari/layers/shapes/shapes.py:452 napari/layers/shapes/shapes.py:1454
+msgid "enter a selection mode to edit shape properties"
+msgstr "図形のプロパティを編集するには、選択モードを入力します。"
+
+#: napari/layers/points/points.py:505 napari/layers/shapes/shapes.py:626
+msgid "property used for face_color dropped"
+msgstr "face_color のドロップに使用されるプロパティ"
+
+#: napari/layers/points/points.py:524 napari/layers/shapes/shapes.py:638 napari/layers/vectors/vectors.py:314
+msgid "property used for edge_color dropped"
+msgstr "エッジカラードロップに使用されるプロパティ"
+
+#: napari/layers/points/points.py:919 napari/layers/shapes/shapes.py:931
+msgid "_{attribute}_color_property was not set, setting to: {new_color_property}"
+msgstr "_{attribute}_color_property が設定されていません。 {new_color_property} に設定します。"
+
+#: napari/layers/shapes/shapes.py:940
+msgid "There must be a valid Shapes.properties to use {color_mode}"
+msgstr "{color_mode} を使用するには有効な Shapes.properties が必要です"
+
+#: napari/layers/points/points.py:941 napari/layers/shapes/shapes.py:953 napari/layers/vectors/vectors.py:526
+msgid "selected property must be numeric to use ColorMode.COLORMAP"
+msgstr "ColorMode.COLORMAPを使用するには選択したプロパティが数値である必要があります"
+
+#: napari/layers/shapes/shapes.py:1325 napari/layers/utils/color_manager_utils.py:47
+msgid "face_color should be the name of a color, an array of colors, or the name of an property"
+msgstr "face_colorは、色の名前、色の配列、またはプロパティの名前でなければなりません"
+
+#: napari/layers/shapes/shapes.py:1460
+msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
+msgstr "<space> を長押しでパン/ズーム、<{BACKSPACE}> を押しながら選択したものを削除します"
+
+#: napari/layers/points/points.py:1103 napari/layers/points/points.py:1110 napari/layers/shapes/shapes.py:1469 napari/layers/shapes/shapes.py:1478
+msgid "hold <space> to pan/zoom"
+msgstr "<space> を押したままパン/ズーム"
+
+#: napari/layers/shapes/shapes.py:1488
+msgid "hold <space> to pan/zoom, press <esc> to finish drawing"
+msgstr "<space> を押したままズーム、 <esc> を押して図面を終了します"
+
+#: napari/layers/shapes/shapes.py:1865
+msgid "the number of properties must equal the number of shapes"
+msgstr "プロパティの数はシェイプの数と同じにする必要があります"
+
+#: napari/layers/shapes/shapes.py:2276
+msgid "expand_shape is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should work with full nD shape data as much as possible."
+msgstr "expand_shape は非推奨で、バージョン 0.4.9 で削除されます。 レイヤーが表示されている寸法がわからなくなりますので、もはや使用しないでください。 代わりに、フルnD形状のデータを可能な限り扱う必要があります。"
+
+#: napari/layers/utils/_link_layers.py:74
+msgid "Cannot link attributes that are not shared by all layers: {extra}. Allowable attrs include:\n"
+"{valid_attrs}"
+msgstr "すべてのレイヤーで共有されていない属性をリンクできません: {extra}. 許可されているattrs:\n"
+"{valid_attrs}"
+
+#: napari/layers/utils/_link_layers.py:136
+msgid "Must provide at least one layer to unlink"
+msgstr "リンクを解除するには少なくとも1つのレイヤーを提供する必要があります"
+
+#: napari/layers/utils/_link_layers.py:194
+msgid "``layers`` iterable must have at least one layer"
+msgstr "``layers`` iterable は少なくとも 1 つのレイヤーを持つ必要があります"
+
+#: napari/layers/utils/_text_utils.py:44
+msgid "view_data should be a numpy array or list when using Anchor.CENTER"
+msgstr "anchor.CENTER を使用する場合、view_data は numpy 配列またはリストでなければなりません。"
+
+#: napari/layers/utils/_text_utils.py:141
+msgid "view_data should be a numpy array or list"
+msgstr "view_dataはnumpyの配列またはリストでなければなりません"
+
+#: napari/layers/utils/_text_utils.py:189
+msgid "Number of text elements ({length}) should equal the length of the data ({n_text})"
+msgstr "Number of text elements({length}) should equal the length of the data ({n_text})"
+
+#: napari/layers/utils/color_manager.py:66
+msgid "color_properties dictionary should have keys: name, values, and optionally current_value"
+msgstr "color_properties辞書はキーを持つ必要があります: name, value, and optionally current_value"
+
+#: napari/layers/utils/color_manager.py:76
+msgid "color_properties should be None, a dict, or ColorProperties object"
+msgstr "color_properties は、None、dict、または ColorProperties オブジェクトでなければなりません。"
+
+#: napari/layers/utils/color_manager.py:485
+msgid "if color_properties is a string, it should be a property name"
+msgstr "color_properties が文字列の場合、プロパティ名でなければなりません。"
+
+#: napari/layers/utils/color_transformations.py:45
+msgid "The provided {elem_name} parameter contained illegal values, resetting all {elem_name} values to {default}."
+msgstr "提供された {elem_name} パラメータには不正な値が含まれており、すべての {elem_name} 値を {default} にリセットしています。"
+
+#: napari/layers/utils/color_transformations.py:60
+msgid "The provided {elem_name} parameter has {length} entries, while the data contains {num_entries} entries. Setting {elem_name} to {default}."
+msgstr "指定された {elem_name} パラメータは {length} エントリで、データには {num_entries} エントリが含まれています。 {elem_name} を {default} に設定します。"
+
+#: napari/layers/utils/color_transformations.py:137
+msgid "The number of supplied colors mismatch the number of given data points. Length of data is {num_entries}, while the number of colors is {length}. Color for all points is reset to white."
+msgstr "指定された色の数が、指定されたデータポイントの数と一致しません。 データの長さは {num_entries}で、色数は {length}です。すべてのポイントの色は白にリセットされます。"
+
+#: napari/layers/utils/stack_utils.py:102
+msgid "Error adding multichannel image with data shape {data_shape!r}.\n"
+"Requested channel_axis ({channel_axis}) had length {n_channels}, but the '{key}' argument only provided {i} values. "
+msgstr "データ形式{data_shape!r}のマルチチャンネル画像の追加に失敗しました。\n"
+"要求されたchannel_axis ({channel_axis}) の長さは {n_channels}であったが、 '{key}' 引数は {i} の値のみを提供した。 "
+
+#: napari/layers/utils/stack_utils.py:159
+msgid "The image needs more than 2 dimensions for splitting"
+msgstr "画像を分割するには2次元以上の画像が必要です"
+
+#: napari/layers/utils/stack_utils.py:167
+msgid "Can't split along axis {axis}. The image has {num_dim} dimensions"
+msgstr "軸 {axis}に沿って分割することはできません。画像のサイズは {num_dim} です。"
+
+#: napari/layers/utils/stack_utils.py:235
+msgid "images list is empty"
+msgstr "画像リストが空です"
+
+#: napari/layers/utils/text.py:217
+msgid "opaque blending mode is not allowed for text. setting to translucent."
+msgstr "テキストには不透明なブレンドモードは使用できません。半透明に設定してください。"
+
+#: napari/layers/vectors/_vector_utils.py:35
+msgid "Vector data of shape {shape} is not supported"
+msgstr "形状 {shape} のベクトルデータはサポートされていません"
+
+#: napari/layers/points/points.py:572 napari/layers/vectors/vectors.py:336
+msgid "the number of properties must equal the number of points"
+msgstr "プロパティの数は点の数と等しくなければなりません"
+
+#: napari/layers/vectors/vectors.py:504
+msgid "edge_color property was not set, setting to: {color_property}"
+msgstr "edge_color プロパティが設定されていません。 {color_property} に設定します。"
+
+#: napari/layers/vectors/vectors.py:513
+msgid "There must be a valid Points.properties to use {edge_color_mode}"
+msgstr "{edge_color_mode} を使用するには、有効な Points.properties が必要です。"
+
+#: napari/layers/image/_image_utils.py:68
+msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays of single shape: {shape}"
+msgstr "入力データは配列のようなオブジェクト、またはサイズが小さくなる配列でなければなりません。単一の形状の配列があります: {shape}"
+
+#: napari/layers/image/_image_utils.py:76
+msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays in incorrect order, shapes: {shapes}"
+msgstr "入力データは配列のようなオブジェクト、またはサイズが小さい配列のシーケンスでなければなりません。正しくない順序で配列を取得しました: {shapes}"
+
+#: napari/layers/points/_points_constants.py:84
+msgid "arrow"
+msgstr "矢印"
+
+#: napari/layers/points/_points_constants.py:85
+msgid "clobber"
+msgstr "クロブバー"
+
+#: napari/layers/points/_points_constants.py:86
+msgid "cross"
+msgstr "クロス"
+
+#: napari/layers/points/_points_constants.py:87
+msgid "diamond"
+msgstr "ダイヤモンド"
+
+#: napari/layers/points/_points_constants.py:88
+msgid "disc"
+msgstr "ディスク"
+
+#: napari/layers/points/_points_constants.py:89
+msgid "hbar"
+msgstr "hbar"
+
+#: napari/layers/points/_points_constants.py:90
+msgid "ring"
+msgstr "リング"
+
+#: napari/layers/points/_points_constants.py:92
+msgid "star"
+msgstr "星"
+
+#: napari/layers/points/_points_constants.py:93
+msgid "tailed arrow"
+msgstr "尾の矢印"
+
+#: napari/layers/points/_points_constants.py:94
+msgid "triangle down"
+msgstr "三角形を下へ"
+
+#: napari/layers/points/_points_constants.py:95
+msgid "triangle up"
+msgstr "三角形の上に"
+
+#: napari/layers/points/_points_constants.py:96
+msgid "vbar"
+msgstr "vbar"
+
+#: napari/layers/points/_points_constants.py:97
+msgid "x"
+msgstr "x"
+
+#: napari/layers/points/_points_utils.py:119
+msgid "Points dimensions must be equal to ndim"
+msgstr "点の大きさはndimと等しくなければなりません"
+
+#: napari/layers/points/points.py:666
+msgid "Size is not compatible for broadcasting"
+msgstr "配信と互換性がありません"
+
+#: napari/layers/points/points.py:928
+msgid "There must be a valid Points.properties to use {color_mode}"
+msgstr "{color_mode} を使用するには、有効な Points.properties が必要です。"
+
+#: napari/layers/base/_base_constants.py:34
+msgid "translucent"
+msgstr "半透明の"
+
+#: napari/layers/base/_base_constants.py:35
+msgid "additive"
+msgstr "添加物"
+
+#: napari/layers/base/_base_constants.py:36
+msgid "opaque"
+msgstr "不透明な"
+
+#: napari/layers/base/base.py:237
+msgid "affine input not recognized. must be either napari.utils.transforms.Affine, ndarray, or None. Got {dtype}"
+msgstr "アフィン入力が認識されません。napari.utils.transforms.Affine, ndarray, or Noneのいずれかでなければなりません。 {dtype}"
+
+#: napari/layers/base/base.py:283
+msgid "'layer.events.select' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'added' attribute on the event."
+msgstr "'layer.events.select' は非推奨となり、napari v0.4.9 で削除され、代わりに 'viewer.layers.selection.events.changed' を使用し、イベントの 'added' 属性を調べます。"
+
+#: napari/layers/base/base.py:290
+msgid "'layer.events.deselect' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'removed' attribute on the event."
+msgstr "'layer.events.deselect' は非推奨となり、napari v0.4.9 で削除され、代わりに 'viewer.layers.selection.events.changed' を使用し、イベントの 'removed' 属性を調べます。"
+
+#: napari/layers/base/base.py:347
+msgid "opacity must be between 0.0 and 1.0; got {opacity}"
+msgstr "不透明度は 0.0 から 1.0 の間でなければなりません。得られた {opacity}"
+
+#: napari/layers/base/base.py:471
+msgid "affine input not recognized. must be either napari.utils.transforms.Affine or ndarray. Got {dtype}"
+msgstr "アフィン入力が認識されません。napari.utils.transforms.Affineまたはndarrayのいずれかでなければなりません。 {dtype}"
+
+#: napari/layers/base/base.py:493 napari/layers/base/base.py:505
+msgid "layer.position is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position."
+msgstr "layer.position は非推奨であり、バージョン 0.4.9 で削除されます。 カーソル位置がわからなくなったレイヤーとして使うべきではありません。 viewer.cursor.positionからワールド座標内のカーソル位置を取得できます。"
+
+#: napari/layers/base/base.py:656
+msgid "Non-orthogonal slicing is being requested, but is not fully supported. Data is displayed without applying an out-of-slice rotation or shear component."
+msgstr "非直交スライスが要求されていますが、完全にはサポートされていません。アウトスライスの回転やせん断成分を適用せずにデータが表示されます。"
+
+#: napari/layers/base/base.py:757
+msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `layer in viewer.layers.selection`"
+msgstr "'layer.selected' は非推奨であり、v0.4.9で削除されます。`layer.layers.selection` を使用してください。"
+
+#: napari/layers/base/base.py:772
+msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `viewer.layers.selection.add(layer)` or `viewer.layers.selection.remove(layer)`"
+msgstr "'layer.selected' は非推奨であり、v0.4.9 で削除されます。`viewer.layers.selection.add(layer)` または `viewer.layers.selection.remove(layer)` を使用してください。"
+
+#: napari/layers/base/base.py:981
+msgid "layer.coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position. You can then transform that into data coordinates using the layer.world_to_data method."
+msgstr "layer.coordinates は非推奨で、バージョン 0.4.9 で削除されます。 カーソル位置がわからなくなったレイヤーとして使うべきではありません。 viewer.cursor.positionからワールド座標内のカーソル位置を取得できます。layer.world_to_dataメソッドを使用して、データ座標に変換できます。"
+
+#: napari/layers/base/base.py:1069
+msgid "displayed_coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should use [layer.coordinates[d] for d in viewer.dims.displayed]"
+msgstr "displayed_coordinates is deprecated and will be removed in version 0.4.9 レイヤーが表示されている寸法がわからなくなりますので、もはや使用しないでください。 代わりに、[layer.coordins[d] ] を viewer.dims.displayed の d に使用する必要があります。"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:147
+msgid "zero"
+msgstr "0"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:148
+msgid "one"
+msgstr "1"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:149
+msgid "two"
+msgstr "2"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:150
+msgid "three"
+msgstr "3"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:151
+msgid "four"
+msgstr "4"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:152
+msgid "five"
+msgstr "5"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:153
+msgid "six"
+msgstr "6"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:154
+msgid "seven"
+msgstr "7"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:155
+msgid "eight"
+msgstr "8"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:156
+msgid "nine"
+msgstr "9"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:130 napari/_vendor/experimental/humanize/src/humanize/time.py:203
+msgid "a moment"
+msgstr "ちょっと待って"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:132
+msgid "a second"
+msgstr "一秒"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:136
+msgid "a minute"
+msgstr "分"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:141
+msgid "an hour"
+msgstr "1 時間"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:147
+msgid "a day"
+msgstr "1 日"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:154
+msgid "a month"
+msgstr "1 ヶ月"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:159
+msgid "a year"
+msgstr "年"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:164
+msgid "1 year, 1 month"
+msgstr "1 年、1 ヶ月"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:200
+#, python-format
+msgid "%s from now"
+msgstr "今から %s"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:200
+#, python-format
+msgid "%s ago"
+msgstr "%s 前"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:204
+msgid "now"
+msgstr "今"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:223
+msgid "today"
+msgstr "今日"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:225
+msgid "tomorrow"
+msgstr "明日"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:227
+msgid "yesterday"
+msgstr "昨日"
+
+#: napari/_vispy/experimental/texture_atlas.py:309
+msgid "Data with shape {shape} is not compatible with this TextureAtlas2D which has tile shape {spec_shape}"
+msgstr "形状 {shape} を持つデータはタイル形状の {spec_shape} を持つこの TextureAtlas2D と互換性がありません"
+
+#: napari/_vispy/experimental/tiled_image_visual.py:310
+msgid "Tile index {tile_index} not found."
+msgstr "タイルインデックス {tile_index} が見つかりません。"
+
+#: napari/_vispy/experimental/tiled_image_visual.py:361
+msgid "Auto clims not supported for tiled image visual"
+msgstr "自動クライミングはタイル画像には対応していません"
+
+#: napari/utils/events/containers/_evented_list.py:117 napari/utils/events/containers/_typed.py:92
+msgid "Can only assign an iterable to slice"
+msgstr "スライスに反復可能なものだけを割り当てることができます"
+
+#: napari/utils/events/containers/_evented_list.py:132
+msgid "attempt to assign sequence of size {size} to extended slice of size {slice_size}"
+msgstr "サイズ {size} のシーケンスをサイズ {slice_size} の拡張スライスに割り当てようとしています"
+
+#: napari/utils/events/containers/_evented_list.py:163
+msgid "Deletion index must be {valid!r}, got {dtype}"
+msgstr "削除インデックスは{valid!r}でなければなりません。 {dtype}を取得しました"
+
+#: napari/utils/events/containers/_evented_list.py:298 napari/utils/events/containers/_nested_list.py:298 napari/utils/events/containers/_nested_list.py:405
+msgid "Destination index may not be a slice"
+msgstr "宛先インデックスはスライスではありません"
+
+#: napari/utils/events/containers/_evented_list.py:312
+msgid "Can only move integer or slice indices"
+msgstr "整数またはスライスインデックスのみを移動できます。"
+
+#: napari/utils/events/containers/_nested_list.py:57
+msgid "Invalid nested index: {index}. Must be an int or tuple"
+msgstr "Invalid nested index: {index}. must be an int or tuple"
+
+#: napari/utils/events/containers/_nested_list.py:97
+msgid "The parent index must be a tuple of int"
+msgstr "親インデックスはintのタプルでなければなりません"
+
+#: napari/utils/events/containers/_nested_list.py:314 napari/utils/events/containers/_nested_list.py:413
+msgid "Group cannot move itself"
+msgstr "グループは自分自身を移動できません"
+
+#: napari/utils/events/containers/_nested_list.py:327
+msgid "Can't yet deal with slice source indices in multimove"
+msgstr "スライスソースインデックスをマルチムーブで処理できません"
+
+#: napari/utils/events/containers/_nested_list.py:338 napari/utils/events/containers/_nested_list.py:397
+msgid "Terminal source index may not be a slice"
+msgstr "端末ソースインデックスはスライスできません"
+
+#: napari/utils/events/containers/_nested_list.py:446
+msgid "Cannot add object with type {dtype!r} to TypedList expecting type {types_!r}"
+msgstr "TypeListに{dtype!r}型のオブジェクトを追加することはできません。型{types_!r}を期待しています"
+
+#: napari/utils/events/containers/_selectable_list.py:54
+msgid "Cannot select item that is not in list: {value!r}"
+msgstr "リストにないアイテムを選択できません: {value!r}"
+
+#: napari/utils/events/containers/_selection.py:150
+msgid "Value is not a valid sequence: {data}"
+msgstr "値は有効なシーケンスではありません: {data}"
+
+#: napari/utils/events/containers/_set.py:166
+msgid "Value is not a valid sequence: {value}"
+msgstr "値は有効なシーケンスではありません: {value}"
+
+#: napari/utils/events/containers/_typed.py:164
+msgid "Cannot add object with type {dtype!r} to TypedList expecting type {basetypes!r}"
+msgstr "TypeListに{dtype!r}型のオブジェクトを追加することはできません。型{basetypes!r}を期待しています"
+
+#: napari/utils/events/containers/_typed.py:239
+msgid "{value!r} is not in list"
+msgstr "{value!r} がリストにありません"
+
+#: napari/utils/tree/node.py:93
+msgid "Cannot unparent orphaned Node: {node!r}"
+msgstr "孤立したノードをunparentにすることはできません: {node!r}"
+
+#: napari/utils/settings/_defaults.py:51 napari/utils/settings/_defaults.py:60
+msgid "A schema version must be a 3 element tuple or string!"
+msgstr "スキーマバージョンは3つの要素タプルまたは文字列でなければなりません。"
+
+#: napari/utils/settings/_defaults.py:71
+msgid "A schema version subparts must be positive integers or parseable as integers!"
+msgstr "スキーマバージョンのサブパートは、正の整数または整数として解析可能でなければなりません。"
+
+#: napari/utils/settings/_defaults.py:109 napari/utils/settings/_defaults.py:147
+msgid "must be a string"
+msgstr "は文字列でなければなりません"
+
+#: napari/utils/settings/_defaults.py:119
+msgid "\"{value}\" is not valid. It must be one of {themes}"
+msgstr "\"{value}\" は無効です。 {themes} のいずれかである必要があります。"
+
+#: napari/utils/settings/_defaults.py:156
+msgid "\"{value}\" is not valid. It must be one of {language_packs}."
+msgstr "\"{value}\" は無効です。 {language_packs} のいずれかでなければなりません。"
+
+#: napari/utils/settings/_defaults.py:192
+msgid "Theme"
+msgstr "テーマ"
+
+#: napari/utils/settings/_defaults.py:193
+msgid "Theme selection."
+msgstr "テーマの選択"
+
+#: napari/utils/settings/_defaults.py:198
+msgid "Appearance"
+msgstr "外観"
+
+#: napari/utils/settings/_defaults.py:221
+msgid "IPython interactive"
+msgstr "IPython interactive"
+
+#: napari/utils/settings/_defaults.py:222
+#, python-format
+msgid "Use interactive %gui qt event loop when creating napari Viewers in IPython"
+msgstr "IPythonでnapari Viewerを作成するときにインタラクティブな %guiqtイベントループを使用する"
+
+#: napari/utils/settings/_defaults.py:229
+msgid "Language"
+msgstr "言語"
+
+#: napari/utils/settings/_defaults.py:230
+msgid "Interface display language."
+msgstr "インターフェイス表示言語。"
+
+#: napari/utils/settings/_defaults.py:236
+msgid "Save Window Geometry"
+msgstr "ウィンドウ形状を保存"
+
+#: napari/utils/settings/_defaults.py:237
+msgid "Save window size and position."
+msgstr "ウィンドウのサイズと位置を保存します。"
+
+#: napari/utils/settings/_defaults.py:241
+msgid "Save Window State"
+msgstr "ウィンドウの状態を保存"
+
+#: napari/utils/settings/_defaults.py:242
+msgid "Save window state of dock widgets."
+msgstr "ドックウィジェットのウィンドウ状態を保存します。"
+
+#: napari/utils/settings/_defaults.py:262
+msgid "Application"
+msgstr "アプリケーション"
+
+#: napari/utils/settings/_defaults.py:300
+msgid "Plugin sort order"
+msgstr "プラグインのソート順"
+
+#: napari/utils/settings/_defaults.py:301
+msgid "Sort plugins for each action in the order to be called."
+msgstr "呼び出される各アクションのプラグインをソートします。"
+
+#: napari/utils/settings/_defaults.py:308
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: napari/utils/settings/_manager.py:135
+msgid "The content of the napari settings file could not be read\n\n"
+"The default settings will be used and the content of the file will be replaced the next time settings are changed.\n\n"
+"Error:\n"
+"{err}"
+msgstr "Napariの設定ファイルの内容を読み込めませんでした。\n\n"
+"デフォルトの設定が適用されます。設定ファイルの内容は次回設定が変更されたときにそちらに置き換わります。\n\n"
+"エラー:\n"
+"{err}"
+
+#: napari/utils/_tests/test_translations.py:176
+msgid "BOO"
+msgstr "ブー！"
+
+#: napari/utils/_tests/test_translations.py:184
+msgid "More about napari"
+msgstr "ナパリの詳細"
+
+#: napari/utils/_tests/test_translations.py:397
+msgid "MORE ABOUT NAPARI"
+msgstr "NAPARIについて"
+
+#: napari/utils/transforms/transform_utils.py:81
+msgid "Scalars are not valid values for shear. Shear must be an upper triangular vector or square matrix with ones along the main diagonal."
+msgstr "スカラーはせん断には有効な値ではありません。せん断は主対角線に沿ったものを持つ上三角形のベクトルまたは正方形の行列でなければなりません。"
+
+#: napari/utils/transforms/transform_utils.py:122
+msgid "{number} is a strange number of shear elements"
+msgstr "{number} は奇妙なせん断要素の数です"
+
+#: napari/utils/transforms/transform_utils.py:153
+msgid "Improper transform matrix {matrix}"
+msgstr "不適切な変換行列 {matrix}"
+
+#: napari/utils/transforms/transforms.py:48
+msgid "Inverse function was not provided."
+msgstr "逆関数は提供されませんでした。"
+
+#: napari/utils/transforms/transforms.py:54
+msgid "Transform composition rule not provided"
+msgstr "変換コンポジションルールが提供されていません"
+
+#: napari/utils/transforms/transforms.py:71 napari/utils/transforms/transforms.py:90
+msgid "Cannot subset arbitrary transforms."
+msgstr "任意の変換をサブセットできません。"
+
+#: napari/utils/transforms/transforms.py:342 napari/utils/transforms/transforms.py:420
+msgid "Only upper triangular or lower triangular matrices are accepted for shear, got {shear}. For other matrices, set the affine_matrix or linear_matrix directly."
+msgstr "上三角行列または下三角行列のみが {shear}を得ました. その他の行列は affine_matrix または linear_matrix を直接設定します."
+
+#: napari/utils/events/event.py:311
+msgid "print_callback_errors must be \"first\", \"reminders\", \"always\", or \"never\""
+msgstr "print_callback_errors must be \"first\", \"リマインダー\", \"always\", \"never\""
+
+#: napari/utils/events/event.py:421
+msgid "ref must be a bool or string"
+msgstr "refはbool または string でなければなりません"
+
+#: napari/utils/events/event.py:428
+msgid "ref \"{ref}\" is not unique"
+msgstr "ref \"{ref}\" は一意ではありません"
+
+#: napari/utils/events/event.py:434
+msgid "position must be \"first\" or \"last\", not {position}"
+msgstr "position must be \"first\" or \"last\", not {position}"
+
+#: napari/utils/events/event.py:458
+msgid "criteria \"{criteria}\" is in the current callback list {count} times:\n"
+"{callback_refs}\n"
+"{callbacks}"
+msgstr "基準 \"{criteria}\" は現在のコールバックリスト {count} 回です:\n"
+"{callback_refs}\n"
+"{callbacks}"
+
+#: napari/utils/events/event.py:477
+msgid "cannot place callback before \"{before}\" and after \"{after}\" for callbacks: {callback_refs}"
+msgstr "コールバックの前に \"{before}\" と \"{after}\" の後にコールバックを配置できません: {callback_refs}"
+
+#: napari/utils/events/event.py:583
+msgid "Event source-stack mismatch."
+msgstr "イベント ソーススタックが一致しません。"
+
+#: napari/utils/events/event.py:616
+msgid "Event emitters can be called with an Event instance or with keyword arguments only."
+msgstr "イベントエミッターは、イベントインスタンスまたはキーワード引数のみで呼び出すことができます。"
+
+#: napari/utils/events/event.py:648
+msgid "Cannot unblock {self_} for callback {callback}; emitter was not previously blocked."
+msgstr "コールバック {self_} の {callback}のブロックを解除できません。エミッターは以前にブロックされていません。"
+
+#: napari/utils/events/event.py:817
+msgid "EmitterGroup already has an emitter named '{name}'"
+msgstr "EmitterGroup は既に '{name}' という名前のエミッターを持っています"
+
+#: napari/utils/events/event.py:825
+msgid "The name '{name}' cannot be used as an emitter; it is already an attribute of EmitterGroup"
+msgstr "The name '{name}' cannot be used as an emitter; it is already an attribute of EmitterGroup"
+
+#: napari/utils/events/event.py:843
+msgid "Emitter must be specified as either an EventEmitter instance or Event subclass. (got {name}={emitter})"
+msgstr "Emitter は、EventEmitter インスタンスまたは Event サブクラスのいずれかとして指定する必要があります。 (got {name}={emitter})"
+
+#: napari/utils/events/evented_model.py:165
+msgid "The `asdict` method has been renamed `dict` and is now deprecated. It will be removed in 0.4.7"
+msgstr "`asdict`メソッドは`dict`と改名され、非推奨になりました。0.4.7で削除されます。"
+
+#: napari/utils/events/evented_model.py:191
+msgid "Unsupported update from {values}"
+msgstr "{values} からのサポートされていない更新"
+
+#: napari/utils/perf/_config.py:110
+msgid "{path} has no callable list '{list_name}'"
+msgstr "{path} には呼び出し可能なリスト '{list_name} ' がありません"
+
+#: napari/utils/perf/_patcher.py:47
+msgid "Nested attribute not found: {attribute_str}"
+msgstr "ネストされた属性が見つかりません: {attribute_str}"
+
+#: napari/utils/perf/_patcher.py:61
+msgid "Module {module_name} has no attribute {attribute_str}"
+msgstr "モジュール {module_name} に属性 {attribute_str} がありません"
+
+#: napari/utils/perf/_patcher.py:80
+msgid "Parent {parent_str} has no attribute {callable_str}"
+msgstr "親 {parent_str} に属性 {callable_str}がありません"
+
+#: napari/utils/perf/_patcher.py:135
+msgid "Module not found: {module_path}"
+msgstr "モジュールが見つかりません: {module_path}"
+
+#: napari/utils/colormaps/bop_colors.py:787
+msgid "bop blue"
+msgstr "ボップブルー"
+
+#: napari/utils/colormaps/bop_colors.py:788
+msgid "bop orange"
+msgstr "ボップオレンジ"
+
+#: napari/utils/colormaps/bop_colors.py:789
+msgid "bop purple"
+msgstr "bop purple"
+
+#: napari/utils/colormaps/categorical_colormap.py:106
+msgid "colormap should be an array or dict"
+msgstr "colormapは配列またはdictでなければなりません"
+
+#: napari/utils/colormaps/categorical_colormap_utils.py:62
+msgid "ColorCycle requires a values argument"
+msgstr "ColorCycle には値引数が必要です"
+
+#: napari/utils/colormaps/colormap.py:97
+msgid "Unrecognized Colormap Interpolation Mode"
+msgstr "認識できないカラーマップ補間モード"
+
+#: napari/utils/colormaps/colormap_utils.py:27 napari/utils/colormaps/colormap_utils.py:56
+msgctxt "colormap"
+msgid "viridis"
+msgstr "viridis"
+
+#: napari/utils/colormaps/colormap_utils.py:28
+msgctxt "colormap"
+msgid "magma"
+msgstr "magma"
+
+#: napari/utils/colormaps/colormap_utils.py:29
+msgctxt "colormap"
+msgid "inferno"
+msgstr "インフェルノ"
+
+#: napari/utils/colormaps/colormap_utils.py:30
+msgctxt "colormap"
+msgid "plasma"
+msgstr "プラズマ|プラズマ"
+
+#: napari/utils/colormaps/colormap_utils.py:31
+msgctxt "colormap"
+msgid "gray"
+msgstr "グレー"
+
+#: napari/utils/colormaps/colormap_utils.py:32
+msgctxt "colormap"
+msgid "gray r"
+msgstr "灰色のr"
+
+#: napari/utils/colormaps/colormap_utils.py:33
+msgctxt "colormap"
+msgid "hsv"
+msgstr "hsv"
+
+#: napari/utils/colormaps/colormap_utils.py:34
+msgctxt "colormap"
+msgid "turbo"
+msgstr "ターボ"
+
+#: napari/utils/colormaps/colormap_utils.py:35
+msgctxt "colormap"
+msgid "twilight"
+msgstr "トワイライト"
+
+#: napari/utils/colormaps/colormap_utils.py:36
+msgctxt "colormap"
+msgid "twilight shifted"
+msgstr "トワイライトがシフトしました"
+
+#: napari/utils/colormaps/colormap_utils.py:37
+msgctxt "colormap"
+msgid "gist earth"
+msgstr "gist earth."
+
+#: napari/utils/colormaps/colormap_utils.py:38
+msgctxt "colormap"
+msgid "PiYG"
+msgstr "PiYG"
+
+#: napari/utils/colormaps/colormap_utils.py:42
+msgctxt "colormap"
+msgid "autumn"
+msgstr "秋"
+
+#: napari/utils/colormaps/colormap_utils.py:43
+msgctxt "colormap"
+msgid "blues"
+msgstr "青"
+
+#: napari/utils/colormaps/colormap_utils.py:44
+msgctxt "colormap"
+msgid "cool"
+msgstr "かっこいい!"
+
+#: napari/utils/colormaps/colormap_utils.py:45
+msgctxt "colormap"
+msgid "greens"
+msgstr "緑"
+
+#: napari/utils/colormaps/colormap_utils.py:46
+msgctxt "colormap"
+msgid "reds"
+msgstr "赤"
+
+#: napari/utils/colormaps/colormap_utils.py:47
+msgctxt "colormap"
+msgid "spring"
+msgstr "春"
+
+#: napari/utils/colormaps/colormap_utils.py:48
+msgctxt "colormap"
+msgid "summer"
+msgstr "夏"
+
+#: napari/utils/colormaps/colormap_utils.py:49
+msgctxt "colormap"
+msgid "fire"
+msgstr "ファイヤー..."
+
+#: napari/utils/colormaps/colormap_utils.py:50
+msgctxt "colormap"
+msgid "grays"
+msgstr "グレー"
+
+#: napari/utils/colormaps/colormap_utils.py:51
+msgctxt "colormap"
+msgid "hot"
+msgstr "ホット"
+
+#: napari/utils/colormaps/colormap_utils.py:52
+msgctxt "colormap"
+msgid "ice"
+msgstr "氷|氷|氷"
+
+#: napari/utils/colormaps/colormap_utils.py:53
+msgctxt "colormap"
+msgid "winter"
+msgstr "冬"
+
+#: napari/utils/colormaps/colormap_utils.py:54
+msgctxt "colormap"
+msgid "light blues"
+msgstr "ライトブルー"
+
+#: napari/utils/colormaps/colormap_utils.py:55
+msgctxt "colormap"
+msgid "orange"
+msgstr "オレンジ"
+
+#: napari/utils/colormaps/colormap_utils.py:57
+msgctxt "colormap"
+msgid "coolwarm"
+msgstr "coolwarm"
+
+#: napari/utils/colormaps/colormap_utils.py:58
+msgctxt "colormap"
+msgid "PuGr"
+msgstr "PuGr"
+
+#: napari/utils/colormaps/colormap_utils.py:59
+msgctxt "colormap"
+msgid "GrBu"
+msgstr "GrBu"
+
+#: napari/utils/colormaps/colormap_utils.py:60
+msgctxt "colormap"
+msgid "GrBu_d"
+msgstr "GrBu_d"
+
+#: napari/utils/colormaps/colormap_utils.py:61
+msgctxt "colormap"
+msgid "RdBu"
+msgstr "RdBu"
+
+#: napari/utils/colormaps/colormap_utils.py:62
+msgctxt "colormap"
+msgid "cubehelix"
+msgstr "cubehelix"
+
+#: napari/utils/colormaps/colormap_utils.py:63
+msgctxt "colormap"
+msgid "single hue"
+msgstr "シングル色"
+
+#: napari/utils/colormaps/colormap_utils.py:64
+msgctxt "colormap"
+msgid "hsl"
+msgstr "hsl"
+
+#: napari/utils/colormaps/colormap_utils.py:65
+msgctxt "colormap"
+msgid "husl"
+msgstr "husl"
+
+#: napari/utils/colormaps/colormap_utils.py:66
+msgctxt "colormap"
+msgid "diverging"
+msgstr "迂回する"
+
+#: napari/utils/colormaps/colormap_utils.py:67
+msgctxt "colormap"
+msgid "RdYeBuCy"
+msgstr "RdYeBuCy"
+
+#: napari/utils/colormaps/colormap_utils.py:70
+msgctxt "colormap"
+msgid "red"
+msgstr "赤"
+
+#: napari/utils/colormaps/colormap_utils.py:71
+msgctxt "colormap"
+msgid "green"
+msgstr "緑"
+
+#: napari/utils/colormaps/colormap_utils.py:72
+msgctxt "colormap"
+msgid "blue"
+msgstr "青"
+
+#: napari/utils/colormaps/colormap_utils.py:73
+msgctxt "colormap"
+msgid "cyan"
+msgstr "シアン語"
+
+#: napari/utils/colormaps/colormap_utils.py:74
+msgctxt "colormap"
+msgid "magenta"
+msgstr "マゼンタ"
+
+#: napari/utils/colormaps/colormap_utils.py:75
+msgctxt "colormap"
+msgid "yellow"
+msgstr "黄色"
+
+#: napari/utils/colormaps/colormap_utils.py:127
+msgid "Colormap must be a vispy colormap if passed to from_vispy"
+msgstr "from_vispy に渡された場合、カラーマップはビスピー・カラーマップでなければなりません"
+
+#: napari/utils/colormaps/colormap_utils.py:357
+msgctxt "colormap"
+msgid "low discrepancy colors"
+msgstr "低差異の色"
+
+#: napari/utils/colormaps/colormap_utils.py:391
+msgid "Colormap \"{name}\" not found in either vispy or matplotlib."
+msgstr "カラーマップ \"{name}\" は、粘液かmatplotlibのどちらにも見つかりません。"
+
+#: napari/utils/colormaps/colormap_utils.py:444
+msgid "[unnamed colormap]"
+msgstr "[名前のないカラーマップ]"
+
+#: napari/utils/colormaps/colormap_utils.py:450
+msgid "[unnamed colormap {number}]"
+msgstr "[名前のないcolormap {number}]"
+
+#: napari/utils/colormaps/colormap_utils.py:523
+msgid "When providing a tuple as a colormap argument, the first element must be a string and the second a Colormap instance"
+msgstr "colormap引数としてタプルを提供する場合、最初の要素は文字列で、2番目の要素はColormapインスタンスでなければなりません"
+
+#: napari/utils/colormaps/colormap_utils.py:549
+msgid "When providing a dict as a colormap, all values must be Colormap instances"
+msgstr "dict をカラーマップとして提供する場合、すべての値は Colormap インスタンスでなければなりません。"
+
+#: napari/utils/colormaps/colormap_utils.py:572
+msgid "only the first item in a colormap dict is used as an argument"
+msgstr "colormap dict の最初の項目だけが引数として使用されます。"
+
+#: napari/utils/colormaps/colormap_utils.py:579
+msgid "Received an empty dict as a colormap argument."
+msgstr "colormap 引数として空の dict を受け取りました。"
+
+#: napari/utils/colormaps/colormap_utils.py:589
+msgid "invalid type for colormap: {cm_type}. Must be a {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
+msgstr "色マップの型が不正です: {cm_type}. {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}} でなければなりません"
+
+#: napari/utils/colormaps/standardize_color.py:88
+msgid "Empty string detected. Returning black instead."
+msgstr "空の文字列が検出されました。代わりに黒を返します。"
+
+#: napari/utils/colormaps/standardize_color.py:133
+msgid "Coudln't convert input color array to a proper numpy array. Please make sure that your input data is in a parsable format. Converting input to a white color array."
+msgstr "入力カラー配列を適切なnumpy配列に変換しません。 入力データがパーサブル形式であることを確認してください。入力を白色の配列に変換します。"
+
+#: napari/utils/colormaps/standardize_color.py:171
+msgid "An object array was passed as the color input. Please convert its datatype before sending it to napari. Converting input to a white color array."
+msgstr "色入力としてオブジェクト配列が渡されました。napariに送信する前にデータ型を変換してください。入力を白い色配列に変換しています。"
+
+#: napari/utils/colormaps/standardize_color.py:184
+msgid "String color arrays should be one-dimensional. Converting input to a white color array."
+msgstr "文字列カラー配列は一次元でなければなりません。入力を白色配列に変換します。"
+
+#: napari/utils/colormaps/standardize_color.py:198
+msgid "Given color input is empty. Converting input to a white color array."
+msgstr "指定された色の入力が空です。入力を白色の配列に変換します。"
+
+#: napari/utils/colormaps/standardize_color.py:211
+msgid "Given colors input should contain one or two dimensions. Received array with {ndim} dimensions."
+msgstr "与えられた色の入力には1つまたは2つのディメンションを含める必要があります。 {ndim} ディメンションを持つ配列を受信しました。"
+
+#: napari/utils/colormaps/standardize_color.py:223
+msgid "Given color array has an unsupported format. Received the following array:\n"
+"{colors}\n"
+"A proper color array should have 3-4 columns with a row per data entry."
+msgstr "指定されたカラー配列はサポートされていないフォーマットです。 次の配列を受け取りました:\n"
+"{colors}\n"
+"適切なカラー配列には、データエントリごとの行を持つ3-4列が必要です。"
+
+#: napari/utils/colormaps/standardize_color.py:239
+msgid "Given colors input should contain three or four columns. Received array with {shape} columns. Converting input to a white color array."
+msgstr "指定された色の入力は3つまたは4つの列を含む必要があります。 {shape} 列で受け取った配列。入力を白い色の配列に変換します。"
+
+#: napari/utils/colormaps/standardize_color.py:253
+msgid "Data type of array ({color_dtype}) not supported."
+msgstr "配列のデータ型({color_dtype})はサポートされていません。"
+
+#: napari/utils/colormaps/standardize_color.py:287
+msgid "Colors input had negative values."
+msgstr "入力された色に負の値がありました。"
+
+#: napari/utils/colormaps/standardize_color.py:295
+msgid "Colors with values larger than one detected. napari will normalize these colors for you. If you'd like to convert these yourself, please use the proper method from skimage.color."
+msgstr "検出された値より大きい色。napariはこれらの色を正規化します。 これらを自分で変換したい場合は、skimage.colorから適切な方法を使用してください。"
+
+#: napari/utils/colormaps/standardize_color.py:324
+msgid "Invalid color found: {color} at index {idx}."
+msgstr "Invalid color found: {color} at index {idx}."
+
+#: napari/utils/colormaps/standardize_color.py:440
+msgid "Value must have second dimension of size 3 or 4"
+msgstr "値はサイズ3または4の第2次元でなければなりません"
+
+#: napari/components/experimental/chunk/_commands/_tables.py:99
+msgid "Row with {row_cols} columns not compatible with headers ({header_cols} columns)"
+msgstr "{row_cols} 列の行はヘッダーと互換性がありません ({header_cols} 列)"
+
+#: napari/components/experimental/monitor/_monitor.py:41
+msgid "Monitor: Config file not found: {path}"
+msgstr "モニター: 設定ファイルが見つかりません: {path}"
+
+#: napari/components/experimental/chunk/_pool_group.py:133
+msgid "Missing 'loader_defaults' in octree config."
+msgstr "octree の設定で loader_defaultsがありません。"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:56
+msgid "interpolation:"
+msgstr "補間:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:66
+msgid "rendering:"
+msgstr "レンダリング:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:76
+msgid "iso threshold:"
+msgstr "isoしきい値:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:86
+msgid "attenuation:"
+msgstr "減衰:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:101 napari/_qt/layer_controls/qt_labels_controls.py:235 napari/_qt/layer_controls/qt_points_controls.py:179 napari/_qt/layer_controls/qt_shapes_controls.py:239 napari/_qt/layer_controls/qt_surface_controls.py:34 napari/_qt/layer_controls/qt_tracks_controls.py:89 napari/_qt/layer_controls/qt_vectors_controls.py:100
+msgid "opacity:"
+msgstr "不透明度:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:103 napari/_qt/layer_controls/qt_surface_controls.py:36
+msgid "contrast limits:"
+msgstr "コントラスト制限:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:105 napari/_qt/layer_controls/qt_surface_controls.py:38
+msgid "gamma:"
+msgstr "gamma:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:107 napari/_qt/layer_controls/qt_surface_controls.py:40 napari/_qt/layer_controls/qt_tracks_controls.py:85
+msgid "colormap:"
+msgstr "colormap:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:109 napari/_qt/layer_controls/qt_labels_controls.py:239 napari/_qt/layer_controls/qt_points_controls.py:183 napari/_qt/layer_controls/qt_shapes_controls.py:243 napari/_qt/layer_controls/qt_surface_controls.py:42 napari/_qt/layer_controls/qt_tracks_controls.py:87 napari/_qt/layer_controls/qt_vectors_controls.py:106
+msgid "blending:"
+msgstr "ブレンド:"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:91
+msgid "Colorbar"
+msgstr "カラーバー"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:238
+msgid "Layer {layer} must have attribute {range_attr} to use \"create_range_popup\""
+msgstr "\"create_range_popup\" を使用するにはレイヤ {layer} の属性 {range_attr} が必要です"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:300
+msgid "autoscale contrast to data range"
+msgstr "データ範囲と自動スケールの比較"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:311
+msgid "set contrast range to full bit-depth"
+msgstr "コントラストの範囲を完全なビット深度に設定する"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:113
+msgid "contiguous editing"
+msgstr "連続した編集"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:119
+msgid "edit all dimensions"
+msgstr "すべての寸法を編集"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:125
+msgid "display contours of labels"
+msgstr "ラベルの輪郭を表示"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:139
+msgid "preserve existing labels while painting"
+msgstr "塗装中に既存のラベルを保存する"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:147
+msgid "Display only selected label"
+msgstr "選択したラベルのみ表示"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:157
+msgid "shuffle colors"
+msgstr "色をシャッフル"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:164
+msgid "Pan/zoom mode (Space)"
+msgstr "パン/ズームモード (スペース)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:168
+msgid "Pick mode (L)"
+msgstr "選択モード (L)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:171
+msgid "Paint mode (P)"
+msgstr "ペイントモード (P)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:179
+msgid "Fill mode (F) \n"
+"Toggle with {shortcut}"
+msgstr "塗りつぶしモード (F) \n"
+" {shortcut} で切り替え"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:188
+msgid "Erase mode (E) \n"
+"Toggle with {shortcut}"
+msgstr "消去モード (E) \n"
+" {shortcut} で切り替え"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:233
+msgid "label:"
+msgstr "ラベル:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:237
+msgid "brush size:"
+msgstr "ブラシサイズ:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:241
+msgid "color mode:"
+msgstr "カラーモード:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:243
+msgid "contour:"
+msgstr "輪郭:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:245
+msgid "contiguous:"
+msgstr "contiguous:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:247 napari/_qt/layer_controls/qt_points_controls.py:193
+msgid "n-dim:"
+msgstr "n-dim:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:250
+msgid "preserve labels:"
+msgstr "ラベルの保存:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:254
+msgid "show selected:"
+msgstr "選択した項目を表示:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:504
+msgid "Selected label color"
+msgstr "選択したラベルの色"
+
+#: napari/_qt/layer_controls/qt_layer_controls_container.py:55
+msgid "Could not find QtControls for layer of type {type_}"
+msgstr "{type_}タイプのレイヤーのQtControlsが見つかりませんでした"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:102 napari/_qt/layer_controls/qt_shapes_controls.py:219
+msgid "click to set current face color"
+msgstr "クリックして現在の面の色を設定します"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:106 napari/_qt/layer_controls/qt_shapes_controls.py:224 napari/_qt/layer_controls/qt_vectors_controls.py:66
+msgid "click to set current edge color"
+msgstr "クリックして現在のエッジの色を設定します"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:125
+msgid "N-dimensional points"
+msgstr "N次元ポイント"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:134
+msgid "Select points (S)"
+msgstr "点を選択(S)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:137
+msgid "Add points (P)"
+msgstr "ポイントを追加 (P)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:143
+msgid "Pan/zoom (Z)"
+msgstr "パン/ズーム (Z)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:152
+msgid "Delete selected points ({shortcut})"
+msgstr "選択したポイントを削除 ({shortcut})"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:157 napari/_qt/layer_controls/qt_shapes_controls.py:231
+msgid "toggle text visibility"
+msgstr "テキスト表示の切り替え"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:181
+msgid "point size:"
+msgstr "ポイントサイズ:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:185
+msgid "symbol:"
+msgstr "記号:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:187 napari/_qt/layer_controls/qt_shapes_controls.py:245
+msgid "face color:"
+msgstr "顔の色:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:189 napari/_qt/layer_controls/qt_shapes_controls.py:247 napari/_qt/layer_controls/qt_vectors_controls.py:71
+msgid "edge color:"
+msgstr "エッジの色:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:191 napari/_qt/layer_controls/qt_shapes_controls.py:249
+msgid "display text:"
+msgstr "テキストを表示:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:113
+msgid "Select shapes (S)"
+msgstr "図形を選択 (S)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:119
+msgid "Select vertices (D)"
+msgstr "頂点の選択 (D)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:125
+msgid "Pan/zoom (Space)"
+msgstr "パン/ズーム (スペース)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:132
+msgid "Add rectangles (R)"
+msgstr "長方形を追加 (R)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:138
+msgid "Add ellipses (E)"
+msgstr "楕円を追加 (E)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:141
+msgid "Add lines (L)"
+msgstr "行を追加 (L)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:144
+msgid "Add paths (T)"
+msgstr "パスを追加 (T)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:150
+msgid "Add polygons (P)"
+msgstr "多角形を追加 (P)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:156
+msgid "Insert vertex (I)"
+msgstr "Insert vertex (I)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:162
+msgid "Remove vertex (X)"
+msgstr "頂点を削除 (X)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:169
+msgid "Move to front"
+msgstr "前面に移動"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:175
+msgid "Move to back"
+msgstr "背面に移動"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:183
+msgid "Delete selected shapes ({shortcut})"
+msgstr "選択した図形を削除 ({shortcut})"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:241
+msgid "edge width:"
+msgstr "edge width:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:297
+msgid "Mode '{mode}'not recognized"
+msgstr "モード '{mode}'認識されません"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:83
+msgid "color by:"
+msgstr "カラー:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:91
+msgid "tail width:"
+msgstr "tail width:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:93
+msgid "tail length:"
+msgstr "tail length:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:95
+msgid "tail:"
+msgstr "tail:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:97
+msgid "show ID:"
+msgstr "show ID:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:99
+msgid "graph:"
+msgstr "グラフ:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:61
+msgid "edge property:"
+msgstr "エッジプロパティ:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:102
+msgid "width:"
+msgstr "幅:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:104
+msgid "length:"
+msgstr "長さ:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:108
+msgid "edge color mode:"
+msgstr "エッジカラーモード:"
+
+#: napari/_qt/dialogs/preferences_dialog.py:39 napari/_qt/dialogs/preferences_dialog.py:293
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: napari/_qt/dialogs/preferences_dialog.py:40
+msgid "OK"
+msgstr "OK"
+
+#: napari/_qt/dialogs/preferences_dialog.py:41
+msgid "Restore defaults"
+msgstr "既定に戻す"
+
+#: napari/_qt/dialogs/preferences_dialog.py:44 napari/_qt/qt_main_window.py:416
+msgid "Preferences"
+msgstr "設定"
+
+#: napari/_qt/dialogs/preferences_dialog.py:151
+msgid "Are you sure you want to restore default settings?"
+msgstr "デフォルトの設定を復元してもよろしいですか？"
+
+#: napari/_qt/dialogs/preferences_dialog.py:292
+msgid "Restore"
+msgstr "復元"
+
+#: napari/_qt/dialogs/qt_about.py:50
+msgid "<b>napari: a multi-dimensional image viewer for python</b>"
+msgstr "<b>napari: Pythonのための多次元画像ビューア</b>"
+
+#: napari/_qt/dialogs/qt_about.py:75
+msgid "<b>citation information:</b>"
+msgstr "<b>引用情報:</b>"
+
+#: napari/_qt/dialogs/qt_about.py:100
+msgid "About"
+msgstr "About"
+
+#: napari/_qt/dialogs/qt_about.py:123
+msgid "Copy to clipboard"
+msgstr "クリップボードにコピー"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:52
+msgid "All active key bindings"
+msgstr "すべてのアクティブなキー割り当て"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:60
+msgid "Keybindings"
+msgstr "キー割り当て"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:84
+msgid "No key bindings"
+msgstr "キー割り当てなし"
+
+#: napari/_qt/dialogs/qt_modal.py:92
+msgid "Specifying position as a string is only possible if the popup has a parent"
+msgstr "位置を文字列として指定することは、ポップアップに親がある場合にのみ可能です。"
+
+#: napari/_qt/dialogs/qt_modal.py:120
+msgid "position must be one of [\"top\", \"left\", \"bottom\", \"right\"]"
+msgstr "position must be one of [\"top\", \"left\", \"bottom\", \"right\"]"
+
+#: napari/_qt/dialogs/qt_modal.py:130
+msgid "Wrong type of position {position}"
+msgstr "位置 {position}のタイプが間違っています"
+
+#: napari/_qt/dialogs/qt_notification.py:108
+msgid "Source: {source}"
+msgstr "ソース: {source}"
+
+#: napari/_qt/dialogs/qt_notification.py:331 napari/_qt/dialogs/qt_notification.py:340
+msgid "Enter Debugger"
+msgstr "デバッガーを入力"
+
+#: napari/_qt/dialogs/qt_notification.py:335
+msgid "Now Debugging. Please quit debugger in console to continue"
+msgstr "デバッグ中です。続行するにはコンソールでデバッガーを終了してください"
+
+#: napari/_qt/dialogs/qt_notification.py:348
+msgid "View Traceback"
+msgstr "トレースバックを表示"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:123
+msgid "remove"
+msgstr "削除"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:133
+msgid "close"
+msgstr "閉じる"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:149
+msgid "install"
+msgstr "インストール"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:167
+msgid "enable/disable"
+msgstr "有効/無効"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:283
+msgid "update (v{latest})"
+msgstr "更新 (v{latest})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:380
+msgid "Installed Plugins"
+msgstr "インストール済みプラグイン"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:387
+msgid "Available Plugins"
+msgstr "使用可能なプラグイン"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:398
+msgid "loading ..."
+msgstr "読み込み中..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:414
+msgid "install by name/url, or drop file..."
+msgstr "name/url でインストールするか、ファイルをドロップします..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:416
+msgid "Install"
+msgstr "インストール"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:419 napari/_qt/dialogs/qt_plugin_dialog.py:478
+msgid "Show Status"
+msgstr "ステータスを表示"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:421 napari/_qt/dialogs/qt_plugin_dialog.py:470
+msgid "<< Show Sorter"
+msgstr "<< ソータの表示"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:422
+msgid "Close"
+msgstr "閉じる"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:449
+msgid "Available Plugins ({count})"
+msgstr "使用可能なプラグイン ({count})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:467
+msgid ">> Hide Sorter"
+msgstr ">> Hide Sorter"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:475
+msgid "Hide Status"
+msgstr "ステータスを隠す"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:52
+msgid "select plugin... "
+msgstr "プラグインを選択... "
+
+#: napari/_qt/dialogs/qt_plugin_report.py:69
+msgid "Recorded Plugin Exceptions"
+msgstr "記録されたプラグイン例外"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:89
+msgid "Open issue on GitHub"
+msgstr "GitHubでIssueを開く"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:91
+msgid "Open a web browser to submit this error log\n"
+"to the developer's GitHub issue tracker"
+msgstr "Webブラウザを開き、このエラーログを\n"
+"開発者のGitHub課題トラッカーに送信します"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:102
+msgid "Copy error log to clipboard"
+msgstr "エラーログをクリップボードにコピー"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:159
+msgid "No errors reported for plugin '{plugin}'"
+msgstr "プラグイン '{plugin} ' のエラーは報告されていません"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:32
+msgid "Save screenshot"
+msgstr "スクリーンショットを保存"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:36
+msgid "Image files (*.png *.bmp *.gif *.tif *.tiff)"
+msgstr "画像ファイル (*.png *.bmp *.gif *.tif *.tiff)"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:50
+msgid "Confirm overwrite"
+msgstr "上書きを確認"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:51
+msgid "{save_path} already exists. Do you want to replace it?"
+msgstr "{save_path} は既に存在します。置き換えますか？"
+
+#: napari/_qt/containers/_base_item_model.py:198
+msgid "root must be an instance of {class_name}"
+msgstr "root は {class_name} のインスタンスでなければなりません"
+
+#: napari/_qt/containers/_factory.py:40
+msgid "Cannot create Qt view for obj: {obj}"
+msgstr "ObjのQtビューを作成できません: {obj}"
+
+#: napari/_qt/containers/_factory.py:74
+msgid "Cannot create Qt model for obj: {obj}"
+msgstr "objのQtモデルを作成できません: {obj}"
+
+#: napari/_qt/containers/qt_layer_list.py:45
+msgid "Layer list"
+msgstr "レイヤーリスト"
+
+#: napari/_qt/containers/qt_tree_model.py:180
+msgid "root node must be an instance of {Group}"
+msgstr "ルートノードは {Group} のインスタンスでなければなりません"
+
+#: napari/_qt/containers/qt_tree_model.py:201
+msgid "nested_index must be an int or tuple of int."
+msgstr "nested_index はint か int のタプルでなければなりません。"
+
+#: napari/_qt/perf/qt_debug_menu.py:35
+msgid "&Debug"
+msgstr "&Debug"
+
+#: napari/_qt/perf/qt_debug_menu.py:38
+msgid "Performance Trace"
+msgstr "パフォーマンストレース"
+
+#: napari/_qt/perf/qt_debug_menu.py:75
+msgid "Start Recording..."
+msgstr "録画を開始..."
+
+#: napari/_qt/perf/qt_debug_menu.py:78
+msgid "Start recording a trace file"
+msgstr "トレースファイルの記録を開始"
+
+#: napari/_qt/perf/qt_debug_menu.py:85
+msgid "Stop Recording"
+msgstr "録画を停止"
+
+#: napari/_qt/perf/qt_debug_menu.py:87
+msgid "Stop recording a trace file"
+msgstr "トレースファイルの記録を停止"
+
+#: napari/_qt/perf/qt_debug_menu.py:101
+msgid "Record performance trace file"
+msgstr "パフォーマンストレースファイルを記録"
+
+#: napari/_qt/perf/qt_debug_menu.py:103
+msgid "Trace Files (*.json)"
+msgstr "トレースファイル (*.json)"
+
+#: napari/_qt/perf/qt_event_tracing.py:101
+msgid "UnknownEvent:{event}"
+msgstr "UnknownEvent:{event}"
+
+#: napari/_qt/perf/qt_performance.py:42
+msgid "{time_ms:5.0f}ms {name}\n"
+msgstr "{time_ms:5.0f}ms {name}\n"
+
+#: napari/_qt/perf/qt_performance.py:103
+msgid "Draw Time:"
+msgstr "描画時間："
+
+#: napari/_qt/perf/qt_performance.py:123
+msgid "Show Events Slower Than:"
+msgstr "より遅いイベントを表示:"
+
+#: napari/_qt/perf/qt_performance.py:125
+msgid "milliseconds"
+msgstr "ミリ秒ごと"
+
+#: napari/_qt/perf/qt_performance.py:179
+msgid "Uptime: {elapsed:.2f}"
+msgstr "稼働時間: {elapsed:.2f}"
+
+#: napari/_qt/widgets/qt_dict_table.py:85
+msgid "'data' argument must be a list of dicts"
+msgstr "'data' 引数は dicts のリストでなければなりません"
+
+#: napari/_qt/widgets/qt_dict_table.py:95
+msgid "Argument 'headers' got item '{header}', which was not found in any of the items in 'data'"
+msgstr "引数 'headers' got item '{header}', which was not found in any of the items in 'data'"
+
+#: napari/_qt/widgets/qt_dims.py:295
+msgid "loop_mode must be one of {_modes}. Got: {loop_mode}"
+msgstr "loop_mode は {_modes}のいずれかでなければなりません。得点: {loop_mode}"
+
+#: napari/_qt/widgets/qt_dims.py:304
+msgid "axis argument out of range"
+msgstr "軸の引数が範囲外です"
+
+#: napari/_qt/widgets/qt_dims.py:325
+msgid "Refusing to play a hidden axis"
+msgstr "非表示の軸を再生することを拒否"
+
+#: napari/_qt/widgets/qt_dims_slider.py:52
+msgid "Current slice for axis {axis}"
+msgstr "軸 {axis} の現在のスライス数"
+
+#: napari/_qt/widgets/qt_dims_slider.py:65
+msgid "Total slices for axis {axis}"
+msgstr "軸 {axis} のスライスの合計"
+
+#: napari/_qt/widgets/qt_dims_slider.py:118
+msgid "Edit to change axis label"
+msgstr "軸ラベルを変更するために編集"
+
+#: napari/_qt/widgets/qt_dims_slider.py:309
+msgid "frame_range value must be a list or tuple"
+msgstr "frame_range値はリストまたはタプルでなければなりません"
+
+#: napari/_qt/widgets/qt_dims_slider.py:313
+msgid "frame_range must have a length of 2"
+msgstr "frame_range は 2 の長さでなければなりません"
+
+#: napari/_qt/widgets/qt_dims_slider.py:500
+msgid "frames per second:"
+msgstr "フレーム/秒"
+
+#: napari/_qt/widgets/qt_dims_slider.py:508
+msgid "play direction:"
+msgstr "方向を再生:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:515
+msgid "play mode:"
+msgstr "再生モード:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:630
+msgid "frame_range[0] must be <= frame_range[1]"
+msgstr "frame_range[0] は <= frame_range でなければなりません[1]"
+
+#: napari/_qt/widgets/qt_dims_slider.py:633
+msgid "frame_range[0] out of range"
+msgstr "フレーム範囲[0] が範囲外です"
+
+#: napari/_qt/widgets/qt_dims_slider.py:635
+msgid "frame_range[1] out of range"
+msgstr "frame_range[1] が範囲外です"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:362
+msgid "Preview"
+msgstr "プレビュー"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:533 napari/_qt/widgets/qt_size_preview.py:309
+msgid "Minimum value must be smaller than {max_value}"
+msgstr "最小値は {max_value} より小さくなければなりません"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:572 napari/_qt/widgets/qt_size_preview.py:348
+msgid "Maximum value must be larger than {min_value}"
+msgstr "最大値は {min_value} より大きくなければなりません"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:86
+msgid "Click and drag to change call order"
+msgstr "クリックしてドラッグして順番を変更"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:102
+msgid "Uncheck to disable this plugin"
+msgstr "このプラグインを無効にするにはチェックを外してください"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:283
+msgid "select hook... "
+msgstr "フックを選択... "
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:317
+msgid "select the hook specification to reorder"
+msgstr "順序を変更するフック指定を選択します"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:324
+msgid "Plugin Sorter"
+msgstr "プラグインのソート"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:328
+msgid "Select a hook to rearrange, then drag and drop plugins into the desired call order.\n\n"
+"Disable plugins for a specific hook by unchecking their checkbox."
+msgstr "配置を変更するフックを選択し、プラグインをドラッグ&ドロップします。\n\n"
+"チェックボックスをオフにして、特定のフックのプラグインを無効にします。"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:149
+msgid "current minimum contrast limit"
+msgstr "現在の最小コントラスト制限"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:150
+msgid "current maximum contrast limit"
+msgstr "現在の最大コントラスト制限"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:158
+msgid "minimum contrast range"
+msgstr "最小コントラスト範囲"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:159
+msgid "maximum contrast range"
+msgstr "最大コントラスト範囲"
+
+#: napari/_qt/widgets/qt_size_preview.py:137
+msgid "preview"
+msgstr "プレビュー"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:37
+msgid "New points layer"
+msgstr "新しいポイントレイヤー"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:47
+msgid "New shapes layer"
+msgstr "新しいシェイプレイヤー"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:56
+msgid "New labels layer"
+msgstr "新しいラベルレイヤー"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:105
+msgid "Open IPython terminal ({shortcut})"
+msgstr "Open IPython terminal ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:114
+msgid "Roll dimensions order for display ({shortcut})"
+msgstr "表示するロール寸法順序 ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:123
+msgid "Transpose displayed dimensions ({shortcut})"
+msgstr "表示される寸法を入れ替えます ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:132
+msgid "Reset view ({shortcut})"
+msgstr "ビューをリセット ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:145
+msgid "Toggle grid view ({shortcut})"
+msgstr "グリッド表示を切り替える ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:160
+msgid "Toggle number of displayed dimensions ({shortcut})"
+msgstr "表示される寸法の数を切り替える ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:199
+msgid "Delete selected layers ({shortcut})"
+msgstr "選択したレイヤーを削除 ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:69
+msgid "area argument must be in {areas}"
+msgstr "エリア引数は {areas} でなければなりません"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:79
+msgid "`allowed_areas` must be a list or tuple"
+msgstr "`allowed_areas` はリストまたはタプルでなければなりません"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:90
+msgid "all allowed_areas argument must be in {areas}"
+msgstr "allowed_areas引数は {areas}でなければなりません"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:176
+msgid "drag to move. double-click to float"
+msgstr "ドラッグして移動します。ダブルクリックしてフロートする"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:182
+msgid "hide this panel"
+msgstr "パネルを隠す"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:189
+msgid "float this panel"
+msgstr "パネルをfloat型にする"
+
+#: napari/_qt/widgets/qt_welcome.py:39
+msgid "Drag image(s) here to open\n"
+"or\n"
+"Use the menu shortcuts below:"
+msgstr "画像をここにドラッグして\n"
+"または\n"
+"下のメニューショートカットを使用します。"
+
+#: napari/_qt/widgets/qt_welcome.py:59
+msgid "open image(s)"
+msgstr "画像を開く"
+
+#: napari/_qt/widgets/qt_welcome.py:64
+msgid "show all key bindings"
+msgstr "すべてのキー割り当てを表示"
+
+#: napari/plugins/__init__.py:158
+msgid "Plugin {plugin_name!r} provided an invalid tuple to {hook_name}. Skipping"
+msgstr "プラグイン {plugin_name!r} は無効なタプルを {hook_name}に提供しました。"
+
+#: napari/plugins/__init__.py:173
+msgid "Plugin {plugin_name!r} provided a non-callable object (widget) to {hook_name}: {_cls!r}. Widget ignored."
+msgstr "プラグイン{plugin_name!r} は {hook_name}: {_cls!r} に呼び出せないオブジェクト (ウィジェット) を提供しました。ウィジェットは無視されます。"
+
+#: napari/plugins/__init__.py:185
+msgid "Plugin {plugin_name!r} provided invalid kwargs to {hook_name} for class {class_name}. Widget ignored."
+msgstr "クラス {hook_name} の {class_name}に無効な kwargs を提供したプラグイン {plugin_name!r} 。ウィジェットは無視されました。"
+
+#: napari/plugins/__init__.py:203
+msgid "Plugin '{plugin_name}' has already registered a dock widget '{name}' which has now been overwritten"
+msgstr "プラグイン '{plugin_name}' はすでにドックウィジェット'{name}' を登録していますが、上書きされました"
+
+#: napari/plugins/__init__.py:250
+msgid "Plugin {plugin_name!r} does not provide any dock widgets"
+msgstr "プラグイン {plugin_name!r} はドックウィジェットを提供していません"
+
+#: napari/plugins/__init__.py:264
+msgid "Plugin {plugin_name!r} provides more than 1 dock_widget. Must also provide \"widget_name\" from {widgets}"
+msgstr "プラグイン {plugin_name!r} は、1 つ以上の dock_widgetを提供します。 {widgets} から \"widget_name\" も提供する必要があります。"
+
+#: napari/plugins/__init__.py:271
+msgid "Plugin {plugin_name!r} does not provide a widget named {widget_name!r}"
+msgstr "プラグイン {plugin_name!r} は {widget_name!r} という名前のウィジェットを提供していません"
+
+#: napari/plugins/__init__.py:302
+msgid "Plugin {plugin_name!r} provided a non-callable type to {hook_name}: {func_type!r}. Function widget ignored."
+msgstr "プラグイン {plugin_name!r} は {hook_name}: {func_type!r} に呼び出せないタイプを提供しました。関数ウィジェットは無視されました。"
+
+#: napari/plugins/__init__.py:307
+msgid " To provide multiple function widgets please use a LIST of callables"
+msgstr " 複数の関数ウィジェットを提供するには、LISTの呼び出し可能ファイルを使用してください"
+
+#: napari/plugins/__init__.py:324
+msgid "Plugin '{plugin_name}' has already registered a function widget '{name}' which has now been overwritten"
+msgstr "プラグイン '{plugin_name}' は既に機能ウィジェット '{name}' を登録しており、上書きされました"
+
+#: napari/plugins/__init__.py:358
+msgid "Plugin {plugin_name!r} provided a non-dict object to {hook_name!r}: data ignored."
+msgstr "プラグイン {plugin_name!r} は {hook_name!r} に dict 以外のオブジェクトを提供しました: データは無視されました。"
+
+#: napari/plugins/__init__.py:372
+msgid "In {hook_name!r}, plugin {plugin_name!r} provided an invalid dict object for key {name!r} that does not have required keys: \"data\" and \"display_name\".  Ignoring"
+msgstr "{hook_name!r}では、プラグイン {plugin_name!r} はキー{name!r} の無効な dict オブジェクトを提供しました。キー: \"data\" と \"display_name\" は必要ありません。無視します。"
+
+#: napari/plugins/__init__.py:394
+msgid "Plugin {plugin_name!r} provided invalid data for key {name!r} in the dict returned by {hook_name!r}. (Must be str, callable, or dict), got ({data_type})."
+msgstr "プラグイン{plugin_name!r}は{hook_name!r}によって返されたディクトのキー{name!r}に無効なデータを提供しました。(str, callable, dict), got ({data_type})."
+
+#: napari/plugins/_skimage_data.py:6
+msgid "Astronaut (RGB)"
+msgstr "Astronaut (RGB)"
+
+#: napari/plugins/_skimage_data.py:7
+msgid "Binary Blobs"
+msgstr "バイナリブロブ"
+
+#: napari/plugins/_skimage_data.py:8
+msgid "Binary Blobs (3D)"
+msgstr "バイナリブロブ (3D)"
+
+#: napari/plugins/_skimage_data.py:9
+msgid "Brain (3D)"
+msgstr "ブレイン (3D)"
+
+#: napari/plugins/_skimage_data.py:10
+msgid "Brick"
+msgstr "ブロック"
+
+#: napari/plugins/_skimage_data.py:11
+msgid "Camera"
+msgstr "カメラ"
+
+#: napari/plugins/_skimage_data.py:12
+msgid "Cat (RGB)"
+msgstr "猫 (RGB)"
+
+#: napari/plugins/_skimage_data.py:13
+msgid "Cell"
+msgstr "セル"
+
+#: napari/plugins/_skimage_data.py:14
+msgid "Cells (3D+2Ch)"
+msgstr "セル (3D+2Ch)"
+
+#: napari/plugins/_skimage_data.py:15
+msgid "Checkerboard"
+msgstr "チェッカーボード"
+
+#: napari/plugins/_skimage_data.py:16
+msgid "Clock"
+msgstr "時計"
+
+#: napari/plugins/_skimage_data.py:17
+msgid "Coffee (RGB)"
+msgstr "コーヒー (RGB)"
+
+#: napari/plugins/_skimage_data.py:18
+msgid "Coins"
+msgstr "コイン"
+
+#: napari/plugins/_skimage_data.py:19
+msgid "Colorwheel (RGB)"
+msgstr "カラーホイール (RGB)"
+
+#: napari/plugins/_skimage_data.py:20
+msgid "Eagle"
+msgstr "Eagle"
+
+#: napari/plugins/_skimage_data.py:21
+msgid "Grass"
+msgstr "草"
+
+#: napari/plugins/_skimage_data.py:22
+msgid "Gravel"
+msgstr "Gravel"
+
+#: napari/plugins/_skimage_data.py:23
+msgid "Horse"
+msgstr "馬"
+
+#: napari/plugins/_skimage_data.py:24
+msgid "Hubble Deep Field (RGB)"
+msgstr "ハッブルディープフィールド(RGB)"
+
+#: napari/plugins/_skimage_data.py:25
+msgid "Human Mitosis"
+msgstr "ヒトミトシス"
+
+#: napari/plugins/_skimage_data.py:26
+msgid "Immunohistochemistry (RGB)"
+msgstr "Immunohistochemistry (RGB)"
+
+#: napari/plugins/_skimage_data.py:27
+msgid "Kidney (3D+3Ch)"
+msgstr "腎臓（3D+3Ch）"
+
+#: napari/plugins/_skimage_data.py:28
+msgid "Labeled Faces in the Wild"
+msgstr "ワイルドのラベル付き顔"
+
+#: napari/plugins/_skimage_data.py:29
+msgid "Lily (4Ch)"
+msgstr "Lily (4Ch)"
+
+#: napari/plugins/_skimage_data.py:30
+msgid "Microaneurysms"
+msgstr "小動脈瘤format@@0"
+
+#: napari/plugins/_skimage_data.py:31
+msgid "Moon"
+msgstr "月"
+
+#: napari/plugins/_skimage_data.py:32
+msgid "Page"
+msgstr "ページ"
+
+#: napari/plugins/_skimage_data.py:33
+msgid "Retina (RGB)"
+msgstr "Retina (RGB)"
+
+#: napari/plugins/_skimage_data.py:34
+msgid "Rocket (RGB)"
+msgstr "ロケット（RGB）"
+
+#: napari/plugins/_skimage_data.py:35
+msgid "Shepp Logan Phantom"
+msgstr "Shepp Logan Phantom"
+
+#: napari/plugins/_skimage_data.py:36
+msgid "Skin (RGB)"
+msgstr "Skin (RGB)"
+
+#: napari/plugins/_skimage_data.py:37
+msgid "Text"
+msgstr "テキスト"
+
+#: napari/plugins/exceptions.py:44
+msgid "{pad} Errors for plugin '{plugin_name}' {pad}"
+msgstr "{pad} プラグイン '{plugin_name}' {pad} のエラー"
+
+#: napari/plugins/io.py:69
+msgid "There is no registered plugin named '{plugin}'.\n"
+"Names of plugins offering readers are: {names}"
+msgstr "There is no registred plugin name name '{plugin}'.\n"
+"Names of plugins: {names}"
+
+#: napari/plugins/io.py:79
+msgid "Plugin {plugin!r} does not support file {path}"
+msgstr "プラグイン {plugin!r} はファイル {path} をサポートしていません"
+
+#: napari/plugins/io.py:126
+msgid "No plugin found capable of reading [{repr_path}, ...] as stack."
+msgstr "スタックとして読み込めるプラグインが見つかりませんでした [{repr_path}, ...]"
+
+#: napari/plugins/io.py:135
+msgid "No plugin found capable of reading {repr_path}."
+msgstr "{repr_path} を読み込めるプラグインが見つかりませんでした。"
+
+#: napari/plugins/io.py:227
+msgid "No data written! There may be no plugins capable of writing these {length} layers to {path}."
+msgstr "データが書き込まれていません！これらの {length} レイヤーを {path} に書き込めるプラグインがないかもしれません。"
+
+#: napari/plugins/io.py:312
+msgid "There is no registered plugin named '{plugin_name}'.\n"
+"Names of plugins offering writers are: {names}"
+msgstr "There is no registred plugin名 '{plugin_name}'.\n"
+"Names of plugins providing writer: {names}"
+
+#: napari/plugins/io.py:332
+msgid "Requested plugin \"{plugin_name}\" is not capable of writing this combination of layer types: {layer_types}"
+msgstr "要求されたプラグイン \"{plugin_name}\" はレイヤータイプのこの組み合わせを書くことができません: {layer_types}"
+
+#: napari/plugins/io.py:339
+msgid "Unable to find plugin capable of writing this combination of layer types: {layer_types}"
+msgstr "レイヤータイプの組み合わせを作成できるプラグインが見つかりません: {layer_types}"
+
+#: napari/plugins/io.py:401
+msgid "There is no registered plugin named '{plugin_name}'.\n"
+"Plugins capable of writing layer._type_string layers are: {names}"
+msgstr "'{plugin_name}' という名前の登録済みプラグインはありません。\n"
+"layer._type_stringレイヤーを書き込めるプラグインは以下の通りです: {names}"
+
+#: napari/resources/__init__.py:14
+msgid "Moved to module napari._qt.qt_resources. Will be removed after version 0.4.6."
+msgstr "napari._qt_resourcesモジュールに移動しました。バージョン0.4.6以降に削除されます。"
+
+#: napari/resources/_icons.py:16
+msgid "unrecognized icon name: {name!r}. Known names: {icons}"
+msgstr "アイコン名が認識できません: {name!r} 既知の名前: {icons}"
+
+#: napari/resources/_icons.py:59
+msgid "Could not detect svg tag in {path_or_xml!r}"
+msgstr "{path_or_xml!r} の svg タグを検出できませんでした"
+
+#: napari/_vispy/utils.py:63
+msgid "Could not find VispyLayer for layer of type {dtype}"
+msgstr "{dtype}タイプのレイヤーのVispyLayer が見つかりませんでした"
+
+#: napari/_vispy/utils_gl.py:99
+msgid "type {dtype} not allowed for texture; must be one of {textures}"
+msgstr "テクスチャには {dtype} を使用できません。 {textures}のいずれかでなければなりません"
+
+#: napari/_vispy/vispy_axes_visual.py:79 napari/_vispy/vispy_axes_visual.py:100 napari/_vispy/vispy_axes_visual.py:125
+msgid "Either 2 or 3 colors must be provided, got {number}."
+msgstr "2色または3色のいずれかを指定する必要があります。 {number} を取得しました。"
+
+#: napari/_vispy/vispy_axes_visual.py:278
+msgid "Axes dash status and ndisplay combination not supported"
+msgstr "軸のダッシュステータスとndisplayの組み合わせはサポートされていません"
+
+#: napari/_vispy/vispy_image_layer.py:172
+msgid "Shape of in dividual tiles in multiscale {shape} cannot exceed GL_MAX_TEXTURE_SIZE {texture_size}. Rendering is currently in {ndisplay}D mode."
+msgstr "マルチスケール {shape} の分周タイルの形状は GL_MAX_TEXTURE_SIZE {texture_size}を超えることはできません。レンダリングは {ndisplay}D モードです。"
+
+#: napari/_vispy/vispy_image_layer.py:181
+msgid "data shape {shape} exceeds GL_MAX_TEXTURE_SIZE {texture_size} in at least one axis and will be downsampled. Rendering is currently in {ndisplay}D mode."
+msgstr "データ形状 {shape} は少なくとも1つの軸でGL_MAX_TEXTURE_SIZE {texture_size} を超え、ダウンサンプリングされます。レンダリングは現在 {ndisplay}D モードです。"
+
+#: napari/_vispy/vispy_scale_bar_visual.py:169
+msgid "Position {position} not recognized."
+msgstr "ポジション {position} は認識されません。"
+
+#: napari/qt/__init__.py:15
+msgid "QtNDisplayButton is deprecated and will be removed in 0.4.9. Instead a more general QtStateButton is provided."
+msgstr "QtNDisplayButton は非推奨で、0.4.9 で削除されます。代わりに、より一般的な QtStateButton が提供されます。"
+
+#: napari/utils/_magicgui.py:177
+msgid "magicgui function {gui} annotated with a return type of napari.types.LayerDataTuple did not return LayerData tuple(s)"
+msgstr "magicgui関数 {gui} napari.types.layerDataTupleはLayerDataタプルを返しませんでした"
+
+#: napari/utils/_register.py:23
+msgid "name {name} should not include 'layer'"
+msgstr "{name} という名前は 'レイヤー' を含めることはできません"
+
+#: napari/utils/dask_utils.py:173
+msgid "For best performance with Dask arrays in napari, please upgrade Dask to v2.15.0 or later. Current version is {dask_version}"
+msgstr "NapariのDask配列で最高のパフォーマンスを得るために、Daskをv2.15.0以降にアップグレードしてください。現在のバージョンは {dask_version}です。"
+
+#: napari/utils/interactions.py:18
+msgid "cannot set attribute {name}"
+msgstr "属性 {name} は設定できません"
+
+#: napari/utils/interactions.py:29
+msgid "cannot set item {name}"
+msgstr "アイテム「 {name}」を設定できません"
+
+#: napari/utils/io.py:196
+msgid "No files found in {filenames} after removing subdirectories"
+msgstr "サブディレクトリを削除した後に {filenames} にファイルが見つかりません"
+
+#: napari/utils/io.py:234
+msgid "To stack multiple files into a single array with numpy, all input arrays must have the same shape. Set `use_dask` to True to stack arrays with different shapes."
+msgstr "複数のファイルを numpy の 1 つの配列にスタックするには、すべての入力配列は同じ形状でなければなりません。 異なる形の配列をスタックするには、`use_dask` を True に設定します。"
+
+#: napari/utils/io.py:297
+msgid "Not a zarr dataset or group: {path}"
+msgstr "zarr データセットまたはグループではありません: {path}"
+
+#: napari/utils/io.py:402
+msgid "File \"{filename}\" not recognized as valid Layer data"
+msgstr "ファイル \"{filename}\" は有効なレイヤーデータとして認識されません"
+
+#: napari/utils/io.py:410
+msgid "File \"{filename}\" not recognized as {require_type} data"
+msgstr "ファイル \"{filename}\" は {require_type} データとして認識されません"
+
+#: napari/utils/io.py:535
+msgid "Expected number of shapes not found"
+msgstr "期待されるシェイプ数が見つかりません"
+
+#: napari/utils/key_bindings.py:176
+msgid "invalid key {key}"
+msgstr "不正なキー {key}"
+
+#: napari/utils/key_bindings.py:186
+msgid "invalid modifier key {modifier}"
+msgstr "不正な修飾キー {modifier}"
+
+#: napari/utils/key_bindings.py:272
+msgid "key combination {key} already used! specify 'overwrite=True' to bypass this check"
+msgstr "キーの組み合わせ {key} は既に使用されています! このチェックをバイパスするには'overwrite=True'を指定してください"
+
+#: napari/utils/key_bindings.py:284
+msgid "'func' must be a callable"
+msgstr "'func' は呼び出し可能なものでなければなりません"
+
+#: napari/utils/key_bindings.py:433
+msgid "expected {func} to be callable"
+msgstr "{func} の呼び出しが可能であることを期待しました"
+
+#: napari/utils/misc.py:187
+msgid "length of {obj} must equal {length}"
+msgstr "{obj} の長さは {length} に等しくなければなりません"
+
+#: napari/utils/misc.py:241
+msgid "{class_name} may only be called with a `str` or an instance of {class_name}. Got {dtype}"
+msgstr "{class_name} は `str`または {class_name}のインスタンスでのみ呼び出すことができます。 {dtype}"
+
+#: napari/utils/misc.py:319
+msgid "Argument must be a string, PathLike, or sequence thereof"
+msgstr "引数は文字列、PathLike、またはそのシーケンスでなければなりません"
+
+#: napari/utils/misc.py:388
+msgid "Not a valid layer data tuple: {value!r}"
+msgstr "有効なレイヤーデータタプルではありません: {value!r}"
+
+#: napari/utils/misc.py:404
+msgid "Not a valid list of layer data tuples!"
+msgstr "レイヤーデータタプルの有効なリストではありません！"
+
+#: napari/utils/misc.py:458
+msgid "{path} is not a directory."
+msgstr "{path} はディレクトリではありません。"
+
+#: napari/utils/theme.py:21
+msgid "palette is deprecated and will be removed after version 0.4.6. Please use get_theme and register_theme instead"
+msgstr "パレットは非推奨であり、バージョン 0.4.6 以降に削除されます。代わりに get_theme と register_theme を使用してください"
+
+#: napari/utils/theme.py:166
+msgid "Unrecognized theme {name}. Availabe themes are {themes}"
+msgstr "認識できないテーマ {name}. 利用可能なテーマは {themes}"
+
+#: napari/utils/translations.py:181 napari/utils/translations.py:208 napari/utils/translations.py:386
+msgid "Must provide at least a `msgid` parameter!"
+msgstr "少なくとも `msgid` パラメータを指定する必要があります。"
+
+#: napari/utils/translations.py:344
+msgid "Requested locale not available: {locale}"
+msgstr "要求されたロケールは利用できません: {locale}"
+
+#: napari/utils/validators.py:55
+msgid "object '{obj}' is not an indexable collection (list, tuple, or np.array), of length {number}"
+msgstr "object '{obj}' はインデックス可能なコレクション (リスト、タプル、または np.array) ではありません。長さ {number}"
+
+#: napari/utils/validators.py:68
+msgid "object must have length {number}, got {obj_len}"
+msgstr "オブジェクトの長さは {number}でなければなりません。 {obj_len} を取得しました"
+
+#: napari/utils/validators.py:80
+msgid "Every item in the sequence must be of type {dtype}, but {item} is of type {item_type}"
+msgstr "シーケンス内のすべてのアイテムは {dtype}型でなければなりませんが、 {item} は {item_type} 型です"
+
+#: napari/components/_viewer_key_bindings.py:18
+msgid "Reset dims scroll progress"
+msgstr "dims スクロールの進行状況をリセット"
+
+#: napari/components/_viewer_key_bindings.py:30
+msgid "Toggle ndisplay."
+msgstr "ndisplayを切り替えます。"
+
+#: napari/components/_viewer_key_bindings.py:52
+msgid "Increment dimensions slider to the left."
+msgstr "寸法スライダーを左に増分します。"
+
+#: napari/components/_viewer_key_bindings.py:63
+msgid "Increment dimensions slider to the right."
+msgstr "寸法スライダーを右に増分します。"
+
+#: napari/components/_viewer_key_bindings.py:74
+msgid "Move focus of dimensions slider up."
+msgstr "寸法のスライダーを上に移動します。"
+
+#: napari/components/_viewer_key_bindings.py:83
+msgid "Move focus of dimensions slider down."
+msgstr "寸法スライダーを下に移動します。"
+
+#: napari/components/_viewer_key_bindings.py:92
+msgid "Change order of the visible axes, e.g. [0, 1, 2] -> [2, 0, 1]."
+msgstr "表示される軸の順序を変更します。例: [0, 1, 2] -> [2, 0, 1]."
+
+#: napari/components/_viewer_key_bindings.py:103
+msgid "Transpose order of the last two visible axes, e.g. [0, 1] -> [1, 0]."
+msgstr "最後の2つの目に見える軸の移行順。例: [0, 1] -> [1, 0]。"
+
+#: napari/components/_viewer_key_bindings.py:114
+msgid "Reset view to original state."
+msgstr "ビューを元の状態に戻します。"
+
+#: napari/components/_viewer_key_bindings.py:123
+msgid "Toggle grid mode."
+msgstr "グリッドモードを切り替える"
+
+#: napari/components/_viewer_key_bindings.py:132
+msgid "Toggle visibility of selected layers"
+msgstr "選択したレイヤーの表示を切り替える"
+
+#: napari/components/dims.py:126
+msgid "Invalid ordering {order} for {ndim} dimensions"
+msgstr "{order} 次元に対する無効な注文 {ndim}"
+
+#: napari/components/dims.py:360
+msgid "Axis {axis} not defined for dimensionality {ndim}. Must be in [{ndim_lower}, {ndim})."
+msgstr "軸 {axis} は {ndim}に定義されていません。[{ndim_lower}, {ndim} ] でなければなりません。"
+
+#: napari/components/layerlist.py:94
+msgid "'viewer.layers.selected' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection'"
+msgstr "'viewer.layers.selected' は非推奨であり、v0.4.9以降に削除されます。'viewer.layers.selection' を使用してください。"
+
+#: napari/components/layerlist.py:137
+msgid "'viewer.layers.unselect_all()' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection.clear()'. To unselect everything but a set of ignored layers, use 'viewer.layers.selection.intersection_update({ignored})'"
+msgstr "'viewer.layers.unselect_all()'は非推奨であり、v0.4.9以降に削除されます。'viewer.layers.selection を使用してください。 Learn()'。一連の無視レイヤー以外のすべての選択を解除するには、'viewer.layers.selection.intersection_update({ignored} ')' を使用してください。"
+
+#: napari/components/layerlist.py:190
+msgid "All-NaN axis encountered"
+msgstr "すべてのNaN軸に遭遇しました"
+
+#: napari/components/layerlist.py:321
+msgid "No layers selected"
+msgstr "レイヤーが選択されていません"
+
+#: napari/components/layerlist.py:323
+msgid "No layers to save"
+msgstr "保存するレイヤーがありません"
+
+#: napari/components/viewer_model.py:149
+msgid "'viewer.events.active_layer' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.active' instead"
+msgstr "'viewer.events.active_layer' は非推奨で、napari v0.4.9 で削除され、代わりに 'viewer.layers.selection.events.active' を使用します"
+
+#: napari/components/viewer_model.py:162
+msgid "Theme '{theme_name}' not found; options are {themes}."
+msgstr "テーマ '{theme_name}' が見つかりません。オプションは {themes} です。"
+
+#: napari/components/viewer_model.py:294 napari/components/viewer_model.py:310
+msgid "'viewer.active_layer' is deprecated and will be removed in napari v0.4.9.  Please use 'viewer.layers.selection.active' instead."
+msgstr "'viewer.active_layer' is deprecated and will be removed in napari v0.4.9. Please use 'viewer.layers.selection.active' instead."
+
+#: napari/components/viewer_model.py:353
+msgid "layer.position is deprecated"
+msgstr "layer.position は非推奨です"
+
+#: napari/components/viewer_model.py:664
+msgid "Received sequence for argument '{argument}', did you mean to specify a 'channel_axis'? "
+msgstr "引数'{argument}'のシーケンスを受信しました。'channel_axis'を指定しましたか？ "
+
+#: napari/components/viewer_model.py:728
+msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. Available samples include: {samples}."
+msgstr "プラグイン{plugin!r} は {sample!r} という名前のサンプルデータを提供していません。利用可能なサンプルは次のとおりです: {samples}。"
+
+#: napari/components/viewer_model.py:736
+msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. No plugin samples have been registered."
+msgstr "プラグイン{plugin!r} は {sample!r} という名前のサンプルデータを提供していません。プラグインのサンプルが登録されていません。"
+
+#: napari/components/viewer_model.py:760
+msgid "Got unexpected type for sample ({plugin!r}, {sample!r}): {data_type}"
+msgstr "Got unexpected type for sample ({plugin!r}, {sample!r}): {data_type}"
+
+#: napari/components/viewer_model.py:812
+msgid "'path' argument must be a string, list, or tuple"
+msgstr "'path' 引数は文字列、リスト、またはタプルでなければなりません"
+
+#: napari/components/viewer_model.py:960
+msgid "Unrecognized layer_type: '{layer_type}'. Must be one of: {layer_names}."
+msgstr "layer_type: '{layer_type}'. のいずれかでなければなりません: {layer_names}."
+
+#: napari/components/viewer_model.py:976
+msgid "_add_layer_from_data received an unexpected keyword argument ({bad_key}) for layer type {layer_type}"
+msgstr "_add_layer_from_dataはレイヤータイプが{layer_type}ですが、不適切なキーワード引数 ({bad_key}) が渡されました。"
+
+#: napari/components/viewer_model.py:1007
+msgid "LayerData must be a 1-, 2-, or 3-tuple"
+msgstr "LayerDataは、1-、2-、または3-タプルでなければなりません"
+
+#: napari/components/viewer_model.py:1017
+msgid "The second item in a LayerData tuple must be a dict"
+msgstr "LayerDataタプルの2番目の項目はdictでなければなりません"
+
+#: napari/components/viewer_model.py:1027
+msgid "The third item in a LayerData tuple must be one of: {layers!r}."
+msgstr "LayerDataタプルの3番目の項目は、{layers!r}のいずれかでなければなりません。"
+
+#: napari/components/viewer_model.py:1140
+msgid "Invalid layer_type: {layer_type}"
+msgstr "レイヤータイプが無効です: {layer_type}"
+
+#: napari/_qt/__init__.py:13
+msgid "No Qt bindings could be found.\n\n"
+"napari requires either PyQt5 or PySide2 to be installed in the environment.\n"
+"To install the default backend (currently PyQt5), run \"pip install napari[all]\" \n"
+"You may also use \"pip install napari[pyside2]\"for Pyside2, or \"pip install napari[pyqt5]\" for PyQt5"
+msgstr "Qtバインディングが見つかりませんでした。\n\n"
+"napariの実行には、PyQt5またはPySide2が環境にインストールされていることが必要です。\n"
+"デフォルトのバックエンド (現在はPyQt5) でインストールする場合は \"pip install napari[all]\" を実行してください。\n"
+"Pyside2を使用する場合は \"pip install napari[pyside2]\"、PyQt5を使用する場合は \"pip install napari[pyqt5]\" でも構いません。"
+
+#: napari/_qt/__init__.py:33
+msgid "napari was tested with QT library `>=5.12.3`.\n"
+"The version installed is {version}. Please report any issues with this specific QT version at https://github.com/Napari/napari/issues."
+msgstr "napari was tested with QT library `>=5.12.3` .\n"
+"The version installed is {version}. Please report with this specific QT version at the https://github.com/Napari/napari/issues."
+
+#: napari/_qt/qt_event_loop.py:122
+msgid "QApplication already existed, these arguments to to 'get_app' were ignored: {args}"
+msgstr "QApplication は既に存在しています。get_app への引数は無視されました: {args}"
+
+#: napari/_qt/qt_event_loop.py:245
+msgid "\n"
+"The 'gui_qt()' context manager is deprecated.\n"
+"If you are running napari from a script, please use 'napari.run()' as follows:\n\n"
+"    import napari\n\n"
+"    viewer = napari.Viewer()  # no prior setup needed\n"
+"    # other code using the viewer...\n"
+"    napari.run()\n\n"
+"In IPython or Jupyter, 'napari.run()' is not necessary. napari will automatically\n"
+"start an interactive event loop for you: \n\n"
+"    import napari\n"
+"    viewer = napari.Viewer()  # that's it!\n"
+msgstr "\n"
+"コンテキストマネージャー 'gui_qt()' は推奨されません。\n"
+"スクリプトからnapariを開く場合、次に示すように 'napari.run()' を使ってください。\n\n"
+"    import napari\n\n"
+"    viewer = napari.Viewer()  # no prior setup needed\n"
+"    # other code using the viewer...\n"
+"    napari.run()\n\n"
+"IPythonまたはJupyterでは 'napari.run()' すら必要ありません。napariのインタラクティブなイベントループが自動で開始されます。\n\n"
+"    import napari\n"
+"    viewer = napari.Viewer()  # that's it!\n"
+
+#: napari/_qt/qt_event_loop.py:335
+msgid "No Qt app has been created. One can be created by calling `get_app()` or `qtpy.QtWidgets.QApplication([])`"
+msgstr "Qt アプリが作成されていません。`get_app()` または `qtpy.QtWidgets.QApplication([])` を呼び出すことで作成できます。"
+
+#: napari/_qt/qt_event_loop.py:342
+msgid "Refusing to run a QApplication with no topLevelWidgets. To run the app anyway, use `{_func_name}(force=True)`"
+msgstr "topLevelWidgetsがないQApplicationを実行することを拒否します。とにかくアプリを実行するには、`{_func_name}(force=True)`を使用します。"
+
+#: napari/_qt/qt_event_loop.py:353
+msgid "A QApplication is already running with 1 event loop. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
+msgid_plural "A QApplication is already running with {n} event loops. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[0] "QApplication は {n} イベントループで既に実行されています。*別の* イベントループを入力するには、`{_func_name}(max_loop_level={max_loop_level} )を使用します。"
+
+#: napari/_qt/qt_main_window.py:310
+msgid "Ready"
+msgstr "準備完了"
+
+#: napari/_qt/qt_main_window.py:350
+msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7. Please use `napari.qt.get_stylesheet` instead"
+msgstr "'raw_stylesheet' 属性は推奨されず、バージョン 0.4.7 で削除されます。代わりに `napari.qt.get_stylesheet` を使用してください。"
+
+#: napari/_qt/qt_main_window.py:396
+msgid "Open File(s)..."
+msgstr "ファイルを開く..."
+
+#: napari/_qt/qt_main_window.py:398
+msgid "Open file(s)"
+msgstr "ファイルを開く"
+
+#: napari/_qt/qt_main_window.py:402
+msgid "Open Files as Stack..."
+msgstr "ファイルをスタックとして開く..."
+
+#: napari/_qt/qt_main_window.py:405
+msgid "Open files"
+msgstr "ファイルを開く"
+
+#: napari/_qt/qt_main_window.py:410
+msgid "Open Folder..."
+msgstr "フォルダを開く..."
+
+#: napari/_qt/qt_main_window.py:412
+msgid "Open a folder"
+msgstr "フォルダを開く"
+
+#: napari/_qt/qt_main_window.py:418
+msgid "Open preferences dialog"
+msgstr "設定ダイアログを開く"
+
+#: napari/_qt/qt_main_window.py:423
+msgid "Save Selected Layer(s)..."
+msgstr "選択したレイヤーを保存..."
+
+#: napari/_qt/qt_main_window.py:426
+msgid "Save selected layers"
+msgstr "選択したレイヤーを保存"
+
+#: napari/_qt/qt_main_window.py:432
+msgid "Save All Layers..."
+msgstr "すべてのレイヤーを保存..."
+
+#: napari/_qt/qt_main_window.py:435
+msgid "Save all layers"
+msgstr "すべてのレイヤーを保存"
+
+#: napari/_qt/qt_main_window.py:440
+msgid "Save Screenshot..."
+msgstr "スクリーンショットを保存..."
+
+#: napari/_qt/qt_main_window.py:443
+msgid "Save screenshot of current display, default .png"
+msgstr "現在のディスプレイのスクリーンショットを保存します。デフォルト .png"
+
+#: napari/_qt/qt_main_window.py:448
+msgid "Save Screenshot with Viewer..."
+msgstr "ビューアーでスクリーンショットを保存..."
+
+#: napari/_qt/qt_main_window.py:452
+msgid "Save screenshot of current display with the viewer, default .png"
+msgstr "現在のディスプレイのスクリーンショットをビューアーで保存します。デフォルト .png"
+
+#: napari/_qt/qt_main_window.py:460
+msgid "Exit"
+msgstr "終了"
+
+#: napari/_qt/qt_main_window.py:468
+msgid "Restart"
+msgstr "再起動"
+
+#: napari/_qt/qt_main_window.py:471
+msgid "Close Window"
+msgstr "ウィンドウを閉じる"
+
+#: napari/_qt/qt_main_window.py:477
+msgid "Open Sample"
+msgstr "サンプルを開く"
+
+#: napari/_qt/qt_main_window.py:502
+msgid "&File"
+msgstr "ファイル(&F)"
+
+#: napari/_qt/qt_main_window.py:546
+msgid "Toggle Menubar Visibility"
+msgstr "メニューバー表示の切り替え"
+
+#: napari/_qt/qt_main_window.py:549
+msgid "Hide Menubar"
+msgstr "Hide Menubar"
+
+#: napari/_qt/qt_main_window.py:552
+msgid "Toggle Full Screen"
+msgstr "全画面表示の切り替え"
+
+#: napari/_qt/qt_main_window.py:555
+msgid "Toggle full screen"
+msgstr "全画面表示の切り替え"
+
+#: napari/_qt/qt_main_window.py:557 napari/_qt/qt_main_window.py:560
+msgid "Toggle Play"
+msgstr "プレイの切り替え"
+
+#: napari/_qt/qt_main_window.py:562
+msgid "&View"
+msgstr "表示(&V)"
+
+#: napari/_qt/qt_main_window.py:571 napari/_qt/qt_main_window.py:577
+msgid "Toggle Chunk Outlines"
+msgstr "チャンクのアウトラインを切り替える"
+
+#: napari/_qt/qt_main_window.py:582
+msgid "Axes"
+msgstr "軸"
+
+#: napari/_qt/qt_main_window.py:584 napari/_qt/qt_main_window.py:635
+msgid "Visible"
+msgstr "表示"
+
+#: napari/_qt/qt_main_window.py:592 napari/_qt/qt_main_window.py:647
+msgid "Colored"
+msgstr "カラー"
+
+#: napari/_qt/qt_main_window.py:600
+msgid "Labels"
+msgstr "ラベル"
+
+#: napari/_qt/qt_main_window.py:608
+msgid "Dashed"
+msgstr "破線"
+
+#: napari/_qt/qt_main_window.py:616
+msgid "Arrows"
+msgstr "矢印"
+
+#: napari/_qt/qt_main_window.py:633
+msgid "Scale Bar"
+msgstr "スケールバー"
+
+#: napari/_qt/qt_main_window.py:659
+msgid "Ticks"
+msgstr "Ticks"
+
+#: napari/_qt/qt_main_window.py:681
+msgid "Remove Dock Widgets"
+msgstr "ドックウィジェットを削除"
+
+#: napari/_qt/qt_main_window.py:682
+msgid "Remove all dock widgets"
+msgstr "すべてのドックウィジェットを削除"
+
+#: napari/_qt/qt_main_window.py:687
+msgid "&Window"
+msgstr "ウィンドウ(&W)"
+
+#: napari/_qt/qt_main_window.py:693
+msgid "&Plugins"
+msgstr "プラグイン(&E)"
+
+#: napari/_qt/qt_main_window.py:696
+msgid "Install/Uninstall Package(s)..."
+msgstr "パッケージのインストール/アンインストール..."
+
+#: napari/_qt/qt_main_window.py:702
+msgid "Plugin Errors..."
+msgstr "プラグインエラー..."
+
+#: napari/_qt/qt_main_window.py:705
+msgid "Review stack traces for plugin exceptions and notify developers"
+msgstr "プラグイン例外のスタックトレースを確認し、開発者に通知する"
+
+#: napari/_qt/qt_main_window.py:713
+msgid "Add Dock Widget"
+msgstr "ドックウィジェットを追加"
+
+#: napari/_qt/qt_main_window.py:761
+msgid "&Help"
+msgstr "ヘルプ (&H)"
+
+#: napari/_qt/qt_main_window.py:763
+msgid "napari Info"
+msgstr "napari Info"
+
+#: napari/_qt/qt_main_window.py:765
+msgid "About napari"
+msgstr "ナパリについて"
+
+#: napari/_qt/qt_main_window.py:772
+msgid "Show Key Bindings"
+msgstr "キーの結合を表示"
+
+#: napari/_qt/qt_main_window.py:776
+msgid "key_bindings"
+msgstr "key_bindings"
+
+#: napari/_qt/qt_main_window.py:936
+msgid "Dock widget {number}"
+msgstr "ドックウィジェット {number}"
+
+#: napari/_qt/qt_main_window.py:1028
+msgid "Could not find a dock widget containing: {widget}"
+msgstr "以下を含むドックウィジェットが見つかりませんでした: {widget}"
+
+#: napari/_qt/qt_main_window.py:1141 napari/_qt/qt_main_window.py:1153
+msgid "This viewer has already been closed and deleted. Please create a new one."
+msgstr "このビューアはすでにクローズされ削除されています。新しいものを作成してください。"
+
+#: napari/_qt/qt_main_window.py:1168
+msgid "The window geometry settings could not be loaded due to the following error: {err}"
+msgstr "次のエラーのため、ウィンドウジオメトリ設定を読み込めませんでした: {err}"
+
+#: napari/_qt/qt_viewer.py:131
+msgid "layer list"
+msgstr "レイヤーリスト"
+
+#: napari/_qt/qt_viewer.py:139
+msgid "layer controls"
+msgstr "レイヤーコントロール"
+
+#: napari/_qt/qt_viewer.py:147
+msgid "console"
+msgstr "コンソール"
+
+#: napari/_qt/qt_viewer.py:253
+msgid "The 'raw_stylesheet' attribute is deprecated and will beremoved in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "'raw_stylesheet' 属性は非推奨であり、バージョン 0.4.7 では廃止されます。代わりに `napari.qt.get_stylesheet` を使用してください。"
+
+#: napari/_qt/qt_viewer.py:307
+msgid "performance"
+msgstr "パフォーマンス"
+
+#: napari/_qt/qt_viewer.py:323
+msgid "napari-console not found. It can be installed with \"pip install napari_console\""
+msgstr "napari-console が見つかりません。\"pip install napari_console\" でインストールできます。"
+
+#: napari/_qt/qt_viewer.py:445
+msgid "There are no layers in the viewer to save"
+msgstr "保存するレイヤーがありません。"
+
+#: napari/_qt/qt_viewer.py:447
+msgid "Please select one or more layers to save,\n"
+"or use \"Save all layers...\""
+msgstr "1つ以上のレイヤーを選択して保存するか、\n"
+"または「すべてのレイヤーを保存...」を使用してください。"
+
+#: napari/_qt/qt_viewer.py:452
+msgid "Nothing to save"
+msgstr "保存するものがありません"
+
+#: napari/_qt/qt_viewer.py:454
+msgid "selected"
+msgstr "選択済み"
+
+#: napari/_qt/qt_viewer.py:454
+msgid "all"
+msgstr "すべて"
+
+#: napari/_qt/qt_viewer.py:460
+msgid "Save {msg} layers"
+msgstr "{msg} レイヤーを保存"
+
+#: napari/_qt/qt_viewer.py:473
+msgid "File {filename} save failed.\n"
+"{error_messages}"
+msgstr "ファイル {filename} の保存に失敗しました。\n"
+"{error_messages}"
+
+#: napari/_qt/qt_viewer.py:527
+msgid "Select file(s)..."
+msgstr "ファイルを選択..."
+
+#: napari/_qt/qt_viewer.py:542
+msgid "Select files..."
+msgstr "ファイルを選択..."
+
+#: napari/_qt/qt_viewer.py:556
+msgid "Select folder..."
+msgstr "フォルダを選択..."
+
+#: napari/_qt/qthreading.py:135
+msgid "RuntimeError in aborted thread: {result}"
+msgstr "RuntimeError in aborted thread: {result}"
+
+#: napari/_qt/qthreading.py:177
+msgid "\"{name}\" failed to define work() method"
+msgstr "\"{name}\" はwork() メソッドの定義に失敗しました"
+
+#: napari/_qt/qthreading.py:200
+msgid "This worker is already started!"
+msgstr "このワーカーは既に開始されています！"
+
+#: napari/_qt/qthreading.py:242
+msgid "Generator function {func} cannot be used with FunctionWorker, use GeneratorWorker instead"
+msgstr "ジェネレーター関数 {func} は関数ワーカーでは使用できません。代わりに GeneratorWorker を使用してください"
+
+#: napari/_qt/qthreading.py:295
+msgid "Regular function {func} cannot be used with GeneratorWorker, use FunctionWorker instead"
+msgstr "通常関数 {func} は GeneratorWorker では使用できません。代わりに FunctionWorker を使用してください。"
+
+#: napari/_qt/qthreading.py:451
+msgid "Workers did not quit gracefully in the time allotted ({msecs} ms)"
+msgstr "作業者は割り当てられた時間内に正常に終了しませんでした ({msecs} ミリ秒)"
+
+#: napari/_qt/qthreading.py:543
+msgid "Worker {_worker_class} must be a subclass of WorkerBase"
+msgstr "Worker {_worker_class} はWorkerBaseのサブクラスでなければなりません"
+
+#: napari/_qt/qthreading.py:555
+msgid "The '_connect' argument must be a dict"
+msgstr "引数'_connect'はdictでなければなりません"
+
+#: napari/_qt/qthreading.py:569
+msgid "\"_connect[{key!r}]\" must be a function or sequence of functions"
+msgstr "\"_connect[{key!r}]\" は関数または関数のシーケンスでなければなりません"
+
+#: napari/_qt/qthreading.py:817
+msgid "_connect parameter must be a dict"
+msgstr "接続パラメータはディクト値でなければなりません"
+
+#: napari/_qt/utils.py:61
+msgid "Invalid QByte string. QByte strings start with '{QBYTE_FLAG}'"
+msgstr "QByte 文字列が無効です。QByte 文字列は'{QBYTE_FLAG}' で始まります。"
+
+#: napari/_qt/utils.py:255
+msgid "\"widget\" must be a QWidget or a sequence of QWidgets"
+msgstr "\"ウィジェット\"はQWidgetまたはQWidgetsのシーケンスでなければなりません"
+
+#: napari/view_layers.py:105
+msgid "No Viewer method named '{add_string}'"
+msgstr "'{add_string}' という名前のビューアメソッドはありません"
+
+#: napari/window.py:26
+msgid "could not import `qtpy`. Cannot show napari window."
+msgstr "`qtpy` をインポートできませんでした。ナパリウィンドウを表示できません。"
+

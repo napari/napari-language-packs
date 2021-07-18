@@ -1,0 +1,2889 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: napari\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-04-23 19:01-0500\n"
+"PO-Revision-Date: 2021-04-24 02:09\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: napari\n"
+"X-Crowdin-Project-ID: 443044\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /[goanpeca.napari-language-packs] main/napari/locale/napari.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Language: uk_UA\n"
+
+#: napari/layers/shapes/_shapes_models/_polgyon_base.py:71
+msgid "Shape needs at least two vertices, {number} provided."
+msgstr "Форма потребує принаймні двох вертиків, передбачених {number}."
+
+#: napari/layers/shapes/_shapes_models/ellipse.py:76
+msgid "Data shape does not match a ellipse. Ellipse expects four corner vertices, {number} provided."
+msgstr "Форма даних не відповідає еліпсу. Еліпс очікує чотири кутові вертики, {number} передбачено."
+
+#: napari/layers/shapes/_shapes_models/line.py:61
+msgid "Data shape does not match a line. A line expects two end vertices, {number} provided."
+msgstr "Форма даних не відповідає рядку. Очікує дві кінцеві вершини, {number}."
+
+#: napari/layers/shapes/_shapes_models/rectangle.py:68
+msgid "Data shape does not match a rectangle. Rectangle expects four corner vertices, {number} provided."
+msgstr "Дані не відповідають прямокутнику. Прямокутник очікує чотири кутові вертики, {number} передбачено."
+
+#: napari/layers/shapes/_shapes_models/shape.py:346
+msgid "Axis not recognized, must be one of \"{{0, 1}}\""
+msgstr "Вісь не розпізнано, має бути одним з \"{{0, 1}}\""
+
+#: napari/layers/shapes/_shapes_models/shape.py:400
+msgid "mask shape length must either be 2 or the same as the dimensionality of the shape, expected {expected} got {received}."
+msgstr "довжина форми масок має бути 2 або такою ж, як і розмір фігури, очікувалось {expected} отримав {received}."
+
+#: napari/layers/image/experimental/_octree_slice.py:92
+msgid "Octree level {index} is not in range(0, {num_levels})"
+msgstr "Рівень оточення {index} не в діапазоні (0, {num_levels})"
+
+#: napari/layers/image/experimental/_octree_slice.py:137
+msgid "Invalid octree level {index}"
+msgstr "Неприпустимий рівень octree {index}"
+
+#: napari/layers/image/experimental/octree.py:66
+msgid "Data of shape {shape} resulted no octree levels?"
+msgstr "Дані форми {shape} не отримали восьмирічних рівнів?"
+
+#: napari/layers/image/experimental/octree.py:116
+msgid "Level {level_index} is not in range(0, {top})"
+msgstr "Рівень {level_index} поза діапазоном (0, {top})"
+
+#: napari/layers/image/experimental/octree.py:403
+msgid "Multiscale data has downsampling ratio of {ratio}, expected 2."
+msgstr "Мультимасштабування даних має пониження співвідношення {ratio}. Очікувалось 2."
+
+#: napari/layers/image/experimental/octree_image.py:223
+msgid "Octree level {level} is negative."
+msgstr "Рівень запасу {level} від'ємний."
+
+#: napari/layers/labels/_labels_constants.py:71
+msgid "circle"
+msgstr "коло"
+
+#: napari/layers/labels/_labels_constants.py:72 napari/layers/points/_points_constants.py:91
+msgid "square"
+msgstr "квадрат"
+
+#: napari/layers/labels/_labels_constants.py:77
+msgid "auto"
+msgstr "авто"
+
+#: napari/layers/labels/_labels_constants.py:78
+msgid "direct"
+msgstr "особисті"
+
+#: napari/layers/labels/labels.py:252 napari/layers/labels/labels.py:606
+msgid "enter paint or fill mode to edit labels"
+msgstr "натисніть режим малювання або заповнення для редагування міток"
+
+#: napari/layers/labels/labels.py:401
+msgid "Only integer types are supported for Labels layers, but data contains {data_level_type}."
+msgstr "Лише цілі типи підтримуються лише для шарів міток, але дані містять {data_level_type}."
+
+#: napari/layers/labels/labels.py:427
+msgid "the number of items must be equal for all properties"
+msgstr "кількість елементів повинна дорівнювати всіх властивостей"
+
+#: napari/layers/labels/labels.py:469
+msgid "cannot reduce selected label below 0"
+msgstr "неможливо зменшити вибрану мітку нижче 0"
+
+#: napari/layers/labels/labels.py:507
+msgid "Unsupported Color Mode"
+msgstr "Кольоровий режим не підтримується"
+
+#: napari/layers/labels/labels.py:532 napari/layers/labels/labels.py:549
+msgid "The square brush shape is deprecated and will be removed in version 0.4.9. Afterward, only the circle brush shape will be available, and the layer.brush_shape attribute will be removed."
+msgstr "Квадратна форма щітки застаріла і буде видалена у версії 0.4.9. Після цього буде доступно лише форма щітки круга, і шар.brush_shape буде видалено."
+
+#: napari/layers/labels/labels.py:610
+msgid "hold <space> to pan/zoom, click to pick a label"
+msgstr "утримуйте <space> для посадки/збільшення, натисніть щоб вибрати мітку"
+
+#: napari/layers/labels/labels.py:623
+msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
+msgstr "утримуйте <space> для панелі/збільшення, затисніть <shift> щоб перемкнути preserve_labels, затисніть <control> , щоб стерти, утримуйте <alt> , щоб усунути їх. Перетягніть щоб намалювати мітку"
+
+#: napari/layers/labels/labels.py:630
+msgid "hold <space> to pan/zoom, click to fill a label"
+msgstr "утримуйте <space> для панування/збільшення, натисніть, щоб заповнити мітку"
+
+#: napari/layers/labels/labels.py:643
+msgid "hold <space> to pan/zoom, drag to erase a label"
+msgstr "утримуйте <space> для посадки/масштабу, перетягніть для очищення мітки"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:287 napari/_qt/layer_controls/qt_points_controls.py:225 napari/layers/labels/labels.py:648 napari/layers/points/points.py:1120 napari/layers/shapes/shapes.py:1495
+msgid "Mode not recognized"
+msgstr "Режим не розпізнано"
+
+#: napari/layers/labels/labels.py:774
+msgid "Contours are not displayed during 3D rendering"
+msgstr "Контури не відображаються під час 3D-рендерингу"
+
+#: napari/layers/labels/labels.py:1082
+msgid "[No Properties]"
+msgstr "[Немає властивостей]"
+
+#: napari/layers/tracks/_track_utils.py:205
+msgid "track vertices should be a NxD array"
+msgstr "голосові вершини мають бути масивом NxD"
+
+#: napari/layers/tracks/_track_utils.py:210
+msgid "track vertices should be 4 or 5-dimensional"
+msgstr "вершин композиції має складатися з 4 або 5 вимірних"
+
+#: napari/layers/tracks/_track_utils.py:220
+msgid "track id must be an integer"
+msgstr "ID маршруту має бути цілим числом"
+
+#: napari/layers/tracks/_track_utils.py:225
+msgid "track timestamps must be greater than zero"
+msgstr "позначки часу пісні повинна бути більше нуля"
+
+#: napari/layers/tracks/_track_utils.py:234
+msgid "tracks should be ordered by ID and time"
+msgstr "треки мають бути замовлені по ID та часу"
+
+#: napari/layers/tracks/_track_utils.py:249
+msgid "the number of properties must equal the number of vertices"
+msgstr "кількість властивостей має дорівнювати кількості вершин"
+
+#: napari/layers/tracks/_track_utils.py:277
+msgid "graph node {node_idx} not found"
+msgstr "графік вузла {node_idx} не знайдено"
+
+#: napari/layers/tracks/_track_utils.py:345
+msgid "Property {color_by} not found"
+msgstr "Властивість {color_by} не знайдена"
+
+#: napari/layers/tracks/tracks.py:385
+msgid "Previous color_by key {key!r} not present in new properties. Falling back to track_id"
+msgstr "Попередній color_by ключ {key!r} відсутній у нових властивостях. Переключаюсь на track_id"
+
+#: napari/layers/tracks/tracks.py:470
+msgid "{color_by} is not a valid property key"
+msgstr "{color_by} не є дійсним ключем властивостей"
+
+#: napari/layers/tracks/tracks.py:489
+msgid "Colormap {colormap} not available"
+msgstr "Карта кольору {colormap} не доступна"
+
+#: napari/layers/surface/surface.py:157
+msgid "Surface data tuple must be 2 or 3, specifying verictes, faces, and optionally vertex values, instead got length {length}."
+msgstr "Поверхневі кортеж повинні бути 2 або 3, що визначають вершини, обличчя та необов'язково вершини значення, а замість цього отримали {length}."
+
+#: napari/layers/surface/surface.py:203
+msgid "Surface data tuple must be 2 or 3, specifying vertices, faces, and optionally vertex values, instead got length {data_length}."
+msgstr "Поверхневі кортеж повинні бути 2 або 3, що вказуватиме на вершини, обличчя та необов'язково вершину значень {data_length}, а замість цього отримали довжину {data_length}."
+
+#: napari/layers/surface/surface.py:318
+msgid "Assigning multiple values per vertex after slicing is not allowed. All dimensions corresponding to vertex_values must be non-displayed dimensions. Data will not be visible."
+msgstr "Призначення декількох значень на вершину після відрізки не допускається. Всі розміри відповідних значення vertex_values повинні бути не відображеними розмірами. Дані не будуть видимими."
+
+#: napari/layers/shapes/_shape_list.py:152
+msgid "{attribute}_color must have shape ({n_shapes}, 4)"
+msgstr "{attribute}_колір має мати форму ({n_shapes}, 4)"
+
+#: napari/layers/shapes/_shape_list.py:248
+msgid "shape must be subclass of Shape"
+msgstr "форма повинна бути підкласом форми"
+
+#: napari/layers/shapes/_shape_list.py:490
+msgid "{shape_type} must be one of {shape_classes}"
+msgstr "{shape_type} має бути одним з {shape_classes}"
+
+#: napari/layers/shapes/_shapes_utils.py:403
+msgid "Data shape does not match expected `[4, D]` shape specifying corners for the rectangle"
+msgstr "Форма даних не відповідає очікуваній `[4, D]` фігури, що зазначають кути прямокутника."
+
+#: napari/layers/shapes/_shapes_utils.py:498
+msgid "Data shape does not match expected `[4, D]` shape specifying corners for the ellipse"
+msgstr "Форма даних не відповідає очікуваній `[4, D]` фігурі, що зазначають кути еліпса"
+
+#: napari/layers/shapes/shapes.py:337
+msgid "Shape dimensions must be equal to ndim"
+msgstr "Розміри форми повинні дорівнювати ndim"
+
+#: napari/layers/points/points.py:329 napari/layers/shapes/shapes.py:407
+msgid "text should be a string, array, or dict"
+msgstr "текст має бути рядком, масивом або словником"
+
+#: napari/layers/shapes/shapes.py:452 napari/layers/shapes/shapes.py:1454
+msgid "enter a selection mode to edit shape properties"
+msgstr "введіть режим вибору для редагування властивостей форми"
+
+#: napari/layers/points/points.py:505 napari/layers/shapes/shapes.py:626
+msgid "property used for face_color dropped"
+msgstr "властивість використовується для опису face_color"
+
+#: napari/layers/points/points.py:524 napari/layers/shapes/shapes.py:638 napari/layers/vectors/vectors.py:314
+msgid "property used for edge_color dropped"
+msgstr "властивість для edge_color видалена"
+
+#: napari/layers/points/points.py:919 napari/layers/shapes/shapes.py:931
+msgid "_{attribute}_color_property was not set, setting to: {new_color_property}"
+msgstr "_{attribute}_color_property не встановлено, параметр на: {new_color_property}"
+
+#: napari/layers/shapes/shapes.py:940
+msgid "There must be a valid Shapes.properties to use {color_mode}"
+msgstr "Для використання {color_mode} мають бути припустимі Shapes.properties"
+
+#: napari/layers/points/points.py:941 napari/layers/shapes/shapes.py:953 napari/layers/vectors/vectors.py:526
+msgid "selected property must be numeric to use ColorMode.COLORMAP"
+msgstr "обрана властивість повинна бути числовою для використання ColorMode.COLORMAP"
+
+#: napari/layers/shapes/shapes.py:1325 napari/layers/utils/color_manager_utils.py:47
+msgid "face_color should be the name of a color, an array of colors, or the name of an property"
+msgstr "параметр face_color має бути назвою кольору, масиву кольорів, або назви властивості"
+
+#: napari/layers/shapes/shapes.py:1460
+msgid "hold <space> to pan/zoom, press <{BACKSPACE}> to remove selected"
+msgstr "утримуйте <space> для посадки/збільшення, натисніть <{BACKSPACE}> щоб видалити вибране"
+
+#: napari/layers/points/points.py:1103 napari/layers/points/points.py:1110 napari/layers/shapes/shapes.py:1469 napari/layers/shapes/shapes.py:1478
+msgid "hold <space> to pan/zoom"
+msgstr "утримуйте <space> для панування/збільшення"
+
+#: napari/layers/shapes/shapes.py:1488
+msgid "hold <space> to pan/zoom, press <esc> to finish drawing"
+msgstr "утримуйте <space> для посадки/масштабу, натисніть <esc> , щоб закінчити креслення"
+
+#: napari/layers/shapes/shapes.py:1865
+msgid "the number of properties must equal the number of shapes"
+msgstr "кількість властивостей має дорівнювати кількості фігур"
+
+#: napari/layers/shapes/shapes.py:2276
+msgid "expand_shape is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should work with full nD shape data as much as possible."
+msgstr "expand_shape є застарілою і буде видалено в версії 0.4.9. Вони більше не повинні використовуватися як шари, незабаром не повинно знати, які розміри відображаються. Замість цього, ви повинні працювати з усіма даними форм nD."
+
+#: napari/layers/utils/_link_layers.py:74
+msgid "Cannot link attributes that are not shared by all layers: {extra}. Allowable attrs include:\n"
+"{valid_attrs}"
+msgstr "Не можна зв'язати атрибути, які не є спільними для всіх шарів: {extra}. Допустимі знаки:\n"
+"{valid_attrs}"
+
+#: napari/layers/utils/_link_layers.py:136
+msgid "Must provide at least one layer to unlink"
+msgstr "Треба надати принаймні один шар, щоб від’єднати"
+
+#: napari/layers/utils/_link_layers.py:194
+msgid "``layers`` iterable must have at least one layer"
+msgstr "``Layers`` для ітерації повинні мати принаймні один шар"
+
+#: napari/layers/utils/_text_utils.py:44
+msgid "view_data should be a numpy array or list when using Anchor.CENTER"
+msgstr "view_data має бути масив або список numpy під час використання Anchor.CENTER"
+
+#: napari/layers/utils/_text_utils.py:141
+msgid "view_data should be a numpy array or list"
+msgstr "view_data має бути масив або список"
+
+#: napari/layers/utils/_text_utils.py:189
+msgid "Number of text elements ({length}) should equal the length of the data ({n_text})"
+msgstr "Кількість текстових елементів ({length}) повинна дорівнювати довжині даних ({n_text})"
+
+#: napari/layers/utils/color_manager.py:66
+msgid "color_properties dictionary should have keys: name, values, and optionally current_value"
+msgstr "color_properties словник повинен містити ключі: ім'я, значення і опціонально current_value"
+
+#: napari/layers/utils/color_manager.py:76
+msgid "color_properties should be None, a dict, or ColorProperties object"
+msgstr "color_properties повинно бути None, формою або об’єктом ColorProperties"
+
+#: napari/layers/utils/color_manager.py:485
+msgid "if color_properties is a string, it should be a property name"
+msgstr "якщо кольори_властивості - це рядок, то це має бути ім'я властивості"
+
+#: napari/layers/utils/color_transformations.py:45
+msgid "The provided {elem_name} parameter contained illegal values, resetting all {elem_name} values to {default}."
+msgstr "Наданий параметр {elem_name} містить незаконні значення, скинувши всі {elem_name} значення на {default}."
+
+#: napari/layers/utils/color_transformations.py:60
+msgid "The provided {elem_name} parameter has {length} entries, while the data contains {num_entries} entries. Setting {elem_name} to {default}."
+msgstr "Наданий параметр {elem_name} має {length} записів, в той час як дані містять {num_entries} записів. Установка {elem_name} на {default}."
+
+#: napari/layers/utils/color_transformations.py:137
+msgid "The number of supplied colors mismatch the number of given data points. Length of data is {num_entries}, while the number of colors is {length}. Color for all points is reset to white."
+msgstr "Кількість запропонованих кольорів невідповідність кількості заданих значень. Довжина даних дорівнює {num_entries}, кількість кольорів {length}. Колір для всіх точок обнуляється білею."
+
+#: napari/layers/utils/stack_utils.py:102
+msgid "Error adding multichannel image with data shape {data_shape!r}.\n"
+"Requested channel_axis ({channel_axis}) had length {n_channels}, but the '{key}' argument only provided {i} values. "
+msgstr "Помилка додавання зображення багатоканального з формою даних {data_shape!r}.\n"
+"Запитувана вісь каналу ({channel_axis}) мала довжину {n_channels}, але аргумент '{key}надає лише значення {i}. "
+
+#: napari/layers/utils/stack_utils.py:159
+msgid "The image needs more than 2 dimensions for splitting"
+msgstr "Зображення має бути більше 2 розмірів для розділення"
+
+#: napari/layers/utils/stack_utils.py:167
+msgid "Can't split along axis {axis}. The image has {num_dim} dimensions"
+msgstr "Неможливо розділити на осі {axis}. Зображення має {num_dim} розміри"
+
+#: napari/layers/utils/stack_utils.py:235
+msgid "images list is empty"
+msgstr "список зображень порожній"
+
+#: napari/layers/utils/text.py:217
+msgid "opaque blending mode is not allowed for text. setting to translucent."
+msgstr "непрозорий режим відображення не дозволений для текстового параметра."
+
+#: napari/layers/vectors/_vector_utils.py:35
+msgid "Vector data of shape {shape} is not supported"
+msgstr "Векторні дані форми {shape} не підтримуються"
+
+#: napari/layers/points/points.py:572 napari/layers/vectors/vectors.py:336
+msgid "the number of properties must equal the number of points"
+msgstr "кількість властивостей має дорівнювати кількості точок"
+
+#: napari/layers/vectors/vectors.py:504
+msgid "edge_color property was not set, setting to: {color_property}"
+msgstr "параметр edge_color не встановлено, параметр {color_property}"
+
+#: napari/layers/vectors/vectors.py:513
+msgid "There must be a valid Points.properties to use {edge_color_mode}"
+msgstr "Має бути коректні точки. Щоб використовувати {edge_color_mode}"
+
+#: napari/layers/image/_image_utils.py:68
+msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays of single shape: {shape}"
+msgstr "Вхідні дані повинні бути масивом, схожими на об'єкт, або послідовність масивів зменшення розміру. Масив значення одинарної форми: {shape}"
+
+#: napari/layers/image/_image_utils.py:76
+msgid "Input data should be an array-like object, or a sequence of arrays of decreasing size. Got arrays in incorrect order, shapes: {shapes}"
+msgstr "Вхідні дані повинні бути масивом, схожими на об'єкт, або послідовність масивів зменшення розміру. Розміри Got в неправильному порядку, форми: {shapes}"
+
+#: napari/layers/points/_points_constants.py:84
+msgid "arrow"
+msgstr "стрілкою"
+
+#: napari/layers/points/_points_constants.py:85
+msgid "clobber"
+msgstr "лоба"
+
+#: napari/layers/points/_points_constants.py:86
+msgid "cross"
+msgstr "перетинатися"
+
+#: napari/layers/points/_points_constants.py:87
+msgid "diamond"
+msgstr "діамант"
+
+#: napari/layers/points/_points_constants.py:88
+msgid "disc"
+msgstr "диск"
+
+#: napari/layers/points/_points_constants.py:89
+msgid "hbar"
+msgstr "гбар"
+
+#: napari/layers/points/_points_constants.py:90
+msgid "ring"
+msgstr "рингтон"
+
+#: napari/layers/points/_points_constants.py:92
+msgid "star"
+msgstr "зірка"
+
+#: napari/layers/points/_points_constants.py:93
+msgid "tailed arrow"
+msgstr "вівсяна стріла"
+
+#: napari/layers/points/_points_constants.py:94
+msgid "triangle down"
+msgstr "трикутник вниз"
+
+#: napari/layers/points/_points_constants.py:95
+msgid "triangle up"
+msgstr "трикутник вгору"
+
+#: napari/layers/points/_points_constants.py:96
+msgid "vbar"
+msgstr "vbar"
+
+#: napari/layers/points/_points_constants.py:97
+msgid "x"
+msgstr "х"
+
+#: napari/layers/points/_points_utils.py:119
+msgid "Points dimensions must be equal to ndim"
+msgstr "Розміри точок мають дорівнювати ndim"
+
+#: napari/layers/points/points.py:666
+msgid "Size is not compatible for broadcasting"
+msgstr "Розмір недоступний для трансляції"
+
+#: napari/layers/points/points.py:928
+msgid "There must be a valid Points.properties to use {color_mode}"
+msgstr "Має бути коректні точки. Щоб використовувати {color_mode}"
+
+#: napari/layers/base/_base_constants.py:34
+msgid "translucent"
+msgstr "напівпрозорий"
+
+#: napari/layers/base/_base_constants.py:35
+msgid "additive"
+msgstr "адитив"
+
+#: napari/layers/base/_base_constants.py:36
+msgid "opaque"
+msgstr "непрозорий"
+
+#: napari/layers/base/base.py:237
+msgid "affine input not recognized. must be either napari.utils.transforms.Affine, ndarray, or None. Got {dtype}"
+msgstr "вхідні дані не підтримуються. Має бути napari.utils.Affine, ndarray, або None. Got {dtype}"
+
+#: napari/layers/base/base.py:283
+msgid "'layer.events.select' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'added' attribute on the event."
+msgstr "'layer.events.select' є застарілим і буде видалено з napari v0.4.9, використовуйте 'viewer.layers.selection.events.changed' та перевірте атрибут 'added' на заході."
+
+#: napari/layers/base/base.py:290
+msgid "'layer.events.deselect' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.changed' instead, and inspect the 'removed' attribute on the event."
+msgstr "'layer.events.deselect' є застарілим і він буде видалений з napari v0.4.9, використовуйте 'viewer.layers.selection.events.changed' та натомість перевірте атрибут 'removed' на заході."
+
+#: napari/layers/base/base.py:347
+msgid "opacity must be between 0.0 and 1.0; got {opacity}"
+msgstr "непрозорість повинна бути між 0.0 та 1.0; отримано {opacity}"
+
+#: napari/layers/base/base.py:471
+msgid "affine input not recognized. must be either napari.utils.transforms.Affine or ndarray. Got {dtype}"
+msgstr "вхідні дані не підтримуються. Має бути napari.utils.Affine або ndarray. Отримано {dtype}"
+
+#: napari/layers/base/base.py:493 napari/layers/base/base.py:505
+msgid "layer.position is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position."
+msgstr "layer.Положення є застарілим і буде видалено в версії 0.4.9. Це більше не повинно використовуватися як шари які більше не повинні знати, де знаходиться положення курсора. Ви можете отримати позицію курсору в координати світу від viewer.cursor.позиції."
+
+#: napari/layers/base/base.py:656
+msgid "Non-orthogonal slicing is being requested, but is not fully supported. Data is displayed without applying an out-of-slice rotation or shear component."
+msgstr "Неортогональне нарізання надсилається, але воно не повністю підтримується. Дані відображаються без застосування незавершеного обертання або штрихового компонента."
+
+#: napari/layers/base/base.py:757
+msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `layer in viewer.layers.selection`"
+msgstr "'layer.selected' є застарілим і буде вилучено з функції v0.4.9. Будь-ласка, використовуйте `layer в viewer.layers.selection`"
+
+#: napari/layers/base/base.py:772
+msgid "'layer.selected' is deprecated and will be removed in v0.4.9. Please use `viewer.layers.selection.add(layer)` or `viewer.layers.selection.remove(layer)`"
+msgstr "'layer.selected' є застарілим і буде видалено з v0.4.9. Будь-ласка, використовуйте `viewer.layers.selection.add(layer)` або `viewer.layers.selection.remove(layer)`"
+
+#: napari/layers/base/base.py:981
+msgid "layer.coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should no longer know where the cursor position is. You can get the cursor position in world coordinates from viewer.cursor.position. You can then transform that into data coordinates using the layer.world_to_data method."
+msgstr "layer.координати застарілі і будуть видалені у версії 0.4.9. Це більше не повинно використовуватися як шари які більше не повинні знати, де знаходиться положення курсора. Ви можете отримати позицію курсору з координат світу від viewer.cursor.позиції. Далі ви можете перетворити її в координати за допомогою layer.world_to_data методу."
+
+#: napari/layers/base/base.py:1069
+msgid "displayed_coordinates is deprecated and will be removed in version 0.4.9. It should no longer be used as layers should will soon not know which dimensions are displayed. Instead you should use [layer.coordinates[d] for d in viewer.dims.displayed]"
+msgstr "displayed_coordinates застарілі і будуть видалені у версії 0.4.9. Вони більше не повинні використовуватися як шари, незабаром не повинно знати, які розміри відображаються. Замість цього слід використовувати [layer.coordinates[d] для d на viewer.dims.displayed]"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:147
+msgid "zero"
+msgstr "нуль"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:148
+msgid "one"
+msgstr "один"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:149
+msgid "two"
+msgstr "два"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:150
+msgid "three"
+msgstr "три"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:151
+msgid "four"
+msgstr "чотири"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:152
+msgid "five"
+msgstr "п'ять"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:153
+msgid "six"
+msgstr "шість"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:154
+msgid "seven"
+msgstr "сім"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:155
+msgid "eight"
+msgstr "вісім"
+
+#: napari/_vendor/experimental/humanize/src/humanize/number.py:156
+msgid "nine"
+msgstr "дев’ять"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:130 napari/_vendor/experimental/humanize/src/humanize/time.py:203
+msgid "a moment"
+msgstr "момент"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:132
+msgid "a second"
+msgstr "секунда"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:136
+msgid "a minute"
+msgstr "хвилина"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:141
+msgid "an hour"
+msgstr "година"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:147
+msgid "a day"
+msgstr "в день"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:154
+msgid "a month"
+msgstr "місяць"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:159
+msgid "a year"
+msgstr "рік"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:164
+msgid "1 year, 1 month"
+msgstr "1 рік, 1 місяць"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:200
+#, python-format
+msgid "%s from now"
+msgstr "%s з цього моменту"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:200
+#, python-format
+msgid "%s ago"
+msgstr "%s тому"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:204
+msgid "now"
+msgstr "зараз"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:223
+msgid "today"
+msgstr "сьогодні"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:225
+msgid "tomorrow"
+msgstr "завтра"
+
+#: napari/_vendor/experimental/humanize/src/humanize/time.py:227
+msgid "yesterday"
+msgstr "вчора"
+
+#: napari/_vispy/experimental/texture_atlas.py:309
+msgid "Data with shape {shape} is not compatible with this TextureAtlas2D which has tile shape {spec_shape}"
+msgstr "Дані з формою {shape} не сумісні з цим TextureAtlas2D, які мають форму плитки {spec_shape}"
+
+#: napari/_vispy/experimental/tiled_image_visual.py:310
+msgid "Tile index {tile_index} not found."
+msgstr "Індекс плиток {tile_index} не знайдений."
+
+#: napari/_vispy/experimental/tiled_image_visual.py:361
+msgid "Auto clims not supported for tiled image visual"
+msgstr "Автопідйомність не підтримується для візуального образів"
+
+#: napari/utils/events/containers/_evented_list.py:117 napari/utils/events/containers/_typed.py:92
+msgid "Can only assign an iterable to slice"
+msgstr "Можна призначити лише літеру на фрагмент"
+
+#: napari/utils/events/containers/_evented_list.py:132
+msgid "attempt to assign sequence of size {size} to extended slice of size {slice_size}"
+msgstr "спроба призначити послідовність з розміру {size} до розширеного фрагменту розміру {slice_size}"
+
+#: napari/utils/events/containers/_evented_list.py:163
+msgid "Deletion index must be {valid!r}, got {dtype}"
+msgstr "Індекс видалення повинен бути {valid!r}, отримав {dtype}"
+
+#: napari/utils/events/containers/_evented_list.py:298 napari/utils/events/containers/_nested_list.py:298 napari/utils/events/containers/_nested_list.py:405
+msgid "Destination index may not be a slice"
+msgstr "Індекс призначення не може бути фрагментом"
+
+#: napari/utils/events/containers/_evented_list.py:312
+msgid "Can only move integer or slice indices"
+msgstr "Можна перемістити число або розріз індексів"
+
+#: napari/utils/events/containers/_nested_list.py:57
+msgid "Invalid nested index: {index}. Must be an int or tuple"
+msgstr "Неприпустимий індекс: {index}. Повинно бути підказкою або кортежем"
+
+#: napari/utils/events/containers/_nested_list.py:97
+msgid "The parent index must be a tuple of int"
+msgstr "Батьківський індекс має бути кортеж з відтінку"
+
+#: napari/utils/events/containers/_nested_list.py:314 napari/utils/events/containers/_nested_list.py:413
+msgid "Group cannot move itself"
+msgstr "Група не може перемістити сама"
+
+#: napari/utils/events/containers/_nested_list.py:327
+msgid "Can't yet deal with slice source indices in multimove"
+msgstr "Не можна поки що мати справу з відтінками вихідного коду в множині"
+
+#: napari/utils/events/containers/_nested_list.py:338 napari/utils/events/containers/_nested_list.py:397
+msgid "Terminal source index may not be a slice"
+msgstr "Кінцевий вихідний індекс не може бути скибкою"
+
+#: napari/utils/events/containers/_nested_list.py:446
+msgid "Cannot add object with type {dtype!r} to TypedList expecting type {types_!r}"
+msgstr "Не вдалося додати об'єкт з типом {dtype!r} до TypedList очікується тип {types_!r}"
+
+#: napari/utils/events/containers/_selectable_list.py:54
+msgid "Cannot select item that is not in list: {value!r}"
+msgstr "Неможливо вибрати елемент, який не є в списку: {value!r}"
+
+#: napari/utils/events/containers/_selection.py:150
+msgid "Value is not a valid sequence: {data}"
+msgstr "Значення не є дійсним послідовність: {data}"
+
+#: napari/utils/events/containers/_set.py:166
+msgid "Value is not a valid sequence: {value}"
+msgstr "Значення не є дійсним послідовність: {value}"
+
+#: napari/utils/events/containers/_typed.py:164
+msgid "Cannot add object with type {dtype!r} to TypedList expecting type {basetypes!r}"
+msgstr "Не вдалося додати об'єкт з типом {dtype!r} до TypedList очікується тип {basetypes!r}"
+
+#: napari/utils/events/containers/_typed.py:239
+msgid "{value!r} is not in list"
+msgstr "{value!r} немає у списку"
+
+#: napari/utils/tree/node.py:93
+msgid "Cannot unparent orphaned Node: {node!r}"
+msgstr "Неможливо отримати батьківського сирота вузла: {node!r}"
+
+#: napari/utils/settings/_defaults.py:51 napari/utils/settings/_defaults.py:60
+msgid "A schema version must be a 3 element tuple or string!"
+msgstr "Версія схеми має бути об'єктом трьох елементів кортежу або рядка!"
+
+#: napari/utils/settings/_defaults.py:71
+msgid "A schema version subparts must be positive integers or parseable as integers!"
+msgstr "Підчастини версії схеми мають бути додатними цілими числами або синтаксичними цілими числами!"
+
+#: napari/utils/settings/_defaults.py:109 napari/utils/settings/_defaults.py:147
+msgid "must be a string"
+msgstr "має бути рядком"
+
+#: napari/utils/settings/_defaults.py:119
+msgid "\"{value}\" is not valid. It must be one of {themes}"
+msgstr "\"{value}\" є неприпустимим. Він повинен бути одним з {themes}"
+
+#: napari/utils/settings/_defaults.py:156
+msgid "\"{value}\" is not valid. It must be one of {language_packs}."
+msgstr "\"{value}\" є неприпустимим. Він повинен бути одним з {language_packs}."
+
+#: napari/utils/settings/_defaults.py:192
+msgid "Theme"
+msgstr "Тема"
+
+#: napari/utils/settings/_defaults.py:193
+msgid "Theme selection."
+msgstr "Вибір теми."
+
+#: napari/utils/settings/_defaults.py:198
+msgid "Appearance"
+msgstr "Зовнішній вигляд"
+
+#: napari/utils/settings/_defaults.py:221
+msgid "IPython interactive"
+msgstr "Інструмент взаємодії IPython"
+
+#: napari/utils/settings/_defaults.py:222
+#, python-format
+msgid "Use interactive %gui qt event loop when creating napari Viewers in IPython"
+msgstr "Використовувати інтерактивний цикл події %gui qt при створенні napari Viewers в IPython"
+
+#: napari/utils/settings/_defaults.py:229
+msgid "Language"
+msgstr "Мова:"
+
+#: napari/utils/settings/_defaults.py:230
+msgid "Interface display language."
+msgstr "Мова інтерфейсу дисплея."
+
+#: napari/utils/settings/_defaults.py:236
+msgid "Save Window Geometry"
+msgstr "Зберегти віконну геометрію"
+
+#: napari/utils/settings/_defaults.py:237
+msgid "Save window size and position."
+msgstr "Зберегти розмір і розташування."
+
+#: napari/utils/settings/_defaults.py:241
+msgid "Save Window State"
+msgstr "Зберегти стан вікна"
+
+#: napari/utils/settings/_defaults.py:242
+msgid "Save window state of dock widgets."
+msgstr "Зберігати стан вікна віджетів док-станції"
+
+#: napari/utils/settings/_defaults.py:262
+msgid "Application"
+msgstr "Програма"
+
+#: napari/utils/settings/_defaults.py:300
+msgid "Plugin sort order"
+msgstr "Порядок сортування плагіна"
+
+#: napari/utils/settings/_defaults.py:301
+msgid "Sort plugins for each action in the order to be called."
+msgstr "Сортувати плагіни для кожної дії для порядку виклику."
+
+#: napari/utils/settings/_defaults.py:308
+msgid "Plugins"
+msgstr "Плагіни"
+
+#: napari/utils/settings/_manager.py:135
+msgid "The content of the napari settings file could not be read\n\n"
+"The default settings will be used and the content of the file will be replaced the next time settings are changed.\n\n"
+"Error:\n"
+"{err}"
+msgstr "Вміст файлу налаштувань napari не може бути прочитаний\n\n"
+"За замовчуванням будуть використані налаштування і вміст файлу буде замінено наступного разу налаштування змінилися.\n\n"
+"Помилка:\n"
+"{err}"
+
+#: napari/utils/_tests/test_translations.py:176
+msgid "BOO"
+msgstr "БВЕ"
+
+#: napari/utils/_tests/test_translations.py:184
+msgid "More about napari"
+msgstr "Детальніше про napari"
+
+#: napari/utils/_tests/test_translations.py:397
+msgid "MORE ABOUT NAPARI"
+msgstr "БІЛЬШЕ ПРО НАПАРИЙ"
+
+#: napari/utils/transforms/transform_utils.py:81
+msgid "Scalars are not valid values for shear. Shear must be an upper triangular vector or square matrix with ones along the main diagonal."
+msgstr "Скалари не є припустимими значеннями для стрижня. Шукайте - верхній трикутник або квадратну матрицю з одиницями вздовж головної діагоналі."
+
+#: napari/utils/transforms/transform_utils.py:122
+msgid "{number} is a strange number of shear elements"
+msgstr "{number} - дивна кількість елементів спису"
+
+#: napari/utils/transforms/transform_utils.py:153
+msgid "Improper transform matrix {matrix}"
+msgstr "Некоректна матриця перетворення {matrix}"
+
+#: napari/utils/transforms/transforms.py:48
+msgid "Inverse function was not provided."
+msgstr "Обернена функція не надана."
+
+#: napari/utils/transforms/transforms.py:54
+msgid "Transform composition rule not provided"
+msgstr "Перетворити правило складання не надано"
+
+#: napari/utils/transforms/transforms.py:71 napari/utils/transforms/transforms.py:90
+msgid "Cannot subset arbitrary transforms."
+msgstr "Неможливо підставити довільні перетворення."
+
+#: napari/utils/transforms/transforms.py:342 napari/utils/transforms/transforms.py:420
+msgid "Only upper triangular or lower triangular matrices are accepted for shear, got {shear}. For other matrices, set the affine_matrix or linear_matrix directly."
+msgstr ""
+
+#: napari/utils/events/event.py:311
+msgid "print_callback_errors must be \"first\", \"reminders\", \"always\", or \"never\""
+msgstr "print_callback_errors має бути \"first\", \"нагадування\", \"завжди\", або \"ніколи\""
+
+#: napari/utils/events/event.py:421
+msgid "ref must be a bool or string"
+msgstr "ref повинен бути булавим або рядком"
+
+#: napari/utils/events/event.py:428
+msgid "ref \"{ref}\" is not unique"
+msgstr "ref \"{ref}\" не є унікальним"
+
+#: napari/utils/events/event.py:434
+msgid "position must be \"first\" or \"last\", not {position}"
+msgstr "позиція повинна бути \"first\" або \"last\", а не {position}"
+
+#: napari/utils/events/event.py:458
+msgid "criteria \"{criteria}\" is in the current callback list {count} times:\n"
+"{callback_refs}\n"
+"{callbacks}"
+msgstr "критерія\"{criteria}\" перебуває в поточному списку зворотних викликів {count} разів:\n"
+"{callback_refs}\n"
+"{callbacks}"
+
+#: napari/utils/events/event.py:477
+msgid "cannot place callback before \"{before}\" and after \"{after}\" for callbacks: {callback_refs}"
+msgstr "не можна розміщувати зворотний виклик до \"{before}\" і після \"{after}\" для зворотних викликів: {callback_refs}"
+
+#: napari/utils/events/event.py:583
+msgid "Event source-stack mismatch."
+msgstr "Подія вихідного стеку не збігається."
+
+#: napari/utils/events/event.py:616
+msgid "Event emitters can be called with an Event instance or with keyword arguments only."
+msgstr "випромінювачі подій можна викликати лише з примірником події або з аргументами ключового слова."
+
+#: napari/utils/events/event.py:648
+msgid "Cannot unblock {self_} for callback {callback}; emitter was not previously blocked."
+msgstr "Не можна розблокувати {self_} для зворотного виклику {callback}; випромінювач не був заблокований раніше."
+
+#: napari/utils/events/event.py:817
+msgid "EmitterGroup already has an emitter named '{name}'"
+msgstr "EitterGroup вже має випромінювач з назвою '{name}"
+
+#: napari/utils/events/event.py:825
+msgid "The name '{name}' cannot be used as an emitter; it is already an attribute of EmitterGroup"
+msgstr "Ім'я '{name}не може бути використане як випромінювач; це вже є атрибутом EmitterGroup"
+
+#: napari/utils/events/event.py:843
+msgid "Emitter must be specified as either an EventEmitter instance or Event subclass. (got {name}={emitter})"
+msgstr "Емітер повинен бути вказаний як екземпляр EventEmitter або підклас подій. (отримано {name}={emitter})"
+
+#: napari/utils/events/evented_model.py:165
+msgid "The `asdict` method has been renamed `dict` and is now deprecated. It will be removed in 0.4.7"
+msgstr "Метод `asdict` був перейменований на `dict` і в даний час є застарілим. Його буде видалено за 0.4.7"
+
+#: napari/utils/events/evented_model.py:191
+msgid "Unsupported update from {values}"
+msgstr "Оновлення {values} не підтримується"
+
+#: napari/utils/perf/_config.py:110
+msgid "{path} has no callable list '{list_name}'"
+msgstr "{path} не має жодного списку для викликів '{list_name}"
+
+#: napari/utils/perf/_patcher.py:47
+msgid "Nested attribute not found: {attribute_str}"
+msgstr "Вкладений атрибут не знайдено: {attribute_str}"
+
+#: napari/utils/perf/_patcher.py:61
+msgid "Module {module_name} has no attribute {attribute_str}"
+msgstr "Модуль {module_name} не має атрибуту {attribute_str}"
+
+#: napari/utils/perf/_patcher.py:80
+msgid "Parent {parent_str} has no attribute {callable_str}"
+msgstr "Батько {parent_str} не має атрибуту {callable_str}"
+
+#: napari/utils/perf/_patcher.py:135
+msgid "Module not found: {module_path}"
+msgstr "Модуль не знайдений: {module_path}"
+
+#: napari/utils/colormaps/bop_colors.py:787
+msgid "bop blue"
+msgstr "боп-синій"
+
+#: napari/utils/colormaps/bop_colors.py:788
+msgid "bop orange"
+msgstr "підбор помаранчевий"
+
+#: napari/utils/colormaps/bop_colors.py:789
+msgid "bop purple"
+msgstr "фіолетовий пучок"
+
+#: napari/utils/colormaps/categorical_colormap.py:106
+msgid "colormap should be an array or dict"
+msgstr "colorMap повинна бути масивом або словником"
+
+#: napari/utils/colormaps/categorical_colormap_utils.py:62
+msgid "ColorCycle requires a values argument"
+msgstr "ColorCycle requires a value"
+
+#: napari/utils/colormaps/colormap.py:97
+msgid "Unrecognized Colormap Interpolation Mode"
+msgstr "Нерозпізнаний режим інтерполяції Colormap"
+
+#: napari/utils/colormaps/colormap_utils.py:27 napari/utils/colormaps/colormap_utils.py:56
+msgctxt "colormap"
+msgid "viridis"
+msgstr "вірида"
+
+#: napari/utils/colormaps/colormap_utils.py:28
+msgctxt "colormap"
+msgid "magma"
+msgstr "magma"
+
+#: napari/utils/colormaps/colormap_utils.py:29
+msgctxt "colormap"
+msgid "inferno"
+msgstr "інферно"
+
+#: napari/utils/colormaps/colormap_utils.py:30
+msgctxt "colormap"
+msgid "plasma"
+msgstr "плазма"
+
+#: napari/utils/colormaps/colormap_utils.py:31
+msgctxt "colormap"
+msgid "gray"
+msgstr "сірий"
+
+#: napari/utils/colormaps/colormap_utils.py:32
+msgctxt "colormap"
+msgid "gray r"
+msgstr "сірий r"
+
+#: napari/utils/colormaps/colormap_utils.py:33
+msgctxt "colormap"
+msgid "hsv"
+msgstr "години"
+
+#: napari/utils/colormaps/colormap_utils.py:34
+msgctxt "colormap"
+msgid "turbo"
+msgstr "турбо"
+
+#: napari/utils/colormaps/colormap_utils.py:35
+msgctxt "colormap"
+msgid "twilight"
+msgstr "сутінки"
+
+#: napari/utils/colormaps/colormap_utils.py:36
+msgctxt "colormap"
+msgid "twilight shifted"
+msgstr "сутінки зміщені"
+
+#: napari/utils/colormaps/colormap_utils.py:37
+msgctxt "colormap"
+msgid "gist earth"
+msgstr "кулак"
+
+#: napari/utils/colormaps/colormap_utils.py:38
+msgctxt "colormap"
+msgid "PiYG"
+msgstr "Пійг"
+
+#: napari/utils/colormaps/colormap_utils.py:42
+msgctxt "colormap"
+msgid "autumn"
+msgstr "осінь"
+
+#: napari/utils/colormaps/colormap_utils.py:43
+msgctxt "colormap"
+msgid "blues"
+msgstr "блюз"
+
+#: napari/utils/colormaps/colormap_utils.py:44
+msgctxt "colormap"
+msgid "cool"
+msgstr "класно"
+
+#: napari/utils/colormaps/colormap_utils.py:45
+msgctxt "colormap"
+msgid "greens"
+msgstr "зелені"
+
+#: napari/utils/colormaps/colormap_utils.py:46
+msgctxt "colormap"
+msgid "reds"
+msgstr "червоні"
+
+#: napari/utils/colormaps/colormap_utils.py:47
+msgctxt "colormap"
+msgid "spring"
+msgstr "весна"
+
+#: napari/utils/colormaps/colormap_utils.py:48
+msgctxt "colormap"
+msgid "summer"
+msgstr "літо"
+
+#: napari/utils/colormaps/colormap_utils.py:49
+msgctxt "colormap"
+msgid "fire"
+msgstr "вогонь"
+
+#: napari/utils/colormaps/colormap_utils.py:50
+msgctxt "colormap"
+msgid "grays"
+msgstr "сірий"
+
+#: napari/utils/colormaps/colormap_utils.py:51
+msgctxt "colormap"
+msgid "hot"
+msgstr "гарячий"
+
+#: napari/utils/colormaps/colormap_utils.py:52
+msgctxt "colormap"
+msgid "ice"
+msgstr "лід"
+
+#: napari/utils/colormaps/colormap_utils.py:53
+msgctxt "colormap"
+msgid "winter"
+msgstr "зима"
+
+#: napari/utils/colormaps/colormap_utils.py:54
+msgctxt "colormap"
+msgid "light blues"
+msgstr "світло-синій"
+
+#: napari/utils/colormaps/colormap_utils.py:55
+msgctxt "colormap"
+msgid "orange"
+msgstr "помаранчевий"
+
+#: napari/utils/colormaps/colormap_utils.py:57
+msgctxt "colormap"
+msgid "coolwarm"
+msgstr "холодний тепло"
+
+#: napari/utils/colormaps/colormap_utils.py:58
+msgctxt "colormap"
+msgid "PuGr"
+msgstr "Пугр"
+
+#: napari/utils/colormaps/colormap_utils.py:59
+msgctxt "colormap"
+msgid "GrBu"
+msgstr "GrBu"
+
+#: napari/utils/colormaps/colormap_utils.py:60
+msgctxt "colormap"
+msgid "GrBu_d"
+msgstr "GrBu_d"
+
+#: napari/utils/colormaps/colormap_utils.py:61
+msgctxt "colormap"
+msgid "RdBu"
+msgstr "Рдбю"
+
+#: napari/utils/colormaps/colormap_utils.py:62
+msgctxt "colormap"
+msgid "cubehelix"
+msgstr "cubehelix"
+
+#: napari/utils/colormaps/colormap_utils.py:63
+msgctxt "colormap"
+msgid "single hue"
+msgstr "один відтінок"
+
+#: napari/utils/colormaps/colormap_utils.py:64
+msgctxt "colormap"
+msgid "hsl"
+msgstr "шшт"
+
+#: napari/utils/colormaps/colormap_utils.py:65
+msgctxt "colormap"
+msgid "husl"
+msgstr "гуска"
+
+#: napari/utils/colormaps/colormap_utils.py:66
+msgctxt "colormap"
+msgid "diverging"
+msgstr "перенаправлення"
+
+#: napari/utils/colormaps/colormap_utils.py:67
+msgctxt "colormap"
+msgid "RdYeBuCy"
+msgstr "RdYeBuCy"
+
+#: napari/utils/colormaps/colormap_utils.py:70
+msgctxt "colormap"
+msgid "red"
+msgstr "червоний"
+
+#: napari/utils/colormaps/colormap_utils.py:71
+msgctxt "colormap"
+msgid "green"
+msgstr "зелений"
+
+#: napari/utils/colormaps/colormap_utils.py:72
+msgctxt "colormap"
+msgid "blue"
+msgstr "блакитний"
+
+#: napari/utils/colormaps/colormap_utils.py:73
+msgctxt "colormap"
+msgid "cyan"
+msgstr "блакитний"
+
+#: napari/utils/colormaps/colormap_utils.py:74
+msgctxt "colormap"
+msgid "magenta"
+msgstr "пурпуровий"
+
+#: napari/utils/colormaps/colormap_utils.py:75
+msgctxt "colormap"
+msgid "yellow"
+msgstr "жовтий"
+
+#: napari/utils/colormaps/colormap_utils.py:127
+msgid "Colormap must be a vispy colormap if passed to from_vispy"
+msgstr "Кольорова карта має бути візуально видимою якщо її передано з _vispy"
+
+#: napari/utils/colormaps/colormap_utils.py:357
+msgctxt "colormap"
+msgid "low discrepancy colors"
+msgstr "кольори низької невідповідності"
+
+#: napari/utils/colormaps/colormap_utils.py:391
+msgid "Colormap \"{name}\" not found in either vispy or matplotlib."
+msgstr "Colormap \"{name}\" не знайдено у вигляді vispy або matplotlib."
+
+#: napari/utils/colormaps/colormap_utils.py:444
+msgid "[unnamed colormap]"
+msgstr "[безіменна кольорова карта]"
+
+#: napari/utils/colormaps/colormap_utils.py:450
+msgid "[unnamed colormap {number}]"
+msgstr "[безіменна кольорова карта {number}]"
+
+#: napari/utils/colormaps/colormap_utils.py:523
+msgid "When providing a tuple as a colormap argument, the first element must be a string and the second a Colormap instance"
+msgstr "При наданні кортежу як аргумент на кольоровій карті, перший елемент має бути рядком і другий екземпляр Colormap"
+
+#: napari/utils/colormaps/colormap_utils.py:549
+msgid "When providing a dict as a colormap, all values must be Colormap instances"
+msgstr "При наданні словника як кольорової карти, всі значення повинні бути екземплярами Colormap"
+
+#: napari/utils/colormaps/colormap_utils.py:572
+msgid "only the first item in a colormap dict is used as an argument"
+msgstr "в якості аргументу використовується лише перший елемент у виразі кольорової карти"
+
+#: napari/utils/colormaps/colormap_utils.py:579
+msgid "Received an empty dict as a colormap argument."
+msgstr "Отримано порожній словник в якості аргументу кольорової карти."
+
+#: napari/utils/colormaps/colormap_utils.py:589
+msgid "invalid type for colormap: {cm_type}. Must be a {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
+msgstr "неприпустимий тип для colormap: {cm_type}. Повинен бути {{str, tuple, dict, napari.utils.Colormap, vispy.colors.Colormap}}"
+
+#: napari/utils/colormaps/standardize_color.py:88
+msgid "Empty string detected. Returning black instead."
+msgstr "Виявлено пусту стрічку. Замість цього замість неї повертається чорна."
+
+#: napari/utils/colormaps/standardize_color.py:133
+msgid "Coudln't convert input color array to a proper numpy array. Please make sure that your input data is in a parsable format. Converting input to a white color array."
+msgstr "Не перетворено масив вхідних кольорів у правильний масив numpy. Переконайтеся, що ваші вхідні дані знаходяться в придатному форматі. Конвертація даних у білий масив кольору."
+
+#: napari/utils/colormaps/standardize_color.py:171
+msgid "An object array was passed as the color input. Please convert its datatype before sending it to napari. Converting input to a white color array."
+msgstr "Масив об'єкта був переданий як введення кольору. Будь ласка, переведіть його формат перед відправкою napari. Перетворення даних в білий масив кольору."
+
+#: napari/utils/colormaps/standardize_color.py:184
+msgid "String color arrays should be one-dimensional. Converting input to a white color array."
+msgstr "Розміри кольорів повинні бути однорозмірними. Перетворення введення в білий масив кольору."
+
+#: napari/utils/colormaps/standardize_color.py:198
+msgid "Given color input is empty. Converting input to a white color array."
+msgstr "Введення кольору порожнє. Перетворення даних у білий масив кольору."
+
+#: napari/utils/colormaps/standardize_color.py:211
+msgid "Given colors input should contain one or two dimensions. Received array with {ndim} dimensions."
+msgstr "Введені кольори повинні містити один або два виміри. Отримано масив із {ndim} вимірами."
+
+#: napari/utils/colormaps/standardize_color.py:223
+msgid "Given color array has an unsupported format. Received the following array:\n"
+"{colors}\n"
+"A proper color array should have 3-4 columns with a row per data entry."
+msgstr "Даний масив кольорів має непідтримуваний формат. Отримано наступний масив:\n"
+"{colors}\n"
+"правильний масив кольорів повинен мати 3-4 стовпця з рядком на один запис."
+
+#: napari/utils/colormaps/standardize_color.py:239
+msgid "Given colors input should contain three or four columns. Received array with {shape} columns. Converting input to a white color array."
+msgstr "Надаючи кольори, вхідні кольори повинні містити три або чотири стовпці. Отримано масив з {shape} стовпцями. Переведення введеня до білого кольору масиву."
+
+#: napari/utils/colormaps/standardize_color.py:253
+msgid "Data type of array ({color_dtype}) not supported."
+msgstr "Тип даних масиву ({color_dtype}) не підтримується."
+
+#: napari/utils/colormaps/standardize_color.py:287
+msgid "Colors input had negative values."
+msgstr "Вхідні кольори мають негативні значення."
+
+#: napari/utils/colormaps/standardize_color.py:295
+msgid "Colors with values larger than one detected. napari will normalize these colors for you. If you'd like to convert these yourself, please use the proper method from skimage.color."
+msgstr "Кольори зі значеннями більшого ніж одна виявлена. napari нормалізує ці кольори для вас. Якщо ви хочете конвертувати їх, будь ласка, використовуйте правильний метод з зображення Skimage.Колір."
+
+#: napari/utils/colormaps/standardize_color.py:324
+msgid "Invalid color found: {color} at index {idx}."
+msgstr "Знайдено некоректний колір: {color} за індексом {idx}."
+
+#: napari/utils/colormaps/standardize_color.py:440
+msgid "Value must have second dimension of size 3 or 4"
+msgstr "Значення має мати другий вимір розміру 3 або 4"
+
+#: napari/components/experimental/chunk/_commands/_tables.py:99
+msgid "Row with {row_cols} columns not compatible with headers ({header_cols} columns)"
+msgstr "Рядок з {row_cols} стовпцями не сумісний з заголовками ({header_cols} стовпців)"
+
+#: napari/components/experimental/monitor/_monitor.py:41
+msgid "Monitor: Config file not found: {path}"
+msgstr "Монітор: Файл конфігурації не знайдено: {path}"
+
+#: napari/components/experimental/chunk/_pool_group.py:133
+msgid "Missing 'loader_defaults' in octree config."
+msgstr "У воскових налаштуваннях відсутнє значення 'loader_default'."
+
+#: napari/_qt/layer_controls/qt_image_controls.py:56
+msgid "interpolation:"
+msgstr "інтерполяція:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:66
+msgid "rendering:"
+msgstr "відображення:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:76
+msgid "iso threshold:"
+msgstr "порога iso:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:86
+msgid "attenuation:"
+msgstr "увага:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:101 napari/_qt/layer_controls/qt_labels_controls.py:235 napari/_qt/layer_controls/qt_points_controls.py:179 napari/_qt/layer_controls/qt_shapes_controls.py:239 napari/_qt/layer_controls/qt_surface_controls.py:34 napari/_qt/layer_controls/qt_tracks_controls.py:89 napari/_qt/layer_controls/qt_vectors_controls.py:100
+msgid "opacity:"
+msgstr "прозорість:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:103 napari/_qt/layer_controls/qt_surface_controls.py:36
+msgid "contrast limits:"
+msgstr "обмеження контрастності:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:105 napari/_qt/layer_controls/qt_surface_controls.py:38
+msgid "gamma:"
+msgstr "gamma:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:107 napari/_qt/layer_controls/qt_surface_controls.py:40 napari/_qt/layer_controls/qt_tracks_controls.py:85
+msgid "colormap:"
+msgstr "кольорова карта:"
+
+#: napari/_qt/layer_controls/qt_image_controls.py:109 napari/_qt/layer_controls/qt_labels_controls.py:239 napari/_qt/layer_controls/qt_points_controls.py:183 napari/_qt/layer_controls/qt_shapes_controls.py:243 napari/_qt/layer_controls/qt_surface_controls.py:42 napari/_qt/layer_controls/qt_tracks_controls.py:87 napari/_qt/layer_controls/qt_vectors_controls.py:106
+msgid "blending:"
+msgstr "змішування:"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:91
+msgid "Colorbar"
+msgstr "Кольорова панель"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:238
+msgid "Layer {layer} must have attribute {range_attr} to use \"create_range_popup\""
+msgstr "Шар {layer} повинен мати атрибут {range_attr} щоб використовувати \"create_range_popup\""
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:300
+msgid "autoscale contrast to data range"
+msgstr "автозбереження контрастності з діапазоном даних"
+
+#: napari/_qt/layer_controls/qt_image_controls_base.py:311
+msgid "set contrast range to full bit-depth"
+msgstr "встановити діапазон контрасту для повної глибини біта"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:113
+msgid "contiguous editing"
+msgstr "спільне редагування"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:119
+msgid "edit all dimensions"
+msgstr "редагувати всі розміри"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:125
+msgid "display contours of labels"
+msgstr "відображати контури міток"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:139
+msgid "preserve existing labels while painting"
+msgstr "зберегти існуючі мітки під час живопису"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:147
+msgid "Display only selected label"
+msgstr "Показати тільки вибрану мітку"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:157
+msgid "shuffle colors"
+msgstr "перемішувати кольори"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:164
+msgid "Pan/zoom mode (Space)"
+msgstr "Режим панорам/наближення (пробіл)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:168
+msgid "Pick mode (L)"
+msgstr "Вибрати режим (Д)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:171
+msgid "Paint mode (P)"
+msgstr "Режим фарби (П)"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:179
+msgid "Fill mode (F) \n"
+"Toggle with {shortcut}"
+msgstr "Режим заповнення (1) \n"
+"увімкнути або вимкнути {shortcut}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:188
+msgid "Erase mode (E) \n"
+"Toggle with {shortcut}"
+msgstr "Очистити режим (E) \n"
+"вибрати з {shortcut}"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:233
+msgid "label:"
+msgstr "мітка:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:237
+msgid "brush size:"
+msgstr "розмір щітки:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:241
+msgid "color mode:"
+msgstr "кольоровий режим:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:243
+msgid "contour:"
+msgstr "контур:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:245
+msgid "contiguous:"
+msgstr "contiguous:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:247 napari/_qt/layer_controls/qt_points_controls.py:193
+msgid "n-dim:"
+msgstr "n-dim:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:250
+msgid "preserve labels:"
+msgstr "збереження міток:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:254
+msgid "show selected:"
+msgstr "вивести вибране:"
+
+#: napari/_qt/layer_controls/qt_labels_controls.py:504
+msgid "Selected label color"
+msgstr "Колір позначених міток"
+
+#: napari/_qt/layer_controls/qt_layer_controls_container.py:55
+msgid "Could not find QtControls for layer of type {type_}"
+msgstr "Не вдалося знайти QtControls для шару {type_}"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:102 napari/_qt/layer_controls/qt_shapes_controls.py:219
+msgid "click to set current face color"
+msgstr "натисніть, щоб встановити колір поверхні"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:106 napari/_qt/layer_controls/qt_shapes_controls.py:224 napari/_qt/layer_controls/qt_vectors_controls.py:66
+msgid "click to set current edge color"
+msgstr "натисніть, щоб встановити поточний колір ребра"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:125
+msgid "N-dimensional points"
+msgstr "N-вимірні точки"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:134
+msgid "Select points (S)"
+msgstr "Вибрати точки (S)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:137
+msgid "Add points (P)"
+msgstr "Додавання точок (П)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:143
+msgid "Pan/zoom (Z)"
+msgstr "Пап/наближення (Я)"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:152
+msgid "Delete selected points ({shortcut})"
+msgstr "Видалити вибрані точки ({shortcut})"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:157 napari/_qt/layer_controls/qt_shapes_controls.py:231
+msgid "toggle text visibility"
+msgstr "перемкнути видимість тексту"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:181
+msgid "point size:"
+msgstr "розмір точки:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:185
+msgid "symbol:"
+msgstr "символ:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:187 napari/_qt/layer_controls/qt_shapes_controls.py:245
+msgid "face color:"
+msgstr "колір обличчя:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:189 napari/_qt/layer_controls/qt_shapes_controls.py:247 napari/_qt/layer_controls/qt_vectors_controls.py:71
+msgid "edge color:"
+msgstr "Колір ребра:"
+
+#: napari/_qt/layer_controls/qt_points_controls.py:191 napari/_qt/layer_controls/qt_shapes_controls.py:249
+msgid "display text:"
+msgstr "текст відображення:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:113
+msgid "Select shapes (S)"
+msgstr "Вибір фігур (S)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:119
+msgid "Select vertices (D)"
+msgstr "Оберіть вершини (D)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:125
+msgid "Pan/zoom (Space)"
+msgstr "Пане/збільшення (пропус)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:132
+msgid "Add rectangles (R)"
+msgstr "Додати прямокутники (R)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:138
+msgid "Add ellipses (E)"
+msgstr "Додати еліпси (Е)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:141
+msgid "Add lines (L)"
+msgstr "Додати рядки (Д)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:144
+msgid "Add paths (T)"
+msgstr "Додати шляхи (Ц)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:150
+msgid "Add polygons (P)"
+msgstr "Додати багатокутник (П)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:156
+msgid "Insert vertex (I)"
+msgstr "Insert vertex (I)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:162
+msgid "Remove vertex (X)"
+msgstr "Видалити вершину (X)"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:169
+msgid "Move to front"
+msgstr "Перемістити на передній план"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:175
+msgid "Move to back"
+msgstr "Переміщення назад"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:183
+msgid "Delete selected shapes ({shortcut})"
+msgstr "Видалити вибрані форми ({shortcut})"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:241
+msgid "edge width:"
+msgstr "edge width:"
+
+#: napari/_qt/layer_controls/qt_shapes_controls.py:297
+msgid "Mode '{mode}'not recognized"
+msgstr "Режим '{mode}'не розпізнано"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:83
+msgid "color by:"
+msgstr "колір по:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:91
+msgid "tail width:"
+msgstr "ширина хвоста:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:93
+msgid "tail length:"
+msgstr "довжина хвоста:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:95
+msgid "tail:"
+msgstr "хвіст:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:97
+msgid "show ID:"
+msgstr "show ID:"
+
+#: napari/_qt/layer_controls/qt_tracks_controls.py:99
+msgid "graph:"
+msgstr "гра:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:61
+msgid "edge property:"
+msgstr "Властивість реферала:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:102
+msgid "width:"
+msgstr "ширина:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:104
+msgid "length:"
+msgstr "довжина:"
+
+#: napari/_qt/layer_controls/qt_vectors_controls.py:108
+msgid "edge color mode:"
+msgstr "Режим кольору ребра:"
+
+#: napari/_qt/dialogs/preferences_dialog.py:39 napari/_qt/dialogs/preferences_dialog.py:293
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: napari/_qt/dialogs/preferences_dialog.py:40
+msgid "OK"
+msgstr "Гаразд"
+
+#: napari/_qt/dialogs/preferences_dialog.py:41
+msgid "Restore defaults"
+msgstr "Відновити значення за замовчуванням"
+
+#: napari/_qt/dialogs/preferences_dialog.py:44 napari/_qt/qt_main_window.py:416
+msgid "Preferences"
+msgstr "Властивості"
+
+#: napari/_qt/dialogs/preferences_dialog.py:151
+msgid "Are you sure you want to restore default settings?"
+msgstr "Ви дійсно бажаєте відновити типові налаштування?"
+
+#: napari/_qt/dialogs/preferences_dialog.py:292
+msgid "Restore"
+msgstr "Відновити"
+
+#: napari/_qt/dialogs/qt_about.py:50
+msgid "<b>napari: a multi-dimensional image viewer for python</b>"
+msgstr "<b>napari: багатовимірний переглядач зображень для python</b>"
+
+#: napari/_qt/dialogs/qt_about.py:75
+msgid "<b>citation information:</b>"
+msgstr "<b>інформація про цитування:</b>"
+
+#: napari/_qt/dialogs/qt_about.py:100
+msgid "About"
+msgstr "Про програму"
+
+#: napari/_qt/dialogs/qt_about.py:123
+msgid "Copy to clipboard"
+msgstr "Скопіювати до буферу обміну"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:52
+msgid "All active key bindings"
+msgstr "Всі прив'язки активних ключів"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:60
+msgid "Keybindings"
+msgstr "Сполучення клавіш"
+
+#: napari/_qt/dialogs/qt_about_key_bindings.py:84
+msgid "No key bindings"
+msgstr "Немає прив'язки ключів"
+
+#: napari/_qt/dialogs/qt_modal.py:92
+msgid "Specifying position as a string is only possible if the popup has a parent"
+msgstr "Зазначення положення в якості рядка можливе, лише якщо спливаюче вікно має батьківський елемент"
+
+#: napari/_qt/dialogs/qt_modal.py:120
+msgid "position must be one of [\"top\", \"left\", \"bottom\", \"right\"]"
+msgstr "позиція повинна бути однією з [\"зверху\", \"зліва\", \"вниз\", \"праворуч\" ]"
+
+#: napari/_qt/dialogs/qt_modal.py:130
+msgid "Wrong type of position {position}"
+msgstr "Неправильний тип позиції {position}"
+
+#: napari/_qt/dialogs/qt_notification.py:108
+msgid "Source: {source}"
+msgstr "Джерело: {source}"
+
+#: napari/_qt/dialogs/qt_notification.py:331 napari/_qt/dialogs/qt_notification.py:340
+msgid "Enter Debugger"
+msgstr "Введіть налагоджувач"
+
+#: napari/_qt/dialogs/qt_notification.py:335
+msgid "Now Debugging. Please quit debugger in console to continue"
+msgstr "Тепер відлагодження. Будь ласка, закрийте налагоджувач в консолі, щоб продовжити"
+
+#: napari/_qt/dialogs/qt_notification.py:348
+msgid "View Traceback"
+msgstr "Відкрити Traceback"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:123
+msgid "remove"
+msgstr "видалити"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:133
+msgid "close"
+msgstr "закрити"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:149
+msgid "install"
+msgstr "встановити"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:167
+msgid "enable/disable"
+msgstr "увімк/вимк"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:283
+msgid "update (v{latest})"
+msgstr "оновлення (v{latest})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:380
+msgid "Installed Plugins"
+msgstr "Встановлені плагіни"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:387
+msgid "Available Plugins"
+msgstr "Доступні плагіни"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:398
+msgid "loading ..."
+msgstr "завантаження ..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:414
+msgid "install by name/url, or drop file..."
+msgstr "встановити за назвою/url, або видалити файл..."
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:416
+msgid "Install"
+msgstr "Інсталювати"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:419 napari/_qt/dialogs/qt_plugin_dialog.py:478
+msgid "Show Status"
+msgstr "Показати стан"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:421 napari/_qt/dialogs/qt_plugin_dialog.py:470
+msgid "<< Show Sorter"
+msgstr "<< Показати сортатор"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:422
+msgid "Close"
+msgstr "Закрити"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:449
+msgid "Available Plugins ({count})"
+msgstr "Доступні плагіни ({count})"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:467
+msgid ">> Hide Sorter"
+msgstr ">> Приховати Сортер"
+
+#: napari/_qt/dialogs/qt_plugin_dialog.py:475
+msgid "Hide Status"
+msgstr "Приховати статус"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:52
+msgid "select plugin... "
+msgstr "виберіть плагін... "
+
+#: napari/_qt/dialogs/qt_plugin_report.py:69
+msgid "Recorded Plugin Exceptions"
+msgstr "Записані винятки модулів"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:89
+msgid "Open issue on GitHub"
+msgstr "Відкрити проблему на GitHub"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:91
+msgid "Open a web browser to submit this error log\n"
+"to the developer's GitHub issue tracker"
+msgstr "Відкрийте веб-браузер, щоб подати цей журнал помилок\n"
+"в журнал проблем розробника GitHub"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:102
+msgid "Copy error log to clipboard"
+msgstr "Скопіювати журнал помилок в буфер обміну"
+
+#: napari/_qt/dialogs/qt_plugin_report.py:159
+msgid "No errors reported for plugin '{plugin}'"
+msgstr "Немає помилок, звітів для плагіна '{plugin}"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:32
+msgid "Save screenshot"
+msgstr "Зберегти знімок екрану"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:36
+msgid "Image files (*.png *.bmp *.gif *.tif *.tiff)"
+msgstr "Файли зображень (*.png *.bmp *.gif *.tif *.tiff)"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:50
+msgid "Confirm overwrite"
+msgstr "Підтвердіть заміну"
+
+#: napari/_qt/dialogs/screenshot_dialog.py:51
+msgid "{save_path} already exists. Do you want to replace it?"
+msgstr "{save_path} вже існує. Ви хочете його замінити?"
+
+#: napari/_qt/containers/_base_item_model.py:198
+msgid "root must be an instance of {class_name}"
+msgstr "корінь повинен бути екземпляром {class_name}"
+
+#: napari/_qt/containers/_factory.py:40
+msgid "Cannot create Qt view for obj: {obj}"
+msgstr "Неможливо створити Qt вигляд для обджі: {obj}"
+
+#: napari/_qt/containers/_factory.py:74
+msgid "Cannot create Qt model for obj: {obj}"
+msgstr "Не вдалося створити Qt модель для обджі: {obj}"
+
+#: napari/_qt/containers/qt_layer_list.py:45
+msgid "Layer list"
+msgstr "Список шарів"
+
+#: napari/_qt/containers/qt_tree_model.py:180
+msgid "root node must be an instance of {Group}"
+msgstr "кореневий вузол повинен бути екземпляром {Group}"
+
+#: napari/_qt/containers/qt_tree_model.py:201
+msgid "nested_index must be an int or tuple of int."
+msgstr "індекс не має бути відступом або кортежем int."
+
+#: napari/_qt/perf/qt_debug_menu.py:35
+msgid "&Debug"
+msgstr "&Debug"
+
+#: napari/_qt/perf/qt_debug_menu.py:38
+msgid "Performance Trace"
+msgstr "Відстеження продуктивності"
+
+#: napari/_qt/perf/qt_debug_menu.py:75
+msgid "Start Recording..."
+msgstr "Початок запису..."
+
+#: napari/_qt/perf/qt_debug_menu.py:78
+msgid "Start recording a trace file"
+msgstr "Розпочати запис файла відстеження"
+
+#: napari/_qt/perf/qt_debug_menu.py:85
+msgid "Stop Recording"
+msgstr "Зупинити запис"
+
+#: napari/_qt/perf/qt_debug_menu.py:87
+msgid "Stop recording a trace file"
+msgstr "Зупинити запис файла відстеження"
+
+#: napari/_qt/perf/qt_debug_menu.py:101
+msgid "Record performance trace file"
+msgstr "Запис трасування продуктивності"
+
+#: napari/_qt/perf/qt_debug_menu.py:103
+msgid "Trace Files (*.json)"
+msgstr "Файли трасування (*.json)"
+
+#: napari/_qt/perf/qt_event_tracing.py:101
+msgid "UnknownEvent:{event}"
+msgstr "Невідомий:{event}"
+
+#: napari/_qt/perf/qt_performance.py:42
+msgid "{time_ms:5.0f}ms {name}\n"
+msgstr "{time_ms:5.0f}мс {name}\n"
+
+#: napari/_qt/perf/qt_performance.py:103
+msgid "Draw Time:"
+msgstr "Час малювання:"
+
+#: napari/_qt/perf/qt_performance.py:123
+msgid "Show Events Slower Than:"
+msgstr "Показувати події повільніше ніж :"
+
+#: napari/_qt/perf/qt_performance.py:125
+msgid "milliseconds"
+msgstr "мілісекунди"
+
+#: napari/_qt/perf/qt_performance.py:179
+msgid "Uptime: {elapsed:.2f}"
+msgstr "Час роботи: {elapsed:.2f}"
+
+#: napari/_qt/widgets/qt_dict_table.py:85
+msgid "'data' argument must be a list of dicts"
+msgstr "'data' аргумент повинен бути списком диктів"
+
+#: napari/_qt/widgets/qt_dict_table.py:95
+msgid "Argument 'headers' got item '{header}', which was not found in any of the items in 'data'"
+msgstr "Аргумент 'заголовки' отримав елемент '{header}', який не знайдено ні в якому з елементів 'data'"
+
+#: napari/_qt/widgets/qt_dims.py:295
+msgid "loop_mode must be one of {_modes}. Got: {loop_mode}"
+msgstr "режим loop_mode повинен бути одним з {_modes}. Вибрати: {loop_mode}"
+
+#: napari/_qt/widgets/qt_dims.py:304
+msgid "axis argument out of range"
+msgstr "аргументи осі поза діапазоном"
+
+#: napari/_qt/widgets/qt_dims.py:325
+msgid "Refusing to play a hidden axis"
+msgstr "Відбивання прихованої осі"
+
+#: napari/_qt/widgets/qt_dims_slider.py:52
+msgid "Current slice for axis {axis}"
+msgstr "Поточний фрагмент для осі {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:65
+msgid "Total slices for axis {axis}"
+msgstr "Всього розрізів на вісь {axis}"
+
+#: napari/_qt/widgets/qt_dims_slider.py:118
+msgid "Edit to change axis label"
+msgstr "Змінити мітку осі"
+
+#: napari/_qt/widgets/qt_dims_slider.py:309
+msgid "frame_range value must be a list or tuple"
+msgstr "значення frame_range має бути списком або кортежем"
+
+#: napari/_qt/widgets/qt_dims_slider.py:313
+msgid "frame_range must have a length of 2"
+msgstr "frame_range має бути довжиною 2"
+
+#: napari/_qt/widgets/qt_dims_slider.py:500
+msgid "frames per second:"
+msgstr "кадрів на секунду:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:508
+msgid "play direction:"
+msgstr "напрямок у відтворенні:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:515
+msgid "play mode:"
+msgstr "режим гри:"
+
+#: napari/_qt/widgets/qt_dims_slider.py:630
+msgid "frame_range[0] must be <= frame_range[1]"
+msgstr "frame_range[0] має бути <= frame_range[1]"
+
+#: napari/_qt/widgets/qt_dims_slider.py:633
+msgid "frame_range[0] out of range"
+msgstr "frame_range[0] поза діапазоном"
+
+#: napari/_qt/widgets/qt_dims_slider.py:635
+msgid "frame_range[1] out of range"
+msgstr "frame_range[1] поза діапазоном"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:362
+msgid "Preview"
+msgstr "Прев'ю"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:533 napari/_qt/widgets/qt_size_preview.py:309
+msgid "Minimum value must be smaller than {max_value}"
+msgstr "Мінімальне значення має бути менше, ніж {max_value}"
+
+#: napari/_qt/widgets/qt_highlight_preview.py:572 napari/_qt/widgets/qt_size_preview.py:348
+msgid "Maximum value must be larger than {min_value}"
+msgstr "Максимальне значення має бути більше {min_value}"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:86
+msgid "Click and drag to change call order"
+msgstr "Натисніть і перетягніть для зміни порядку виклику"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:102
+msgid "Uncheck to disable this plugin"
+msgstr "Зніміть позначку, щоб вимкнути цей плагін"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:283
+msgid "select hook... "
+msgstr "вибрати хук... "
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:317
+msgid "select the hook specification to reorder"
+msgstr "виберіть специфікацію хука для зміни порядку"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:324
+msgid "Plugin Sorter"
+msgstr "Сортування плагінів"
+
+#: napari/_qt/widgets/qt_plugin_sorter.py:328
+msgid "Select a hook to rearrange, then drag and drop plugins into the desired call order.\n\n"
+"Disable plugins for a specific hook by unchecking their checkbox."
+msgstr "Виберіть гак для перерозміщення, перетягніть та витягніть плагіни у потрібному порядку виклику.\n\n"
+"Вимкнути плагіни для конкретного хука шляхом зняття позначки."
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:149
+msgid "current minimum contrast limit"
+msgstr "поточний мінімальний ліміт контрастності"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:150
+msgid "current maximum contrast limit"
+msgstr "поточний максимальний ліміт контрастності"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:158
+msgid "minimum contrast range"
+msgstr "мінімальний діапазон контрастності"
+
+#: napari/_qt/widgets/qt_range_slider_popup.py:159
+msgid "maximum contrast range"
+msgstr "максимальний діапазон контрастності"
+
+#: napari/_qt/widgets/qt_size_preview.py:137
+msgid "preview"
+msgstr "попередній перегляд"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:37
+msgid "New points layer"
+msgstr "Новий шар точок"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:47
+msgid "New shapes layer"
+msgstr "Новий фігурний шар"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:56
+msgid "New labels layer"
+msgstr "Новий шар міток"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:105
+msgid "Open IPython terminal ({shortcut})"
+msgstr "Open IPython terminal ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:114
+msgid "Roll dimensions order for display ({shortcut})"
+msgstr "Порядок розмірів рухомого екрана ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:123
+msgid "Transpose displayed dimensions ({shortcut})"
+msgstr "Транспорт відображених розмірів ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:132
+msgid "Reset view ({shortcut})"
+msgstr "Скинути вигляд ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:145
+msgid "Toggle grid view ({shortcut})"
+msgstr "Перемкнути представлення сітки ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:160
+msgid "Toggle number of displayed dimensions ({shortcut})"
+msgstr "Перемкнути кількість відображуваних розмірів ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_buttons.py:199
+msgid "Delete selected layers ({shortcut})"
+msgstr "Видалити вибрані шари ({shortcut})"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:69
+msgid "area argument must be in {areas}"
+msgstr "аргумент області повинен бути в {areas}"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:79
+msgid "`allowed_areas` must be a list or tuple"
+msgstr "`allowed_areas` повинен бути списком або кортежем"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:90
+msgid "all allowed_areas argument must be in {areas}"
+msgstr "аргумент всіх allowed_areas повинен бути в {areas}"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:176
+msgid "drag to move. double-click to float"
+msgstr "перетягніть для переміщення. Клацніть двічі для пересування"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:182
+msgid "hide this panel"
+msgstr "сховати цю панель"
+
+#: napari/_qt/widgets/qt_viewer_dock_widget.py:189
+msgid "float this panel"
+msgstr "помістити цю панель"
+
+#: napari/_qt/widgets/qt_welcome.py:39
+msgid "Drag image(s) here to open\n"
+"or\n"
+"Use the menu shortcuts below:"
+msgstr "Перетягніть сюди зображення(нь) для відкриття\n"
+"або\n"
+"скористайтеся ярликами меню нижче:"
+
+#: napari/_qt/widgets/qt_welcome.py:59
+msgid "open image(s)"
+msgstr "відкрити зображення(нь)"
+
+#: napari/_qt/widgets/qt_welcome.py:64
+msgid "show all key bindings"
+msgstr "показати всі прив'язки клавіш"
+
+#: napari/plugins/__init__.py:158
+msgid "Plugin {plugin_name!r} provided an invalid tuple to {hook_name}. Skipping"
+msgstr "Плагін {plugin_name!r} надав неприпустимий кортеж до {hook_name}. Пропуск"
+
+#: napari/plugins/__init__.py:173
+msgid "Plugin {plugin_name!r} provided a non-callable object (widget) to {hook_name}: {_cls!r}. Widget ignored."
+msgstr "Плагін {plugin_name!r} надав незворотний об'єкт (widget) в {hook_name}: {_cls!r}. Віджет проігноровано."
+
+#: napari/plugins/__init__.py:185
+msgid "Plugin {plugin_name!r} provided invalid kwargs to {hook_name} for class {class_name}. Widget ignored."
+msgstr "Плагін {plugin_name!r} надав неприпустимі kwargs {hook_name} для класу {class_name}. Віджет ігнорується."
+
+#: napari/plugins/__init__.py:203
+msgid "Plugin '{plugin_name}' has already registered a dock widget '{name}' which has now been overwritten"
+msgstr "Плагін '{plugin_name}' вже зареєстрований віджет в док '{name}', який тепер був перезаписаний"
+
+#: napari/plugins/__init__.py:250
+msgid "Plugin {plugin_name!r} does not provide any dock widgets"
+msgstr "Плагін {plugin_name!r} не надає ніякого віджету"
+
+#: napari/plugins/__init__.py:264
+msgid "Plugin {plugin_name!r} provides more than 1 dock_widget. Must also provide \"widget_name\" from {widgets}"
+msgstr "Плагін {plugin_name!r} надає більше 1 dock_widget. Має також надати \"widget_name\" у {widgets}"
+
+#: napari/plugins/__init__.py:271
+msgid "Plugin {plugin_name!r} does not provide a widget named {widget_name!r}"
+msgstr "Плагін {plugin_name!r} не надає віджет з ім'ям {widget_name!r}"
+
+#: napari/plugins/__init__.py:302
+msgid "Plugin {plugin_name!r} provided a non-callable type to {hook_name}: {func_type!r}. Function widget ignored."
+msgstr "Плагін {plugin_name!r} надав непереможний тип для {hook_name}: {func_type!r}. Віджет проігноровано."
+
+#: napari/plugins/__init__.py:307
+msgid " To provide multiple function widgets please use a LIST of callables"
+msgstr " Щоб забезпечити кілька віджетів функцій, скористайтеся LIST для вхідних повідомлень"
+
+#: napari/plugins/__init__.py:324
+msgid "Plugin '{plugin_name}' has already registered a function widget '{name}' which has now been overwritten"
+msgstr "Плагін{plugin_name}' вже зареєстровано функцію віджет функцій '{name}', який тепер був перезаписаний"
+
+#: napari/plugins/__init__.py:358
+msgid "Plugin {plugin_name!r} provided a non-dict object to {hook_name!r}: data ignored."
+msgstr "Плагін {plugin_name!r} надав об'єкт без словника на {hook_name!r}: дані проігноровані."
+
+#: napari/plugins/__init__.py:372
+msgid "In {hook_name!r}, plugin {plugin_name!r} provided an invalid dict object for key {name!r} that does not have required keys: \"data\" and \"display_name\".  Ignoring"
+msgstr "В {hook_name!r}, плагін {plugin_name!r} надайте неприпустимий об'єкт словника для ключа {name!r} який не має необхідних ключів: \"data\" та \"display_name\". Ігнорування"
+
+#: napari/plugins/__init__.py:394
+msgid "Plugin {plugin_name!r} provided invalid data for key {name!r} in the dict returned by {hook_name!r}. (Must be str, callable, or dict), got ({data_type})."
+msgstr "Плагін {plugin_name!r} надав неприпустимі дані для ключа {name!r} у слові повернутому {hook_name!r}. (Повинно бути str, callable чи dict), отримано ({data_type})."
+
+#: napari/plugins/_skimage_data.py:6
+msgid "Astronaut (RGB)"
+msgstr "Astronaut (RGB)"
+
+#: napari/plugins/_skimage_data.py:7
+msgid "Binary Blobs"
+msgstr "Двійкові крісла"
+
+#: napari/plugins/_skimage_data.py:8
+msgid "Binary Blobs (3D)"
+msgstr "Двійкові дані (3D)"
+
+#: napari/plugins/_skimage_data.py:9
+msgid "Brain (3D)"
+msgstr "Мозок (3D)"
+
+#: napari/plugins/_skimage_data.py:10
+msgid "Brick"
+msgstr "Цегла"
+
+#: napari/plugins/_skimage_data.py:11
+msgid "Camera"
+msgstr "Камера"
+
+#: napari/plugins/_skimage_data.py:12
+msgid "Cat (RGB)"
+msgstr "Кіт (RGB)"
+
+#: napari/plugins/_skimage_data.py:13
+msgid "Cell"
+msgstr "Комірка"
+
+#: napari/plugins/_skimage_data.py:14
+msgid "Cells (3D+2Ch)"
+msgstr "Клітини (3D+2Ch)"
+
+#: napari/plugins/_skimage_data.py:15
+msgid "Checkerboard"
+msgstr "Шахова дошка"
+
+#: napari/plugins/_skimage_data.py:16
+msgid "Clock"
+msgstr "Годинник"
+
+#: napari/plugins/_skimage_data.py:17
+msgid "Coffee (RGB)"
+msgstr "Кава (RGB)"
+
+#: napari/plugins/_skimage_data.py:18
+msgid "Coins"
+msgstr "Монети"
+
+#: napari/plugins/_skimage_data.py:19
+msgid "Colorwheel (RGB)"
+msgstr "Колорне колесо (RGB)"
+
+#: napari/plugins/_skimage_data.py:20
+msgid "Eagle"
+msgstr "Орел"
+
+#: napari/plugins/_skimage_data.py:21
+msgid "Grass"
+msgstr "Трава"
+
+#: napari/plugins/_skimage_data.py:22
+msgid "Gravel"
+msgstr "Гравій"
+
+#: napari/plugins/_skimage_data.py:23
+msgid "Horse"
+msgstr "Кінь"
+
+#: napari/plugins/_skimage_data.py:24
+msgid "Hubble Deep Field (RGB)"
+msgstr "Поле барвник (RGB)"
+
+#: napari/plugins/_skimage_data.py:25
+msgid "Human Mitosis"
+msgstr "Мітоз людини"
+
+#: napari/plugins/_skimage_data.py:26
+msgid "Immunohistochemistry (RGB)"
+msgstr "Immunohistochemistry (RGB)"
+
+#: napari/plugins/_skimage_data.py:27
+msgid "Kidney (3D+3Ch)"
+msgstr "Нирка (3D+3Ч)"
+
+#: napari/plugins/_skimage_data.py:28
+msgid "Labeled Faces in the Wild"
+msgstr "На диких переговорах відмічено"
+
+#: napari/plugins/_skimage_data.py:29
+msgid "Lily (4Ch)"
+msgstr "Lily (4Ch)"
+
+#: napari/plugins/_skimage_data.py:30
+msgid "Microaneurysms"
+msgstr "Мікроаневризми"
+
+#: napari/plugins/_skimage_data.py:31
+msgid "Moon"
+msgstr "Місяць"
+
+#: napari/plugins/_skimage_data.py:32
+msgid "Page"
+msgstr "Сторінка"
+
+#: napari/plugins/_skimage_data.py:33
+msgid "Retina (RGB)"
+msgstr "Retina (RGB)"
+
+#: napari/plugins/_skimage_data.py:34
+msgid "Rocket (RGB)"
+msgstr "Ракета (RGB)"
+
+#: napari/plugins/_skimage_data.py:35
+msgid "Shepp Logan Phantom"
+msgstr "Шепп Логан Фантом"
+
+#: napari/plugins/_skimage_data.py:36
+msgid "Skin (RGB)"
+msgstr "Skin (RGB)"
+
+#: napari/plugins/_skimage_data.py:37
+msgid "Text"
+msgstr "Текст"
+
+#: napari/plugins/exceptions.py:44
+msgid "{pad} Errors for plugin '{plugin_name}' {pad}"
+msgstr "{pad} Помилки для плагіна{plugin_name}' {pad}"
+
+#: napari/plugins/io.py:69
+msgid "There is no registered plugin named '{plugin}'.\n"
+"Names of plugins offering readers are: {names}"
+msgstr "Немає зареєстрованого плагіна з назвою '{plugin}'.\n"
+"Імена плагінів, які пропонують читачів: {names}"
+
+#: napari/plugins/io.py:79
+msgid "Plugin {plugin!r} does not support file {path}"
+msgstr "Плагін {plugin!r} не підтримує файл {path}"
+
+#: napari/plugins/io.py:126
+msgid "No plugin found capable of reading [{repr_path}, ...] as stack."
+msgstr "Плагін не знайдений, здатний читати [{repr_path}, ...] як стек."
+
+#: napari/plugins/io.py:135
+msgid "No plugin found capable of reading {repr_path}."
+msgstr "Плагін не знайдено, що може читати {repr_path}."
+
+#: napari/plugins/io.py:227
+msgid "No data written! There may be no plugins capable of writing these {length} layers to {path}."
+msgstr "Дані не записані! Плагіни не можуть бути в змозі записати ці {length} шарів до {path}."
+
+#: napari/plugins/io.py:312
+msgid "There is no registered plugin named '{plugin_name}'.\n"
+"Names of plugins offering writers are: {names}"
+msgstr "Немає зареєстрованого плагіна з назвою '{plugin_name}'.\n"
+"Імена плагінів, які пропонували письменники: {names}"
+
+#: napari/plugins/io.py:332
+msgid "Requested plugin \"{plugin_name}\" is not capable of writing this combination of layer types: {layer_types}"
+msgstr "Запитаний плагін \"{plugin_name}\" не здатний записувати цю комбінацію типів шарів: {layer_types}"
+
+#: napari/plugins/io.py:339
+msgid "Unable to find plugin capable of writing this combination of layer types: {layer_types}"
+msgstr "Не вдалося знайти плагін, здатний записати цю комбінацію типів шарів: {layer_types}"
+
+#: napari/plugins/io.py:401
+msgid "There is no registered plugin named '{plugin_name}'.\n"
+"Plugins capable of writing layer._type_string layers are: {names}"
+msgstr "Немає зареєстрованого плагіна з назвою '{plugin_name}'.\n"
+"Плагини, що здатні записувати layer._type_string шари: {names}"
+
+#: napari/resources/__init__.py:14
+msgid "Moved to module napari._qt.qt_resources. Will be removed after version 0.4.6."
+msgstr "Переміщено до модуля napari._qt.qt_resources. Буде видалено після версії 0.4.6."
+
+#: napari/resources/_icons.py:16
+msgid "unrecognized icon name: {name!r}. Known names: {icons}"
+msgstr "нерозпізнане ім'я значка: {name!r}. Відомі імена: {icons}"
+
+#: napari/resources/_icons.py:59
+msgid "Could not detect svg tag in {path_or_xml!r}"
+msgstr "Не вдалося виявити тег svg в {path_or_xml!r}"
+
+#: napari/_vispy/utils.py:63
+msgid "Could not find VispyLayer for layer of type {dtype}"
+msgstr "Не вдалося знайти VispyLayer для шару {dtype}"
+
+#: napari/_vispy/utils_gl.py:99
+msgid "type {dtype} not allowed for texture; must be one of {textures}"
+msgstr "тип {dtype} не дозволений для текстури; повинен бути одним з {textures}"
+
+#: napari/_vispy/vispy_axes_visual.py:79 napari/_vispy/vispy_axes_visual.py:100 napari/_vispy/vispy_axes_visual.py:125
+msgid "Either 2 or 3 colors must be provided, got {number}."
+msgstr "2 або 3 кольори потрібно вказати, отримано {number}."
+
+#: napari/_vispy/vispy_axes_visual.py:278
+msgid "Axes dash status and ndisplay combination not supported"
+msgstr "Комбінація Вимісів і ndisplay не підтримується"
+
+#: napari/_vispy/vispy_image_layer.py:172
+msgid "Shape of in dividual tiles in multiscale {shape} cannot exceed GL_MAX_TEXTURE_SIZE {texture_size}. Rendering is currently in {ndisplay}D mode."
+msgstr "Частина окремих плиток в мультимасштабі {shape} не може перевищувати GL_MAX_TEXTURE_SIZE {texture_size}. Відправлення зараз у режимі {ndisplay}D."
+
+#: napari/_vispy/vispy_image_layer.py:181
+msgid "data shape {shape} exceeds GL_MAX_TEXTURE_SIZE {texture_size} in at least one axis and will be downsampled. Rendering is currently in {ndisplay}D mode."
+msgstr "форма даних {shape} перевищує GL_MAX_TEXTURE_SIZE {texture_size} принаймні в одній осі і буде знижено вибір. Візуалізація наразі знаходиться в {ndisplay}режимі D."
+
+#: napari/_vispy/vispy_scale_bar_visual.py:169
+msgid "Position {position} not recognized."
+msgstr "Позиція {position} не розпізнана."
+
+#: napari/qt/__init__.py:15
+msgid "QtNDisplayButton is deprecated and will be removed in 0.4.9. Instead a more general QtStateButton is provided."
+msgstr "QtNDisplayButton є застарілим і буде видалено через 0.4.9. Замість цього надається більш загальна кнопка QtStatey."
+
+#: napari/utils/_magicgui.py:177
+msgid "magicgui function {gui} annotated with a return type of napari.types.LayerDataTuple did not return LayerData tuple(s)"
+msgstr "функція magicgui {gui} анотована з типом return napari.types.LayerDataTuple не повернула LayerData tuple(s)"
+
+#: napari/utils/_register.py:23
+msgid "name {name} should not include 'layer'"
+msgstr "ім'я {name} не повинне містити 'layer'"
+
+#: napari/utils/dask_utils.py:173
+msgid "For best performance with Dask arrays in napari, please upgrade Dask to v2.15.0 or later. Current version is {dask_version}"
+msgstr "Для кращої продуктивності з масивами застосунків Dask в napari, будь ласка, оновіть Dask до v2.15.0 або новіше. Поточна версія {dask_version}"
+
+#: napari/utils/interactions.py:18
+msgid "cannot set attribute {name}"
+msgstr "не можна встановити атрибут {name}"
+
+#: napari/utils/interactions.py:29
+msgid "cannot set item {name}"
+msgstr "не можна встановити елемент {name}"
+
+#: napari/utils/io.py:196
+msgid "No files found in {filenames} after removing subdirectories"
+msgstr "Не знайдено файлів в {filenames} після видалення підкаталогів"
+
+#: napari/utils/io.py:234
+msgid "To stack multiple files into a single array with numpy, all input arrays must have the same shape. Set `use_dask` to True to stack arrays with different shapes."
+msgstr "Щоб скласти декілька файлів в один масив з numpy, всі вхідні масиви повинні мати таку ж форму. Встановіть `use_dask` в True в масиви з різними формами."
+
+#: napari/utils/io.py:297
+msgid "Not a zarr dataset or group: {path}"
+msgstr "Не рідний набір даних або групу: {path}"
+
+#: napari/utils/io.py:402
+msgid "File \"{filename}\" not recognized as valid Layer data"
+msgstr "Файл \"{filename}не розпізнаний як дійсні дані шару"
+
+#: napari/utils/io.py:410
+msgid "File \"{filename}\" not recognized as {require_type} data"
+msgstr "Файл \"{filename}не розпізнано як {require_type} дані"
+
+#: napari/utils/io.py:535
+msgid "Expected number of shapes not found"
+msgstr "Очікувана кількість фігур не знайдена"
+
+#: napari/utils/key_bindings.py:176
+msgid "invalid key {key}"
+msgstr "неприпустимий ключ {key}"
+
+#: napari/utils/key_bindings.py:186
+msgid "invalid modifier key {modifier}"
+msgstr "неприпустимий ключ модифікатора {modifier}"
+
+#: napari/utils/key_bindings.py:272
+msgid "key combination {key} already used! specify 'overwrite=True' to bypass this check"
+msgstr "комбінація ключів {key} вже використовується! Вкажіть 'overwrite=True' щоб обійти цю перевірку"
+
+#: napari/utils/key_bindings.py:284
+msgid "'func' must be a callable"
+msgstr "'функція' має бути для виклику"
+
+#: napari/utils/key_bindings.py:433
+msgid "expected {func} to be callable"
+msgstr "очікувалося, що {func} буде викликатись"
+
+#: napari/utils/misc.py:187
+msgid "length of {obj} must equal {length}"
+msgstr "довжина {obj} повинна дорівнювати {length}"
+
+#: napari/utils/misc.py:241
+msgid "{class_name} may only be called with a `str` or an instance of {class_name}. Got {dtype}"
+msgstr "{class_name} може викликати лише з `str` або екземпляром {class_name}. Got {dtype}"
+
+#: napari/utils/misc.py:319
+msgid "Argument must be a string, PathLike, or sequence thereof"
+msgstr "Аргумент повинен бути рядком, PathLike, або її послідовністю"
+
+#: napari/utils/misc.py:388
+msgid "Not a valid layer data tuple: {value!r}"
+msgstr "Не припустимий кортеж даних з шаром: {value!r}"
+
+#: napari/utils/misc.py:404
+msgid "Not a valid list of layer data tuples!"
+msgstr "Не вірний список кортежів даних у шарі!"
+
+#: napari/utils/misc.py:458
+msgid "{path} is not a directory."
+msgstr "{path} не є каталогом."
+
+#: napari/utils/theme.py:21
+msgid "palette is deprecated and will be removed after version 0.4.6. Please use get_theme and register_theme instead"
+msgstr "палітра застаріла і буде видалена після версії 0.4.6. Будь-ласка, використовуйте get_theme та register_теми"
+
+#: napari/utils/theme.py:166
+msgid "Unrecognized theme {name}. Availabe themes are {themes}"
+msgstr "Нерозпізнана тема {name}. Доступні теми — {themes}"
+
+#: napari/utils/translations.py:181 napari/utils/translations.py:208 napari/utils/translations.py:386
+msgid "Must provide at least a `msgid` parameter!"
+msgstr "Слід вказати принаймні параметр `msgid`!"
+
+#: napari/utils/translations.py:344
+msgid "Requested locale not available: {locale}"
+msgstr "Запитана локаль недоступна: {locale}"
+
+#: napari/utils/validators.py:55
+msgid "object '{obj}' is not an indexable collection (list, tuple, or np.array), of length {number}"
+msgstr "об'єкт '{obj}не є індексованою колекцією (список, кортежі або np.array), довжиною {number}"
+
+#: napari/utils/validators.py:68
+msgid "object must have length {number}, got {obj_len}"
+msgstr "об'єкт повинен мати довжину {number}, отримавши {obj_len}"
+
+#: napari/utils/validators.py:80
+msgid "Every item in the sequence must be of type {dtype}, but {item} is of type {item_type}"
+msgstr "Кожен елемент у послідовності повинен бути типу {dtype}, але {item} має мати тип {item_type}"
+
+#: napari/components/_viewer_key_bindings.py:18
+msgid "Reset dims scroll progress"
+msgstr "Скинути прогрес прокручування затемнень"
+
+#: napari/components/_viewer_key_bindings.py:30
+msgid "Toggle ndisplay."
+msgstr "Перемкнути ndisplay."
+
+#: napari/components/_viewer_key_bindings.py:52
+msgid "Increment dimensions slider to the left."
+msgstr "Посунути повзунок розміру вліво."
+
+#: napari/components/_viewer_key_bindings.py:63
+msgid "Increment dimensions slider to the right."
+msgstr "Пересунути розміри праворуч."
+
+#: napari/components/_viewer_key_bindings.py:74
+msgid "Move focus of dimensions slider up."
+msgstr "Перемістити фокус розмірів повзунка."
+
+#: napari/components/_viewer_key_bindings.py:83
+msgid "Move focus of dimensions slider down."
+msgstr "Пересунути фокус розмірів повзунка вниз."
+
+#: napari/components/_viewer_key_bindings.py:92
+msgid "Change order of the visible axes, e.g. [0, 1, 2] -> [2, 0, 1]."
+msgstr "Змінити порядок видимих осей тобто, [0, 1, 2] -> [2, 0, 1]."
+
+#: napari/components/_viewer_key_bindings.py:103
+msgid "Transpose order of the last two visible axes, e.g. [0, 1] -> [1, 0]."
+msgstr "Транспонувати ордер за останні два видимі вісі, наприклад [0, 1] -> [1, 0]."
+
+#: napari/components/_viewer_key_bindings.py:114
+msgid "Reset view to original state."
+msgstr "Скинути вигляд до початкового стану."
+
+#: napari/components/_viewer_key_bindings.py:123
+msgid "Toggle grid mode."
+msgstr "Перемкнути режим сітки."
+
+#: napari/components/_viewer_key_bindings.py:132
+msgid "Toggle visibility of selected layers"
+msgstr "Перемкнути видимість обраних шарів"
+
+#: napari/components/dims.py:126
+msgid "Invalid ordering {order} for {ndim} dimensions"
+msgstr "Неприпустиме замовлення {order} для {ndim} розмірностей"
+
+#: napari/components/dims.py:360
+msgid "Axis {axis} not defined for dimensionality {ndim}. Must be in [{ndim_lower}, {ndim})."
+msgstr "Вісь {axis} не визначена для виміру {ndim}. Повинно бути в [{ndim_lower}, {ndim})."
+
+#: napari/components/layerlist.py:94
+msgid "'viewer.layers.selected' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection'"
+msgstr "'viewer.layers.selected' є застарілим і буде вилучено або після v0.4.9. Будь ласка, використовуйте 'viewer.layers.selection'"
+
+#: napari/components/layerlist.py:137
+msgid "'viewer.layers.unselect_all()' is deprecated and will be removed in or after v0.4.9. Please use 'viewer.layers.selection.clear()'. To unselect everything but a set of ignored layers, use 'viewer.layers.selection.intersection_update({ignored})'"
+msgstr "'viewer.layers.unselect_all()' є застарілим і буде видалено після v0.4.9. Будь-ласка, використовуйте 'viewer.layers.selection. lear()'. Щоб зняти виділення з всього, окрім набору ігнорованих шарів, використовуйте 'viewer.layers.selection.intersection_update({ignored})'"
+
+#: napari/components/layerlist.py:190
+msgid "All-NaN axis encountered"
+msgstr "На осі All-NaN зіткнулися"
+
+#: napari/components/layerlist.py:321
+msgid "No layers selected"
+msgstr "Немає вибраних шарів"
+
+#: napari/components/layerlist.py:323
+msgid "No layers to save"
+msgstr "Немає шарів для збереження"
+
+#: napari/components/viewer_model.py:149
+msgid "'viewer.events.active_layer' is deprecated and will be removed in napari v0.4.9, use 'viewer.layers.selection.events.active' instead"
+msgstr "'viewer.events.active_layer' є застарілим і буде вилучено з napari v0.4.9, використовуйте 'viewer.layers.selection.events.active' замість цього"
+
+#: napari/components/viewer_model.py:162
+msgid "Theme '{theme_name}' not found; options are {themes}."
+msgstr "Тему '{theme_name}не знайдено; опції {themes}."
+
+#: napari/components/viewer_model.py:294 napari/components/viewer_model.py:310
+msgid "'viewer.active_layer' is deprecated and will be removed in napari v0.4.9.  Please use 'viewer.layers.selection.active' instead."
+msgstr "'viewer.active_layer' є застарілим і буде видалено з napari v0.4.9. Будь-ласка, використовуйте 'viewer.layers.selection.active'."
+
+#: napari/components/viewer_model.py:353
+msgid "layer.position is deprecated"
+msgstr "layer.position є застарілим"
+
+#: napari/components/viewer_model.py:664
+msgid "Received sequence for argument '{argument}', did you mean to specify a 'channel_axis'? "
+msgstr "Отримано послідовність аргументу '{argument}, ви мали на увазі вказати 'channel_axis'? "
+
+#: napari/components/viewer_model.py:728
+msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. Available samples include: {samples}."
+msgstr "Плагін {plugin!r} не надає зразкові дані з ім'ям {sample!r}. Доступні зразки: {samples}."
+
+#: napari/components/viewer_model.py:736
+msgid "Plugin {plugin!r} does not provide sample data named {sample!r}. No plugin samples have been registered."
+msgstr "Плагін {plugin!r} не надає зразкових даних з ім'ям {sample!r}. Не зареєстровано жодних зразків плагінів."
+
+#: napari/components/viewer_model.py:760
+msgid "Got unexpected type for sample ({plugin!r}, {sample!r}): {data_type}"
+msgstr "Отримано неочікуваний тип для зразка ({plugin!r}, {sample!r}): {data_type}"
+
+#: napari/components/viewer_model.py:812
+msgid "'path' argument must be a string, list, or tuple"
+msgstr "'path' аргумент повинен бути рядком, списком або кортежем"
+
+#: napari/components/viewer_model.py:960
+msgid "Unrecognized layer_type: '{layer_type}'. Must be one of: {layer_names}."
+msgstr "Нерозпізнаний тип layer_type: '{layer_type}. Повинно бути одним з: {layer_names}."
+
+#: napari/components/viewer_model.py:976
+msgid "_add_layer_from_data received an unexpected keyword argument ({bad_key}) for layer type {layer_type}"
+msgstr "_add_layer_from_data отримав неочікуваний аргумент ключового слова ({bad_key}) для типу шару {layer_type}"
+
+#: napari/components/viewer_model.py:1007
+msgid "LayerData must be a 1-, 2-, or 3-tuple"
+msgstr "LayerData має бути 1-, 2-, або 3-кортежу"
+
+#: napari/components/viewer_model.py:1017
+msgid "The second item in a LayerData tuple must be a dict"
+msgstr "Другий пункт у кортежі LayerData повинен бути словом"
+
+#: napari/components/viewer_model.py:1027
+msgid "The third item in a LayerData tuple must be one of: {layers!r}."
+msgstr "Третій елемент у кортежі LayerData має бути одним з: {layers!r}."
+
+#: napari/components/viewer_model.py:1140
+msgid "Invalid layer_type: {layer_type}"
+msgstr "Некоректний тип layer_type: {layer_type}"
+
+#: napari/_qt/__init__.py:13
+msgid "No Qt bindings could be found.\n\n"
+"napari requires either PyQt5 or PySide2 to be installed in the environment.\n"
+"To install the default backend (currently PyQt5), run \"pip install napari[all]\" \n"
+"You may also use \"pip install napari[pyside2]\"for Pyside2, or \"pip install napari[pyqt5]\" for PyQt5"
+msgstr "Не знайдено жодної вбудованої прив'язки до Qt.\n\n"
+"napari вимагає встановлення PyQt5 або PySide2 у навколишньому середовищі.\n"
+"Щоб встановити типовий backend (в даний час PyQt5), запустіть \"pip install napari[all] \n"
+"Ви також можете використовувати \"pip install napari[pyside2]\"для Pyside2, або \"pip install napari[pyqt5]\" для PyQt5"
+
+#: napari/_qt/__init__.py:33
+msgid "napari was tested with QT library `>=5.12.3`.\n"
+"The version installed is {version}. Please report any issues with this specific QT version at https://github.com/Napari/napari/issues."
+msgstr "napari було протестовано з QT бібліотекою `>=5.12.3`.\n"
+"Встановлена версія {version}. Будь ласка, повідомте про будь-які проблеми з конкретною QT версією на https://github.com/Napari/napari/issues ."
+
+#: napari/_qt/qt_event_loop.py:122
+msgid "QApplication already existed, these arguments to to 'get_app' were ignored: {args}"
+msgstr "QApplication вже існує, ці аргументи get_app' були проігноровані: {args}"
+
+#: napari/_qt/qt_event_loop.py:245
+msgid "\n"
+"The 'gui_qt()' context manager is deprecated.\n"
+"If you are running napari from a script, please use 'napari.run()' as follows:\n\n"
+"    import napari\n\n"
+"    viewer = napari.Viewer()  # no prior setup needed\n"
+"    # other code using the viewer...\n"
+"    napari.run()\n\n"
+"In IPython or Jupyter, 'napari.run()' is not necessary. napari will automatically\n"
+"start an interactive event loop for you: \n\n"
+"    import napari\n"
+"    viewer = napari.Viewer()  # that's it!\n"
+msgstr ""
+
+#: napari/_qt/qt_event_loop.py:335
+msgid "No Qt app has been created. One can be created by calling `get_app()` or `qtpy.QtWidgets.QApplication([])`"
+msgstr "Не створено жодної програми Qt. Можна створити за допомогою виклику `get_app()` або `qtpy.QtWidgets.QApplication([])`"
+
+#: napari/_qt/qt_event_loop.py:342
+msgid "Refusing to run a QApplication with no topLevelWidgets. To run the app anyway, use `{_func_name}(force=True)`"
+msgstr "Відмова від запуску QApplication без topLevelWidgets. Щоб все одно запустити додаток, використовуйте `{_func_name}(force=True)`"
+
+#: napari/_qt/qt_event_loop.py:353
+msgid "A QApplication is already running with 1 event loop. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
+msgid_plural "A QApplication is already running with {n} event loops. To enter *another* event loop, use `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[0] "QApplication вже запущено з 1 циклом подій. Для введення * іншого циклу події використовуйте `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[1] "QApplication вже запущено з {n} циклами подій. Для введення * іншого циклу події використовуйте `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[2] "QApplication вже запущено з {n} циклами подій. Для введення * іншого циклу події використовуйте `{_func_name}(max_loop_level={max_loop_level})`"
+msgstr[3] "QApplication вже запущено з {n} циклами подій. Для введення * іншого циклу події використовуйте `{_func_name}(max_loop_level={max_loop_level})`"
+
+#: napari/_qt/qt_main_window.py:310
+msgid "Ready"
+msgstr "Готовий"
+
+#: napari/_qt/qt_main_window.py:350
+msgid "The 'raw_stylesheet' attribute is deprecated and will be removed in version 0.4.7. Please use `napari.qt.get_stylesheet` instead"
+msgstr "Атрибут 'raw_stylesheet' є застарілим, і він буде видалений у версії 0.4.7. Використовуйте натомість `napari.qt.get_stylesheet`"
+
+#: napari/_qt/qt_main_window.py:396
+msgid "Open File(s)..."
+msgstr "Відкрити файл(и)..."
+
+#: napari/_qt/qt_main_window.py:398
+msgid "Open file(s)"
+msgstr "Відкрити файл(и)"
+
+#: napari/_qt/qt_main_window.py:402
+msgid "Open Files as Stack..."
+msgstr "Відкрити файли як стек..."
+
+#: napari/_qt/qt_main_window.py:405
+msgid "Open files"
+msgstr "Відкрити файли"
+
+#: napari/_qt/qt_main_window.py:410
+msgid "Open Folder..."
+msgstr "Відкрити теку..."
+
+#: napari/_qt/qt_main_window.py:412
+msgid "Open a folder"
+msgstr "Відкрити папку"
+
+#: napari/_qt/qt_main_window.py:418
+msgid "Open preferences dialog"
+msgstr "Відкрити діалог налаштувань"
+
+#: napari/_qt/qt_main_window.py:423
+msgid "Save Selected Layer(s)..."
+msgstr "Зберегти вибрані шари..."
+
+#: napari/_qt/qt_main_window.py:426
+msgid "Save selected layers"
+msgstr "Зберегти вибрані шари"
+
+#: napari/_qt/qt_main_window.py:432
+msgid "Save All Layers..."
+msgstr "Зберегти всі шари..."
+
+#: napari/_qt/qt_main_window.py:435
+msgid "Save all layers"
+msgstr "Зберегти всі шари"
+
+#: napari/_qt/qt_main_window.py:440
+msgid "Save Screenshot..."
+msgstr "Зберегти знімок екрана..."
+
+#: napari/_qt/qt_main_window.py:443
+msgid "Save screenshot of current display, default .png"
+msgstr "Зберегти знімок екрану поточного екрану за замовчуванням .png"
+
+#: napari/_qt/qt_main_window.py:448
+msgid "Save Screenshot with Viewer..."
+msgstr "Зберегти знімок екрану при перегляді..."
+
+#: napari/_qt/qt_main_window.py:452
+msgid "Save screenshot of current display with the viewer, default .png"
+msgstr "Зберегти скріншот поточного екрану для переглядача, за замовчуванням .png"
+
+#: napari/_qt/qt_main_window.py:460
+msgid "Exit"
+msgstr "Вийти"
+
+#: napari/_qt/qt_main_window.py:468
+msgid "Restart"
+msgstr "Перезапустити"
+
+#: napari/_qt/qt_main_window.py:471
+msgid "Close Window"
+msgstr "Закрити вікно"
+
+#: napari/_qt/qt_main_window.py:477
+msgid "Open Sample"
+msgstr "Відкрити зразок"
+
+#: napari/_qt/qt_main_window.py:502
+msgid "&File"
+msgstr "&Файл"
+
+#: napari/_qt/qt_main_window.py:546
+msgid "Toggle Menubar Visibility"
+msgstr "Перемкнути видимість меню"
+
+#: napari/_qt/qt_main_window.py:549
+msgid "Hide Menubar"
+msgstr "Hide Menubar"
+
+#: napari/_qt/qt_main_window.py:552
+msgid "Toggle Full Screen"
+msgstr "На весь екран"
+
+#: napari/_qt/qt_main_window.py:555
+msgid "Toggle full screen"
+msgstr "Повноекранний режим"
+
+#: napari/_qt/qt_main_window.py:557 napari/_qt/qt_main_window.py:560
+msgid "Toggle Play"
+msgstr "Вкл/викл Відтворення"
+
+#: napari/_qt/qt_main_window.py:562
+msgid "&View"
+msgstr "&Вигляд"
+
+#: napari/_qt/qt_main_window.py:571 napari/_qt/qt_main_window.py:577
+msgid "Toggle Chunk Outlines"
+msgstr "Перемкнути обриси чанків"
+
+#: napari/_qt/qt_main_window.py:582
+msgid "Axes"
+msgstr "Вісі"
+
+#: napari/_qt/qt_main_window.py:584 napari/_qt/qt_main_window.py:635
+msgid "Visible"
+msgstr "Видимий"
+
+#: napari/_qt/qt_main_window.py:592 napari/_qt/qt_main_window.py:647
+msgid "Colored"
+msgstr "Кольорові"
+
+#: napari/_qt/qt_main_window.py:600
+msgid "Labels"
+msgstr "Мітки"
+
+#: napari/_qt/qt_main_window.py:608
+msgid "Dashed"
+msgstr "Пунктирна"
+
+#: napari/_qt/qt_main_window.py:616
+msgid "Arrows"
+msgstr "Стріли"
+
+#: napari/_qt/qt_main_window.py:633
+msgid "Scale Bar"
+msgstr "Шкала масштабу"
+
+#: napari/_qt/qt_main_window.py:659
+msgid "Ticks"
+msgstr "Кліщі"
+
+#: napari/_qt/qt_main_window.py:681
+msgid "Remove Dock Widgets"
+msgstr "Видалити віджети док-станції"
+
+#: napari/_qt/qt_main_window.py:682
+msgid "Remove all dock widgets"
+msgstr "Видалити всі віджети в док-станції"
+
+#: napari/_qt/qt_main_window.py:687
+msgid "&Window"
+msgstr "&Вікно"
+
+#: napari/_qt/qt_main_window.py:693
+msgid "&Plugins"
+msgstr "&Додатки"
+
+#: napari/_qt/qt_main_window.py:696
+msgid "Install/Uninstall Package(s)..."
+msgstr "Встановити/видалити пакети..."
+
+#: napari/_qt/qt_main_window.py:702
+msgid "Plugin Errors..."
+msgstr "Помилки плагіна..."
+
+#: napari/_qt/qt_main_window.py:705
+msgid "Review stack traces for plugin exceptions and notify developers"
+msgstr "Огляд трасувань стеку для винятків плагінів і повідомляти розробників"
+
+#: napari/_qt/qt_main_window.py:713
+msgid "Add Dock Widget"
+msgstr "Додати віджет панелі"
+
+#: napari/_qt/qt_main_window.py:761
+msgid "&Help"
+msgstr "&Допомога"
+
+#: napari/_qt/qt_main_window.py:763
+msgid "napari Info"
+msgstr "napari Info"
+
+#: napari/_qt/qt_main_window.py:765
+msgid "About napari"
+msgstr "Про napari"
+
+#: napari/_qt/qt_main_window.py:772
+msgid "Show Key Bindings"
+msgstr "Показувати прикріплення клавіш"
+
+#: napari/_qt/qt_main_window.py:776
+msgid "key_bindings"
+msgstr "позначки ключа_прив'язки"
+
+#: napari/_qt/qt_main_window.py:936
+msgid "Dock widget {number}"
+msgstr "Док-панель віджету {number}"
+
+#: napari/_qt/qt_main_window.py:1028
+msgid "Could not find a dock widget containing: {widget}"
+msgstr "Не вдалося знайти віджет в панелі керування: {widget}"
+
+#: napari/_qt/qt_main_window.py:1141 napari/_qt/qt_main_window.py:1153
+msgid "This viewer has already been closed and deleted. Please create a new one."
+msgstr "Цей глядач вже закрито та видалено. Створіть новий."
+
+#: napari/_qt/qt_main_window.py:1168
+msgid "The window geometry settings could not be loaded due to the following error: {err}"
+msgstr "Не вдалося завантажити налаштування геометрії вікна через таку помилку: {err}"
+
+#: napari/_qt/qt_viewer.py:131
+msgid "layer list"
+msgstr "список шарів"
+
+#: napari/_qt/qt_viewer.py:139
+msgid "layer controls"
+msgstr "елементи керування шаром"
+
+#: napari/_qt/qt_viewer.py:147
+msgid "console"
+msgstr "консоль"
+
+#: napari/_qt/qt_viewer.py:253
+msgid "The 'raw_stylesheet' attribute is deprecated and will beremoved in version 0.4.7.  Please use `napari.qt.get_stylesheet` instead"
+msgstr "Атрибут 'raw_stylesheet' є застарілим, і буде вилучений у версії 0.4.7. Будь ласка, використовуйте `napari.qt.get_stylesheet` замість цього"
+
+#: napari/_qt/qt_viewer.py:307
+msgid "performance"
+msgstr "продуктивність"
+
+#: napari/_qt/qt_viewer.py:323
+msgid "napari-console not found. It can be installed with \"pip install napari_console\""
+msgstr "napari-console не знайдено. Його можна встановити за допомогою \"pip install napari_console\""
+
+#: napari/_qt/qt_viewer.py:445
+msgid "There are no layers in the viewer to save"
+msgstr "Немає шарів у глядачі для збереження"
+
+#: napari/_qt/qt_viewer.py:447
+msgid "Please select one or more layers to save,\n"
+"or use \"Save all layers...\""
+msgstr "Будь ласка, виберіть один або кілька шарів для збереження\n"
+"або використовуйте \"Зберегти всі шари...\""
+
+#: napari/_qt/qt_viewer.py:452
+msgid "Nothing to save"
+msgstr "Нічого зберігати"
+
+#: napari/_qt/qt_viewer.py:454
+msgid "selected"
+msgstr "обрано"
+
+#: napari/_qt/qt_viewer.py:454
+msgid "all"
+msgstr "всі"
+
+#: napari/_qt/qt_viewer.py:460
+msgid "Save {msg} layers"
+msgstr "Зберегти {msg} шари"
+
+#: napari/_qt/qt_viewer.py:473
+msgid "File {filename} save failed.\n"
+"{error_messages}"
+msgstr "Файл {filename} зберегти не вдалося.\n"
+"{error_messages}"
+
+#: napari/_qt/qt_viewer.py:527
+msgid "Select file(s)..."
+msgstr "Виберіть файл(и)..."
+
+#: napari/_qt/qt_viewer.py:542
+msgid "Select files..."
+msgstr "Вибрати файли..."
+
+#: napari/_qt/qt_viewer.py:556
+msgid "Select folder..."
+msgstr "Обрати теку..."
+
+#: napari/_qt/qthreading.py:135
+msgid "RuntimeError in aborted thread: {result}"
+msgstr "Помилка RuntimeError в перерваному темі: {result}"
+
+#: napari/_qt/qthreading.py:177
+msgid "\"{name}\" failed to define work() method"
+msgstr "\"{name}\" не вдалося визначити метод work()"
+
+#: napari/_qt/qthreading.py:200
+msgid "This worker is already started!"
+msgstr "Цей працівник вже розпочато!"
+
+#: napari/_qt/qthreading.py:242
+msgid "Generator function {func} cannot be used with FunctionWorker, use GeneratorWorker instead"
+msgstr "Генератор функції {func} не може використовуватися з FunctionWorker, замість цього використовуйте GeneratorWorker"
+
+#: napari/_qt/qthreading.py:295
+msgid "Regular function {func} cannot be used with GeneratorWorker, use FunctionWorker instead"
+msgstr "Звичайна функція {func} не може використовуватися з GeneratorWorker, замість цього використовуйте FunctionWorker"
+
+#: napari/_qt/qthreading.py:451
+msgid "Workers did not quit gracefully in the time allotted ({msecs} ms)"
+msgstr "Працівники з радістю не вийшли в даний час змінено ({msecs} мс)"
+
+#: napari/_qt/qthreading.py:543
+msgid "Worker {_worker_class} must be a subclass of WorkerBase"
+msgstr "Працівник {_worker_class} повинен бути підкласом WorkerBase"
+
+#: napari/_qt/qthreading.py:555
+msgid "The '_connect' argument must be a dict"
+msgstr "Аргумент «_connect» повинен бути словником"
+
+#: napari/_qt/qthreading.py:569
+msgid "\"_connect[{key!r}]\" must be a function or sequence of functions"
+msgstr "\"_connect[{key!r}]\" має бути функцією або послідовністю функцій"
+
+#: napari/_qt/qthreading.py:817
+msgid "_connect parameter must be a dict"
+msgstr "Параметр _connect повинен бути словником"
+
+#: napari/_qt/utils.py:61
+msgid "Invalid QByte string. QByte strings start with '{QBYTE_FLAG}'"
+msgstr "Неприпустимий QByte-рядок. QByte рядків починаються з '{QBYTE_FLAG}'"
+
+#: napari/_qt/utils.py:255
+msgid "\"widget\" must be a QWidget or a sequence of QWidgets"
+msgstr "\"widget\" повинен бути QWidget або послідовність QWidgets"
+
+#: napari/view_layers.py:105
+msgid "No Viewer method named '{add_string}'"
+msgstr "Немає методу перегляду з назвою '{add_string}"
+
+#: napari/window.py:26
+msgid "could not import `qtpy`. Cannot show napari window."
+msgstr "не вдалося імпортувати `qtpy`. Неможливо показати вікно напарі."
+
