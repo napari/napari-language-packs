@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: napari\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-04-23 19:01-0500\n"
-"PO-Revision-Date: 2021-07-18 01:22\n"
+"PO-Revision-Date: 2021-07-18 01:54\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "軸が認識できません。\"{{0, 1}}\" のいずれかでなけれ�
 
 #: napari/layers/shapes/_shapes_models/shape.py:400
 msgid "mask shape length must either be 2 or the same as the dimensionality of the shape, expected {expected} got {received}."
-msgstr "マスク形状の長さは 2 か、形状の寸法と同じでなければなりません。 {expected} が {received} になると予想されます。"
+msgstr "マスクの形状の長さは 2 か、shapeの次元と同じでなければなりません。 {received} が{expected} になると予想されます。"
 
 #: napari/layers/image/experimental/_octree_slice.py:92
 msgid "Octree level {index} is not in range(0, {num_levels})"
@@ -56,15 +56,15 @@ msgstr "形状の {shape} のデータはoctree レベルをもたらしませ�
 
 #: napari/layers/image/experimental/octree.py:116
 msgid "Level {level_index} is not in range(0, {top})"
-msgstr "レベル {level_index} が範囲にありません(0, {top})"
+msgstr "レベル {level_index} が (0, {top}) の範囲にありません"
 
 #: napari/layers/image/experimental/octree.py:403
 msgid "Multiscale data has downsampling ratio of {ratio}, expected 2."
-msgstr "マルチスケールデータのダウンサンプリング比は {ratio}、期待値は2です。"
+msgstr "マルチスケールデータのダウンサンプリング比が {ratio} です。2であると思われます。"
 
 #: napari/layers/image/experimental/octree_image.py:223
 msgid "Octree level {level} is negative."
-msgstr "Octree level {level} is negative."
+msgstr "Octreeレベル {level} が負です。"
 
 #: napari/layers/labels/_labels_constants.py:71
 msgid "circle"
@@ -104,7 +104,7 @@ msgstr "サポートされていないカラーモード"
 
 #: napari/layers/labels/labels.py:532 napari/layers/labels/labels.py:549
 msgid "The square brush shape is deprecated and will be removed in version 0.4.9. Afterward, only the circle brush shape will be available, and the layer.brush_shape attribute will be removed."
-msgstr "正方形ブラシの形状は推奨されず、バージョン 0.4.9 で削除されます。 その後、円ブラシの形状のみが利用可能になり、layer.brush_shape 属性が削除されます。"
+msgstr "正方形ブラシは推奨されず、バージョン 0.4.9 で削除されます。 その後、円ブラシのみが利用可能になり、layer.brush_shape 属性は削除されます。"
 
 #: napari/layers/labels/labels.py:610
 msgid "hold <space> to pan/zoom, click to pick a label"
@@ -112,15 +112,15 @@ msgstr "<space> を長押しでパン/ズーム、クリックでラベルを選
 
 #: napari/layers/labels/labels.py:623
 msgid "hold <space> to pan/zoom, hold <shift> to toggle preserve_labels, hold <control> to fill, hold <alt> to erase, drag to paint a label"
-msgstr "<space> を押したままパン/ズーム、 <shift> を押したままラベルを切り替え、 <control> を押したまま <alt> を押したまま消去、ドラッグしてラベルを描く"
+msgstr "<space> を押してパン/ズーム、 <shift> を押してラベル切り替え、 <control> を押して塗りつぶし、 <alt> を押して消しゴム、ドラッグしてラベルを描く"
 
 #: napari/layers/labels/labels.py:630
 msgid "hold <space> to pan/zoom, click to fill a label"
-msgstr "<space> を押したままズーム、クリックでラベルを埋めます"
+msgstr "<space> を押してパン/ズーム、クリックでラベルを塗りつぶします。"
 
 #: napari/layers/labels/labels.py:643
 msgid "hold <space> to pan/zoom, drag to erase a label"
-msgstr "<space> を長押しでパン/ズーム、ドラッグでラベルを消去する"
+msgstr "<space> を押してパン/ズーム、ドラッグでラベルを消します。"
 
 #: napari/_qt/layer_controls/qt_labels_controls.py:287 napari/_qt/layer_controls/qt_points_controls.py:225 napari/layers/labels/labels.py:648 napari/layers/points/points.py:1120 napari/layers/shapes/shapes.py:1495
 msgid "Mode not recognized"
@@ -132,15 +132,15 @@ msgstr "3Dレンダリング中は輪郭が表示されません"
 
 #: napari/layers/labels/labels.py:1082
 msgid "[No Properties]"
-msgstr "format@@0"
+msgstr "[プロパティなし]"
 
 #: napari/layers/tracks/_track_utils.py:205
 msgid "track vertices should be a NxD array"
-msgstr "トラック頂点はNxD配列でなければなりません"
+msgstr "トラックの頂点はN×D配列でなければなりません"
 
 #: napari/layers/tracks/_track_utils.py:210
 msgid "track vertices should be 4 or 5-dimensional"
-msgstr "トラック頂点は4または5次元でなければなりません"
+msgstr "トラックの頂点は4または5次元でなければなりません"
 
 #: napari/layers/tracks/_track_utils.py:220
 msgid "track id must be an integer"
@@ -148,7 +148,7 @@ msgstr "トラック IDは整数でなければなりません"
 
 #: napari/layers/tracks/_track_utils.py:225
 msgid "track timestamps must be greater than zero"
-msgstr "トラックタイムスタンプはゼロより大きくなければなりません"
+msgstr "トラックのタイムスタンプは0より大きくなければなりません"
 
 #: napari/layers/tracks/_track_utils.py:234
 msgid "tracks should be ordered by ID and time"
@@ -176,15 +176,15 @@ msgstr "{color_by} は有効なプロパティキーではありません"
 
 #: napari/layers/tracks/tracks.py:489
 msgid "Colormap {colormap} not available"
-msgstr "Colormap {colormap} は利用できません"
+msgstr "カラーマップ {colormap} は利用できません"
 
 #: napari/layers/surface/surface.py:157
 msgid "Surface data tuple must be 2 or 3, specifying verictes, faces, and optionally vertex values, instead got length {length}."
-msgstr "サーフェスタデータタプルは2または3でなければなりません。頂点、面、および必要に応じて頂点の値は長さ {length}でなければなりません。"
+msgstr "サーフェスデータタプルは長さが2または3で、頂点の座標、面、必要に応じて頂点の値を与える必要があります。現在長さ {length} のタプルが与えられています。"
 
 #: napari/layers/surface/surface.py:203
 msgid "Surface data tuple must be 2 or 3, specifying vertices, faces, and optionally vertex values, instead got length {data_length}."
-msgstr "サーフェスタデータタプルは 2 または 3 でなければなりません。頂点、面、および必要に応じて頂点の値は長さ {data_length} でなければなりません。"
+msgstr "サーフェスデータタプルは長さが2または3で、頂点の座標、面、必要に応じて頂点の値を与える必要があります。現在長さ {data_length} のタプルが与えられています。"
 
 #: napari/layers/surface/surface.py:318
 msgid "Assigning multiple values per vertex after slicing is not allowed. All dimensions corresponding to vertex_values must be non-displayed dimensions. Data will not be visible."
